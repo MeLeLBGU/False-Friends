@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# PyCharm specific
+.idea/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+logs/
+
+all_words_in_all_languages/*
+
+!all_words_in_all_languages/English/
+!all_words_in_all_languages/French/
+!all_words_in_all_languages/German/
+!all_words_in_all_languages/Italian/
+!all_words_in_all_languages/Romanian/
+!all_words_in_all_languages/Spanish/
+!all_words_in_all_languages/Swedish/

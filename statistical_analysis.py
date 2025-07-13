@@ -1,22 +1,13 @@
-import os
-import csv
 import pandas as pd
-import re
-import pickle
 import spacy
 import numpy as np
 from scipy.stats import chi2_contingency
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from Experiment import Experiment
-from unicodedata import category
+from scipy.optimize import linprog
+from pyemd import emd
 
-from SaGe_main.src.sage_tokenizer import *
-from tokenizers import Tokenizer
-from tokenizers.models import BPE, Unigram, WordPiece, WordLevel
-from tokenizers.trainers import BpeTrainer, UnigramTrainer, WordPieceTrainer, WordLevelTrainer
-from tokenizers.pre_tokenizers import Whitespace
 
 
 def analyze_tokenization(tokenizers_list, word_list, l1, l2, categories):
@@ -59,13 +50,6 @@ def analyze_tokenization(tokenizers_list, word_list, l1, l2, categories):
     
     return num_tokens_diff
 
-
-def intrinsic_analysis(tokenizers_list, num_tokens_diff, word_frequencies, algo, l1, l2, categories, dir):
-    # TODO: Probably dont need this
-    # plot_average_word_length(num_tokens_diff, algo, dir, l1, l2, categories)
-    # plot_average_num_tokens(tokenizers_list, num_tokens_diff, algo, dir, l1, l2, categories)
-    # plot_frequency_comparison(num_tokens_diff, algo, dir, word_frequencies, l1, l2, categories)
-    plot_pos_data(num_tokens_diff, l1, l2, categories, algo, dir)
 
 
 def extract_context(ff_words, text, window=5, max_context=100_000):
@@ -188,10 +172,8 @@ def plot_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_c
     """
     tokenization_category_pos1, tokenization_category_pos2 = get_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, categories)
     data = []
-    print(
-        f"Languages: {l1} and {l2}\nAlgo: {algo}\n{l1} Distribution: {tokenization_category_pos1}\n{l2} Distribution: {tokenization_category_pos2}")
-    print(
-        "###############################################################################################################")
+    print(f"Languages: {l1} and {l2}\nAlgo: {algo}\n{l1} Distribution: {tokenization_category_pos1}\n{l2} Distribution: {tokenization_category_pos2}")
+    print("###############################################################################################################")
     for category in tokenization_category_pos1:
         pos_counts_1 = tokenization_category_pos1[category]
         pos_counts_2 = tokenization_category_pos2[category]
@@ -282,18 +264,6 @@ def plot_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_c
     plt.savefig(fig_save_path)
     
     plt.show()
-
-
-def get_training_corpus_dir(dir):
-    # TODO: Probably dont need this
-    """
-    Gets the training corpus from a specific directory
-    :param dir: the directory where the training corpus is at
-    :return: the directory of the training corpus
-    """
-    for file in os.listdir(dir):
-        if file.endswith("sentences.txt"):
-            return f"{dir}/{file}"
 
 
 def chi_square_test(ff_num_tokens_diff, same_words_num_tokens_diff, l1, l2, algo):
@@ -629,168 +599,107 @@ def write_tokenization_split(tokenizers, ff_data, l1, l2, algo, dir):
             f.write(to_write)
 
 
-def get_same_words_across_languages(languages_set):
-    # TODO: Probably dont need this
-    """
-    This function returns all the words that are written exactly the same as English
-    :param languages_set: the language set
-    :return: a dictionary --> {language : set(ff_words)}
-    """
-    language_dict = dict()
-    same_words_eng_l2 = dict()
-    for l, lang in languages_set.items():
-        with open(f"./all_words_in_all_languages/{lang}/{lang}.txt", 'r', encoding='utf-8') as f:
-            lines = f.readlines()[0].strip().lower().split(",")
-        language_dict[l] = set(lines)
+def earth_movers_dist(categories, l1, l2, source, target, track_target=None):
+    s = np.array([source[c] for c in categories], dtype=np.float64)
+    t = np.array([target[c] for c in categories], dtype=np.float64)
     
-    for l in languages_set:
-        if l != "en":
-            ff_words = language_dict["en"] & language_dict[l]
-            same_words_eng_l2[l] = ff_words
-    return same_words_eng_l2
-
-
-def get_word_frequencies_training_corpus(dir):
-    # TODO: Probably dont need this
-    """
-    Get the word frequencies of words for each language in the directory. Looks at all words as lower case, so the word
-    "a" and "A" are considered the same
-    :param dir: the directory
-    :return: dictionary --> {language : {word: word_frequency}}
-    """
-    word_frequencies = dict()
-    for d in os.listdir(dir):
-        word_frequencies[d] = dict()
-        for path in os.listdir(f"{dir}/{d}"):
-            with open(f"{dir}/{d}/{path}", 'r', encoding='utf-8') as f:
-                lines = f.readlines()
-            for line in lines:
-                word, freq = line.split("\t")[1:]
-                # only lower case words
-                word = word.lower()
-                if word in word_frequencies[d]:
-                    word_frequencies[d][word] = word_frequencies[d][word] + int(freq.strip())
-                else:
-                    word_frequencies[d][word] = int(freq.strip())
-    return word_frequencies
-
-
-def load_tokenizer(dir):
-    # TODO: Probably dont need this
-    """
-    This function loads a tokenizer, a Sentenpiece tokenizer or a SaGe tokenizer
-    :param dir: the directory to load the tokenizer from
-    :return: a trained tokenizer
-    """
-    if dir.endswith(".json"):
-        return Tokenizer.from_file(dir)
-    else:
-        with open(dir, "r") as f:
-            sage_vocab = [bytes.fromhex(line.strip()) for line in f]
-        return SaGeTokenizer(initial_vocabulary=sage_vocab)
-
-
-def extract_lang_and_tokenizer(filename):
-    # TODO: Probably dont need this
-    """
-    Extracts the language and tokenizer type from a filename.
-    Examples:
-        'de_BPE.json'              -> ['de', 'BPE']
-        'en_de_BPE.json'           -> ['en_de', 'BPE']
-        'en_de_BPE_SAGE.vocab'     -> ['en_de', 'BPE_SAGE']
-        'de_UNI_SAGE.vocab'        -> ['de', 'UNI_SAGE']
-
-    :param filename: The filename to parse
-    :return: [language, tokenizer_type]
-    """
-    base = os.path.splitext(filename)[0]
-    parts = base.split('_')
+    # Normalizing
+    s /= s.sum()
+    t /= t.sum()
     
-    # Determine language and tokenizer type
-    if len(parts) == 2:
-        lang = parts[0]
-        tokenizer = parts[1]
-    else:
-        lang = '_'.join(parts[:-2]) if parts[-2] in {"BPE", "UNI"} else '_'.join(parts[:-1])
-        tokenizer = '_'.join(parts[len(lang.split('_')):])
-    return [lang, tokenizer]
+    n = len(s)
+    
+    # Create distance matrix
+    D = np.array([[dist(l1, l2, c1, c2) for c1 in categories] for c2 in categories], dtype=np.float64)
+    # we are trying to minimize c.T@x where x is the solution for the linear program. So, c is the cost
+    c = D.flatten()
+    
+    # Creating equality constraints
+    A_eq = []
+    b_eq = []
+    
+    # Supply constraints
+    # [[ f00, f01, f02 ],
+    # [ f10, f11, f12 ], ---> [f00, f01, f02, f10, f11, f12, f20, f21, f22]
+    # [ f20, f21, f22 ]]
+    # We add the row constraints. A_eq[i][j] for all j must sum to s[i]. This means we cannot move more "dirt" than we have in s[i]
+    for i in range(n):
+        matrix = np.zeros((n, n))
+        matrix[i, :] = 1
+        A_eq.append(matrix.flatten())
+        b_eq.append(s[i])
+    
+    # We add more constraints. A_eq[i][j] for all i must sum to t[j]. This means we want to get exactly the amount of "dirt" at t[j]
+    for j in range(n):
+        matrix = np.zeros((n, n))
+        matrix[:, j] = 1  # All rows in column j (incoming flows)
+        A_eq.append(matrix.flatten())
+        b_eq.append(t[j])
+    
+    res = linprog(c, A_eq=A_eq, b_eq=b_eq, bounds=(0, None), method='highs')
+    flow_matrix = res.x.reshape((n, n))
+    # Elementwise multiplication
+    emd = np.sum(flow_matrix * D)
+    if track_target is not None and track_target in categories:
+        j = categories.index(track_target)
+        moved = {categories[i]: flow_matrix[i][j] for i in range(n)}
+        return emd, moved
+    return emd
 
 
-# language_set_map = {"en": "English", "fr": "French", "es": "Spanish", "de": "German", "se": "Swedish", "it": "Italian",
-#                     "ro": "Romanian"}
-# # Get ff_data and put in dictionary {language: {ff_words}}
-# with open("./args_script.txt", 'r', encoding='utf-8') as f:
-#     experiments = f.readlines()
-# ff_data = dict()
-# for e in experiments:
-#     language, training_data_path, ff_data_path = e.split(",")
-#     ff_data_path = ff_data_path.replace("\\", "/").strip()
-#     with open(ff_data_path, 'r', encoding='utf-8') as f:
-#         ff_data[language] = list(csv.DictReader(f))
-# for k, v in ff_data.items():
-#     ff_words = set()
-#     for i in range(len(v)):
-#         ff_words.add(v[i]["False Friend"])
-#     ff_data[k] = ff_words
-#
-# # ff_data[language] holds a set of ff words for that specific language
-# # same_words[language] holds a set of words from language "language" that are written exactly the same as English
-# # word_freq[language] holds a dictionary for every language. In that dictionary, each item is a word from the corpus with it's number of appearances, i.e. frequency
-#
-# same_words = get_same_words_across_languages(language_set_map)
-# # adding missing False Friends words to same words
-# for l in language_set_map:
-#     if l != "en":
-#         for ff in ff_data[l]:
-#             if ff not in same_words[l]:
-#                 same_words[l].add(ff)
-# word_freq = get_word_frequencies_training_corpus("./training_data/words")
-#
-# vocab_size = 3000
+def dist(l1, l2, source, target):
+    d = {
+        "same_splits": {f"{l1}_t==multi_t": 1, f"{l2}_t==multi_t": 1, f"{l1}_t=={l2}_t": 1, "different_splits": 2,
+                        "same_splits": 0},
+        "different_splits": {f"{l1}_t==multi_t": 1, f"{l2}_t==multi_t": 1, f"{l1}_t=={l2}_t": 1, "same_splits": 2,
+                             "different_splits": 0},
+        f"{l1}_t==multi_t": {f"same_splits": 1, f"{l2}_t==multi_t": 0.5, f"{l1}_t=={l2}_t": 0.7, "different_splits": 1,
+                             f"{l1}_t==multi_t": 0},
+        f"{l2}_t==multi_t": {f"{l1}_t==multi_t": 0.5, f"same_splits": 1, f"{l1}_t=={l2}_t": 0.7, "different_splits": 1,
+                             f"{l2}_t==multi_t": 0},
+        f"{l1}_t=={l2}_t": {f"{l1}_t==multi_t": 0.7, f"{l2}_t==multi_t": 0.7, f"same_splits": 1, "different_splits": 1,
+                            f"{l1}_t=={l2}_t": 0}
+    }
+    
+    return d[source][target]
+
+def emd2(source, target, l1, l2, categories, algo1, algo2):
+    s = np.array([source[c] for c in categories], dtype=np.float64)
+    t = np.array([target[c] for c in categories], dtype=np.float64)
+    D = np.array([[dist(l1, l2, c1, c2) for c1 in categories] for c2 in categories], dtype=np.float64)
+
+    
+    # Normalizing
+    s /= s.sum()
+    t /= t.sum()
+    ans = emd(s, t, D)
+    print(f"Earth Mover Distance for {l1}-{l2}")
+    print(f"Categories: {categories}")
+    print(f"Source Distribution {algo1}: {source}")
+    print(f"Target Distribution {algo2}: {target}")
+    print(f"Earth Mover Distance: {ans}")
+
+def get_avg_token_length(words_list, tokenizer):
+    word_lengths = 0
+    num_tokens = 0
+    for word in words_list:
+        word_lengths += len(word)
+        num_tokens += len(tokenizer.tokenize(word))
+    return word_lengths / num_tokens
+
+def get_diff_between_categories(num_tokens_diff1, num_tokens_diff2, category):
+    words1 = set(num_tokens_diff1[category])
+    words2 = set(num_tokens_diff2[category])
+    added = words2 - words1
+    removed = words1 - words2
+    return added, removed
+
+
+
 # l1 = "en"
-# l1_tokenizers = dict()
-# for token_file in os.listdir(f"./experiments/{vocab_size}/{l1}"):
-#     file_name, file_type = token_file.split(".")
-#     algo = file_name.split("_", 1)[1]
-#     l1_tokenizers[algo] = load_tokenizer(f"./experiments/{vocab_size}/{l1}/{token_file}")
-#
-# experiments_list = []
-# for e in os.listdir(f"./experiments/{vocab_size}"):
-#     if e != "en":
-#         experiments_list.append(e)
-#
-# for l1_l2 in experiments_list:
-#     l2 = l1_l2.split("_", 1)[1]
-#     for cur_algo, l1_tokenizer in l1_tokenizers.items():
-#         l2_tokenizer = None
-#         l1_l2_tokenizer = None
-#         for token_file in os.listdir(f"./experiments/{vocab_size}/{l1_l2}"):
-#             l3, algo_name = extract_lang_and_tokenizer(token_file)
-#             if algo_name == cur_algo:
-#                 some_t = load_tokenizer(f"./experiments/{vocab_size}/{l1_l2}/{token_file}")
-#                 if l3 == l1_l2:
-#                     l1_l2_tokenizer = some_t
-#                 else:
-#                     l2_tokenizer = some_t
-#         categories = [f"{l1}_t==multi_t", f"{l2}_t==multi_t", f"{l1}_t=={l2}_t", "same_splits", "different_splits"]
-#         ff_tokenization_cases = analyze_tokenization([l1_tokenizer, l2_tokenizer, l1_l2_tokenizer], ff_data[l2], l1, l2,
-#                                                      cur_algo, categories)
-#         # plot_tokenization_cases(ff_tokenization_cases, cur_algo, l1, l2, categories, "ff", f"./analysis/{vocab_size}/{l1_l2}/graphs")
-#         # write_tokenization_split([l1_tokenizer, l2_tokenizer, l1_l2_tokenizer], ff_data[l2], l1, l2, cur_algo,
-#         #                          f"./analysis/{vocab_size}/{l1_l2}/tokenization/{cur_algo}.txt")
-#         # same_words_tokenization_cases = analyze_tokenization([l1_tokenizer, l2_tokenizer, l1_l2_tokenizer], same_words[l2], l1, l2, cur_algo, categories)
-#         # plot_tokenization_cases(same_words_tokenization_cases, cur_algo, l1, l2, categories, "same_words", f"./analysis/{vocab_size}/{l1_l2}/graphs")
-#
-#         intrinsic_analysis([l1_tokenizer, l2_tokenizer, l1_l2_tokenizer], ff_tokenization_cases, word_freq, cur_algo,
-#                            l1, l2, categories, f"./analysis/{vocab_size}/{l1_l2}")
-#         # chi_square_test(ff_tokenization_cases, same_words_tokenization_cases, l1, l2, cur_algo)
-#         # print("#########################################################################################################")
-
-
-
-
-
-
-
-
-
+# l2 = "de"
+# categories = [f"{l1}_t==multi_t", f"{l2}_t==multi_t", f"{l1}_t=={l2}_t", "same_splits", "different_splits"]
+# s = {f"{l1}_t==multi_t": 0, f"{l2}_t==multi_t": 0, f"{l1}_t=={l2}_t": 0, "different_splits": 10, "same_splits": 0}
+# t = {f"{l1}_t==multi_t": 0, f"{l2}_t==multi_t": 0, f"{l1}_t=={l2}_t": 0, "different_splits": 0, "same_splits": 10}
+# emd2(s, t, l1, l2, categories, "BPE", "BPE_SAGE")
+# earth_movers_dist(categories, l1, l2, "BPE", "BPE_SAGE", s, t, track_target="same_splits")

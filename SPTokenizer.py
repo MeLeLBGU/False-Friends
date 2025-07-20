@@ -13,7 +13,7 @@ class SPTokenizer(MyTokenizer):
         self.algo_name = algo_name
         self.tokenizer = None
         self.unk_token = "<UNK>"  # token for unknown words
-        self.spl_tokens = ["<UNK>", "<SEP>", "<MASK>", "<CLS>"]  # special tokens
+        self.spl_tokens = [ "<SEP>", "<MASK>", "<CLS>"]  # special tokens
     
     def __repr__(self):
         return f"{self.language}_{self.vocab_size}_{self.algo_name}"

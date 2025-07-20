@@ -266,7 +266,7 @@ def plot_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_c
     plt.show()
 
 
-def chi_square_test(ff_num_tokens_diff, same_words_num_tokens_diff, l1, l2, algo):
+def chi_square_test(ff_num_tokens_diff, homographs_tokenization_cases, l1, l2, algo):
     """
     This function calculates the chi square test between the tokenization cases of False Friend words and the tokenization cases
     of words written the same in languages l1 and l2
@@ -282,7 +282,7 @@ def chi_square_test(ff_num_tokens_diff, same_words_num_tokens_diff, l1, l2, algo
     for cat in ff_num_tokens_diff.keys():
         categories.append(cat)
         ff_counts.append(len(ff_num_tokens_diff[cat]))
-        same_words_counts.append(len(same_words_num_tokens_diff[cat]))
+        same_words_counts.append(len(homographs_tokenization_cases[cat]))
     
     # Create contingency table (2xN)
     contingency_table = np.array([ff_counts, same_words_counts])
@@ -687,14 +687,23 @@ def get_avg_token_length(words_list, tokenizer):
         num_tokens += len(tokenizer.tokenize(word))
     return word_lengths / num_tokens
 
-def get_diff_between_categories(num_tokens_diff1, num_tokens_diff2, category):
-    words1 = set(num_tokens_diff1[category])
-    words2 = set(num_tokens_diff2[category])
-    added = words2 - words1
-    removed = words1 - words2
-    return added, removed
 
+def words_moved_to_target(num_tokens_diff1, num_tokens_diff2, categories, target):
+    words_moved = {c:[] for c in categories}
+    for c, words in num_tokens_diff1.items():
+        added = set(num_tokens_diff1[c]) & set(num_tokens_diff2[target])
+        for w in added:
+            words_moved[c].append(w)
+    return words_moved
 
+def words_removed_from_target(num_tokens_diff1, num_tokens_diff2, categories, target):
+    words_moved = {c: [] for c in categories if c != target}
+    for w in num_tokens_diff1[target]:
+        if w not in set(num_tokens_diff2[target]):
+            for c in words_moved.keys():
+                if w in set(num_tokens_diff2[c]):
+                    words_moved[c].append(w)
+    return words_moved
 
 # l1 = "en"
 # l2 = "de"

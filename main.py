@@ -136,54 +136,57 @@ def get_ex_couple(exp_list, algo):
     return reg_ex, sage_ex
 
 
-def compare_tokenizers(exp_list, baseline_algo, track_target):
+def compare_trials(exp_list, baseline_algo, track_target):
     ex_reg, ex_sage = get_ex_couple(exp_list, baseline_algo)
     path = f"{ex_reg.analysis_dir}/tokenization/{baseline_algo}_baseline_vs_SAGE.txt"
     categories = get_categories(ex_reg)
-    same_words = get_same_words_across_languages(ex_reg.l1, ex_reg.l2)
-    tokenization_cases = analyze_tokenization(ex_reg.get_tokenizers_list(), same_words, ex_reg.l1, ex_reg.l2, categories)
-    sage_tokenization_cases = analyze_tokenization(ex_sage.get_tokenizers_list(), same_words, ex_sage.l1, ex_sage.l2, categories)
+    homographs = get_same_words_across_languages(ex_reg.l1, ex_reg.l2)
+    tokenization_cases = analyze_tokenization(ex_reg.get_tokenizers_list(), homographs, ex_reg.l1, ex_reg.l2, categories)
+    sage_tokenization_cases = analyze_tokenization(ex_sage.get_tokenizers_list(), homographs, ex_sage.l1, ex_sage.l2, categories)
     distribution1 = {c: len(tokenization_cases[c]) for c in categories}
     sage_distributions = {c: len(sage_tokenization_cases[c]) for c in categories}
     emd, moved = earth_movers_dist(categories, ex_reg.l1, ex_reg.l2, distribution1, sage_distributions, track_target)
-    avg_token_len1, avg_token_len2, avg_token_len3 = get_avg_token_length(same_words, ex_reg.l1_tokenizer), get_avg_token_length(same_words, ex_reg.l2_tokenizer), get_avg_token_length(same_words, ex_reg.l1_l2_tokenizer)
-    sage_avg_token_len1, sage_avg_token_len2, sage_avg_token_len3 = get_avg_token_length(same_words, ex_sage.l1_tokenizer), get_avg_token_length(same_words, ex_sage.l2_tokenizer), get_avg_token_length(same_words, ex_sage.l1_l2_tokenizer)
-    added, removed = get_diff_between_categories(tokenization_cases, sage_tokenization_cases, track_target)
+    # Percent moved to tracked target
+    total_mass_of_target = sum([moved[c] for c in categories])
+    percent_moved = {c: moved[c]/total_mass_of_target for c in categories}
+    avg_token_len1, avg_token_len2, avg_token_len3 = get_avg_token_length(homographs, ex_reg.l1_tokenizer), get_avg_token_length(homographs, ex_reg.l2_tokenizer), get_avg_token_length(homographs, ex_reg.l1_l2_tokenizer)
+    sage_avg_token_len1, sage_avg_token_len2, sage_avg_token_len3 = get_avg_token_length(homographs, ex_sage.l1_tokenizer), get_avg_token_length(homographs, ex_sage.l2_tokenizer), get_avg_token_length(homographs, ex_sage.l1_l2_tokenizer)
+    added  = words_moved_to_target(tokenization_cases, sage_tokenization_cases, categories, track_target)
+    removed = words_removed_from_target(tokenization_cases, sage_tokenization_cases, categories, track_target)
     with open(path, "w", encoding="utf-8") as f:
         title = (f"Homographs across languages {ex_reg.l1} and {ex_reg.l2} - Baseline tokenizer: {baseline_algo}\n"
                  f"Difference between experiment {ex_reg.l1}_{ex_reg.algo_name}, {ex_reg.l2}_{ex_reg.algo_name}, multilingual_{ex_reg.algo_name} AND experiment "
                           f"{ex_sage.l1}_{ex_sage.algo_name}, {ex_sage.l2}_{ex_sage.algo_name}, multilingual_{ex_sage.algo_name}\n")
         distributions = f"{ex_reg.algo_name}: {distribution1}\n{ex_sage.algo_name}: {sage_distributions}\n"
         earth_movers = f"Earth Movers Distance: {emd}\nMass moved to {track_target}: {moved}\n"
+        earth_movers2_percent = f"Percent of mass from source distribution to target {track_target}: {percent_moved}\n"
         avg_token_len_line1 = f"Average Token Length {ex_reg.algo_name}: {ex_reg.l1}_tokenizer:{avg_token_len1}, {ex_reg.l2}_tokenizer: {avg_token_len2}, multilingual_tokenizer: {avg_token_len3}\n"
         avg_token_len_line2 = f"Average Token Length {ex_sage.algo_name}: {ex_sage.l1}_tokenizer:{sage_avg_token_len1}, {ex_sage.l2}_tokenizer: {sage_avg_token_len2}, multilingual_tokenizer: {sage_avg_token_len3}\n"
         f.write(title)
         f.write(distributions)
         f.write(earth_movers)
+        f.write(earth_movers2_percent)
         f.write(avg_token_len_line1)
         f.write(avg_token_len_line2)
-        word_diff_line = f"Word difference in {track_target} category\n"
-        f.write(word_diff_line)
-        words_added_line = f"Words added to {track_target} category\n"
-        f.write(words_added_line)
-        for word in added:
-            f.write(f"{word}\n")
-        words_removed_line = f"Words removed from {track_target} category\n"
-        f.write(words_removed_line)
-        for word in removed:
-            f.write(f"{word}\n")
+        for c, words in added.items():
+            f.write(f"Words added from source {c} to target {track_target}: {len(words)}\n")
+        f.write("\n")
+        for c, words in removed.items():
+            f.write(f"Words removed from source {track_target} to target {c}: {len(words)}\n")
+        f.write("\n")
+        for c, words in added.items():
+            f.write(f"Words added from source {c} to target {track_target}\n")
+            for w in words:
+                f.write(f'{w}\n')
+            f.write("###################################################################################################################################################\n")
+        f.write("\n")
+        for c, words in removed.items():
+            f.write(f"Words removed from source {track_target} to target {c}\n")
+            for w in words:
+                f.write(f'{w}\n')
+            f.write("###################################################################################################################################################\n")
         
     
-def get_earth_movers_dist_data(reg_ex, sage_ex):
-    categories = get_categories(reg_ex)
-    source = analyze_tokenization(reg_ex.get_tokenizers_list(),
-                                                         reg_ex.get_same_words_across_languages(),
-                                                         reg_ex.l1, reg_ex.l2, categories)
-    target = analyze_tokenization(sage_ex.get_tokenizers_list(),
-                                  sage_ex.get_same_words_across_languages(),
-                                  sage_ex.l1, sage_ex.l2, categories)
-    
-    return {c: len(source[c]) for c in categories}, {c: len(target[c]) for c in categories}, categories
     
 
 
@@ -207,16 +210,17 @@ if __name__ == '__main__':
         experiments = load_experiments(f"./experiments/{vocab_size}")
         print("Finished loading experiments")
     
-    for l2, exp_list in experiments.items():
-        for ex in exp_list:
-            graphs_path = f"{ex.analysis_dir}/graphs"
-            tokenization_path = f"{ex.analysis_dir}/tokenization"
-            categories = get_categories(ex)
-            # ff_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2,
-            #                                              categories)
-            # same_words_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(),
-            #                                                      ex.get_same_words_across_languages(),
-            #                                                      ex.l1, ex.l2, categories)
+    # for l2, exp_list in experiments.items():
+    #     for ex in exp_list:
+    #         graphs_path = f"{ex.analysis_dir}/graphs"
+    #         tokenization_path = f"{ex.analysis_dir}/tokenization"
+    #         categories = get_categories(ex)
+    #         ff_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2,
+    #                                                      categories)
+    #         homographs = get_same_words_across_languages(ex.l1, ex.l2)
+    #         homographs_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(),
+    #                                                              homographs,
+    #                                                              ex.l1, ex.l2, categories)
             # plot_tokenization_cases(ff_tokenization_cases, ex.algo_name, ex.l1, ex.l2, categories, "ff",
             #                         graphs_path)
             # write_tokenization_split(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2, ex.algo_name,
@@ -227,11 +231,11 @@ if __name__ == '__main__':
             # plot_frequency_comparison(ff_tokenization_cases, ex.algo_name, graphs_path, ex.l1, ex.l2,
             #                           ex.get_corpus_words(ex.l1), ex.get_corpus_words(ex.l2), categories)
             # plot_pos_data(ff_tokenization_cases, ex.l1, ex.l2, ex.l1_training_corpus_dir, ex.l2_training_corpus_dir,categories, ex.algo_name, graphs_path)
-            # chi_square_test(ff_tokenization_cases, same_words_tokenization_cases, ex.l1, ex.l2, ex.algo_name)
+            # chi_square_test(ff_tokenization_cases, homographs_tokenization_cases, ex.l1, ex.l2, ex.algo_name)
             # print("#########################################################################################################")
-        compare_tokenizers(exp_list, "BPE", "same_splits")
-        compare_tokenizers(exp_list, "UNI", "same_splits")
- 
+        # compare_trials(exp_list, "BPE", "same_splits")
+        # compare_trials(exp_list, "UNI", "same_splits")
+        #
 
 
 

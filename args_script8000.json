@@ -1,0 +1,63 @@
+{
+  "algos": ["BPE", "UNI", "BPE_SAGE", "UNI_SAGE"],
+
+  "vocab_size": 3000,
+
+  "full_vocab_schedule ": [
+    128000, 112000, 98304, 86016, 75264, 65536, 57344, 49152,
+    43008, 36864, 32768, 28672, 24576, 21504, 18432, 16384,
+    14336, 12288, 10240, 9216, 8192, 8000
+  ],
+
+  "embedding_schedule": [128000, 86016, 57344, 36864, 24576, 16384, 10240, 8000],
+
+  "l1": {
+    "language": "en",
+    "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en\\eng-simple_wikipedia_2021_300K-sentences.txt",
+    "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\en\\eng-simple_wikipedia_2021_300K-words.txt"
+  },
+
+  "l2": [
+    {
+      "language": "de",
+      "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en_de\\deu_wikipedia_2021_300K-sentences.txt",
+      "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\de\\deu_wikipedia_2021_300K-words.txt",
+      "ff": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\ff_data\\de_ff.csv"
+    },
+
+    {
+      "language": "es",
+      "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en_es\\spa_wikipedia_2021_300K-sentences.txt",
+      "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\es\\spa_wikipedia_2021_300K-words.txt",
+      "ff": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\ff_data\\spanish_ff.csv"
+    },
+
+    {
+      "language": "fr",
+      "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en_fr\\fra_wikipedia_2021_300K-sentences.txt",
+      "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\fr\\fra_wikipedia_2021_300K-words.txt",
+      "ff": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\ff_data\\french_ff.csv"
+    },
+
+    {
+      "language": "it",
+      "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en_it\\ita_wikipedia_2021_300K-sentences.txt",
+      "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\it\\ita_wikipedia_2021_300K-words.txt",
+      "ff": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\ff_data\\italian_ff.csv"
+    },
+
+    {
+      "language": "ro",
+      "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en_ro\\ron_wikipedia_2021_300K-sentences.txt",
+      "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\ro\\ron_wikipedia_2021_300K-words.txt",
+      "ff": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\ff_data\\romanian_ff.csv"
+    },
+
+    {
+      "language": "se",
+      "training_data": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\en_se\\swe_wikipedia_2021_300K-sentences.txt",
+      "words": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\training_data\\words\\se\\swe_wikipedia_2021_300K-words.txt",
+      "ff": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV01\\ff_data\\swedish_ff.csv"
+    }
+  ]
+}

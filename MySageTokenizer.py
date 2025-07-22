@@ -6,17 +6,17 @@ import pickle
 
 class MySageTokenizer(MyTokenizer):
     
-    def __init__(self, language, training_corpus_dir, vocab_size, algo_name, schedule, initial_vocab_size):
+    def __init__(self, language, training_corpus_dir, vocab_size, algo_name, embedding_schedule, full_vocab_schedule):
         self.language = language
         self.training_corpus_dir = training_corpus_dir
         self.vocab_size = vocab_size
         self.algo_name = algo_name
-        self.schedule = schedule
-        self.initial_vocab_size = initial_vocab_size
+        self.embedding_schedule = embedding_schedule
+        self.full_vocab_schedule = full_vocab_schedule
         self.experiment_name = f"{self.language}_{self.algo_name}_{vocab_size}"
         self.initial_hexed_vocab_path = f"./results/{self.experiment_name}/initial_vocab.vocab"
         self.tokenizer = None
-        self.sp_tokenizer = None
+        self.hf_tokenizer = None
     
     def __repr__(self):
         return f"{self.language}_{self.vocab_size}_{self.algo_name}"
@@ -28,9 +28,9 @@ class MySageTokenizer(MyTokenizer):
         # BPE or UNI algo
         vocab_builder_algo = self.algo_name.split("_")[0]
         # Train a BPE or UNI tokenizer to create initial vocabulary
-        self.sp_tokenizer = HFTokenizer(self.language, self.training_corpus_dir, self.initial_vocab_size, vocab_builder_algo)
-        self.sp_tokenizer.train_tokenizer()
-        vocab = sorted(list(self.sp_tokenizer.tokenizer.get_vocab().keys()))
+        self.hf_tokenizer = HFTokenizer(self.language, self.training_corpus_dir, self.full_vocab_schedule[0], vocab_builder_algo)
+        self.hf_tokenizer.train_tokenizer()
+        vocab = sorted(list(self.hf_tokenizer.tokenizer.get_vocab().keys()))
         # Turn the vocabulary from letters to hexadecimal format, and add certain tokens that might be missing
         hexed_vocab = self._add_single_bytes(self._hex_vocab(vocab))
         max_len = max([len(bytes.fromhex(str(v))) for v in hexed_vocab])
@@ -41,8 +41,8 @@ class MySageTokenizer(MyTokenizer):
                 vocab_file.write(f"{hexed_v}\n")
         
         # Build the SaGe vocabulary
-        trainer = SaGeVocabBuilder(full_vocab_schedule=self.schedule,
-                                   embeddings_schedule=self.schedule,
+        trainer = SaGeVocabBuilder(full_vocab_schedule=self.full_vocab_schedule,
+                                   embeddings_schedule=self.embedding_schedule,
                                    workers_number=4, max_len=max_len)
         
         trainer.build_vocab(experiment_name=self.experiment_name, corpus_filepath=self.training_corpus_dir,

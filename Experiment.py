@@ -10,7 +10,7 @@ class Experiment:
     Experiment object. Each experiment has 3 different tokenizers: l1, l2, l1_l2
     """
     def __init__(self, l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, l1_words_dir, l2_words_dir, l1_l2_training_corpus_dir, algo_name, vocab_size, ff_words_dir, l1_tokenizer,
-                 schedule=None, initial_vocab_size=None):
+                 embedding_schedule=None, full_vocab_schedule=None):
         # Language 1, English
         self.l1 = l1
         # Language 2, Latin text
@@ -28,9 +28,9 @@ class Experiment:
         self.ff_data = self._read_ff_data(ff_words_dir)
         self.l1_tokenizer = l1_tokenizer
         # Used for SaGe tokenizer
-        self.schedule = schedule
+        self.embedding_schedule = embedding_schedule
         # Used for SaGe tokenizer
-        self.initial_vocab_size = initial_vocab_size
+        self.full_vocab_schedule = full_vocab_schedule
         self.l2_tokenizer = None
         self.l1_l2_tokenizer = None
         # The directory where the experiment object is saved
@@ -95,9 +95,9 @@ class Experiment:
        
     def _train_tokenizers(self):
         if "SAGE" in self.algo_name:
-            self.l2_tokenizer = MySageTokenizer(self.l2, self.l2_training_corpus_dir, self.vocab_size, self.algo_name, self.schedule, self.initial_vocab_size)
+            self.l2_tokenizer = MySageTokenizer(self.l2, self.l2_training_corpus_dir, self.vocab_size, self.algo_name, self.embedding_schedule, self.full_vocab_schedule)
             self.l1_l2_tokenizer = MySageTokenizer(f"{self.l1}_{self.l2}", self.l1_l2_training_corpus_dir, self.vocab_size, self.algo_name,
-                                                   self.schedule, self.initial_vocab_size)
+                                                   self.embedding_schedule, self.full_vocab_schedule)
         else:
             self.l2_tokenizer = HFTokenizer(self.l2, self.l2_training_corpus_dir, self.vocab_size, self.algo_name)
             self.l1_l2_tokenizer = HFTokenizer(f"{self.l1}_{self.l2}", self.l1_l2_training_corpus_dir, self.vocab_size, self.algo_name)

@@ -67,7 +67,7 @@ def init_experiments(data, l1_tokenizers):
             if "SAGE" in algo:
                 cur_exp = Experiment(l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, l1_words_dir, l2_words_dir,
                                      l1_l2_training_corpus_dir, algo, data["vocab_size"], ff_words_path, l1_tokenizer,
-                                     schedule=data["schedule"], initial_vocab_size=data["initial_vocab_size"])
+                                     embedding_schedule=data["schedule"], full_vocab_schedule=data["initial_vocab_size"])
             else:
                 cur_exp = Experiment(l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, l1_words_dir, l2_words_dir,
                                      l1_l2_training_corpus_dir, algo, data["vocab_size"], ff_words_path, l1_tokenizer)
@@ -79,8 +79,8 @@ def init_experiments(data, l1_tokenizers):
 def train_l1_tokenizers(data):
     algos = data['algos']
     vocab_size = data['vocab_size']
-    initial_vocab_size = data['initial_vocab_size']
-    schedule = data['schedule']
+    full_vocab_schedule = data['full_vocab_schedule']
+    embedding_schedule = data['embedding_schedule']
     l1_data = data['l1']
     l1 = l1_data["language"]
     l1_tokenizers = dict()
@@ -90,8 +90,8 @@ def train_l1_tokenizers(data):
             dir = f"./results/{l1}_{algo}_{vocab_size}"
             os.makedirs(dir, exist_ok=True)
             print(f"created directory {dir}")
-            tokenizer = MySageTokenizer(l1_data["language"], training_corpus_dir, vocab_size, algo, schedule,
-                                        initial_vocab_size)
+            tokenizer = MySageTokenizer(l1_data["language"], training_corpus_dir, vocab_size, algo, embedding_schedule,
+                                        full_vocab_schedule)
         else:
             tokenizer = HFTokenizer(l1_data["language"], training_corpus_dir, vocab_size, algo)
         tokenizer.train_tokenizer()

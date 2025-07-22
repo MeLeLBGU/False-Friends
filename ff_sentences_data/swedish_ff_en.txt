@@ -1,0 +1,120 @@
+ask
+1.I’ll ask her if she’s coming to the meeting.
+2.Don’t be afraid to ask questions in class.
+bad
+1.That movie was so bad I walked out halfway.
+2.He has a bad habit of interrupting people.
+barn
+1.The cows sleep in the barn during winter.
+2.We stored the hay bales in the old wooden barn.
+block
+1.The road was closed due to a fallen block of concrete.
+2.She used her hand to block the sun from her eyes.
+brand
+1.Nike is a popular brand of athletic clothing.
+2.They decided to rebrand the company with a fresh new logo.
+diverse
+1.The city has a diverse population from many countries.
+2.Her music taste is very diverse, ranging from jazz to metal.
+egg
+1.I had a boiled egg for breakfast.
+2.He threw an egg at the sign as a prank.
+far
+1.She moved far away from her hometown.
+2.The mountain peak looked far in the distance.
+fart
+1.He tried to hide a loud fart during the meeting.
+2.The kids laughed when someone let out a fart in class.
+fast
+1.She runs really fast for her age.
+2.They had to fast before the medical test.
+fat
+1.The doctor advised him to reduce his fat intake.
+2.The cat grew fat from eating too much.
+flint
+1.Early humans used flint to start fires.
+2.The arrowhead was made from sharpened flint.
+gift
+1.She received a lovely gift for her birthday.
+2.He has a gift for learning languages quickly.
+glass
+1.He poured the juice into a glass.
+2.The window shattered and pieces of glass fell everywhere.
+hot
+1.It’s too hot outside to go for a walk.
+2.The coffee was still hot when she took a sip.
+i
+1.I love spending weekends with my family.
+2.I think we should leave now before it rains.
+is
+1.She is my best friend.
+2.That book is very interesting.
+island
+1.They spent their honeymoon on a tropical island.
+2.The island is known for its rare bird species.
+kid
+1.The kid spilled juice on the floor.
+2.I used to climb trees when I was a kid.
+kind
+1.It was kind of him to offer his seat.
+2.She always tries to be kind to strangers.
+lack
+1.The project failed due to a lack of funding.
+2.He showed a lack of interest in the topic.
+last
+1.That was the last slice of pizza.
+2.The concert didn’t last as long as I hoped.
+leg
+1.She broke her leg while skiing.
+2.The chair’s leg was wobbly and needed fixing.
+list
+1.He wrote a grocery list before heading out.
+2.Please add your name to the attendance list.
+lump
+1.She found a strange lump on her neck.
+2.He added a lump of sugar to his tea.
+lust
+1.His eyes were filled with greed and lust.
+2.The novel explores themes of power and lust.
+mode
+1.The phone was set to silent mode.
+2.She shifted into study mode before the exam.
+pregnant
+1.She announced that she was pregnant at dinner.
+2.The pause before his reply was pregnant with meaning.
+prick
+1.He felt a sharp prick from the needle.
+2.Don’t be such a prick to your little brother.
+process
+1.The hiring process can take several weeks.
+2.She needs time to process what happened.
+rest
+1.You should get some rest after your trip.
+2.He ate half the cake and saved the rest.
+roman
+1.The Roman Empire left behind many ruins.
+2.He wore a Roman-style helmet for the costume party.
+sex
+1.The doctor asked about the patient’s sex for the form.
+2.They had a frank discussion about safe sex.
+sexton
+1.The sexton unlocked the church for Sunday service.
+2.The old sexton took care of the cemetery grounds.
+sin
+1.Many religions believe pride is a serious sin.
+2.He confessed his sin and asked for forgiveness.
+slang
+1.Teenagers often use slang that adults don’t understand.
+2.“Cool” is a slang word that means something is good.
+slut
+1.The bully called her a slut, which was cruel and unfair.
+2.She rolled her eyes and replied, “If being confident makes me a slut, then so be it.”
+smoking
+1.Smoking is banned in most public places.
+2.He quit smoking after ten years.
+stark
+1.The desert presented a stark contrast to the lush forest.
+2.Her words were a stark reminder of reality.
+tag
+1.Let’s play a game of tag in the yard.
+2.She forgot to remove the price tag from her dress.

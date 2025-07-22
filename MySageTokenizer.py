@@ -1,5 +1,5 @@
 from MyTokenizer import MyTokenizer
-from SPTokenizer import SPTokenizer
+from HFTokenizer import HFTokenizer
 from SaGe_main.src.sage_tokenizer import *
 import pickle
 
@@ -28,7 +28,7 @@ class MySageTokenizer(MyTokenizer):
         # BPE or UNI algo
         vocab_builder_algo = self.algo_name.split("_")[0]
         # Train a BPE or UNI tokenizer to create initial vocabulary
-        self.sp_tokenizer = SPTokenizer(self.language, self.training_corpus_dir, self.initial_vocab_size, vocab_builder_algo)
+        self.sp_tokenizer = HFTokenizer(self.language, self.training_corpus_dir, self.initial_vocab_size, vocab_builder_algo)
         self.sp_tokenizer.train_tokenizer()
         vocab = sorted(list(self.sp_tokenizer.tokenizer.get_vocab().keys()))
         # Turn the vocabulary from letters to hexadecimal format, and add certain tokens that might be missing

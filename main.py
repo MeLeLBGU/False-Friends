@@ -6,7 +6,7 @@ from statistical_analysis import *
 from data_preprocess_scripts.find_ff_all_words_all_languages import get_same_words_across_languages
 from Experiment import Experiment
 from MySageTokenizer import MySageTokenizer
-from SPTokenizer import SPTokenizer
+from HFTokenizer import HFTokenizer
 import os
 
 
@@ -93,7 +93,7 @@ def train_l1_tokenizers(data):
             tokenizer = MySageTokenizer(l1_data["language"], training_corpus_dir, vocab_size, algo, schedule,
                                         initial_vocab_size)
         else:
-            tokenizer = SPTokenizer(l1_data["language"], training_corpus_dir, vocab_size, algo)
+            tokenizer = HFTokenizer(l1_data["language"], training_corpus_dir, vocab_size, algo)
         tokenizer.train_tokenizer()
         l1_tokenizers[algo] = tokenizer
     return l1_tokenizers

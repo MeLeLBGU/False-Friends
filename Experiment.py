@@ -1,7 +1,7 @@
 import os
 import pickle
 from MySageTokenizer import MySageTokenizer
-from SPTokenizer import SPTokenizer
+from HFTokenizer import HFTokenizer
 import csv
 
 
@@ -99,8 +99,8 @@ class Experiment:
             self.l1_l2_tokenizer = MySageTokenizer(f"{self.l1}_{self.l2}", self.l1_l2_training_corpus_dir, self.vocab_size, self.algo_name,
                                                    self.schedule, self.initial_vocab_size)
         else:
-            self.l2_tokenizer = SPTokenizer(self.l2, self.l2_training_corpus_dir, self.vocab_size, self.algo_name)
-            self.l1_l2_tokenizer = SPTokenizer(f"{self.l1}_{self.l2}",self.l1_l2_training_corpus_dir, self.vocab_size, self.algo_name)
+            self.l2_tokenizer = HFTokenizer(self.l2, self.l2_training_corpus_dir, self.vocab_size, self.algo_name)
+            self.l1_l2_tokenizer = HFTokenizer(f"{self.l1}_{self.l2}", self.l1_l2_training_corpus_dir, self.vocab_size, self.algo_name)
         self.l2_tokenizer.train_tokenizer()
         self.l1_l2_tokenizer.train_tokenizer()
     

@@ -5,7 +5,7 @@ from tokenizers.trainers import BpeTrainer, UnigramTrainer, WordPieceTrainer, Wo
 from tokenizers.pre_tokenizers import Whitespace
 import pickle
 
-class SPTokenizer(MyTokenizer):
+class HFTokenizer(MyTokenizer):
     def __init__(self,language, training_corpus_dir, vocab_size, algo_name):
         self.language = language
         self.training_corpus_dir = training_corpus_dir

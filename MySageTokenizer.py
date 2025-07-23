@@ -17,6 +17,8 @@ class MySageTokenizer(MyTokenizer):
         self.initial_hexed_vocab_path = f"./results/{self.experiment_name}/initial_vocab.vocab"
         self.tokenizer = None
         self.hf_tokenizer = None
+        # Updated to be {vocab_size: pruned_byte_tokens}
+        self.pruned_tokens = dict()
     
     def __repr__(self):
         return f"{self.language}_{self.vocab_size}_{self.algo_name}"
@@ -44,10 +46,9 @@ class MySageTokenizer(MyTokenizer):
         trainer = SaGeVocabBuilder(full_vocab_schedule=self.full_vocab_schedule,
                                    embeddings_schedule=self.embedding_schedule,
                                    workers_number=4, max_len=max_len)
-        
-        trainer.build_vocab(experiment_name=self.experiment_name, corpus_filepath=self.training_corpus_dir,
+        trainer.build_vocab(experiment_name=self.experiment_name, corpus_filepath=self.training_corpus_dir,pruned_tokens=self.pruned_tokens,
                             vocabulary_filepath=self.initial_hexed_vocab_path)
-        
+        self.save_pruned_tokens(f"./results/{self.experiment_name}/pruned_tokens.txt")
         # The final SaGe vocab is saved to a .vocab file in a certain path. Opens the file and turns it to bytes format for SaGeTokenizer object
         with open(self._get_final_vocab_path(), "r") as f:
             initial_vocab = [bytes.fromhex(line.strip()) for line in f]
@@ -81,6 +82,16 @@ class MySageTokenizer(MyTokenizer):
                 vocab.append(t)
         return vocab
     
+    def save_pruned_tokens(self, path):
+        
+        with open(path, "w") as f:
+            for cur_vocab_size, byte_tokens_list in self.pruned_tokens.items():
+                f.write(f"Tokens pruned at vocab size {cur_vocab_size}\n")
+                for byte_token in byte_tokens_list:
+                    t = byte_token.decode("utf-8", errors="replace")
+                    f.write(f"{t}\n")
+        
+        
     def _get_final_vocab_path(self):
         return f"./results/{self.experiment_name}/sage_vocabs/active_vocab_{self.vocab_size}.vocab"
     

@@ -1,5 +1,5 @@
 # Copyright © 2023 Kensho Technologies, LLC
-from typing import List, Union, Optional
+from typing import List, Union, Optional, Dict
 from pathlib import Path
 
 import logging
@@ -31,7 +31,7 @@ class SaGeVocabBuilder:
         )
 
     def build_vocab(self, experiment_name: str,
-                    corpus_filepath: Union[str,Path], vocabulary_filepath: Union[str,Path],
+                    corpus_filepath: Union[str,Path], vocabulary_filepath: Union[str,Path], pruned_tokens: Dict[int, List[bytes]],
                     partial_corpus_filepath: Optional[Union[str,Path]]=None, partial_corpus_line_number: int=1000):
         corpus_filepath         = Path(corpus_filepath)
         vocabulary_filepath     = Path(vocabulary_filepath)
@@ -173,7 +173,7 @@ class SaGeVocabBuilder:
             # the deleted items
             deleted_vocab = {tok: tid for tok, tid in sage_model.get_vocabulary().items()
                              if tok in tokens_to_prune}
-
+            pruned_tokens[current_active_vocab_size] = [tok for tok in deleted_vocab.keys()]
             vocab_save_name = vocab_folder / f"sage_vocab_{target_vocab_size}.vocab"
             logging.info(f"Saving intermediate vocab of size {len(target_vocab)} to {vocab_save_name.as_posix()}")
             write_vocab(target_vocab, vocab_save_name)

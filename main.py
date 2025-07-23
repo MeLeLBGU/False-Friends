@@ -67,7 +67,7 @@ def init_experiments(data, l1_tokenizers):
             if "SAGE" in algo:
                 cur_exp = Experiment(l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, l1_words_dir, l2_words_dir,
                                      l1_l2_training_corpus_dir, algo, data["vocab_size"], ff_words_path, l1_tokenizer,
-                                     embedding_schedule=data["schedule"], full_vocab_schedule=data["initial_vocab_size"])
+                                     embedding_schedule=data["embedding_schedule"], full_vocab_schedule=data["full_vocab_schedule"])
             else:
                 cur_exp = Experiment(l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, l1_words_dir, l2_words_dir,
                                      l1_l2_training_corpus_dir, algo, data["vocab_size"], ff_words_path, l1_tokenizer)

@@ -59,7 +59,7 @@ class Experiment:
             ff_words.add(self.ff_data[i]["False Friend"])
         return ff_words
     
-    def get_same_words_across_languages(self):
+    def get_same_words_in_corpuses(self):
         l1_words = set(self.l1_words.keys())
         l2_words = set(self.l2_words.keys())
         return l1_words.intersection(l2_words)

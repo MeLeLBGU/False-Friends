@@ -58,6 +58,8 @@ class SaGeTokenizer:
 
     def get_vocabulary(self) -> Dict[bytes, int]:
         return self.byte_vocab
+    def get_readable_vocabulary(self):
+        return self.inv_str_vocab.values()
 
     def vocab_size(self) -> int:
         return len(self.byte_vocab)

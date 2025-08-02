@@ -114,7 +114,5 @@ class MySageTokenizer(MyTokenizer):
         return self.vocab_size
     
     def get_vocab(self):
-        # Dict[bytes, int]
-        bytes_vocab =  self.tokenizer.get_vocabulary()
-        vocab_strings = {token.decode("utf-8", errors="replace"): idx for token, idx in bytes_vocab.items()}
-        return vocab_strings.keys()
+        vocab = self.tokenizer.get_readable_vocabulary()
+        return vocab

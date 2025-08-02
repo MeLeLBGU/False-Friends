@@ -679,13 +679,20 @@ def emd2(source, target, l1, l2, categories, algo1, algo2):
     print(f"Target Distribution {algo2}: {target}")
     print(f"Earth Mover Distance: {ans}")
 
-def get_avg_token_length(words_list, tokenizer):
-    word_lengths = 0
-    num_tokens = 0
-    for word in words_list:
-        word_lengths += len(word)
-        num_tokens += len(tokenizer.tokenize(word))
-    return word_lengths / num_tokens
+def get_avg_chars_per_token(tokenizer):
+    vocab = tokenizer.get_vocab()
+    num_chars = sum([len(v) for v in vocab])
+    return num_chars / len(vocab)
+
+def get_token_length_distribution(tokenizer):
+    vocab = tokenizer.get_vocab()
+    distribution = dict()
+    for v in vocab:
+        distribution[len(v)] = distribution.get(len(v), 0) + 1
+    for k, v in distribution.items():
+        distribution[k] = v / len(vocab)
+    sorted_dis = {key: distribution[key] for key in sorted(distribution.keys())}
+    return sorted_dis
 
 
 def words_moved_to_target(num_tokens_diff1, num_tokens_diff2, categories, target):

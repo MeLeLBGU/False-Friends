@@ -1,0 +1,219 @@
+also
+1.She speaks French and also understands German.
+2.I’m tired, and I’m also a bit hungry.
+arm
+1.He broke his arm playing football.
+2.She carried the groceries with one arm.
+bad
+1.That’s a bad idea during a storm.
+2.He felt bad for missing her birthday.
+bald
+1.His dog is going bald on its tail.
+2.The actor wore a bald cap for the role.
+bank
+1.I need to deposit this check at the bank.
+2.They sat by the river bank to rest.
+beamer
+1.He drove up in a shiny black Beamer.
+2.She traded her old car for a new Beamer.
+billion
+1.The company is worth over a billion dollars.
+2.There are more than a billion stars in the galaxy.
+boot
+1.He kicked the ball with his muddy boot.
+2.She kept a blanket in the car boot just in case.
+brand
+1.This brand of shoes is really comfortable.
+2.They launched a new brand aimed at young adults.
+brief
+1.Let’s keep this meeting brief.
+2.He gave a brief explanation before leaving.
+chance
+1.There’s a good chance it will rain today.
+2.She took a chance and applied for the job.
+chef
+1.The chef prepared a delicious meal.
+2.He trained as a chef in Paris.
+dank
+1.The basement was cold and dank.
+2.They explored a dank cave filled with moss.
+die
+1.Flowers die quickly without sunlight.
+2.He hoped his phone wouldn’t die during the trip.
+evergreen
+1.The garden is full of evergreen shrubs.
+2.That song is an evergreen hit from the 80s.
+fast
+1.She’s a fast runner.
+2.They had to fast before the surgery.
+fund
+1.The school started a fund for new equipment.
+2.They helped fund the research project.
+gaffer
+1.The gaffer adjusted the lighting on set.
+2.The old gaffer told stories of the war.
+genie
+1.The genie granted him three wishes.
+2.She dressed up as a genie for Halloween.
+gift
+1.He gave her a thoughtful birthday gift.
+2.She has a gift for painting.
+gut
+1.Trust your gut feeling.
+2.He had a gut reaction to the news.
+hall
+1.The hall was decorated for the wedding.
+2.I left my keys in the front hall.
+handy
+1.A pocketknife is handy on camping trips.
+2.He’s very handy around the house.
+happen
+1.Accidents can happen when you’re not careful.
+2.What will happen if we don’t act now?
+heft
+1.He tested the heft of the hammer before using it.
+2.The box had surprising heft for its size.
+hell
+1.The traffic was hell this morning.
+2.He said he’d fight like hell to win.
+herd
+1.A herd of deer ran through the field.
+2.They tried to herd the sheep back into the pen.
+hose
+1.He watered the garden with a long hose.
+2.Firefighters connected the hose to the hydrant.
+hut
+1.They built a small hut near the lake.
+2.The explorer found shelter in a jungle hut.
+jammer
+1.The signal jammer blocked all communication.
+2.The referee called a penalty on the jammer in the roller derby.
+kind
+1.That was a very kind gesture.
+2.What kind of cake did you make?
+last
+1.This is the last train tonight.
+2.The meeting didn’t last very long.
+lied
+1.He lied about finishing his homework.
+2.She felt hurt when she realized he had lied.
+links
+1.The website links didn’t work.
+2.We played nine holes on the golf links.
+lunge
+1.He made a quick lunge toward the door.
+2.The instructor showed us how to do a proper lunge.
+mist
+1.A light mist hung over the hills.
+2.She sprayed a mist of perfume before leaving.
+mitten
+1.She lost a mitten in the snow.
+2.He wore thick mittens to keep warm.
+mode
+1.The phone was in airplane mode.
+2.She shifted into work mode after lunch.
+most
+1.Most people prefer coffee in the morning.
+2.That’s the most exciting movie I’ve seen.
+not
+1.He’s not going to the party.
+2.That’s not what I meant to say.
+note
+1.She left a note on the fridge.
+2.Please note the changes in the schedule.
+payback
+1.He wanted payback for the prank.
+2.She saw her success as payback for all the doubts.
+personal
+1.That’s a personal question.
+2.I keep my personal files on a separate drive.
+pest
+1.The ants became a real pest in the kitchen.
+2.Stop being such a pest and let me focus.
+pole
+1.He leaned against the flag pole.
+2.They used a pole to fish from the dock.
+probe
+1.The doctor used a probe during the examination.
+2.NASA launched a probe to study Mars.
+promotion
+1.She earned a promotion after a year of hard work.
+2.The store is running a special promotion this week.
+provision
+1.We packed enough provisions for the hike.
+2.The contract includes a provision for early termination.
+quote
+1.He ended his speech with a quote from Einstein.
+2.Can you give me a quote for the repairs?
+rat
+1.A rat ran across the alley.
+2.He was a rat for betraying his friends.
+rate
+1.The interest rate has gone up.
+2.How do you rate this restaurant?
+rind
+1.She peeled the rind off the orange.
+2.The cheese had a thick, waxy rind.
+rock
+1.He skipped a rock across the lake.
+2.That song really rocks!
+roman
+1.The museum had Roman artifacts on display.
+2.She wore a Roman-style toga to the costume party.
+sage
+1.The sage offered wise advice.
+2.She added sage to the soup for flavor.
+schmuck
+1.Don’t be a schmuck—apologize to her.
+2.He acted like a total schmuck at the meeting.
+sense
+1.That doesn’t make any sense.
+2.She has a strong sense of justice.
+slip
+1.Be careful not to slip on the ice.
+2.She handed him a slip of paper.
+smoking
+1.Smoking is not allowed in the building.
+2.He was caught smoking behind the school.
+sold
+1.They sold their house in two weeks.
+2.The store sold out of those shoes fast.
+spanner
+1.He tightened the bolt with a spanner.
+2.She threw a spanner in the works by quitting.
+spinner
+1.The fisherman tied a red spinner to his line.
+2.He kept fiddling with his fidget spinner.
+spot
+1.I found a great spot to watch the fireworks.
+2.She noticed a red spot on her shirt.
+stadium
+1.The stadium was packed for the final match.
+2.They built a new stadium near the river.
+stark
+1.The landscape was beautiful in its stark simplicity.
+2.There was a stark contrast between the two reports.
+still
+1.She’s still waiting for an answer.
+2.The lake was calm and still at dawn.
+stock
+1.They keep a large stock of canned food.
+2.His stock in the company rose after the deal.
+tier
+1.We sat in the upper tier of the theater.
+2.The cake had three tiers.
+toll
+1.The toll for the bridge was two dollars.
+2.Stress can take a toll on your health.
+trunk
+1.The elephant lifted water with its trunk.
+2.He put the bags in the car trunk.
+vital
+1.Water is vital for survival.
+2.She played a vital role in the success of the project.
+wall
+1.They painted the wall blue.
+2.He leaned against the stone wall to rest.
+wand
+1.The magician waved his wand and smiled.
+2.She bought a curling wand for her hair.

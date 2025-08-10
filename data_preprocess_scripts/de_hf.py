@@ -11,5 +11,5 @@ for index, row in df.iterrows():
         ff_df["Correct Translation"].append(row["Correct English Translation"].lower())
         ff_df["Wrong Translation"].append(row["Wrong English Translation"].lower())
 de_ff_df = pd.DataFrame(ff_df)
-file_name = f"C:/Users/halor/Desktop/Masters_degree/Melel/thesisV01/ff_data/de_ff.csv"
+file_name = f"C:/Users/halor/Desktop/Masters_degree/Melel/thesisV02/ff_data/de_ff.csv"
 de_ff_df.to_csv(file_name, encoding="utf-8", index=False)

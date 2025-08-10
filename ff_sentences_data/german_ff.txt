@@ -1,0 +1,219 @@
+also
+1.Ich wollte also nicht mitkommen.
+2.Also jetzt verstehe ich wie du meinst.
+arm
+1.Meine Erkenntnisse in Wirtschaft sind arm.
+2.Das Kind war arm das Mädchen auch.
+bad
+1.Ich bin eine Prinzessin und dusche nur in dem Bad.
+2.Eine Wohnung mit einem Bad ist teure als eine mit einem Duschen.
+bald
+1.Ich komme bald wieder.
+2.Bald wird es alles vorbei.
+bank
+1.Der Bank steht in der Mitte des Parks.
+2.Ich bin auf der Bank mit dem Kopf gestoßen.
+beamer
+1.Die Lampe des Beamer ich gebrochen.
+2.Ich will ein Film mit dem Beamer sehen.
+billion
+1.Ich werde niemals Billion Euro in mein Bank haben.
+2.Es gibt viel mehr Sterne im Himmel als Billion.
+boot
+1.Mein Boot ist gesunken.
+2.Er wohnt auf sein Boot.
+brand
+1.Du hast der Brand hinterlassen.
+2.Es riecht nach Brand.
+brief
+1.Er Schickt ein Brief an seine Verlobte.
+2.In Deutschland kommuniziert man noch mit Briefe.
+chance
+1.Es gibt keine zweite Chance für Erste Eindruck.
+2.Euch gab es eine Chance.
+chef
+1.Der Chef ist grausam.
+2.Ich bin der Chef.
+dank
+1.Gott sein Dank.
+2.Dank mich nicht.
+die
+1.Die Frau kocht.
+2.Ich wollte immer die Katze überfahren
+evergreen
+1.Das Musikstück ist Evergreen.
+2.Das Wort ist Evergreen.
+fast
+1.Fast daneben ist auch vorbei.
+2.Fast hast du dich verletzt.
+fund
+1.Ein Unglaublichen Fund wurde entdeckt.
+2.Fund ist der Traum jeder Entwickler.
+gaffer
+1.Der Mund ist Gaffer geblieben.
+2.Sie hat die schöne Frau gegaffter.
+genie
+1.Das Kind war seit immer ein kleines Genie.
+2.Das Baby ist ein Genie trotzt sein kleines Alter
+gift
+1.Ich trinke mein Gift nur mit Zucker.
+2.Das Gift ist abgelaufen.
+gut
+1.Es ist nicht gut es ist einfach besser.
+2.Gut oder schlecht es ist mir egal.
+hall
+1.ein Hall wird zurückgeschallt.
+2.man kann der Hall nicht hören.
+handy
+1.mein Handy ist kaputt.
+2.Ihr Handy ist schwarz.
+happen
+1.das Happen ist lecker.
+2.Ich kann nicht aufhören zu happen.
+heft
+1.das ist ein dickes Heft.
+2.Das ganze Heft habe ich gelesen.
+hell
+1.Der Bildschirm ist zu hell.
+2.Der Sonnenuntergang ist hell.
+herd
+1.Ihr Herd ist schmutzig.
+2.Sein Herd ist kaputt gegangen.
+hose
+1.Ich liebe es Ohne Hose rumzulaufen.
+2.Seine Hose sind gerissen.
+hut
+1.Ich trage kein Hut.
+2.Hut ist wichtig gegen einen Sonnenstich.
+jammer
+1.Er Jammer die ganze Zeit.
+2.Es ist nicht gesund die ganze Zeit zu Jammer
+kind
+1.Das Kind ist schon ein Erwachsener.
+2.er war ein Kind als er gestorben ist
+last
+1.Der Last war zu schwer zu tragen.
+2.Der Last des Berufes ist unerträglich.
+lied
+1.Dieses Lied erinnert mich an meine Kindheit.
+2.Das Lied ist einfach zu lang und langweilig.
+links
+1.Auf der Kreuzung bitte links abbiegen.
+2.Nicht nach links und nicht nach rechts einfach gerade aus.
+lunge
+1.Ihre Lunge sind Teerschwartz von rauchen.
+2.Die Lunge der Leber wurde von der Leiche entfernt.
+mist
+1.Sie bauen immer nur Mist.
+2.Mist ich habe den Bus verpasst und zu spät zur Arbeit gekommen.
+mitten
+1.In mitten der Park gibt es eine Brünne.
+2.In mitten das Leben ist sie plötzlich gestorben.
+mode
+1.Es war in der Mode vor 20 Jahre.
+2.Vegan essen sei jetzt ein Hauptteil der Mode unter jugendlichen.
+most
+1.Ich hab noch nie ein Most probiert.
+2.Most ist nicht nach meinem Geschmack.
+not
+1.Dieses Ereignis war ein absolut eine Not.
+2.Eine Not ist eine dringliche Situation.
+note
+1.Du muss eine Note bestimmt spielen können.
+2.Diese Note war eine zu viel.
+payback
+1.Ich sammle bei jedem Einkauf Payback-Punkte und löse sie später gegen Gutscheine ein.
+2.Mit der Payback-Karte bekommt man bei vielen Partnern attraktive Rabatte.
+personal
+1.Das Hotel hat ein Mangel an Personal.
+2.Das Personal ist überlastet von Arbeit und Gäste.
+pest
+1.Europa war schwer von der Pest getroffen.
+2.Millionen von Menschen sind an der Pest um ihr Leben gekommen.
+pole
+1.Ich liebe dieses Poles Bier.
+2.Alles, was Pole ist schlecht.
+probe
+1.Wie nehmen eine Probe, um die Qualität zu testen.
+2.Probe heißt nicht den ganzen Topf.
+promotion
+1.Um ein Doktor in Deutschland zu sein, muss man eine Promotion schreiben.
+2.Promotion ist meistens mit einer Publikation vergesellschaftet.
+provision
+1.In diesem Markt nimmt jeder eine Provision.
+2.Die Provision in diesem Deal ist zu hoch.
+quote
+1.Die Quote der Durchfall der Studenten ist zu hoch.
+2.Die Quote der Gestorbene in Covid war fruchtbar.
+rat
+1.Ich brauche einen guten Rat von dir.
+2.Ein Rat kann auch von etwas abgeratet zu werden.
+rate
+1.Die Rate der Erkrankten ist gesteigert.
+2.Die Rate der Durchgefallene ist gesunken.
+rind
+1.Ich esse kein Rind und kein Kaninchen.
+2.Rind sind domestiziert mittlerweile.
+rock
+1.Ich liebe Mini-Rock.
+2.Ich kann kein Rock tragen, weil es ist zu windig.
+roman
+1.Roman ist nicht mein Liebling Büchern.
+2.Er hat gerade einen schönen Roman gelesen.
+sage
+1.Sage kommen ursprünglich aus Schweden.
+2.Es gibt eine Sage die Sagt.
+schmuck
+1.Sie hat ein neuer Schmuck gekauft.
+2.Der schmuck hat er von Ihre geraubt.
+sense
+1.Der Teufel selbst ist mit seiner Sense mich gejagt.
+2.Diese Sense ist sehr scharf.
+slip
+1.In Berlin nennt man Slip eine Schluppe rumgangsprachlich.
+2.Dieser Slip ist durchsichtig.
+smoking
+1.Das Smoking ist Smoking hott, hat er gesagt.
+2.Mein Smoking trage ich nicht mehr.
+sold
+1.Dieser Sold ist zu klein für mich.
+2.Für diese Sold mach ich nichts.
+spanner
+1.Sie hat ein Spanner in Ihre Fenster gesehen.
+2.Der Spanner muss verhaftet werden.
+spinner
+1.Ich liebe meinen Nachbar, er ist ein Spinner.
+2.Spinner ist ein Verübter.
+spot
+1.Dieser Spot hat mir ton Geld gekostet.
+2.Ich hasse immer wieder leere Spot zu sehen.
+stadium
+1.Schnell, der Band ist auf dem Stadium gestiegen.
+2.Das Stadium ist eine der größte auf der Welt.
+stark
+1.Stark man, dieser Witz war so lustig.
+2.Stark oder schwach ist eine Frage der Relation.
+still
+1.Sei still, ich will nur helfen.
+2.Willst du Sprudels Wasser oder still.
+stock
+1.In jeden Stock wohnt jemand.
+2.Diese Stock hat ein hohes Dach.
+tier
+1.Du verhältst dich wie ein Tier.
+2.Wenn ein Tier isst ein Tier ist es Kannibalismus?
+toll
+1.Toll wirklich toll, hat er gelogen.
+2.Das Kunststück ist einfach toll.
+trunk
+1.Ich besuche der Kneippe für ein kleine Trunk.
+2.Ein kleiner Trunk bedeutet nicht gleich besoffen zu sein.
+vital
+1.Der Gestorbene war gestern gesund und munter und sehr Vital.
+2.Vital ist ein gängiger jüdischer Nachname, interessant was die Nazis darüber denken hätten.
+wall
+1.Der Wall hält das Wasser weg.
+2.Der Wall steht auf dem Weg.
+wand
+1.Der wand hat ein riesige Loch.
+2.Der wand habe ich weiß gemalt.

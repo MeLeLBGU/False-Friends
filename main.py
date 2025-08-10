@@ -230,7 +230,7 @@ if __name__ == '__main__':
             # homographs = get_same_words_across_languages(ex.l1, ex.l2)
             # homographs_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), homographs, ex.l1, ex.l2,
             #                                                      categories)
-            # ff_intrinsic_analysis(ex.l1, ex.l2, ex)
+            # ff_intrinsic_analysis(ex.l1, ex.l2, ex)ma 
             # plot_tokenization_cases(ff_tokenization_cases, ex.algo_name, ex.l1, ex.l2, categories, "ff",
             #                         graphs_path)
             # write_tokenization_split(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2, ex.algo_name,

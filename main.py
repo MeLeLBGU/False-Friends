@@ -225,12 +225,12 @@ if __name__ == '__main__':
             graphs_path = f"{ex.analysis_dir}/graphs"
             tokenization_path = f"{ex.analysis_dir}/tokenization"
             categories = get_categories(ex)
-            # ff_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2,
-            #                                              categories)
+            ff_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2,
+                                                         categories)
             # homographs = get_same_words_across_languages(ex.l1, ex.l2)
-            # homographs_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(),
-            #                                                      homographs,
-            #                                                      ex.l1, ex.l2, categories)
+            # homographs_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), homographs, ex.l1, ex.l2,
+            #                                                      categories)
+            # ff_intrinsic_analysis(ex.l1, ex.l2, ex)
             # plot_tokenization_cases(ff_tokenization_cases, ex.algo_name, ex.l1, ex.l2, categories, "ff",
             #                         graphs_path)
             # write_tokenization_split(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2, ex.algo_name,
@@ -240,11 +240,11 @@ if __name__ == '__main__':
             #                         ex.l1, ex.l2, categories)
             # plot_frequency_comparison(ff_tokenization_cases, ex.algo_name, graphs_path, ex.l1, ex.l2,
             #                           ex.get_corpus_words(ex.l1), ex.get_corpus_words(ex.l2), categories)
-            # plot_pos_data(ff_tokenization_cases, ex.l1, ex.l2, ex.l1_training_corpus_dir, ex.l2_training_corpus_dir,categories, ex.algo_name, graphs_path)
+            plot_pos_data(ff_tokenization_cases, ex.l1, ex.l2, ex.l1_training_corpus_dir, ex.l2_training_corpus_dir,categories, ex.algo_name, graphs_path)
             # chi_square_test(ff_tokenization_cases, homographs_tokenization_cases, ex.l1, ex.l2, ex.algo_name)
             # print("#########################################################################################################")
-        compare_trials(exp_list, "BPE", "different_splits")
-        compare_trials(exp_list, "UNI", "different_splits")
+        # compare_trials(exp_list, "BPE", "different_splits")
+        # compare_trials(exp_list, "UNI", "different_splits")
 
 
 

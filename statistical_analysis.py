@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from scipy.optimize import linprog
 from pyemd import emd
-
+import os
+import csv
+from typing import Dict, List
 
 
 def analyze_tokenization(tokenizers_list, word_list, l1, l2, categories):
@@ -159,111 +161,186 @@ def get_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_co
     return tokenization_category_pos1, tokenization_category_pos2
 
 
+BASE_UPOS_ORDER: List[str] = [
+    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM",
+    "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"
+]
+
+POS_COLOR_MAP: Dict[str, str] = {
+    "ADJ": "blue",
+    "ADP": "orange",
+    "ADV": "green",
+    "AUX": "red",
+    "CCONJ": "purple",
+    "DET": "brown",
+    "INTJ": "pink",
+    "NOUN": "gray",
+    "NUM": "olive",
+    "PART": "cyan",
+    "PRON": "lightblue",
+    "PROPN": "gold",
+    "PUNCT": "lightgreen",
+    "SCONJ": "salmon",
+    "SYM": "plum",
+    "VERB": "tan",
+    "X": "lightpink",
+}
+
+FALLBACK_COLORS = [
+    "navy", "darkgreen", "goldenrod", "maroon", "indigo", "slateblue", "darkolivegreen",
+    "peru", "firebrick", "orchid", "royalblue", "yellowgreen", "khaki", "crimson"
+]
+
+BASE_UPOS_ORDER = [
+    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM",
+    "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"
+]
+
+# Stable color mapping per POS tag (color names for readability & consistency across runs).
+POS_COLOR_MAP = {
+    "ADJ": "blue",
+    "ADP": "orange",
+    "ADV": "green",
+    "AUX": "red",
+    "CCONJ": "purple",
+    "DET": "brown",
+    "INTJ": "pink",
+    "NOUN": "gray",
+    "NUM": "olive",
+    "PART": "cyan",
+    "PRON": "lightblue",
+    "PROPN": "gold",
+    "PUNCT": "lightgreen",
+    "SCONJ": "salmon",
+    "SYM": "plum",
+    "VERB": "tan",
+    "X": "lightpink",
+}
+
+# Deterministic fallback colors for unseen tags (assigned in order if needed).
+FALLBACK_COLORS = [
+    "navy", "darkgreen", "goldenrod", "maroon", "indigo", "slateblue", "darkolivegreen",
+    "peru", "firebrick", "orchid", "royalblue", "yellowgreen", "khaki", "crimson"
+]
+
+def pos_order_and_colors(all_pos):
+    """Compute a stable POS order and a tag→color map.
+
+    Parameters
+    ----------
+    all_pos : list of str
+        All POS tags observed across both languages and all categories.
+
+    Returns
+    -------
+    order : list of str
+        POS order starting with BASE_UPOS_ORDER, followed by unseen tags alphabetically.
+    color_map : dict
+        Mapping from POS tag to a human-readable color name. Unseen tags use FALLBACK_COLORS.
+    """
+    extras = sorted([t for t in set(all_pos) if t not in BASE_UPOS_ORDER])
+    order = BASE_UPOS_ORDER + extras
+    color_map = dict(POS_COLOR_MAP)
+    for i, tag in enumerate(extras):
+        if tag not in color_map:
+            color_map[tag] = FALLBACK_COLORS[i % len(FALLBACK_COLORS)]
+    return order, color_map
+
+
+def collect_all_pos(pos_dict_l1, pos_dict_l2):
+    """Collect the union of POS tags present in L1 and L2 per-category dicts.
+    list of str
+        Sorted list of all POS tags observed.
+    """
+    s = set()
+    for d in (pos_dict_l1, pos_dict_l2):
+        for category in d:
+            s.update(d[category].keys())
+    return sorted(s)
+
+
+def sorted_order_by_frequency(order, cat_counts_l1, cat_counts_l2):
+    """Re-rank POS for a single category by total frequency (desc), with stable tiebreaks.
+
+    Parameters
+    ----------
+    order : list of str
+        Base POS order to use for stable tiebreaking.
+    cat_counts_l1 : dict
+        {POS: count} for the category in L1.
+    cat_counts_l2 : dict
+        {POS: count} for the category in L2.
+
+    Returns
+    -------
+    list of str
+        POS order sorted by (L1+L2) counts descending, ties by *order* index.
+    """
+    totals = {tag: cat_counts_l1.get(tag, 0) + cat_counts_l2.get(tag, 0) for tag in order}
+    base_index = {tag: i for i, tag in enumerate(order)}
+    return sorted(order, key=lambda t: (-totals.get(t, 0), base_index[t]))
+
+
 def plot_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, categories, algo, dir):
-    """
-    This function plots the pos tags distribution for l1 and l2 for each tokenization category
-    :param num_tokens_diff:  dictionary {tokenization_case: [list of words]}
-    :param l1: language 1
-    :param l2: language 2
-    :param categories: tokenization cases
-    :param algo: algo name
-    :param dir: dir to save fig
-    :return:
-    """
-    tokenization_category_pos1, tokenization_category_pos2 = get_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, categories)
-    data = []
-    print(f"Languages: {l1} and {l2}\nAlgo: {algo}\n{l1} Distribution: {tokenization_category_pos1}\n{l2} Distribution: {tokenization_category_pos2}")
-    print("###############################################################################################################")
-    for category in tokenization_category_pos1:
-        pos_counts_1 = tokenization_category_pos1[category]
-        pos_counts_2 = tokenization_category_pos2[category]
-        
-        for pos, count in pos_counts_1.items():
-            data.append({
-                "Category": category,
-                "POS": pos,
-                "Language": l1,
-                "Count": count
-            })
-        
-        for pos, count in pos_counts_2.items():
-            data.append({
-                "Category": category,
-                "POS": pos,
-                "Language": l2,
-                "Count": count
-            })
     
-    df = pd.DataFrame(data)
+
+    # Get POS distributions per language per category using your provided pipeline
+    tokenization_category_pos1, tokenization_category_pos2 = get_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir,
+                                                                          l2_training_corpus_dir, categories)
+
+    # Collect the universe of POS tags observed across both languages
+    all_pos = collect_all_pos(tokenization_category_pos1, tokenization_category_pos2)
     
-    # Unique lists
-    categories = df["Category"].unique()
-    pos_tags = df["POS"].unique()
-    languages = [l1, l2]
-    num_categories = len(categories)
-    
-    # Combine POS and Language for grouping
-    df["POS_LANG"] = df["POS"] + "_" + df["Language"]
-    pos_lang_labels = df["POS_LANG"].unique()
-    num_pos_lang = len(pos_lang_labels)
-    
-    # Color map for POS
-    color_map = matplotlib.colormaps['tab10']
-    pos_colors = {pos: color_map(i % 10) for i, pos in enumerate(pos_tags)}
-    
-    # Hatching for Language
-    hatch_map = {
-        l1: '/',
-        l2: '-'
-    }
-    
-    # X-axis: one base position per category
-    x = np.arange(num_categories)
-    width = 0.8 / num_pos_lang
-    
-    # Plot
-    fig, ax = plt.subplots(figsize=(16, 6))  # Wider figure for space on the right
-    
-    for i, pos_lang in enumerate(pos_lang_labels):
-        pos, lang = pos_lang.split("_")
-        subset = df[df["POS_LANG"] == pos_lang].set_index("Category").reindex(categories)
-        heights = subset["Count"].fillna(0)
-        bar_positions = x - 0.4 + i * width + width / 2
-        
-        ax.bar(
-            bar_positions,
-            heights,
-            width=width,
-            color=pos_colors[pos],
-            edgecolor="black",
-            hatch=hatch_map[lang],
-            label=pos_lang  # used only temporarily
-        )
-    
-    # X-axis labels
-    ax.set_xticks(x)
-    ax.set_xticklabels(categories, rotation=45, ha='right')
-    ax.set_xlabel("Tokenization Category")
-    ax.set_ylabel("Count")
-    ax.set_title(f"POS Tag Distribution by Category (Color = POS, Hatch = Language)\n{l1} {l2}\nAlgo:{algo}")
-    ax.grid(axis='y', linestyle='--', alpha=0.6)
-    
-    # Legends
-    pos_patches = [mpatches.Patch(color=pos_colors[pos], label=pos) for pos in pos_colors]
-    lang_patches = [mpatches.Patch(facecolor='white', edgecolor='black', hatch=hatch_map[lang], label=lang) for lang in
-                    hatch_map]
-    
-    plt.tight_layout(rect=[0, 0, 0.85, 1])  # Leave room on the right
-    
-    legend1 = ax.legend(handles=pos_patches, title="POS", loc='upper left', bbox_to_anchor=(1.02, 1))
-    ax.add_artist(legend1)
-    
-    legend2 = ax.legend(handles=lang_patches, title="Language", loc='lower left', bbox_to_anchor=(1.02, 0))
-    ax.add_artist(legend2)
-    fig_save_path = f"{dir}/pos_{l1}_{l2}_{algo}.png"
-    plt.savefig(fig_save_path)
-    
-    plt.show()
+    # Establish a stable overall order and color map for tags
+    pos_order_base, color_map = pos_order_and_colors(all_pos)
+
+    # Per-category plot
+    for category in categories:
+        counts_l1 = tokenization_category_pos1.get(category, {})
+        counts_l2 = tokenization_category_pos2.get(category, {})
+
+        # Re-rank by frequency within this category to improve readability, with stable ties
+        pos_order = sorted_order_by_frequency(pos_order_base, counts_l1, counts_l2)
+
+        # Build the bar positions
+        x = list(range(len(pos_order)))
+        width = 0.38
+
+        fig, ax = plt.subplots(figsize=(12, 6))
+
+        # Bars for L1 and L2; same color (by POS), different hatches to distinguish languages
+        for i, tag in enumerate(pos_order):
+            c = color_map[tag]
+            ax.bar(i - width/2, counts_l1.get(tag, 0), width, color=c, edgecolor="black", linewidth=0.6, hatch="")
+            ax.bar(i + width/2, counts_l2.get(tag, 0), width, color=c, edgecolor="black", linewidth=0.6, hatch="//")
+
+        # Axes & title
+        ax.set_title(f"POS distribution: {category} (algo={algo}, {l1} vs {l2})")
+        ax.set_xlabel("POS tag")
+        ax.set_ylabel("Count of words (majority POS)")
+        ax.set_xticks(x)
+        ax.set_xticklabels(pos_order, rotation=45, ha="right")
+        ax.margins(x=0.01)
+        ax.grid(axis='y', linestyle=':', linewidth=0.6)
+
+        # Legends
+        from matplotlib.patches import Patch
+        pos_legend_handles = [Patch(facecolor=color_map[tag], edgecolor='black', label=tag) for tag in pos_order]
+        lang_legend_handles = [
+            Patch(facecolor="lightgray", edgecolor='black', hatch="", label=f"{l1}"),
+            Patch(facecolor="lightgray", edgecolor='black', hatch="//", label=f"{l2}"),
+        ]
+        legend1 = ax.legend(handles=lang_legend_handles, loc='upper right', title="Language")
+        ax.add_artist(legend1)
+        ax.legend(handles=pos_legend_handles, loc='upper left', ncol=2, title="POS")
+
+        fig.tight_layout()
+
+        # Save file
+        safe_category = str(category).replace(" ", "_")
+        fname = f"pos_{algo}_{l1}_vs_{l2}_{safe_category}.png"
+        fig.savefig(os.path.join(dir, fname), dpi=200)
+        plt.close(fig)
 
 
 def chi_square_test(ff_num_tokens_diff, homographs_tokenization_cases, l1, l2, algo):
@@ -600,6 +677,17 @@ def write_tokenization_split(tokenizers, ff_data, l1, l2, algo, dir):
 
 
 def earth_movers_dist(categories, l1, l2, source, target, track_target=None):
+    """
+    Computes the Earth Movers Distance metric between to distributions. Also able to track how much earth was moved
+     to a specific target (track_target)
+    :param categories: the categories
+    :param l1: English
+    :param l2: other language
+    :param source: source distribution
+    :param target: target distribution
+    :param track_target: target category to track
+    :return: emd, moved
+    """
     s = np.array([source[c] for c in categories], dtype=np.float64)
     t = np.array([target[c] for c in categories], dtype=np.float64)
     
@@ -648,6 +736,14 @@ def earth_movers_dist(categories, l1, l2, source, target, track_target=None):
 
 
 def dist(l1, l2, source, target):
+    """
+    The distance function for Earth Movers target function
+    :param l1: English
+    :param l2: other language
+    :param source: source category
+    :param target: target category
+    :return:
+    """
     d = {
         "same_splits": {f"{l1}_t==multi_t": 1, f"{l2}_t==multi_t": 1, f"{l1}_t=={l2}_t": 1, "different_splits": 2,
                         "same_splits": 0},
@@ -664,6 +760,17 @@ def dist(l1, l2, source, target):
     return d[source][target]
 
 def emd2(source, target, l1, l2, categories, algo1, algo2):
+    """
+    Earth Movers Distance function that uses pyemd. Gave the same result as linear programming
+    :param source: source distribution
+    :param target: target distribution
+    :param l1: English
+    :param l2: other language
+    :param categories: categories
+    :param algo1: algo name 1
+    :param algo2: algo name 2
+    :return: emd
+    """
     s = np.array([source[c] for c in categories], dtype=np.float64)
     t = np.array([target[c] for c in categories], dtype=np.float64)
     D = np.array([[dist(l1, l2, c1, c2) for c1 in categories] for c2 in categories], dtype=np.float64)
@@ -680,11 +787,21 @@ def emd2(source, target, l1, l2, categories, algo1, algo2):
     print(f"Earth Mover Distance: {ans}")
 
 def get_avg_chars_per_token(tokenizer):
+    """
+    Calculates the average characters per token for tokenizer vocabulary
+    :param tokenizer: the tokenizer object
+    :return: cpt
+    """
     vocab = tokenizer.get_vocab()
     num_chars = sum([len(v) for v in vocab])
     return num_chars / len(vocab)
 
 def get_token_length_distribution(tokenizer):
+    """
+    Returns the token length distribution oh the tokens in the tokenizer vocabulary
+    :param tokenizer: the tokenizer object
+    :return:
+    """
     vocab = tokenizer.get_vocab()
     distribution = dict()
     for v in vocab:
@@ -696,6 +813,14 @@ def get_token_length_distribution(tokenizer):
 
 
 def words_moved_to_target(num_tokens_diff1, num_tokens_diff2, categories, target):
+    """
+    This function checks which words moved from num_tokens_diff1 to a certain category in num_tokens_diff2
+    :param num_tokens_diff1: tokenization cases 1
+    :param num_tokens_diff2:tokenization cases 2
+    :param categories:categories
+    :param target: which words moved to target in tokenization cases 2
+    :return: words moved to target
+    """
     words_moved = {c:[] for c in categories}
     for c, words in num_tokens_diff1.items():
         added = set(num_tokens_diff1[c]) & set(num_tokens_diff2[target])
@@ -704,6 +829,14 @@ def words_moved_to_target(num_tokens_diff1, num_tokens_diff2, categories, target
     return words_moved
 
 def words_removed_from_target(num_tokens_diff1, num_tokens_diff2, categories, target):
+    """
+    This function checks which words moved from target in num_tokens_diff2 to other categories in num_tokens_diff1
+    :param num_tokens_diff1: tokenization cases 1
+    :param num_tokens_diff2: tokenization cases 2
+    :param categories: categories
+    :param target: which words moved out from target in tokenization cases 2
+    :return: words moved out from target
+    """
     words_moved = {c: [] for c in categories if c != target}
     for w in num_tokens_diff1[target]:
         if w not in set(num_tokens_diff2[target]):
@@ -712,6 +845,81 @@ def words_removed_from_target(num_tokens_diff1, num_tokens_diff2, categories, ta
                     words_moved[c].append(w)
     return words_moved
 
+
+# INTRINSIC ANALYSIS FUNCTIONS
+
+def ff_intrinsic_analysis(l1, l2, ex):
+    ff_data_path_dict = {"de": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV02\\ff_data\\de_ff.csv",
+                         "es": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV02\\ff_data\\spanish_ff.csv",
+                         "se": "C:\\Users\\halor\\Desktop\\Masters_degree\\Melel\\thesisV02\\ff_data\\swedish_ff.csv"}
+    if l2 not in ff_data_path_dict.keys():
+        return
+    with open(ff_data_path_dict[l2], 'r', encoding='utf-8') as f:
+        ff_data = list(csv.DictReader(f))
+    en_tokenizer = ex.l1_tokenizer
+    l2_tokenizer = ex.l2_tokenizer
+    en_l2_tokenizer  = ex.l1_l2_tokenizer
+    path = f"{ex.analysis_dir}/intrinsic_analysis"
+    os.makedirs(path, exist_ok=True)
+    
+    spacy_dic = {"en": "en_core_web_sm", "fr": "fr_core_news_sm", "de": "de_core_news_sm", "it": "it_core_news_sm",
+                 "ro": "ro_core_news_sm", "es": "es_core_news_sm", "se": "sv_core_news_sm"}
+    
+    nlp1 = spacy.load(spacy_dic[l1])
+    nlp2 = spacy.load(spacy_dic[l2])
+    
+        
+    with open(f"{path}/{ex.algo_name}_intrinsic.txt", 'w', encoding='utf-8') as f:
+        for ff_row in ff_data:
+            ff_word = ff_row["False Friend"]
+            correct_translation = ff_row["Correct Translation"]
+            wrong_translation = ff_row["Wrong Translation"]
+            en_sentences = [ff_row["en sentence1"], ff_row["en sentence2"]]
+            l2_sentences = [ff_row[f"{l2} sentence1"], ff_row[f"{l2} sentence2"]]
+            f.write("##########################################################################################################################\n")
+            f.write(f"Analysis for False Friend word: {ff_word}\n")
+            f.write(f"Correct Translation: {correct_translation}\n")
+            f.write(f"Wrong Translation: {wrong_translation}\n\n")
+            f.write(f"'{ff_word}' in English context:\n")
+            for i in range(len(en_sentences)):
+                f.write(f"Sentence {i + 1}:\n")
+                f.write(f"{en_sentences[i]}\n")
+                for w in en_sentences[i].split(" "):
+                    f.write(f"{en_tokenizer.tokenize(w)} ")
+                f.write("\n")
+                doc = nlp1(en_sentences[i])
+                for token in doc:
+                    f.write(f"{(token.text, token.pos_)}, ")
+                f.write("\n")
+            f.write(f"'{ff_word}' in {l2} context:\n")
+            for j in range(len(l2_sentences)):
+                f.write(f"Sentence {j + 1}:\n")
+                f.write(f"{l2_sentences[j]}\n")
+                for w in l2_sentences[j].split(" "):
+                    f.write(f"{l2_tokenizer.tokenize(w)} ")
+                f.write("\n")
+                doc = nlp2(l2_sentences[j])
+                for token in doc:
+                    f.write(f"{(token.text, token.pos_)}, ")
+                f.write("\n")
+            f.write("Multilingual tokenization: English\n")
+            for i in range(len(en_sentences)):
+                for w in en_sentences[i].split(" "):
+                    f.write(f"{en_l2_tokenizer.tokenize(w)} ")
+                f.write("\n")
+            f.write(f"Multilingual tokenization: {l2}\n")
+            for i in range(len(l2_sentences)):
+                for w in l2_sentences[i].split(" "):
+                    f.write(f"{en_l2_tokenizer.tokenize(w)} ")
+                f.write("\n")
+            f.write("##########################################################################################################################\n")
+
+
+                
+            
+    
+    
+    
 # l1 = "en"
 # l2 = "de"
 # categories = [f"{l1}_t==multi_t", f"{l2}_t==multi_t", f"{l1}_t=={l2}_t", "same_splits", "different_splits"]

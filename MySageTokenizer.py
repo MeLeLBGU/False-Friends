@@ -24,9 +24,18 @@ class MySageTokenizer(MyTokenizer):
         return f"{self.language}_{self.vocab_size}_{self.algo_name}"
 
     def tokenize(self, text):
+        """
+        Tokenizes the text
+        :param text: text to be tokenized
+        :return: tokenized text
+        """
         return self.tokenizer.tokenize_to_encoded_str(text)
     
     def train_tokenizer(self):
+        """
+        Trains the tokenizer. For SaGe, we must first train a BPE/UNI tokenizer which creates an initial vocabulary
+        :return:
+        """
         # BPE or UNI algo
         vocab_builder_algo = self.algo_name.split("_")[0]
         # Train a BPE or UNI tokenizer to create initial vocabulary
@@ -83,7 +92,11 @@ class MySageTokenizer(MyTokenizer):
         return vocab
     
     def save_pruned_tokens(self, path):
-        
+        """
+        Saves the pruned tokens
+        :param path: path to save the pruned tokens
+        :return:
+        """
         with open(path, "w") as f:
             for cur_vocab_size, byte_tokens_list in self.pruned_tokens.items():
                 f.write(f"Tokens pruned at vocab size {cur_vocab_size}\n")

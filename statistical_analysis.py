@@ -9,7 +9,7 @@ from scipy.optimize import linprog
 from pyemd import emd
 import os
 import csv
-from typing import Dict, List
+import math
 
 
 def analyze_tokenization(tokenizers_list, word_list, l1, l2, categories):
@@ -161,42 +161,11 @@ def get_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_co
     return tokenization_category_pos1, tokenization_category_pos2
 
 
-BASE_UPOS_ORDER: List[str] = [
-    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM",
-    "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"
-]
-
-POS_COLOR_MAP: Dict[str, str] = {
-    "ADJ": "blue",
-    "ADP": "orange",
-    "ADV": "green",
-    "AUX": "red",
-    "CCONJ": "purple",
-    "DET": "brown",
-    "INTJ": "pink",
-    "NOUN": "gray",
-    "NUM": "olive",
-    "PART": "cyan",
-    "PRON": "lightblue",
-    "PROPN": "gold",
-    "PUNCT": "lightgreen",
-    "SCONJ": "salmon",
-    "SYM": "plum",
-    "VERB": "tan",
-    "X": "lightpink",
-}
-
-FALLBACK_COLORS = [
-    "navy", "darkgreen", "goldenrod", "maroon", "indigo", "slateblue", "darkolivegreen",
-    "peru", "firebrick", "orchid", "royalblue", "yellowgreen", "khaki", "crimson"
-]
-
 BASE_UPOS_ORDER = [
     "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ", "NOUN", "NUM",
     "PART", "PRON", "PROPN", "PUNCT", "SCONJ", "SYM", "VERB", "X"
 ]
 
-# Stable color mapping per POS tag (color names for readability & consistency across runs).
 POS_COLOR_MAP = {
     "ADJ": "blue",
     "ADP": "orange",
@@ -217,26 +186,16 @@ POS_COLOR_MAP = {
     "X": "lightpink",
 }
 
-# Deterministic fallback colors for unseen tags (assigned in order if needed).
 FALLBACK_COLORS = [
     "navy", "darkgreen", "goldenrod", "maroon", "indigo", "slateblue", "darkolivegreen",
     "peru", "firebrick", "orchid", "royalblue", "yellowgreen", "khaki", "crimson"
 ]
 
 def pos_order_and_colors(all_pos):
-    """Compute a stable POS order and a tag→color map.
+    """Return a stable POS order and tag→color map.
 
-    Parameters
-    ----------
-    all_pos : list of str
-        All POS tags observed across both languages and all categories.
-
-    Returns
-    -------
-    order : list of str
-        POS order starting with BASE_UPOS_ORDER, followed by unseen tags alphabetically.
-    color_map : dict
-        Mapping from POS tag to a human-readable color name. Unseen tags use FALLBACK_COLORS.
+    - Order begins with BASE_UPOS_ORDER, then unseen tags alphabetically.
+    - Colors are consistent across runs; unseen tags get fallback colors deterministically.
     """
     extras = sorted([t for t in set(all_pos) if t not in BASE_UPOS_ORDER])
     order = BASE_UPOS_ORDER + extras
@@ -248,10 +207,7 @@ def pos_order_and_colors(all_pos):
 
 
 def collect_all_pos(pos_dict_l1, pos_dict_l2):
-    """Collect the union of POS tags present in L1 and L2 per-category dicts.
-    list of str
-        Sorted list of all POS tags observed.
-    """
+    """Collect union of POS tags from both language dicts {category: {POS: count}}."""
     s = set()
     for d in (pos_dict_l1, pos_dict_l2):
         for category in d:
@@ -260,62 +216,94 @@ def collect_all_pos(pos_dict_l1, pos_dict_l2):
 
 
 def sorted_order_by_frequency(order, cat_counts_l1, cat_counts_l2):
-    """Re-rank POS for a single category by total frequency (desc), with stable tiebreaks.
-
-    Parameters
-    ----------
-    order : list of str
-        Base POS order to use for stable tiebreaking.
-    cat_counts_l1 : dict
-        {POS: count} for the category in L1.
-    cat_counts_l2 : dict
-        {POS: count} for the category in L2.
-
-    Returns
-    -------
-    list of str
-        POS order sorted by (L1+L2) counts descending, ties by *order* index.
-    """
+    """Re-rank POS for a single category by total (L1+L2) count desc; ties keep base order."""
     totals = {tag: cat_counts_l1.get(tag, 0) + cat_counts_l2.get(tag, 0) for tag in order}
     base_index = {tag: i for i, tag in enumerate(order)}
     return sorted(order, key=lambda t: (-totals.get(t, 0), base_index[t]))
 
 
+def grid(n):
+    """Choose a compact rows×cols grid for n subplots (prefers 2 columns)."""
+    cols = 2 if n > 1 else 1
+    rows = math.ceil(n / cols)
+    return rows, cols
+
+# ------------------------------
+# Main plot function
+# ------------------------------
+
 def plot_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, categories, algo, dir):
-    
+    """Create a single image with one subplot per category, showing L1/L2 POS distributions.
 
-    # Get POS distributions per language per category using your provided pipeline
-    tokenization_category_pos1, tokenization_category_pos2 = get_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir,
-                                                                          l2_training_corpus_dir, categories)
+    The figure contains grouped bars per POS in each category: L1 and L2 are side-by-side.
+    Colors are bound to POS (consistent across all panels), and hatch patterns distinguish languages.
+    A single shared legend is added for the whole figure. Tokenization-case counts are embedded as
+    text in the main title (not plotted as a separate chart). The image is saved as
+    `pos_tokenization_cases_{algo}_{l1}_{l2}.png` in *dir*.
 
-    # Collect the universe of POS tags observed across both languages
+    Parameters
+    ----------
+    num_tokens_diff : dict
+        {tokenization_case: [list of words]} for the trial.
+    l1 : str
+        Language code for language 1 (e.g., "en").
+    l2 : str
+        Language code for language 2 (e.g., "de").
+    l1_training_corpus_dir : str
+        Path to the L1 training corpus text file.
+    l2_training_corpus_dir : str
+        Path to the L2 training corpus text file.
+    categories : list of str
+        Tokenization agreement categories to plot (one subplot per category).
+    algo : str
+        Tokenization algorithm label (used in the title and filename).
+    dir : str
+        Output directory; created if it does not exist.
+
+    Returns
+    -------
+    None
+        Saves a single PNG image and returns nothing.
+    """
+
+    # Compute per-category POS distributions via your pipeline
+    tokenization_category_pos1, tokenization_category_pos2 = get_pos_data(
+        num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_corpus_dir, categories
+    )
+
+    # Union of observed POS tags across both languages
     all_pos = collect_all_pos(tokenization_category_pos1, tokenization_category_pos2)
-    
-    # Establish a stable overall order and color map for tags
+    if not all_pos:
+        return
+
     pos_order_base, color_map = pos_order_and_colors(all_pos)
 
-    # Per-category plot
-    for category in categories:
+    # Build a short summary of tokenization-case counts for the figure title
+    case_counts = ", ".join([f"{cat}={len(num_tokens_diff.get(cat, []))}" for cat in categories])
+
+    # Create a grid of subplots (single figure)
+    n = len(categories)
+    rows, cols = grid(n)
+    fig, axes = plt.subplots(rows, cols, figsize=(14, 4.5 * rows), squeeze=False)
+
+    # Plot each category into its panel
+    width = 0.38
+    for idx, category in enumerate(categories):
+        r, c = divmod(idx, cols)
+        ax = axes[r][c]
+
         counts_l1 = tokenization_category_pos1.get(category, {})
         counts_l2 = tokenization_category_pos2.get(category, {})
 
-        # Re-rank by frequency within this category to improve readability, with stable ties
         pos_order = sorted_order_by_frequency(pos_order_base, counts_l1, counts_l2)
-
-        # Build the bar positions
         x = list(range(len(pos_order)))
-        width = 0.38
 
-        fig, ax = plt.subplots(figsize=(12, 6))
-
-        # Bars for L1 and L2; same color (by POS), different hatches to distinguish languages
         for i, tag in enumerate(pos_order):
-            c = color_map[tag]
-            ax.bar(i - width/2, counts_l1.get(tag, 0), width, color=c, edgecolor="black", linewidth=0.6, hatch="")
-            ax.bar(i + width/2, counts_l2.get(tag, 0), width, color=c, edgecolor="black", linewidth=0.6, hatch="//")
+            color = color_map[tag]
+            ax.bar(i - width/2, counts_l1.get(tag, 0), width, color=color, edgecolor="black", linewidth=0.6, hatch="")
+            ax.bar(i + width/2, counts_l2.get(tag, 0), width, color=color, edgecolor="black", linewidth=0.6, hatch="//")
 
-        # Axes & title
-        ax.set_title(f"POS distribution: {category} (algo={algo}, {l1} vs {l2})")
+        ax.set_title(category)
         ax.set_xlabel("POS tag")
         ax.set_ylabel("Count of words (majority POS)")
         ax.set_xticks(x)
@@ -323,24 +311,31 @@ def plot_pos_data(num_tokens_diff, l1, l2, l1_training_corpus_dir, l2_training_c
         ax.margins(x=0.01)
         ax.grid(axis='y', linestyle=':', linewidth=0.6)
 
-        # Legends
-        from matplotlib.patches import Patch
-        pos_legend_handles = [Patch(facecolor=color_map[tag], edgecolor='black', label=tag) for tag in pos_order]
-        lang_legend_handles = [
-            Patch(facecolor="lightgray", edgecolor='black', hatch="", label=f"{l1}"),
-            Patch(facecolor="lightgray", edgecolor='black', hatch="//", label=f"{l2}"),
-        ]
-        legend1 = ax.legend(handles=lang_legend_handles, loc='upper right', title="Language")
-        ax.add_artist(legend1)
-        ax.legend(handles=pos_legend_handles, loc='upper left', ncol=2, title="POS")
+    # Hide any unused axes if grid > n
+    total_axes = rows * cols
+    for j in range(n, total_axes):
+        r, c = divmod(j, cols)
+        axes[r][c].axis('off')
 
-        fig.tight_layout()
+    # Single, shared legend (POS colors + language hatches)
+    from matplotlib.patches import Patch
+    pos_handles = [Patch(facecolor=color_map[tag], edgecolor='black', label=tag) for tag in pos_order_base if tag in all_pos]
+    lang_handles = [
+        Patch(facecolor="lightgray", edgecolor='black', hatch="", label=f"{l1}"),
+        Patch(facecolor="lightgray", edgecolor='black', hatch="//", label=f"{l2}"),
+    ]
+    # Place language legend above POS legend for compactness
+    legend_handles = lang_handles + pos_handles
+    fig.legend(handles=legend_handles, loc='upper center', ncol=min(6, len(legend_handles)), frameon=True)
 
-        # Save file
-        safe_category = str(category).replace(" ", "_")
-        fname = f"pos_{algo}_{l1}_vs_{l2}_{safe_category}.png"
-        fig.savefig(os.path.join(dir, fname), dpi=200)
-        plt.close(fig)
+    # Main title with case counts
+    fig.suptitle(f"POS distributions by tokenization category — algo={algo}, {l1} vs {l2} | {case_counts}", y=0.98)
+
+    # Layout and save
+    fig.tight_layout(rect=(0.02, 0.04, 0.98, 0.92))
+    out_name = f"pos_tokenization_cases_{algo}_{l1}_{l2}.png"
+    fig.savefig(os.path.join(dir, out_name), dpi=220)
+    plt.close(fig)
 
 
 def chi_square_test(ff_num_tokens_diff, homographs_tokenization_cases, l1, l2, algo):

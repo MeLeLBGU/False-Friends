@@ -349,7 +349,6 @@ def plot_tokenization_cases(num_tokens_diff, algo, l1, l2, categories, word_type
     plt.ylabel("Amount of Tokenization Case", fontsize=15)
     plt.title(title, fontsize=15)
     plt.savefig(fig_save_path)
-    plt.show()
 
 
 def plot_average_word_length(num_tokens_diff, algo, dir, l1, l2, categories):
@@ -377,7 +376,6 @@ def plot_average_word_length(num_tokens_diff, algo, dir, l1, l2, categories):
     plt.title(title, fontsize=15)
     plt.tight_layout()
     plt.savefig(fig_save_path)
-    plt.show()
 
 
 def get_average_word_length(num_tokens_diff, categories):
@@ -421,10 +419,8 @@ def plot_average_num_tokens(tokenizers_list, num_tokens_diff, algo, dir, l1, l2,
     plt.title(f"Tokenization Cases - Average Tokens\nMean ± Std\n{l1}, {l2}\nAlgo: {algo}")
     plt.tight_layout()
     
-    # Save and show
     fig_save_path = f"{dir}/avg_tokens_{l1}_{l2}_{algo}.png"
     plt.savefig(fig_save_path)
-    plt.show()
 
 
 def get_avg_num_tokens(algo, l1, l2, num_tokens_diff, tokenizers_list, categories):
@@ -575,7 +571,6 @@ def plot_frequency_comparison(num_tokens_diff, algo, dir, l1, l2, word_freqs1, w
     plt.legend()
     plt.tight_layout()
     plt.savefig(fig_save_path)
-    plt.show()
 
 
 def missing_ff_in_corpus(ff_data, word_frequencies, dir):

@@ -1,0 +1,540 @@
+##########################################################################################################################
+Analysis for False Friend word: actual
+Correct Translation: current
+Wrong Translation: actual
+
+'actual' in English context:
+Sentence 1:
+the actual cost of the repairs was much higher than we expected.
+['the'] ['actual'] ['co', 's', 't'] ['of'] ['the'] ['re', 'p', 'air', 's'] ['was'] ['much'] ['high', 'er'] ['than'] ['w', 'e'] ['expect', 'ed', '.'] 
+('the', 'DET'), ('actual', 'ADJ'), ('cost', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('repairs', 'NOUN'), ('was', 'AUX'), ('much', 'ADV'), ('higher', 'ADJ'), ('than', 'SCONJ'), ('we', 'PRON'), ('expected', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+i thought it was a joke, but it turned out to be an actual emergency.
+['i'] ['thought'] ['it'] ['was'] ['a'] ['jo', 'ke', ','] ['but'] ['it'] ['turn', 'ed'] ['out'] ['to'] ['be'] ['an'] ['actual'] ['e', 'mer', 'gen', 'c', 'y', '.'] 
+('i', 'PRON'), ('thought', 'VERB'), ('it', 'PRON'), ('was', 'AUX'), ('a', 'DET'), ('joke', 'NOUN'), (',', 'PUNCT'), ('but', 'CCONJ'), ('it', 'PRON'), ('turned', 'VERB'), ('out', 'ADP'), ('to', 'PART'), ('be', 'AUX'), ('an', 'DET'), ('actual', 'ADJ'), ('emergency', 'NOUN'), ('.', 'PUNCT'), 
+'actual' in es context:
+Sentence 1:
+dana se casó, entonces su apellido actual es levy.
+['d', 'a', 'n', 'a'] ['s', 'e'] ['cas', 'ó', ','] ['entonce', 's'] ['su'] ['a', 'p', 'el', 'l', 'ido'] ['actual'] ['e', 's'] ['lev', 'y', '.'] 
+('dana', 'ADJ'), ('se', 'PRON'), ('casó', 'VERB'), (',', 'PUNCT'), ('entonces', 'ADV'), ('su', 'DET'), ('apellido', 'NOUN'), ('actual', 'ADJ'), ('es', 'AUX'), ('levy', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+ari se tiñó el pelo, su color actual es rojo.
+['a', 'ri'] ['s', 'e'] ['ti', 'ñ', 'ó'] ['el'] ['p', 'el', 'o', ','] ['su'] ['color'] ['actual'] ['e', 's'] ['ro', 'jo', '.'] 
+('ari', 'PROPN'), ('se', 'PRON'), ('tiñó', 'VERB'), ('el', 'DET'), ('pelo', 'NOUN'), (',', 'PUNCT'), ('su', 'DET'), ('color', 'NOUN'), ('actual', 'ADJ'), ('es', 'AUX'), ('rojo', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['actual'] ['cost'] ['of'] ['the'] ['re', 'pa', 'ir', 's'] ['was'] ['much'] ['high', 'er'] ['than'] ['w', 'e'] ['exp', 'e', 'c', 'ted', '.'] 
+['i'] ['though', 't'] ['it'] ['was'] ['a'] ['jo', 'k', 'e', ','] ['but'] ['it'] ['tur', 'n', 'e', 'd'] ['out'] ['to'] ['be'] ['an'] ['actual'] ['e', 'mer', 'gen', 'c', 'y', '.'] 
+Multilingual tokenization: es
+['d', 'an', 'a'] ['s', 'e'] ['cas', 'ó', ','] ['ent', 'on', 'ces'] ['su'] ['a', 'p', 'el', 'l', 'ido'] ['actual'] ['e', 's'] ['l', 'e', 'v', 'y', '.'] 
+['ar', 'i'] ['s', 'e'] ['t', 'i', 'ñ', 'ó'] ['el'] ['p', 'el', 'o', ','] ['su'] ['color'] ['actual'] ['e', 's'] ['ro', 'jo', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: alto
+Correct Translation: high; in Spanish it can also mean "stop!" (imperative)
+Wrong Translation: alto
+
+'alto' in English context:
+Sentence 1:
+she sang in the alto section of the choir.
+['she'] ['s', 'ang'] ['in'] ['the'] ['al', 'to'] ['section'] ['of'] ['the'] ['ch', 'o', 'i', 'r', '.'] 
+('she', 'PRON'), ('sang', 'VERB'), ('in', 'ADP'), ('the', 'DET'), ('alto', 'PROPN'), ('section', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('choir', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the alto saxophone solo added a rich tone to the jazz piece.
+['the'] ['al', 'to'] ['s', 'a', 'x', 'o', 'p', 'h', 'one'] ['s', 'o', 'l', 'o'] ['add', 'ed'] ['a'] ['rich'] ['t', 'one'] ['to'] ['the'] ['ja', 'z', 'z'] ['piece', '.'] 
+('the', 'DET'), ('alto', 'PROPN'), ('saxophone', 'NOUN'), ('solo', 'PROPN'), ('added', 'VERB'), ('a', 'DET'), ('rich', 'ADJ'), ('tone', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('jazz', 'NOUN'), ('piece', 'NOUN'), ('.', 'PUNCT'), 
+'alto' in es context:
+Sentence 1:
+ron es un chico muy alto.
+['ron'] ['e', 's'] ['un'] ['chi', 'co'] ['muy'] ['alto', '.'] 
+('ron', 'VERB'), ('es', 'AUX'), ('un', 'DET'), ('chico', 'NOUN'), ('muy', 'ADV'), ('alto', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+el libro que quiero leer está en el estante más alto.
+['el'] ['libro'] ['que'] ['quier', 'o'] ['l', 'e', 'e', 'r'] ['está'] ['en'] ['el'] ['esta', 'nte'] ['más'] ['alto', '.'] 
+('el', 'DET'), ('libro', 'NOUN'), ('que', 'PRON'), ('quiero', 'VERB'), ('leer', 'VERB'), ('está', 'VERB'), ('en', 'ADP'), ('el', 'DET'), ('estante', 'NOUN'), ('más', 'ADV'), ('alto', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['s', 'ang'] ['in'] ['the'] ['al', 'to'] ['s', 'e', 'c', 'tion'] ['of'] ['the'] ['cho', 'ir', '.'] 
+['the'] ['al', 'to'] ['s', 'a', 'x', 'o', 'pho', 'n', 'e'] ['solo'] ['a', 'd', 'de', 'd'] ['a'] ['rich'] ['t', 'one'] ['to'] ['the'] ['ja', 'z', 'z'] ['pi', 'e', 'c', 'e', '.'] 
+Multilingual tokenization: es
+['ron'] ['e', 's'] ['un'] ['chi', 'co'] ['muy'] ['al', 'to', '.'] 
+['el'] ['libro'] ['que'] ['qui', 'e', 'ro'] ['l', 'e', 'er'] ['está'] ['en'] ['el'] ['est', 'ante'] ['más'] ['al', 'to', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: as
+Correct Translation: ace
+Wrong Translation: as
+
+'as' in English context:
+Sentence 1:
+he worked as a teacher for over twenty years.
+['he'] ['work', 'ed'] ['a', 's'] ['a'] ['t', 'each', 'er'] ['for'] ['over'] ['t', 'went', 'y'] ['year', 's', '.'] 
+('he', 'PRON'), ('worked', 'VERB'), ('as', 'ADP'), ('a', 'DET'), ('teacher', 'NOUN'), ('for', 'ADP'), ('over', 'ADP'), ('twenty', 'NUM'), ('years', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+as the sun set, the sky turned a brilliant orange.
+['a', 's'] ['the'] ['s', 'un'] ['s', 'e', 't', ','] ['the'] ['s', 'k', 'y'] ['turn', 'ed'] ['a'] ['b', 'r', 'ill', 'i', 'an', 't'] ['o', 'range', '.'] 
+('as', 'ADP'), ('the', 'DET'), ('sun', 'NOUN'), ('set', 'NOUN'), (',', 'PUNCT'), ('the', 'DET'), ('sky', 'NOUN'), ('turned', 'VERB'), ('a', 'DET'), ('brilliant', 'ADJ'), ('orange', 'NOUN'), ('.', 'PUNCT'), 
+'as' in es context:
+Sentence 1:
+hace mucho calor.
+['hace'] ['mucho'] ['cal', 'or', '.'] 
+('hace', 'VERB'), ('mucho', 'DET'), ('calor', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+estuve en italia hace muchos años.
+['est', 'u', 've'] ['en'] ['italia'] ['hace'] ['mucho', 's'] ['años', '.'] 
+('estuve', 'AUX'), ('en', 'ADP'), ('italia', 'PROPN'), ('hace', 'VERB'), ('muchos', 'DET'), ('años', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['work', 'e', 'd'] ['a', 's'] ['a'] ['t', 'each', 'er'] ['for'] ['over'] ['t', 'w', 'ent', 'y'] ['year', 's', '.'] 
+['a', 's'] ['the'] ['s', 'un'] ['s', 'e', 't', ','] ['the'] ['s', 'k', 'y'] ['tur', 'n', 'e', 'd'] ['a'] ['bri', 'l', 'l', 'i', 'ant'] ['o', 'range', '.'] 
+Multilingual tokenization: es
+['hace'] ['mucho'] ['cal', 'or', '.'] 
+['est', 'u', 've'] ['en'] ['it', 'ali', 'a'] ['hace'] ['mucho', 's'] ['años', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: canto
+Correct Translation: I sing; in Spanish, can also mean pebble, edge, or piece
+Wrong Translation: canto
+
+'canto' in English context:
+Sentence 1:
+the third canto of the poem describes the hero’s journey through the forest.
+['the'] ['third'] ['can', 'to'] ['of'] ['the'] ['p', 'o', 'e', 'm'] ['describe', 's'] ['the'] ['her', 'o', '’', 's'] ['jo', 'ur', 'n', 'e', 'y'] ['through'] ['the'] ['for', 'est', '.'] 
+('the', 'DET'), ('third', 'ADJ'), ('canto', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('poem', 'NOUN'), ('describes', 'VERB'), ('the', 'DET'), ('hero', 'NOUN'), ('’s', 'PART'), ('journey', 'NOUN'), ('through', 'ADP'), ('the', 'DET'), ('forest', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+in dante’s divine comedy, each canto reveals a new layer of the afterlife.
+['in'] ['d', 'an', 't', 'e', '’', 's'] ['d', 'iv', 'in', 'e'] ['come', 'd', 'y', ','] ['each'] ['can', 'to'] ['re', 've', 'al', 's'] ['a'] ['new'] ['l', 'a', 'y', 'er'] ['of'] ['the'] ['after', 'life', '.'] 
+('in', 'ADP'), ('dante', 'PROPN'), ('’s', 'PART'), ('divine', 'ADJ'), ('comedy', 'NOUN'), (',', 'PUNCT'), ('each', 'DET'), ('canto', 'NOUN'), ('reveals', 'VERB'), ('a', 'DET'), ('new', 'ADJ'), ('layer', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('afterlife', 'NOUN'), ('.', 'PUNCT'), 
+'canto' in es context:
+Sentence 1:
+mi profesor de canto es excelente.
+['mi'] ['profesor'] ['de'] ['can', 'to'] ['e', 's'] ['ex', 'c', 'el', 'ente', '.'] 
+('mi', 'DET'), ('profesor', 'NOUN'), ('de', 'ADP'), ('canto', 'NOUN'), ('es', 'AUX'), ('excelente', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+me gusta escuchar el canto de mis pajaros por las mañanas.
+['m', 'e'] ['gu', 's', 'ta'] ['escuch', 'a', 'r'] ['el'] ['can', 'to'] ['de'] ['mi', 's'] ['pa', 'ja', 'ros'] ['por'] ['las'] ['mañana', 's', '.'] 
+('me', 'PRON'), ('gusta', 'VERB'), ('escuchar', 'VERB'), ('el', 'DET'), ('canto', 'NOUN'), ('de', 'ADP'), ('mis', 'DET'), ('pajaros', 'NOUN'), ('por', 'ADP'), ('las', 'DET'), ('mañanas', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['third'] ['can', 'to'] ['of'] ['the'] ['po', 'e', 'm'] ['describe', 's'] ['the'] ['her', 'o', '’', 's'] ['jo', 'ur', 'n', 'e', 'y'] ['through'] ['the'] ['for', 'est', '.'] 
+['in'] ['d', 'ante', '’', 's'] ['d', 'iv', 'in', 'e'] ['com', 'e', 'd', 'y', ','] ['each'] ['can', 'to'] ['re', 've', 'al', 's'] ['a'] ['new'] ['la', 'y', 'er'] ['of'] ['the'] ['after', 'life', '.'] 
+Multilingual tokenization: es
+['mi'] ['profesor'] ['de'] ['can', 'to'] ['e', 's'] ['ex', 'c', 'el', 'ent', 'e', '.'] 
+['m', 'e'] ['gu', 's', 't', 'a'] ['e', 's', 'cu', 'char'] ['el'] ['can', 'to'] ['de'] ['mi', 's'] ['pa', 'ja', 'ros'] ['por'] ['las'] ['ma', 'ña', 'n', 'a', 's', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: conductor
+Correct Translation: driver (or conductor in the sense "conductor of electricity, heat etc.")
+Wrong Translation: conductor
+
+'conductor' in English context:
+Sentence 1:
+the conductor raised his baton and the orchestra fell silent.
+['the'] ['conduct', 'or'] ['r', 'a', 'is', 'ed'] ['his'] ['bat', 'on'] ['and'] ['the'] ['or', 'che', 'stra'] ['f', 'ell'] ['s', 'i', 'l', 'ent', '.'] 
+('the', 'DET'), ('conductor', 'NOUN'), ('raised', 'VERB'), ('his', 'PRON'), ('baton', 'NOUN'), ('and', 'CCONJ'), ('the', 'DET'), ('orchestra', 'NOUN'), ('fell', 'VERB'), ('silent', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+copper is a good conductor of electricity.
+['co', 'p', 'per'] ['is'] ['a'] ['good'] ['conduct', 'or'] ['of'] ['electric', 'ity', '.'] 
+('copper', 'NOUN'), ('is', 'AUX'), ('a', 'DET'), ('good', 'ADJ'), ('conductor', 'NOUN'), ('of', 'ADP'), ('electricity', 'NOUN'), ('.', 'PUNCT'), 
+'conductor' in es context:
+Sentence 1:
+el conductor del micro no se detuvo en la parada.
+['el'] ['conduc', 'tor'] ['del'] ['mi', 'c', 'ro'] ['no'] ['s', 'e'] ['de', 'tuvo'] ['en'] ['la'] ['para', 'd', 'a', '.'] 
+('el', 'DET'), ('conductor', 'NOUN'), ('del', 'ADP'), ('micro', 'NOUN'), ('no', 'ADV'), ('se', 'PRON'), ('detuvo', 'VERB'), ('en', 'ADP'), ('la', 'DET'), ('parada', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+el conductor rubio del programa infantil es mi preferido.
+['el'] ['conduc', 'tor'] ['r', 'u', 'bi', 'o'] ['del'] ['programa'] ['infantil'] ['e', 's'] ['mi'] ['pre', 'fer', 'ido', '.'] 
+('el', 'DET'), ('conductor', 'NOUN'), ('rubio', 'ADJ'), ('del', 'ADP'), ('programa', 'NOUN'), ('infantil', 'ADJ'), ('es', 'AUX'), ('mi', 'DET'), ('preferido', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['con', 'duc', 'to', 'r'] ['r', 'a', 'is', 'e', 'd'] ['his'] ['ba', 'to', 'n'] ['and'] ['the'] ['or', 'che', 's', 'tra'] ['f', 'el', 'l'] ['s', 'i', 'l', 'ent', '.'] 
+['co', 'p', 'per'] ['is'] ['a'] ['good'] ['con', 'duc', 'to', 'r'] ['of'] ['elec', 'tri', 'city', '.'] 
+Multilingual tokenization: es
+['el'] ['con', 'duc', 'to', 'r'] ['del'] ['mic', 'ro'] ['no'] ['s', 'e'] ['de', 'tuvo'] ['en'] ['la'] ['para', 'd', 'a', '.'] 
+['el'] ['con', 'duc', 'to', 'r'] ['r', 'u', 'bi', 'o'] ['del'] ['program', 'a'] ['in', 'f', 'anti', 'l'] ['e', 's'] ['mi'] ['p', 'refer', 'ido', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: eleven
+Correct Translation: elevate! (imperative tense)
+Wrong Translation: eleven
+
+'eleven' in English context:
+Sentence 1:
+there are eleven players on each soccer team.
+['there'] ['are'] ['e', 'l', 'even'] ['player', 's'] ['on'] ['each'] ['s', 'o', 'c', 'c', 'er'] ['team', '.'] 
+('there', 'PRON'), ('are', 'VERB'), ('eleven', 'NUM'), ('players', 'NOUN'), ('on', 'ADP'), ('each', 'DET'), ('soccer', 'NOUN'), ('team', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she waited until eleven o'clock before calling him.
+['she'] ['wa', 'it', 'ed'] ['until'] ['e', 'l', 'even'] ['o', "'", 'c', 'lock'] ['before'] ['c', 'all', 'ing'] ['him', '.'] 
+('she', 'PRON'), ('waited', 'VERB'), ('until', 'ADP'), ('eleven', 'NUM'), ("o'clock", 'NOUN'), ('before', 'ADP'), ('calling', 'VERB'), ('him', 'PRON'), ('.', 'PUNCT'), 
+'eleven' in es context:
+Sentence 1:
+eleven el volumen de la música que no escucho.
+['el', 'e', 'ven'] ['el'] ['vo', 'lum', 'en'] ['de'] ['la'] ['música'] ['que'] ['no'] ['escuch', 'o', '.'] 
+('eleven', 'VERB'), ('el', 'DET'), ('volumen', 'NOUN'), ('de', 'ADP'), ('la', 'DET'), ('música', 'NOUN'), ('que', 'PRON'), ('no', 'ADV'), ('escucho', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+compremos la cama antes que eleven su precio.
+['com', 'pre', 'mos'] ['la'] ['ca', 'ma'] ['antes'] ['que'] ['el', 'e', 'ven'] ['su'] ['preci', 'o', '.'] 
+('compremos', 'VERB'), ('la', 'DET'), ('cama', 'NOUN'), ('antes', 'ADV'), ('que', 'SCONJ'), ('eleven', 'VERB'), ('su', 'DET'), ('precio', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['there'] ['are'] ['el', 'e', 'ven'] ['player', 's'] ['on'] ['each'] ['s', 'o', 'c', 'cer'] ['team', '.'] 
+['she'] ['wa', 'i', 'ted'] ['until'] ['el', 'e', 'ven'] ['o', "'", 'c', 'lo', 'ck'] ['before'] ['c', 'all', 'ing'] ['him', '.'] 
+Multilingual tokenization: es
+['el', 'e', 'ven'] ['el'] ['vol', 'um', 'en'] ['de'] ['la'] ['música'] ['que'] ['no'] ['e', 's', 'cu', 'cho', '.'] 
+['comp', 're', 'mos'] ['la'] ['cam', 'a'] ['antes'] ['que'] ['el', 'e', 'ven'] ['su'] ['pre', 'cio', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: gripe
+Correct Translation: influenza
+Wrong Translation: gripe
+
+'gripe' in English context:
+Sentence 1:
+his main gripe was that the room was too cold.
+['his'] ['main'] ['g', 'r', 'i', 'p', 'e'] ['was'] ['that'] ['the'] ['room'] ['was'] ['to', 'o'] ['col', 'd', '.'] 
+('his', 'PRON'), ('main', 'ADJ'), ('gripe', 'NOUN'), ('was', 'AUX'), ('that', 'SCONJ'), ('the', 'DET'), ('room', 'NOUN'), ('was', 'AUX'), ('too', 'ADV'), ('cold', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+stop griping and help me fix the problem.
+['s', 'top'] ['g', 'r', 'i', 'p', 'ing'] ['and'] ['help'] ['me'] ['f', 'i', 'x'] ['the'] ['problem', '.'] 
+('stop', 'VERB'), ('griping', 'VERB'), ('and', 'CCONJ'), ('help', 'VERB'), ('me', 'PRON'), ('fix', 'VERB'), ('the', 'DET'), ('problem', 'NOUN'), ('.', 'PUNCT'), 
+'gripe' in es context:
+Sentence 1:
+me siento mal, creo que tengo gripe.
+['m', 'e'] ['s', 'i', 'en', 'to'] ['mal', ','] ['cre', 'o'] ['que'] ['ten', 'go'] ['gri', 'p', 'e', '.'] 
+('me', 'PRON'), ('siento', 'VERB'), ('mal', 'ADV'), (',', 'PUNCT'), ('creo', 'VERB'), ('que', 'SCONJ'), ('tengo', 'VERB'), ('gripe', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+me contagié una fuerte gripe de mi hermana.
+['m', 'e'] ['con', 'ta', 'gi', 'é'] ['una'] ['fuerte'] ['gri', 'p', 'e'] ['de'] ['mi'] ['hermana', '.'] 
+('me', 'PRON'), ('contagié', 'VERB'), ('una', 'DET'), ('fuerte', 'ADJ'), ('gripe', 'NOUN'), ('de', 'ADP'), ('mi', 'DET'), ('hermana', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['his'] ['ma', 'in'] ['gri', 'p', 'e'] ['was'] ['that'] ['the'] ['ro', 'o', 'm'] ['was'] ['to', 'o'] ['col', 'd', '.'] 
+['s', 'to', 'p'] ['gri', 'p', 'ing'] ['and'] ['help'] ['m', 'e'] ['f', 'ix'] ['the'] ['problem', '.'] 
+Multilingual tokenization: es
+['m', 'e'] ['s', 'i', 'en', 'to'] ['mal', ','] ['cre', 'o'] ['que'] ['t', 'en', 'go'] ['gri', 'p', 'e', '.'] 
+['m', 'e'] ['con', 't', 'a', 'gi', 'é'] ['una'] ['fuerte'] ['gri', 'p', 'e'] ['de'] ['mi'] ['her', 'man', 'a', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: once
+Correct Translation: eleven
+Wrong Translation: once
+
+'once' in English context:
+Sentence 1:
+once i finish this book, i’ll start another.
+['once'] ['i'] ['finish'] ['this'] ['book', ','] ['i', '’', 'l', 'l'] ['start'] ['an', 'other', '.'] 
+('once', 'SCONJ'), ('i', 'PRON'), ('finish', 'VERB'), ('this', 'DET'), ('book', 'NOUN'), (',', 'PUNCT'), ('i', 'PRON'), ('’ll', 'AUX'), ('start', 'VERB'), ('another', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+he was once a famous actor in the 80s.
+['he'] ['was'] ['once'] ['a'] ['famous'] ['actor'] ['in'] ['the'] ['8', '0', 's', '.'] 
+('he', 'PRON'), ('was', 'AUX'), ('once', 'ADV'), ('a', 'DET'), ('famous', 'ADJ'), ('actor', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('80s', 'NOUN'), ('.', 'PUNCT'), 
+'once' in es context:
+Sentence 1:
+son las once de la mañana.
+['son'] ['las'] ['on', 'c', 'e'] ['de'] ['la'] ['mañana', '.'] 
+('son', 'AUX'), ('las', 'DET'), ('once', 'NUM'), ('de', 'ADP'), ('la', 'DET'), ('mañana', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+a las once de la noche empieza la fiesta.
+['a'] ['las'] ['on', 'c', 'e'] ['de'] ['la'] ['noche'] ['e', 'm', 'pieza'] ['la'] ['fi', 'esta', '.'] 
+('a', 'ADP'), ('las', 'DET'), ('once', 'NUM'), ('de', 'ADP'), ('la', 'DET'), ('noche', 'NOUN'), ('empieza', 'VERB'), ('la', 'DET'), ('fiesta', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['on', 'c', 'e'] ['i'] ['fin', 'ish'] ['this'] ['book', ','] ['i', '’', 'l', 'l'] ['s', 'tar', 't'] ['an', 'other', '.'] 
+['he'] ['was'] ['on', 'c', 'e'] ['a'] ['famous'] ['act', 'or'] ['in'] ['the'] ['8', '0', 's', '.'] 
+Multilingual tokenization: es
+['son'] ['las'] ['on', 'c', 'e'] ['de'] ['la'] ['ma', 'ña', 'n', 'a', '.'] 
+['a'] ['las'] ['on', 'c', 'e'] ['de'] ['la'] ['no', 'che'] ['e', 'm', 'pieza'] ['la'] ['f', 'i', 'esta', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: pan
+Correct Translation: bread
+Wrong Translation: pan
+
+'pan' in English context:
+Sentence 1:
+heat the oil in a large pan over medium heat.
+['he', 'a', 't'] ['the'] ['oil'] ['in'] ['a'] ['large'] ['p', 'an'] ['over'] ['m', 'ed', 'ium'] ['he', 'a', 't', '.'] 
+('heat', 'VERB'), ('the', 'DET'), ('oil', 'NOUN'), ('in', 'ADP'), ('a', 'DET'), ('large', 'ADJ'), ('pan', 'NOUN'), ('over', 'ADP'), ('medium', 'ADJ'), ('heat', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the critics decided to pan the movie for its poor acting.
+['the'] ['critic', 's'] ['dec', 'ide', 'd'] ['to'] ['p', 'an'] ['the'] ['movie'] ['for'] ['its'] ['p', 'o', 'or'] ['act', 'ing', '.'] 
+('the', 'DET'), ('critics', 'NOUN'), ('decided', 'VERB'), ('to', 'PART'), ('pan', 'VERB'), ('the', 'DET'), ('movie', 'NOUN'), ('for', 'ADP'), ('its', 'PRON'), ('poor', 'ADJ'), ('acting', 'NOUN'), ('.', 'PUNCT'), 
+'pan' in es context:
+Sentence 1:
+me gusta desayunar pan tostado con queso blanco.
+['m', 'e'] ['gu', 's', 'ta'] ['de', 's', 'a', 'y', 'una', 'r'] ['pan'] ['to', 's', 'tado'] ['con'] ['que', 's', 'o'] ['blanco', '.'] 
+('me', 'PRON'), ('gusta', 'VERB'), ('desayunar', 'VERB'), ('pan', 'NOUN'), ('tostado', 'ADJ'), ('con', 'ADP'), ('queso', 'NOUN'), ('blanco', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+este pan está riquísimo.
+['este'] ['pan'] ['está'] ['ri', 'quí', 's', 'i', 'mo', '.'] 
+('este', 'DET'), ('pan', 'NOUN'), ('está', 'AUX'), ('riquísimo', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he', 'a', 't'] ['the'] ['o', 'i', 'l'] ['in'] ['a'] ['large'] ['pan'] ['over'] ['med', 'i', 'um'] ['he', 'a', 't', '.'] 
+['the'] ['cri', 'tic', 's'] ['decide', 'd'] ['to'] ['pan'] ['the'] ['movie'] ['for'] ['it', 's'] ['po', 'or'] ['act', 'ing', '.'] 
+Multilingual tokenization: es
+['m', 'e'] ['gu', 's', 't', 'a'] ['de', 's', 'a', 'y', 'una', 'r'] ['pan'] ['to', 's', 't', 'ado'] ['con'] ['que', 's', 'o'] ['blanco', '.'] 
+['este'] ['pan'] ['está'] ['r', 'i', 'quí', 's', 'i', 'mo', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: papa
+Correct Translation: potato (in American Spanish)
+Wrong Translation: papa
+
+'papa' in English context:
+Sentence 1:
+little emma ran into the room shouting, "papa!"
+['little'] ['e', 'm', 'ma'] ['ran'] ['into'] ['the'] ['room'] ['s', 'h', 'out', 'ing', ','] ['"', 'p', 'a', 'p', 'a', '!', '"'] 
+('little', 'ADJ'), ('emma', 'NOUN'), ('ran', 'VERB'), ('into', 'ADP'), ('the', 'DET'), ('room', 'NOUN'), ('shouting', 'VERB'), (',', 'PUNCT'), ('"', 'PUNCT'), ('papa', 'ADJ'), ('!', 'PUNCT'), ('"', 'PUNCT'), 
+Sentence 2:
+my papa used to tell me bedtime stories every night.
+['m', 'y'] ['p', 'a', 'p', 'a'] ['used'] ['to'] ['tell'] ['me'] ['be', 'd', 'time'] ['s', 'to', 'ries'] ['every'] ['night', '.'] 
+('my', 'PRON'), ('papa', 'NOUN'), ('used', 'VERB'), ('to', 'PART'), ('tell', 'VERB'), ('me', 'PRON'), ('bedtime', 'NOUN'), ('stories', 'NOUN'), ('every', 'DET'), ('night', 'NOUN'), ('.', 'PUNCT'), 
+'papa' in es context:
+Sentence 1:
+la tortilla de papas que mi mamá cocinó está muy rica.
+['la'] ['tor', 'til', 'la'] ['de'] ['pa', 'pas'] ['que'] ['mi'] ['ma', 'm', 'á'] ['co', 'c', 'in', 'ó'] ['está'] ['muy'] ['rica', '.'] 
+('la', 'DET'), ('tortilla', 'NOUN'), ('de', 'ADP'), ('papas', 'NOUN'), ('que', 'SCONJ'), ('mi', 'DET'), ('mamá', 'NOUN'), ('cocinó', 'VERB'), ('está', 'AUX'), ('muy', 'ADV'), ('rica', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+esta papa está podrida.
+['esta'] ['pa', 'pa'] ['está'] ['po', 'd', 'r', 'ida', '.'] 
+('esta', 'DET'), ('papa', 'NOUN'), ('está', 'AUX'), ('podrida', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['little'] ['e', 'm', 'ma'] ['ran'] ['into'] ['the'] ['ro', 'o', 'm'] ['s', 'h', 'out', 'ing', ','] ['"', 'pa', 'pa', '!', '"'] 
+['m', 'y'] ['pa', 'pa'] ['used'] ['to'] ['tell'] ['m', 'e'] ['be', 'd', 'time'] ['s', 'to', 'ries'] ['e', 'very'] ['night', '.'] 
+Multilingual tokenization: es
+['la'] ['to', 'r', 't', 'illa'] ['de'] ['pa', 'pas'] ['que'] ['mi'] ['ma', 'm', 'á'] ['co', 'c', 'in', 'ó'] ['está'] ['muy'] ['rica', '.'] 
+['esta'] ['pa', 'pa'] ['está'] ['po', 'd', 'r', 'ida', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: pie
+Correct Translation: foot
+Wrong Translation: pie
+
+'pie' in English context:
+Sentence 1:
+she baked an apple pie for dessert.
+['she'] ['b', 'a', 'k', 'ed'] ['an'] ['app', 'le'] ['p', 'i', 'e'] ['for'] ['d', 'e', 's', 's', 'er', 't', '.'] 
+('she', 'PRON'), ('baked', 'VERB'), ('an', 'DET'), ('apple', 'NOUN'), ('pie', 'NOUN'), ('for', 'ADP'), ('dessert', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he won a prize for his homemade cherry pie.
+['he'] ['won'] ['a'] ['pri', 'z', 'e'] ['for'] ['his'] ['home', 'made'] ['ch', 'er', 'ry'] ['p', 'i', 'e', '.'] 
+('he', 'PRON'), ('won', 'VERB'), ('a', 'DET'), ('prize', 'NOUN'), ('for', 'ADP'), ('his', 'PRON'), ('homemade', 'ADJ'), ('cherry', 'NOUN'), ('pie', 'NOUN'), ('.', 'PUNCT'), 
+'pie' in es context:
+Sentence 1:
+me caí y me lastimé el pie.
+['m', 'e'] ['ca', 'í'] ['y'] ['m', 'e'] ['las', 'tim', 'é'] ['el'] ['pi', 'e', '.'] 
+('me', 'PRON'), ('caí', 'VERB'), ('y', 'CCONJ'), ('me', 'PRON'), ('lastimé', 'VERB'), ('el', 'DET'), ('pie', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+me duele el pie derecho.
+['m', 'e'] ['d', 'u', 'el', 'e'] ['el'] ['pi', 'e'] ['derecho', '.'] 
+('me', 'PRON'), ('duele', 'VERB'), ('el', 'DET'), ('pie', 'NOUN'), ('derecho', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['ba', 'k', 'e', 'd'] ['an'] ['a', 'pp', 'l', 'e'] ['pi', 'e'] ['for'] ['de', 's', 'ser', 't', '.'] 
+['he'] ['won'] ['a'] ['pri', 'z', 'e'] ['for'] ['his'] ['h', 'o', 'm', 'e', 'made'] ['c', 'her', 'r', 'y'] ['pi', 'e', '.'] 
+Multilingual tokenization: es
+['m', 'e'] ['ca', 'í'] ['y'] ['m', 'e'] ['las', 't', 'im', 'é'] ['el'] ['pi', 'e', '.'] 
+['m', 'e'] ['d', 'u', 'el', 'e'] ['el'] ['pi', 'e'] ['derecho', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: propaganda
+Correct Translation: advertising
+Wrong Translation: propaganda
+
+'propaganda' in English context:
+Sentence 1:
+the regime spread propaganda to control public opinion.
+['the'] ['re', 'g', 'i', 'me'] ['s', 'p', 'read'] ['pro', 'p', 'a', 'g', 'and', 'a'] ['to'] ['control'] ['public'] ['o', 'p', 'in', 'i', 'on', '.'] 
+('the', 'DET'), ('regime', 'NOUN'), ('spread', 'VERB'), ('propaganda', 'NOUN'), ('to', 'PART'), ('control', 'VERB'), ('public', 'ADJ'), ('opinion', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+during the war, posters were used as tools of propaganda.
+['d', 'uring'] ['the'] ['war', ','] ['pos', 't', 'er', 's'] ['were'] ['used'] ['a', 's'] ['to', 'o', 'l', 's'] ['of'] ['pro', 'p', 'a', 'g', 'and', 'a', '.'] 
+('during', 'ADP'), ('the', 'DET'), ('war', 'NOUN'), (',', 'PUNCT'), ('posters', 'NOUN'), ('were', 'AUX'), ('used', 'VERB'), ('as', 'ADP'), ('tools', 'NOUN'), ('of', 'ADP'), ('propaganda', 'NOUN'), ('.', 'PUNCT'), 
+'propaganda' in es context:
+Sentence 1:
+la nueva propaganda de la compañía de teléfono más grande del país me pareció espectacular.
+['la'] ['nueva'] ['pro', 'pag', 'and', 'a'] ['de'] ['la'] ['compañía'] ['de'] ['t', 'el', 'é', 'f', 'o', 'no'] ['más'] ['gran', 'de'] ['del'] ['país'] ['m', 'e'] ['par', 'e', 'ci', 'ó'] ['e', 's', 'pec', 'ta', 'cu', 'la', 'r', '.'] 
+('la', 'DET'), ('nueva', 'ADJ'), ('propaganda', 'NOUN'), ('de', 'ADP'), ('la', 'DET'), ('compañía', 'NOUN'), ('de', 'ADP'), ('teléfono', 'NOUN'), ('más', 'ADV'), ('grande', 'ADJ'), ('del', 'ADP'), ('país', 'NOUN'), ('me', 'PRON'), ('pareció', 'VERB'), ('espectacular', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+no paran de transmitir la misma propaganda en la televisión.
+['no'] ['para', 'n'] ['de'] ['trans', 'mi', 'ti', 'r'] ['la'] ['misma'] ['pro', 'pag', 'and', 'a'] ['en'] ['la'] ['televisió', 'n', '.'] 
+('no', 'ADV'), ('paran', 'VERB'), ('de', 'ADP'), ('transmitir', 'VERB'), ('la', 'DET'), ('misma', 'DET'), ('propaganda', 'NOUN'), ('en', 'ADP'), ('la', 'DET'), ('televisión', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['re', 'gi', 'm', 'e'] ['s', 'pre', 'a', 'd'] ['pro', 'pa', 'g', 'and', 'a'] ['to'] ['control'] ['public'] ['o', 'pin', 'ion', '.'] 
+['d', 'uring'] ['the'] ['war', ','] ['post', 'er', 's'] ['were'] ['used'] ['a', 's'] ['to', 'o', 'l', 's'] ['of'] ['pro', 'pa', 'g', 'and', 'a', '.'] 
+Multilingual tokenization: es
+['la'] ['nueva'] ['pro', 'pa', 'g', 'and', 'a'] ['de'] ['la'] ['compañía'] ['de'] ['t', 'el', 'é', 'f', 'on', 'o'] ['más'] ['gran', 'de'] ['del'] ['país'] ['m', 'e'] ['pa', 'rec', 'i', 'ó'] ['e', 'spect', 'a', 'cu', 'la', 'r', '.'] 
+['no'] ['para', 'n'] ['de'] ['trans', 'mi', 't', 'ir'] ['la'] ['misma'] ['pro', 'pa', 'g', 'and', 'a'] ['en'] ['la'] ['televisió', 'n', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: quince
+Correct Translation: fifteen
+Wrong Translation: quince
+
+'quince' in English context:
+Sentence 1:
+the quince tree in the backyard is full of fruit.
+['the'] ['qu', 'in', 'c', 'e'] ['tree'] ['in'] ['the'] ['back', 'y', 'ard'] ['is'] ['full'] ['of'] ['f', 'ru', 'it', '.'] 
+('the', 'DET'), ('quince', 'NOUN'), ('tree', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('backyard', 'NOUN'), ('is', 'AUX'), ('full', 'ADJ'), ('of', 'ADP'), ('fruit', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she made a delicious jelly using ripe quince.
+['she'] ['made'] ['a'] ['del', 'ic', 'i', 'ous'] ['je', 'l', 'ly'] ['using'] ['r', 'i', 'p', 'e'] ['qu', 'in', 'c', 'e', '.'] 
+('she', 'PRON'), ('made', 'VERB'), ('a', 'DET'), ('delicious', 'ADJ'), ('jelly', 'ADV'), ('using', 'VERB'), ('ripe', 'ADJ'), ('quince', 'NOUN'), ('.', 'PUNCT'), 
+'quince' in es context:
+Sentence 1:
+mi hermana cumple quince años.
+['mi'] ['hermana'] ['cu', 'm', 'p', 'l', 'e'] ['qui', 'n', 'c', 'e'] ['años', '.'] 
+('mi', 'DET'), ('hermana', 'NOUN'), ('cumple', 'VERB'), ('quince', 'NUM'), ('años', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+tengo quince minutos para preparar algo de comer.
+['ten', 'go'] ['qui', 'n', 'c', 'e'] ['min', 'u', 'to', 's'] ['para'] ['pre', 'para', 'r'] ['algo'] ['de'] ['co', 'mer', '.'] 
+('tengo', 'VERB'), ('quince', 'NUM'), ('minutos', 'NOUN'), ('para', 'ADP'), ('preparar', 'VERB'), ('algo', 'PRON'), ('de', 'ADP'), ('comer', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['qui', 'n', 'c', 'e'] ['t', 're', 'e'] ['in'] ['the'] ['back', 'y', 'ar', 'd'] ['is'] ['fu', 'l', 'l'] ['of'] ['f', 'r', 'u', 'it', '.'] 
+['she'] ['made'] ['a'] ['de', 'lic', 'i', 'ous'] ['j', 'el', 'ly'] ['u', 's', 'ing'] ['r', 'i', 'p', 'e'] ['qui', 'n', 'c', 'e', '.'] 
+Multilingual tokenization: es
+['mi'] ['her', 'man', 'a'] ['cu', 'mp', 'l', 'e'] ['qui', 'n', 'c', 'e'] ['años', '.'] 
+['t', 'en', 'go'] ['qui', 'n', 'c', 'e'] ['min', 'u', 'to', 's'] ['para'] ['pre', 'para', 'r'] ['al', 'go'] ['de'] ['com', 'er', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sale
+Correct Translation: leaves (i.e. "He leaves the house")
+Wrong Translation: sale
+
+'sale' in English context:
+Sentence 1:
+everything in the store is on sale this weekend.
+['every', 'thing'] ['in'] ['the'] ['s', 'to', 're'] ['is'] ['on'] ['s', 'al', 'e'] ['this'] ['week', 'end', '.'] 
+('everything', 'PRON'), ('in', 'ADP'), ('the', 'DET'), ('store', 'NOUN'), ('is', 'AUX'), ('on', 'ADP'), ('sale', 'NOUN'), ('this', 'DET'), ('weekend', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the house went up for sale last month.
+['the'] ['house'] ['went'] ['up'] ['for'] ['s', 'al', 'e'] ['last'] ['month', '.'] 
+('the', 'DET'), ('house', 'NOUN'), ('went', 'VERB'), ('up', 'ADP'), ('for', 'ADP'), ('sale', 'NOUN'), ('last', 'ADJ'), ('month', 'NOUN'), ('.', 'PUNCT'), 
+'sale' in es context:
+Sentence 1:
+el tren sale a las dos de la tarde.
+['el'] ['tr', 'en'] ['s', 'a', 'l', 'e'] ['a'] ['las'] ['dos'] ['de'] ['la'] ['tarde', '.'] 
+('el', 'DET'), ('tren', 'NOUN'), ('sale', 'VERB'), ('a', 'ADP'), ('las', 'DET'), ('dos', 'NUM'), ('de', 'ADP'), ('la', 'DET'), ('tarde', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+mi hermano sale del trabajo a las cinco.
+['mi'] ['hermano'] ['s', 'a', 'l', 'e'] ['del'] ['trabajo'] ['a'] ['las'] ['cinco', '.'] 
+('mi', 'DET'), ('hermano', 'NOUN'), ('sale', 'VERB'), ('del', 'ADP'), ('trabajo', 'NOUN'), ('a', 'ADP'), ('las', 'DET'), ('cinco', 'NUM'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['e', 'very', 'thing'] ['in'] ['the'] ['s', 'to', 're'] ['is'] ['on'] ['s', 'al', 'e'] ['this'] ['w', 'e', 'e', 'k', 'en', 'd', '.'] 
+['the'] ['house'] ['w', 'ent'] ['up'] ['for'] ['s', 'al', 'e'] ['las', 't'] ['mont', 'h', '.'] 
+Multilingual tokenization: es
+['el'] ['t', 'r', 'en'] ['s', 'al', 'e'] ['a'] ['las'] ['dos'] ['de'] ['la'] ['tar', 'de', '.'] 
+['mi'] ['hermano'] ['s', 'al', 'e'] ['del'] ['trabajo'] ['a'] ['las'] ['cinco', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sensible
+Correct Translation: sensitive
+Wrong Translation: sensible
+
+'sensible' in English context:
+Sentence 1:
+it’s sensible to carry an umbrella if rain is expected.
+['it', '’', 's'] ['s', 'e', 'n', 's', 'i', 'b', 'le'] ['to'] ['car', 'ry'] ['an'] ['um', 'b', 'r', 'ell', 'a'] ['i', 'f'] ['rain'] ['is'] ['expect', 'ed', '.'] 
+('it', 'PRON'), ('’s', 'VERB'), ('sensible', 'ADJ'), ('to', 'PART'), ('carry', 'VERB'), ('an', 'DET'), ('umbrella', 'NOUN'), ('if', 'SCONJ'), ('rain', 'NOUN'), ('is', 'AUX'), ('expected', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+she gave a very sensible answer to a tricky question.
+['she'] ['gave'] ['a'] ['very'] ['s', 'e', 'n', 's', 'i', 'b', 'le'] ['an', 's', 'w', 'er'] ['to'] ['a'] ['tri', 'ck', 'y'] ['que', 's', 'tion', '.'] 
+('she', 'PRON'), ('gave', 'VERB'), ('a', 'DET'), ('very', 'ADV'), ('sensible', 'ADJ'), ('answer', 'NOUN'), ('to', 'ADP'), ('a', 'DET'), ('tricky', 'ADJ'), ('question', 'NOUN'), ('.', 'PUNCT'), 
+'sensible' in es context:
+Sentence 1:
+soy una chica muy sensible.
+['s', 'o', 'y'] ['una'] ['chi', 'ca'] ['muy'] ['s', 'en', 's', 'ible', '.'] 
+('soy', 'AUX'), ('una', 'DET'), ('chica', 'NOUN'), ('muy', 'ADV'), ('sensible', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+tengo una amiga que es sensible al gluten.
+['ten', 'go'] ['una'] ['a', 'mi', 'ga'] ['que'] ['e', 's'] ['s', 'en', 's', 'ible'] ['a', 'l'] ['g', 'l', 'u', 'ten', '.'] 
+('tengo', 'VERB'), ('una', 'DET'), ('amiga', 'NOUN'), ('que', 'PRON'), ('es', 'AUX'), ('sensible', 'ADJ'), ('al', 'ADP'), ('gluten', 'PROPN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['it', '’', 's'] ['s', 'en', 's', 'ible'] ['to'] ['car', 'r', 'y'] ['an'] ['um', 'bre', 'l', 'la'] ['if'] ['r', 'a', 'in'] ['is'] ['exp', 'e', 'c', 'ted', '.'] 
+['she'] ['ga', 've'] ['a'] ['very'] ['s', 'en', 's', 'ible'] ['an', 's', 'w', 'er'] ['to'] ['a'] ['tri', 'ck', 'y'] ['que', 's', 'tion', '.'] 
+Multilingual tokenization: es
+['s', 'o', 'y'] ['una'] ['chi', 'ca'] ['muy'] ['s', 'en', 's', 'ible', '.'] 
+['t', 'en', 'go'] ['una'] ['a', 'mi', 'ga'] ['que'] ['e', 's'] ['s', 'en', 's', 'ible'] ['al'] ['g', 'l', 'u', 't', 'en', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sin
+Correct Translation: without
+Wrong Translation: sin
+
+'sin' in English context:
+Sentence 1:
+in many religions, stealing is considered a sin.
+['in'] ['many'] ['religion', 's', ','] ['s', 't', 'e', 'al', 'ing'] ['is'] ['consider', 'ed'] ['a'] ['s', 'in', '.'] 
+('in', 'ADP'), ('many', 'ADJ'), ('religions', 'NOUN'), (',', 'PUNCT'), ('stealing', 'VERB'), ('is', 'AUX'), ('considered', 'VERB'), ('a', 'DET'), ('sin', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he regretted the sin of pride that led to his downfall.
+['he'] ['re', 'gre', 't', 't', 'ed'] ['the'] ['s', 'in'] ['of'] ['pri', 'd', 'e'] ['that'] ['l', 'ed'] ['to'] ['his'] ['down', 'fall', '.'] 
+('he', 'PRON'), ('regretted', 'VERB'), ('the', 'DET'), ('sin', 'NOUN'), ('of', 'ADP'), ('pride', 'NOUN'), ('that', 'PRON'), ('led', 'VERB'), ('to', 'ADP'), ('his', 'PRON'), ('downfall', 'NOUN'), ('.', 'PUNCT'), 
+'sin' in es context:
+Sentence 1:
+quiero comer un helado sin azúcar.
+['quier', 'o'] ['co', 'mer'] ['un'] ['h', 'el', 'ado'] ['sin'] ['a', 'z', 'ú', 'car', '.'] 
+('quiero', 'VERB'), ('comer', 'VERB'), ('un', 'DET'), ('helado', 'NOUN'), ('sin', 'ADP'), ('azúcar', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+no veo bien sin mis anteojos.
+['no'] ['ve', 'o'] ['bien'] ['sin'] ['mi', 's'] ['ante', 'o', 'jo', 's', '.'] 
+('no', 'ADV'), ('veo', 'VERB'), ('bien', 'ADV'), ('sin', 'ADP'), ('mis', 'DET'), ('anteojos', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['in'] ['many'] ['religi', 'on', 's', ','] ['s', 't', 'e', 'al', 'ing'] ['is'] ['consider', 'e', 'd'] ['a'] ['s', 'in', '.'] 
+['he'] ['re', 'gre', 't', 'ted'] ['the'] ['s', 'in'] ['of'] ['pri', 'de'] ['that'] ['l', 'e', 'd'] ['to'] ['his'] ['d', 'own', 'f', 'all', '.'] 
+Multilingual tokenization: es
+['qui', 'e', 'ro'] ['com', 'er'] ['un'] ['h', 'el', 'ado'] ['s', 'in'] ['a', 'z', 'ú', 'car', '.'] 
+['no'] ['ve', 'o'] ['bien'] ['s', 'in'] ['mi', 's'] ['ante', 'o', 'jo', 's', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: son
+Correct Translation: (they) are; song
+Wrong Translation: son
+
+'son' in English context:
+Sentence 1:
+their son just graduated from university.
+['their'] ['s', 'on'] ['just'] ['graduate', 'd'] ['from'] ['universit', 'y', '.'] 
+('their', 'PRON'), ('son', 'NOUN'), ('just', 'ADV'), ('graduated', 'VERB'), ('from', 'ADP'), ('university', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she hugged her son tightly before he left for camp.
+['she'] ['h', 'ug', 'g', 'ed'] ['her'] ['s', 'on'] ['t', 'i', 'g', 'h', 't', 'ly'] ['before'] ['he'] ['left'] ['for'] ['camp', '.'] 
+('she', 'PRON'), ('hugged', 'VERB'), ('her', 'PRON'), ('son', 'NOUN'), ('tightly', 'ADV'), ('before', 'SCONJ'), ('he', 'PRON'), ('left', 'VERB'), ('for', 'ADP'), ('camp', 'NOUN'), ('.', 'PUNCT'), 
+'son' in es context:
+Sentence 1:
+mis mejores amigas son como mis hermanas.
+['mi', 's'] ['mejor', 'e', 's'] ['a', 'mi', 'gas'] ['son'] ['como'] ['mi', 's'] ['hermana', 's', '.'] 
+('mis', 'DET'), ('mejores', 'ADJ'), ('amigas', 'NOUN'), ('son', 'AUX'), ('como', 'SCONJ'), ('mis', 'DET'), ('hermanas', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+mis padres son los mejores.
+['mi', 's'] ['padre', 's'] ['son'] ['los'] ['mejor', 'e', 's', '.'] 
+('mis', 'DET'), ('padres', 'NOUN'), ('son', 'AUX'), ('los', 'DET'), ('mejores', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['their'] ['son'] ['just'] ['gra', 'd', 'u', 'a', 'ted'] ['from'] ['universit', 'y', '.'] 
+['she'] ['h', 'u', 'g', 'g', 'e', 'd'] ['her'] ['son'] ['t', 'ig', 'h', 't', 'ly'] ['before'] ['he'] ['left'] ['for'] ['camp', '.'] 
+Multilingual tokenization: es
+['mi', 's'] ['mejor', 'e', 's'] ['a', 'mi', 'ga', 's'] ['son'] ['como'] ['mi', 's'] ['her', 'man', 'a', 's', '.'] 
+['mi', 's'] ['padre', 's'] ['son'] ['los'] ['mejor', 'e', 's', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: ten
+Correct Translation: take! (imperative tense)
+Wrong Translation: ten
+
+'ten' in English context:
+Sentence 1:
+the test has ten multiple-choice questions.
+['the'] ['test'] ['has'] ['ten'] ['multi', 'p', 'le', '-', 'ch', 'o', 'ice'] ['que', 's', 'tion', 's', '.'] 
+('the', 'DET'), ('test', 'NOUN'), ('has', 'VERB'), ('ten', 'NUM'), ('multiple', 'ADJ'), ('-', 'PUNCT'), ('choice', 'NOUN'), ('questions', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+we’ll meet at ten sharp in the morning.
+['w', 'e', '’', 'l', 'l'] ['me', 'e', 't'] ['a', 't'] ['ten'] ['s', 'har', 'p'] ['in'] ['the'] ['m', 'or', 'n', 'ing', '.'] 
+('we', 'PRON'), ('’ll', 'AUX'), ('meet', 'VERB'), ('at', 'ADP'), ('ten', 'NUM'), ('sharp', 'ADJ'), ('in', 'ADP'), ('the', 'DET'), ('morning', 'NOUN'), ('.', 'PUNCT'), 
+'ten' in es context:
+Sentence 1:
+ten esta escoba por favor.
+['ten'] ['esta'] ['e', 's', 'co', 'ba'] ['por'] ['favor', '.'] 
+('ten', 'VERB'), ('esta', 'DET'), ('escoba', 'NOUN'), ('por', 'ADP'), ('favor', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+ten cuidado al subir las escaleras.
+['ten'] ['cu', 'idad', 'o'] ['a', 'l'] ['sub', 'ir'] ['las'] ['e', 's', 'cal', 'era', 's', '.'] 
+('ten', 'AUX'), ('cuidado', 'ADJ'), ('al', 'ADP'), ('subir', 'VERB'), ('las', 'DET'), ('escaleras', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['t', 'est'] ['has'] ['t', 'en'] ['multi', 'p', 'l', 'e', '-', 'cho', 'ice'] ['que', 's', 'tion', 's', '.'] 
+['w', 'e', '’', 'l', 'l'] ['m', 'e', 'e', 't'] ['a', 't'] ['t', 'en'] ['s', 'har', 'p'] ['in'] ['the'] ['mor', 'n', 'ing', '.'] 
+Multilingual tokenization: es
+['t', 'en'] ['esta'] ['e', 's', 'co', 'ba'] ['por'] ['favor', '.'] 
+['t', 'en'] ['cu', 'idad', 'o'] ['al'] ['sub', 'ir'] ['las'] ['e', 's', 'cal', 'era', 's', '.'] 
+##########################################################################################################################

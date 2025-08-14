@@ -1,0 +1,8 @@
+en_tokenizer, it_tokenizer, en_it_tokenizer
+['can', 'to']['canto']['can', 'to']
+['al', 'to']['al', 'to']['a', 'l', 'to']
+['sli', 'p']['s', 'li', 'p']['sl', 'ip']
+['cal', 'zone']['calz', 'one']['c', 'a', 'l', 'zone']
+['casino']['casi', 'no']['casi', 'n', 'o']
+['s', 'al', 'e']['s', 'ale']['s', 'a', 'l', 'e']
+['mal', 'e']['male']['mal', 'e']

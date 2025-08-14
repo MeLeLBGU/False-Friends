@@ -1,0 +1,8 @@
+en_tokenizer, it_tokenizer, en_it_tokenizer
+['sale']['sale']['sale']
+['male']['male']['mal', 'e']
+['c', 'a', 'sino']['cas', 'ino']['casino']
+['cal', 'zon', 'e']['ca', 'l', 'zone']['cal', 'zone']
+['can', 't', 'o']['can', 'to']['can', 't', 'o']
+['alto']['alto']['alto']
+['slip']['sl', 'ip']['sli', 'p']

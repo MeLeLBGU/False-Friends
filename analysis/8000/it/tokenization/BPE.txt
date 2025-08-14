@@ -1,0 +1,8 @@
+en_tokenizer, it_tokenizer, en_it_tokenizer
+['can', 'to']['canto']['canto']
+['al', 'to']['alto']['alto']
+['s', 'lip']['s', 'lip']['s', 'lip']
+['cal', 'zone']['cal', 'zone']['cal', 'zone']
+['cas', 'ino']['ca', 'sino']['cas', 'ino']
+['sale']['sale']['sale']
+['male']['male']['male']

@@ -1,0 +1,9 @@
+en_tokenizer, ro_tokenizer, en_ro_tokenizer
+['car']['car']['c', 'a', 'r']
+['ade', 'pt']['ade', 'pt']['ade', 'p', 't']
+['far']['far']['f', 'a', 'r']
+['p', 'r', 'o', 's', 'p', 'e', 'c', 't']['pro', 'spec', 't']['prospe', 'ct']
+['po', 'm']['p', 'o', 'm']['po', 'm']
+['actual']['actual']['actual']
+['pregnant']['pre', 'gn', 'a', 'nt']['pregnant']
+['a', 'r', 'c']['arc']['arc']

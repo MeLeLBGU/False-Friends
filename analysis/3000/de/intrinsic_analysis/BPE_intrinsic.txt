@@ -1,0 +1,2190 @@
+##########################################################################################################################
+Analysis for False Friend word: also
+Correct Translation: so
+Wrong Translation: also
+
+'also' in English context:
+Sentence 1:
+she speaks french and also understands german.
+['she'] ['spe', 'ak', 's'] ['f', 'ren', 'ch'] ['and'] ['also'] ['under', 'stand', 's'] ['german', '.'] 
+('she', 'PRON'), ('speaks', 'VERB'), ('french', 'ADJ'), ('and', 'CCONJ'), ('also', 'ADV'), ('understands', 'VERB'), ('german', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+i’m tired, and i’m also a bit hungry.
+['i', '’', 'm'] ['t', 'ired', ','] ['and'] ['i', '’', 'm'] ['also'] ['a'] ['b', 'it'] ['hun', 'gr', 'y', '.'] 
+('i', 'PRON'), ('’m', 'VERB'), ('tired', 'ADJ'), (',', 'PUNCT'), ('and', 'CCONJ'), ('i', 'PRON'), ('’m', 'VERB'), ('also', 'ADV'), ('a', 'DET'), ('bit', 'NOUN'), ('hungry', 'ADJ'), ('.', 'PUNCT'), 
+'also' in de context:
+Sentence 1:
+ich wollte also nicht mitkommen.
+['ich'] ['woll', 'te'] ['also'] ['nicht'] ['mit', 'kommen', '.'] 
+('ich', 'PRON'), ('wollte', 'AUX'), ('also', 'ADV'), ('nicht', 'PART'), ('mitkommen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+also jetzt verstehe ich wie du meinst.
+['also'] ['je', 'tz', 't'] ['ver', 'ste', 'he'] ['ich'] ['wie'] ['du'] ['mein', 'st', '.'] 
+('also', 'ADV'), ('jetzt', 'ADV'), ('verstehe', 'VERB'), ('ich', 'PRON'), ('wie', 'ADP'), ('du', 'PRON'), ('meinst', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['spe', 'ak', 's'] ['fr', 'en', 'ch'] ['and'] ['also'] ['under', 'stand', 's'] ['ger', 'man', '.'] 
+['i', '’', 'm'] ['t', 'ire', 'd', ','] ['and'] ['i', '’', 'm'] ['also'] ['a'] ['b', 'it'] ['h', 'ung', 'ry', '.'] 
+Multilingual tokenization: de
+['ich'] ['wol', 'l', 'te'] ['also'] ['nicht'] ['mit', 'kommen', '.'] 
+['also'] ['j', 'et', 'zt'] ['ver', 'ste', 'he'] ['ich'] ['wie'] ['du'] ['m', 'ein', 'st', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: arm
+Correct Translation: poor
+Wrong Translation: arm
+
+'arm' in English context:
+Sentence 1:
+he broke his arm playing football.
+['he'] ['bro', 'ke'] ['his'] ['arm'] ['play', 'ing'] ['foot', 'ball', '.'] 
+('he', 'PRON'), ('broke', 'VERB'), ('his', 'PRON'), ('arm', 'NOUN'), ('playing', 'VERB'), ('football', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she carried the groceries with one arm.
+['she'] ['car', 'ried'] ['the'] ['g', 'ro', 'cer', 'ies'] ['with'] ['one'] ['arm', '.'] 
+('she', 'PRON'), ('carried', 'VERB'), ('the', 'DET'), ('groceries', 'NOUN'), ('with', 'ADP'), ('one', 'NUM'), ('arm', 'NOUN'), ('.', 'PUNCT'), 
+'arm' in de context:
+Sentence 1:
+meine erkenntnisse in wirtschaft sind arm.
+['m', 'eine'] ['erken', 'nt', 'nisse'] ['in'] ['wirtschaft'] ['sind'] ['ar', 'm', '.'] 
+('meine', 'DET'), ('erkenntnisse', 'NOUN'), ('in', 'ADP'), ('wirtschaft', 'NOUN'), ('sind', 'AUX'), ('arm', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+das kind war arm das mädchen auch.
+['das'] ['kind'] ['war'] ['ar', 'm'] ['das'] ['mä', 'd', 'chen'] ['auch', '.'] 
+('das', 'DET'), ('kind', 'NOUN'), ('war', 'AUX'), ('arm', 'ADV'), ('das', 'DET'), ('mädchen', 'NOUN'), ('auch', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['bro', 'ke'] ['his'] ['ar', 'm'] ['play', 'ing'] ['fo', 'ot', 'ball', '.'] 
+['she'] ['car', 'r', 'ied'] ['the'] ['gro', 'cer', 'ies'] ['with'] ['one'] ['ar', 'm', '.'] 
+Multilingual tokenization: de
+['m', 'eine'] ['er', 'ken', 'n', 't', 'nis', 'se'] ['in'] ['wirtschaft'] ['sind'] ['ar', 'm', '.'] 
+['das'] ['k', 'ind'] ['war'] ['ar', 'm'] ['das'] ['mä', 'd', 'chen'] ['auch', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: bad
+Correct Translation: bath
+Wrong Translation: bad
+
+'bad' in English context:
+Sentence 1:
+that’s a bad idea during a storm.
+['that', '’', 's'] ['a'] ['b', 'ad'] ['ide', 'a'] ['during'] ['a'] ['stor', 'm', '.'] 
+('that', 'PRON'), ('’s', 'VERB'), ('a', 'DET'), ('bad', 'ADJ'), ('idea', 'NOUN'), ('during', 'ADP'), ('a', 'DET'), ('storm', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he felt bad for missing her birthday.
+['he'] ['fe', 'l', 't'] ['b', 'ad'] ['for'] ['m', 'is', 'sing'] ['her'] ['bir', 'th', 'day', '.'] 
+('he', 'PRON'), ('felt', 'VERB'), ('bad', 'ADJ'), ('for', 'ADP'), ('missing', 'VERB'), ('her', 'PRON'), ('birthday', 'NOUN'), ('.', 'PUNCT'), 
+'bad' in de context:
+Sentence 1:
+ich bin eine prinzessin und dusche nur in dem bad.
+['ich'] ['bin'] ['eine'] ['prin', 'zess', 'in'] ['und'] ['du', 'sche'] ['nur'] ['in'] ['dem'] ['b', 'ad', '.'] 
+('ich', 'PRON'), ('bin', 'AUX'), ('eine', 'DET'), ('prinzessin', 'NOUN'), ('und', 'CCONJ'), ('dusche', 'NOUN'), ('nur', 'ADV'), ('in', 'ADP'), ('dem', 'DET'), ('bad', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+eine wohnung mit einem bad ist teure als eine mit einem duschen.
+['eine'] ['wohn', 'ung'] ['mit'] ['einem'] ['b', 'ad'] ['ist'] ['te', 'ur', 'e'] ['als'] ['eine'] ['mit'] ['einem'] ['du', 'schen', '.'] 
+('eine', 'DET'), ('wohnung', 'NOUN'), ('mit', 'ADP'), ('einem', 'DET'), ('bad', 'NOUN'), ('ist', 'AUX'), ('teure', 'ADJ'), ('als', 'ADP'), ('eine', 'PRON'), ('mit', 'ADP'), ('einem', 'DET'), ('duschen', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['that', '’', 's'] ['a'] ['b', 'ad'] ['ide', 'a'] ['during'] ['a'] ['stor', 'm', '.'] 
+['he'] ['fel', 't'] ['b', 'ad'] ['for'] ['miss', 'ing'] ['her'] ['bir', 'th', 'day', '.'] 
+Multilingual tokenization: de
+['ich'] ['b', 'in'] ['eine'] ['prin', 'z', 'ess', 'in'] ['und'] ['du', 'sche'] ['nur'] ['in'] ['dem'] ['b', 'ad', '.'] 
+['eine'] ['wohn', 'ung'] ['mit'] ['einem'] ['b', 'ad'] ['ist'] ['te', 'ure'] ['als'] ['eine'] ['mit'] ['einem'] ['du', 'schen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: bald
+Correct Translation: soon
+Wrong Translation: bald
+
+'bald' in English context:
+Sentence 1:
+his dog is going bald on its tail.
+['his'] ['do', 'g'] ['is'] ['go', 'ing'] ['bal', 'd'] ['on'] ['its'] ['ta', 'il', '.'] 
+('his', 'PRON'), ('dog', 'NOUN'), ('is', 'AUX'), ('going', 'VERB'), ('bald', 'ADJ'), ('on', 'ADP'), ('its', 'PRON'), ('tail', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the actor wore a bald cap for the role.
+['the'] ['act', 'or'] ['wo', 're'] ['a'] ['bal', 'd'] ['cap'] ['for'] ['the'] ['ro', 'le', '.'] 
+('the', 'DET'), ('actor', 'NOUN'), ('wore', 'VERB'), ('a', 'DET'), ('bald', 'ADJ'), ('cap', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('role', 'NOUN'), ('.', 'PUNCT'), 
+'bald' in de context:
+Sentence 1:
+ich komme bald wieder.
+['ich'] ['kom', 'me'] ['bald'] ['wieder', '.'] 
+('ich', 'PRON'), ('komme', 'VERB'), ('bald', 'ADV'), ('wieder', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+bald wird es alles vorbei.
+['bald'] ['wird'] ['es'] ['alle', 's'] ['vor', 'bei', '.'] 
+('bald', 'ADV'), ('wird', 'AUX'), ('es', 'PRON'), ('alles', 'PRON'), ('vorbei', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['his'] ['do', 'g'] ['is'] ['go', 'ing'] ['bal', 'd'] ['on'] ['its'] ['ta', 'il', '.'] 
+['the'] ['act', 'or'] ['wor', 'e'] ['a'] ['bal', 'd'] ['cap'] ['for'] ['the'] ['ro', 'le', '.'] 
+Multilingual tokenization: de
+['ich'] ['kom', 'me'] ['bal', 'd'] ['wieder', '.'] 
+['bal', 'd'] ['wird'] ['es'] ['all', 'es'] ['vor', 'bei', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: bank
+Correct Translation: bench
+Wrong Translation: bank
+
+'bank' in English context:
+Sentence 1:
+i need to deposit this check at the bank.
+['i'] ['need'] ['to'] ['de', 'pos', 'it'] ['this'] ['che', 'ck'] ['at'] ['the'] ['b', 'ank', '.'] 
+('i', 'PRON'), ('need', 'VERB'), ('to', 'PART'), ('deposit', 'VERB'), ('this', 'DET'), ('check', 'NOUN'), ('at', 'ADP'), ('the', 'DET'), ('bank', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they sat by the river bank to rest.
+['they'] ['s', 'at'] ['by'] ['the'] ['river'] ['b', 'ank'] ['to'] ['rest', '.'] 
+('they', 'PRON'), ('sat', 'VERB'), ('by', 'ADP'), ('the', 'DET'), ('river', 'PROPN'), ('bank', 'NOUN'), ('to', 'PART'), ('rest', 'VERB'), ('.', 'PUNCT'), 
+'bank' in de context:
+Sentence 1:
+der bank steht in der mitte des parks.
+['der'] ['bank'] ['steht'] ['in'] ['der'] ['mitte'] ['des'] ['par', 'ks', '.'] 
+('der', 'DET'), ('bank', 'NOUN'), ('steht', 'VERB'), ('in', 'ADP'), ('der', 'DET'), ('mitte', 'NOUN'), ('des', 'DET'), ('parks', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+ich bin auf der bank mit dem kopf gestoßen.
+['ich'] ['bin'] ['auf'] ['der'] ['bank'] ['mit'] ['dem'] ['kopf'] ['gest', 'oß', 'en', '.'] 
+('ich', 'PRON'), ('bin', 'AUX'), ('auf', 'ADP'), ('der', 'DET'), ('bank', 'NOUN'), ('mit', 'ADP'), ('dem', 'DET'), ('kopf', 'NOUN'), ('gestoßen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['i'] ['ne', 'ed'] ['to'] ['de', 'posit'] ['this'] ['che', 'ck'] ['at'] ['the'] ['b', 'ank', '.'] 
+['they'] ['s', 'at'] ['by'] ['the'] ['ri', 'ver'] ['b', 'ank'] ['to'] ['rest', '.'] 
+Multilingual tokenization: de
+['der'] ['b', 'ank'] ['steht'] ['in'] ['der'] ['mitte'] ['des'] ['par', 'ks', '.'] 
+['ich'] ['b', 'in'] ['auf'] ['der'] ['b', 'ank'] ['mit'] ['dem'] ['k', 'op', 'f'] ['gest', 'o', 'ßen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: beamer
+Correct Translation: data projector / computer projector
+Wrong Translation: beamer
+
+'beamer' in English context:
+Sentence 1:
+he drove up in a shiny black beamer.
+['he'] ['d', 'ro', 've'] ['up'] ['in'] ['a'] ['sh', 'in', 'y'] ['black'] ['be', 'amer', '.'] 
+('he', 'PRON'), ('drove', 'VERB'), ('up', 'ADP'), ('in', 'ADP'), ('a', 'DET'), ('shiny', 'ADJ'), ('black', 'ADJ'), ('beamer', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she traded her old car for a new beamer.
+['she'] ['trad', 'ed'] ['her'] ['old'] ['car'] ['for'] ['a'] ['new'] ['be', 'amer', '.'] 
+('she', 'PRON'), ('traded', 'VERB'), ('her', 'PRON'), ('old', 'ADJ'), ('car', 'NOUN'), ('for', 'ADP'), ('a', 'DET'), ('new', 'ADJ'), ('beamer', 'NOUN'), ('.', 'PUNCT'), 
+'beamer' in de context:
+Sentence 1:
+die lampe des beamer ich gebrochen.
+['die'] ['lam', 'pe'] ['des'] ['be', 'amer'] ['ich'] ['gebr', 'ochen', '.'] 
+('die', 'DET'), ('lampe', 'NOUN'), ('des', 'DET'), ('beamer', 'ADJ'), ('ich', 'PRON'), ('gebrochen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+ich will ein film mit dem beamer sehen.
+['ich'] ['will'] ['ein'] ['film'] ['mit'] ['dem'] ['be', 'amer'] ['sehen', '.'] 
+('ich', 'PRON'), ('will', 'AUX'), ('ein', 'DET'), ('film', 'NOUN'), ('mit', 'ADP'), ('dem', 'DET'), ('beamer', 'NOUN'), ('sehen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['dro', 've'] ['up'] ['in'] ['a'] ['sh', 'in', 'y'] ['b', 'lack'] ['be', 'amer', '.'] 
+['she'] ['tra', 'ded'] ['her'] ['old'] ['car'] ['for'] ['a'] ['new'] ['be', 'amer', '.'] 
+Multilingual tokenization: de
+['die'] ['l', 'am', 'pe'] ['des'] ['be', 'amer'] ['ich'] ['geb', 'ro', 'chen', '.'] 
+['ich'] ['will'] ['ein'] ['film'] ['mit'] ['dem'] ['be', 'amer'] ['se', 'hen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: billion
+Correct Translation: trillion
+Wrong Translation: billion
+
+'billion' in English context:
+Sentence 1:
+the company is worth over a billion dollars.
+['the'] ['company'] ['is'] ['wor', 'th'] ['over'] ['a'] ['b', 'ill', 'ion'] ['d', 'ol', 'lar', 's', '.'] 
+('the', 'DET'), ('company', 'NOUN'), ('is', 'AUX'), ('worth', 'ADJ'), ('over', 'ADP'), ('a', 'DET'), ('billion', 'NUM'), ('dollars', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+there are more than a billion stars in the galaxy.
+['there'] ['are'] ['more'] ['than'] ['a'] ['b', 'ill', 'ion'] ['star', 's'] ['in'] ['the'] ['g', 'al', 'a', 'x', 'y', '.'] 
+('there', 'PRON'), ('are', 'VERB'), ('more', 'ADJ'), ('than', 'ADP'), ('a', 'DET'), ('billion', 'NUM'), ('stars', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('galaxy', 'NOUN'), ('.', 'PUNCT'), 
+'billion' in de context:
+Sentence 1:
+ich werde niemals billion euro in mein bank haben.
+['ich'] ['wer', 'de'] ['nie', 'mals'] ['bil', 'l', 'ion'] ['euro'] ['in'] ['mein'] ['bank'] ['haben', '.'] 
+('ich', 'PRON'), ('werde', 'AUX'), ('niemals', 'ADV'), ('billion', 'NOUN'), ('euro', 'NOUN'), ('in', 'ADP'), ('mein', 'DET'), ('bank', 'NOUN'), ('haben', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+es gibt viel mehr sterne im himmel als billion.
+['es'] ['gibt'] ['viel'] ['mehr'] ['ster', 'ne'] ['im'] ['h', 'imm', 'el'] ['als'] ['bil', 'l', 'ion', '.'] 
+('es', 'PRON'), ('gibt', 'VERB'), ('viel', 'ADV'), ('mehr', 'DET'), ('sterne', 'NOUN'), ('im', 'ADP'), ('himmel', 'NOUN'), ('als', 'ADP'), ('billion', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['compan', 'y'] ['is'] ['wor', 'th'] ['over'] ['a'] ['b', 'ill', 'ion'] ['d', 'ol', 'lar', 's', '.'] 
+['there'] ['are'] ['more'] ['than'] ['a'] ['b', 'ill', 'ion'] ['star', 's'] ['in'] ['the'] ['g', 'al', 'a', 'x', 'y', '.'] 
+Multilingual tokenization: de
+['ich'] ['wer', 'de'] ['nie', 'mals'] ['b', 'ill', 'ion'] ['eur', 'o'] ['in'] ['m', 'ein'] ['b', 'ank'] ['haben', '.'] 
+['es'] ['gibt'] ['viel'] ['mehr'] ['ster', 'ne'] ['im'] ['him', 'mel'] ['als'] ['b', 'ill', 'ion', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: boot
+Correct Translation: boat
+Wrong Translation: boot
+
+'boot' in English context:
+Sentence 1:
+he kicked the ball with his muddy boot.
+['he'] ['k', 'ick', 'ed'] ['the'] ['ball'] ['with'] ['his'] ['m', 'ud', 'dy'] ['bo', 'ot', '.'] 
+('he', 'PRON'), ('kicked', 'VERB'), ('the', 'DET'), ('ball', 'NOUN'), ('with', 'ADP'), ('his', 'PRON'), ('muddy', 'ADJ'), ('boot', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she kept a blanket in the car boot just in case.
+['she'] ['ke', 'pt'] ['a'] ['bl', 'an', 'ket'] ['in'] ['the'] ['car'] ['bo', 'ot'] ['just'] ['in'] ['c', 'ase', '.'] 
+('she', 'PRON'), ('kept', 'VERB'), ('a', 'DET'), ('blanket', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('car', 'NOUN'), ('boot', 'NOUN'), ('just', 'ADV'), ('in', 'ADP'), ('case', 'NOUN'), ('.', 'PUNCT'), 
+'boot' in de context:
+Sentence 1:
+mein boot ist gesunken.
+['mein'] ['bo', 'ot'] ['ist'] ['ges', 'un', 'ken', '.'] 
+('mein', 'DET'), ('boot', 'NOUN'), ('ist', 'AUX'), ('gesunken', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+er wohnt auf sein boot.
+['er'] ['wohn', 't'] ['auf'] ['sein'] ['bo', 'ot', '.'] 
+('er', 'PRON'), ('wohnt', 'VERB'), ('auf', 'ADP'), ('sein', 'DET'), ('boot', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['k', 'ick', 'ed'] ['the'] ['ball'] ['with'] ['his'] ['m', 'u', 'd', 'dy'] ['bo', 'ot', '.'] 
+['she'] ['ke', 'pt'] ['a'] ['bl', 'an', 'ke', 't'] ['in'] ['the'] ['car'] ['bo', 'ot'] ['just'] ['in'] ['c', 'ase', '.'] 
+Multilingual tokenization: de
+['m', 'ein'] ['bo', 'ot'] ['ist'] ['ges', 'un', 'ken', '.'] 
+['er'] ['wohn', 't'] ['auf'] ['sein'] ['bo', 'ot', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: brand
+Correct Translation: fire
+Wrong Translation: brand
+
+'brand' in English context:
+Sentence 1:
+this brand of shoes is really comfortable.
+['this'] ['br', 'and'] ['of'] ['sh', 'o', 'es'] ['is'] ['re', 'ally'] ['com', 'for', 't', 'able', '.'] 
+('this', 'DET'), ('brand', 'NOUN'), ('of', 'ADP'), ('shoes', 'NOUN'), ('is', 'AUX'), ('really', 'ADV'), ('comfortable', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+they launched a new brand aimed at young adults.
+['they'] ['la', 'un', 'ch', 'ed'] ['a'] ['new'] ['br', 'and'] ['a', 'im', 'ed'] ['at'] ['young'] ['ad', 'ul', 'ts', '.'] 
+('they', 'PRON'), ('launched', 'VERB'), ('a', 'DET'), ('new', 'ADJ'), ('brand', 'NOUN'), ('aimed', 'VERB'), ('at', 'ADP'), ('young', 'ADJ'), ('adults', 'NOUN'), ('.', 'PUNCT'), 
+'brand' in de context:
+Sentence 1:
+du hast der brand hinterlassen.
+['du'] ['ha', 'st'] ['der'] ['br', 'and'] ['hinter', 'lassen', '.'] 
+('du', 'PRON'), ('hast', 'AUX'), ('der', 'DET'), ('brand', 'NOUN'), ('hinterlassen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+es riecht nach brand.
+['es'] ['rie', 'cht'] ['nach'] ['br', 'and', '.'] 
+('es', 'PRON'), ('riecht', 'VERB'), ('nach', 'ADP'), ('brand', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['this'] ['br', 'and'] ['of'] ['sho', 'es'] ['is'] ['re', 'ally'] ['com', 'fort', 'able', '.'] 
+['they'] ['la', 'un', 'ch', 'ed'] ['a'] ['new'] ['br', 'and'] ['a', 'im', 'ed'] ['at'] ['yo', 'ung'] ['ad', 'ul', 'ts', '.'] 
+Multilingual tokenization: de
+['du'] ['ha', 'st'] ['der'] ['br', 'and'] ['hinter', 'l', 'assen', '.'] 
+['es'] ['r', 'ie', 'cht'] ['nach'] ['br', 'and', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: brief
+Correct Translation: a letter
+Wrong Translation: brief
+
+'brief' in English context:
+Sentence 1:
+let’s keep this meeting brief.
+['let', '’', 's'] ['ke', 'ep'] ['this'] ['me', 'et', 'ing'] ['b', 'ri', 'ef', '.'] 
+('let', 'VERB'), ('’s', 'PRON'), ('keep', 'VERB'), ('this', 'DET'), ('meeting', 'NOUN'), ('brief', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he gave a brief explanation before leaving.
+['he'] ['g', 'ave'] ['a'] ['b', 'ri', 'ef'] ['ex', 'plan', 'ation'] ['before'] ['le', 'av', 'ing', '.'] 
+('he', 'PRON'), ('gave', 'VERB'), ('a', 'DET'), ('brief', 'ADJ'), ('explanation', 'NOUN'), ('before', 'ADP'), ('leaving', 'VERB'), ('.', 'PUNCT'), 
+'brief' in de context:
+Sentence 1:
+er schickt ein brief an seine verlobte.
+['er'] ['sch', 'ick', 't'] ['ein'] ['br', 'ief'] ['an'] ['seine'] ['verl', 'ob', 'te', '.'] 
+('er', 'PRON'), ('schickt', 'VERB'), ('ein', 'DET'), ('brief', 'NOUN'), ('an', 'ADP'), ('seine', 'DET'), ('verlobte', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+in deutschland kommuniziert man noch mit briefe.
+['in'] ['deutschland'] ['kommun', 'iz', 'iert'] ['man'] ['noch'] ['mit'] ['br', 'ie', 'fe', '.'] 
+('in', 'ADP'), ('deutschland', 'PROPN'), ('kommuniziert', 'VERB'), ('man', 'PRON'), ('noch', 'ADV'), ('mit', 'ADP'), ('briefe', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['let', '’', 's'] ['ke', 'ep'] ['this'] ['me', 'et', 'ing'] ['br', 'ief', '.'] 
+['he'] ['ga', 've'] ['a'] ['br', 'ief'] ['ex', 'plan', 'ation'] ['before'] ['lea', 'ving', '.'] 
+Multilingual tokenization: de
+['er'] ['sch', 'ic', 'kt'] ['ein'] ['br', 'ief'] ['an'] ['seine'] ['ver', 'lo', 'b', 'te', '.'] 
+['in'] ['deutschland'] ['kom', 'mun', 'iz', 'iert'] ['man'] ['noch'] ['mit'] ['br', 'ie', 'fe', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: chance
+Correct Translation: opportunity
+Wrong Translation: chance
+
+'chance' in English context:
+Sentence 1:
+there’s a good chance it will rain today.
+['there', '’', 's'] ['a'] ['good'] ['ch', 'ance'] ['it'] ['will'] ['r', 'ain'] ['today', '.'] 
+('there', 'PRON'), ('’s', 'VERB'), ('a', 'DET'), ('good', 'ADJ'), ('chance', 'NOUN'), ('it', 'PRON'), ('will', 'AUX'), ('rain', 'VERB'), ('today', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she took a chance and applied for the job.
+['she'] ['took'] ['a'] ['ch', 'ance'] ['and'] ['ap', 'pl', 'ied'] ['for'] ['the'] ['jo', 'b', '.'] 
+('she', 'PRON'), ('took', 'VERB'), ('a', 'DET'), ('chance', 'NOUN'), ('and', 'CCONJ'), ('applied', 'VERB'), ('for', 'ADP'), ('the', 'DET'), ('job', 'NOUN'), ('.', 'PUNCT'), 
+'chance' in de context:
+Sentence 1:
+es gibt keine zweite chance für erste eindruck.
+['es'] ['gibt'] ['keine'] ['zweite'] ['ch', 'an', 'ce'] ['für'] ['erste'] ['ein', 'druck', '.'] 
+('es', 'PRON'), ('gibt', 'VERB'), ('keine', 'DET'), ('zweite', 'ADJ'), ('chance', 'NOUN'), ('für', 'ADP'), ('erste', 'ADJ'), ('eindruck', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+euch gab es eine chance.
+['e', 'uch'] ['gab'] ['es'] ['eine'] ['ch', 'an', 'ce', '.'] 
+('euch', 'PRON'), ('gab', 'VERB'), ('es', 'PRON'), ('eine', 'DET'), ('chance', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['there', '’', 's'] ['a'] ['good'] ['ch', 'ance'] ['it'] ['will'] ['ra', 'in'] ['to', 'day', '.'] 
+['she'] ['to', 'ok'] ['a'] ['ch', 'ance'] ['and'] ['ap', 'p', 'lie', 'd'] ['for'] ['the'] ['jo', 'b', '.'] 
+Multilingual tokenization: de
+['es'] ['gibt'] ['keine'] ['zwe', 'ite'] ['ch', 'ance'] ['für'] ['erste'] ['ein', 'dr', 'uck', '.'] 
+['e', 'uch'] ['gab'] ['es'] ['eine'] ['ch', 'ance', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: chef
+Correct Translation: boss
+Wrong Translation: chef
+
+'chef' in English context:
+Sentence 1:
+the chef prepared a delicious meal.
+['the'] ['ch', 'ef'] ['pre', 'p', 'ared'] ['a'] ['del', 'ic', 'ious'] ['me', 'al', '.'] 
+('the', 'DET'), ('chef', 'NOUN'), ('prepared', 'VERB'), ('a', 'DET'), ('delicious', 'ADJ'), ('meal', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he trained as a chef in paris.
+['he'] ['train', 'ed'] ['as'] ['a'] ['ch', 'ef'] ['in'] ['par', 'is', '.'] 
+('he', 'PRON'), ('trained', 'VERB'), ('as', 'ADP'), ('a', 'DET'), ('chef', 'NOUN'), ('in', 'ADP'), ('paris', 'PROPN'), ('.', 'PUNCT'), 
+'chef' in de context:
+Sentence 1:
+der chef ist grausam.
+['der'] ['che', 'f'] ['ist'] ['gr', 'aus', 'am', '.'] 
+('der', 'DET'), ('chef', 'NOUN'), ('ist', 'AUX'), ('grausam', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+ich bin der chef.
+['ich'] ['bin'] ['der'] ['che', 'f', '.'] 
+('ich', 'PRON'), ('bin', 'AUX'), ('der', 'DET'), ('chef', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['che', 'f'] ['pre', 'par', 'ed'] ['a'] ['del', 'ic', 'ious'] ['me', 'al', '.'] 
+['he'] ['tra', 'in', 'ed'] ['as'] ['a'] ['che', 'f'] ['in'] ['par', 'is', '.'] 
+Multilingual tokenization: de
+['der'] ['che', 'f'] ['ist'] ['gr', 'aus', 'am', '.'] 
+['ich'] ['b', 'in'] ['der'] ['che', 'f', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: dank
+Correct Translation: gratefulness / thanks
+Wrong Translation: dank
+
+'dank' in English context:
+Sentence 1:
+the basement was cold and dank.
+['the'] ['b', 'ase', 'ment'] ['was'] ['col', 'd'] ['and'] ['d', 'ank', '.'] 
+('the', 'DET'), ('basement', 'NOUN'), ('was', 'AUX'), ('cold', 'ADJ'), ('and', 'CCONJ'), ('dank', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they explored a dank cave filled with moss.
+['they'] ['ex', 'pl', 'o', 'red'] ['a'] ['d', 'ank'] ['ca', 've'] ['f', 'ill', 'ed'] ['with'] ['mo', 'ss', '.'] 
+('they', 'PRON'), ('explored', 'VERB'), ('a', 'DET'), ('dank', 'ADJ'), ('cave', 'NOUN'), ('filled', 'VERB'), ('with', 'ADP'), ('moss', 'NOUN'), ('.', 'PUNCT'), 
+'dank' in de context:
+Sentence 1:
+gott sein dank.
+['got', 't'] ['sein'] ['d', 'ank', '.'] 
+('gott', 'NOUN'), ('sein', 'AUX'), ('dank', 'ADP'), ('.', 'PUNCT'), 
+Sentence 2:
+dank mich nicht.
+['d', 'ank'] ['mich'] ['nicht', '.'] 
+('dank', 'ADP'), ('mich', 'PRON'), ('nicht', 'PART'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['b', 'ase', 'ment'] ['was'] ['col', 'd'] ['and'] ['d', 'ank', '.'] 
+['they'] ['ex', 'pl', 'or', 'ed'] ['a'] ['d', 'ank'] ['ca', 've'] ['fil', 'led'] ['with'] ['mo', 'ss', '.'] 
+Multilingual tokenization: de
+['go', 'tt'] ['sein'] ['d', 'ank', '.'] 
+['d', 'ank'] ['m', 'ich'] ['nicht', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: die
+Correct Translation: a
+Wrong Translation: die
+
+'die' in English context:
+Sentence 1:
+flowers die quickly without sunlight.
+['f', 'low', 'ers'] ['di', 'e'] ['qu', 'ick', 'ly'] ['without'] ['sun', 'light', '.'] 
+('flowers', 'NOUN'), ('die', 'VERB'), ('quickly', 'ADV'), ('without', 'ADP'), ('sunlight', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he hoped his phone wouldn’t die during the trip.
+['he'] ['h', 'op', 'ed'] ['his'] ['ph', 'one'] ['would', 'n', '’', 't'] ['di', 'e'] ['during'] ['the'] ['tr', 'ip', '.'] 
+('he', 'PRON'), ('hoped', 'VERB'), ('his', 'PRON'), ('phone', 'NOUN'), ('would', 'AUX'), ('n’t', 'PART'), ('die', 'VERB'), ('during', 'ADP'), ('the', 'DET'), ('trip', 'NOUN'), ('.', 'PUNCT'), 
+'die' in de context:
+Sentence 1:
+die frau kocht.
+['die'] ['frau'] ['k', 'och', 't', '.'] 
+('die', 'DET'), ('frau', 'NOUN'), ('kocht', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+ich wollte immer die katze überfahren
+['ich'] ['woll', 'te'] ['immer'] ['die'] ['kat', 'ze'] ['über', 'fahren'] 
+('ich', 'PRON'), ('wollte', 'AUX'), ('immer', 'ADV'), ('die', 'DET'), ('katze', 'NOUN'), ('überfahren', 'VERB'), 
+Multilingual tokenization: English
+['f', 'lo', 'wer', 's'] ['die'] ['qu', 'ick', 'ly'] ['with', 'out'] ['s', 'un', 'l', 'ight', '.'] 
+['he'] ['h', 'op', 'ed'] ['his'] ['ph', 'one'] ['would', 'n', '’', 't'] ['die'] ['during'] ['the'] ['tr', 'ip', '.'] 
+Multilingual tokenization: de
+['die'] ['frau'] ['ko', 'cht', '.'] 
+['ich'] ['wol', 'l', 'te'] ['immer'] ['die'] ['k', 'at', 'ze'] ['über', 'fahr', 'en'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: evergreen
+Correct Translation: oldie
+Wrong Translation: evergreen
+
+'evergreen' in English context:
+Sentence 1:
+the garden is full of evergreen shrubs.
+['the'] ['g', 'ard', 'en'] ['is'] ['ful', 'l'] ['of'] ['ever', 'gre', 'en'] ['sh', 'r', 'ub', 's', '.'] 
+('the', 'DET'), ('garden', 'NOUN'), ('is', 'AUX'), ('full', 'ADJ'), ('of', 'ADP'), ('evergreen', 'NOUN'), ('shrubs', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+that song is an evergreen hit from the 80s.
+['that'] ['song'] ['is'] ['an'] ['ever', 'gre', 'en'] ['h', 'it'] ['from'] ['the'] ['8', '0s', '.'] 
+('that', 'DET'), ('song', 'NOUN'), ('is', 'AUX'), ('an', 'DET'), ('evergreen', 'NOUN'), ('hit', 'VERB'), ('from', 'ADP'), ('the', 'DET'), ('80s', 'NOUN'), ('.', 'PUNCT'), 
+'evergreen' in de context:
+Sentence 1:
+das musikstück ist evergreen.
+['das'] ['musik', 'stück'] ['ist'] ['e', 'ver', 'g', 're', 'en', '.'] 
+('das', 'DET'), ('musikstück', 'NOUN'), ('ist', 'AUX'), ('evergreen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+das wort ist evergreen.
+['das'] ['wort'] ['ist'] ['e', 'ver', 'g', 're', 'en', '.'] 
+('das', 'DET'), ('wort', 'NOUN'), ('ist', 'AUX'), ('evergreen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['gar', 'den'] ['is'] ['ful', 'l'] ['of'] ['e', 'ver', 'gre', 'en'] ['s', 'hr', 'ub', 's', '.'] 
+['that'] ['song'] ['is'] ['an'] ['e', 'ver', 'gre', 'en'] ['h', 'it'] ['from'] ['the'] ['8', '0', 's', '.'] 
+Multilingual tokenization: de
+['das'] ['musik', 'st', 'ück'] ['ist'] ['e', 'ver', 'gre', 'en', '.'] 
+['das'] ['wor', 't'] ['ist'] ['e', 'ver', 'gre', 'en', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: fast
+Correct Translation: almost
+Wrong Translation: fast
+
+'fast' in English context:
+Sentence 1:
+she’s a fast runner.
+['she', '’', 's'] ['a'] ['f', 'ast'] ['run', 'ner', '.'] 
+('she', 'PRON'), ('’s', 'VERB'), ('a', 'DET'), ('fast', 'ADJ'), ('runner', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they had to fast before the surgery.
+['they'] ['had'] ['to'] ['f', 'ast'] ['before'] ['the'] ['sur', 'ger', 'y', '.'] 
+('they', 'PRON'), ('had', 'VERB'), ('to', 'PART'), ('fast', 'VERB'), ('before', 'ADP'), ('the', 'DET'), ('surgery', 'NOUN'), ('.', 'PUNCT'), 
+'fast' in de context:
+Sentence 1:
+fast daneben ist auch vorbei.
+['fast'] ['dan', 'eben'] ['ist'] ['auch'] ['vor', 'bei', '.'] 
+('fast', 'ADV'), ('daneben', 'ADV'), ('ist', 'AUX'), ('auch', 'ADV'), ('vorbei', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+fast hast du dich verletzt.
+['fast'] ['ha', 'st'] ['du'] ['d', 'ich'] ['ver', 'letzt', '.'] 
+('fast', 'ADV'), ('hast', 'AUX'), ('du', 'PRON'), ('dich', 'PRON'), ('verletzt', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she', '’', 's'] ['a'] ['fa', 'st'] ['run', 'ner', '.'] 
+['they'] ['had'] ['to'] ['fa', 'st'] ['before'] ['the'] ['sur', 'ger', 'y', '.'] 
+Multilingual tokenization: de
+['fa', 'st'] ['dan', 'eben'] ['ist'] ['auch'] ['vor', 'bei', '.'] 
+['fa', 'st'] ['ha', 'st'] ['du'] ['d', 'ich'] ['ver', 'letz', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: fund
+Correct Translation: discovery
+Wrong Translation: fund
+
+'fund' in English context:
+Sentence 1:
+the school started a fund for new equipment.
+['the'] ['school'] ['started'] ['a'] ['fun', 'd'] ['for'] ['new'] ['e', 'qu', 'ip', 'ment', '.'] 
+('the', 'DET'), ('school', 'NOUN'), ('started', 'VERB'), ('a', 'DET'), ('fund', 'NOUN'), ('for', 'ADP'), ('new', 'ADJ'), ('equipment', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they helped fund the research project.
+['they'] ['help', 'ed'] ['fun', 'd'] ['the'] ['re', 'search'] ['pro', 'ject', '.'] 
+('they', 'PRON'), ('helped', 'VERB'), ('fund', 'VERB'), ('the', 'DET'), ('research', 'NOUN'), ('project', 'NOUN'), ('.', 'PUNCT'), 
+'fund' in de context:
+Sentence 1:
+ein unglaublichen fund wurde entdeckt.
+['ein'] ['ung', 'lau', 'b', 'lichen'] ['f', 'und'] ['wurde'] ['ent', 'deck', 't', '.'] 
+('ein', 'DET'), ('unglaublichen', 'ADJ'), ('fund', 'NOUN'), ('wurde', 'AUX'), ('entdeckt', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+fund ist der traum jeder entwickler.
+['f', 'und'] ['ist'] ['der'] ['tr', 'aum'] ['jeder'] ['entwick', 'ler', '.'] 
+('fund', 'ADV'), ('ist', 'AUX'), ('der', 'DET'), ('traum', 'NOUN'), ('jeder', 'PRON'), ('entwickler', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['school'] ['started'] ['a'] ['f', 'und'] ['for'] ['new'] ['e', 'qu', 'ip', 'ment', '.'] 
+['they'] ['hel', 'ped'] ['f', 'und'] ['the'] ['res', 'ear', 'ch'] ['proje', 'ct', '.'] 
+Multilingual tokenization: de
+['ein'] ['ung', 'l', 'au', 'b', 'lichen'] ['f', 'und'] ['wurde'] ['ent', 'de', 'ck', 't', '.'] 
+['f', 'und'] ['ist'] ['der'] ['tr', 'aum'] ['je', 'der'] ['entwick', 'ler', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: gaffer
+Correct Translation: gaper
+Wrong Translation: gaffer
+
+'gaffer' in English context:
+Sentence 1:
+the gaffer adjusted the lighting on set.
+['the'] ['g', 'af', 'fer'] ['ad', 'just', 'ed'] ['the'] ['light', 'ing'] ['on'] ['set', '.'] 
+('the', 'DET'), ('gaffer', 'NOUN'), ('adjusted', 'VERB'), ('the', 'DET'), ('lighting', 'NOUN'), ('on', 'ADP'), ('set', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the old gaffer told stories of the war.
+['the'] ['old'] ['g', 'af', 'fer'] ['to', 'ld'] ['stor', 'ies'] ['of'] ['the'] ['war', '.'] 
+('the', 'DET'), ('old', 'ADJ'), ('gaffer', 'NOUN'), ('told', 'VERB'), ('stories', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('war', 'NOUN'), ('.', 'PUNCT'), 
+'gaffer' in de context:
+Sentence 1:
+der mund ist gaffer geblieben.
+['der'] ['m', 'und'] ['ist'] ['g', 'af', 'fer'] ['geb', 'lieben', '.'] 
+('der', 'DET'), ('mund', 'NOUN'), ('ist', 'AUX'), ('gaffer', 'NOUN'), ('geblieben', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+sie hat die schöne frau gegaffter.
+['sie'] ['hat'] ['die'] ['sch', 'ö', 'ne'] ['frau'] ['geg', 'af', 'f', 'ter', '.'] 
+('sie', 'PRON'), ('hat', 'AUX'), ('die', 'DET'), ('schöne', 'ADJ'), ('frau', 'NOUN'), ('gegaffter', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['g', 'af', 'fer'] ['ad', 'just', 'ed'] ['the'] ['l', 'ight', 'ing'] ['on'] ['se', 't', '.'] 
+['the'] ['old'] ['g', 'af', 'fer'] ['to', 'ld'] ['stor', 'ies'] ['of'] ['the'] ['war', '.'] 
+Multilingual tokenization: de
+['der'] ['m', 'und'] ['ist'] ['g', 'af', 'fer'] ['geb', 'lie', 'ben', '.'] 
+['sie'] ['hat'] ['die'] ['sch', 'ö', 'ne'] ['frau'] ['ge', 'g', 'af', 'f', 'ter', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: genie
+Correct Translation: genius
+Wrong Translation: genie
+
+'genie' in English context:
+Sentence 1:
+the genie granted him three wishes.
+['the'] ['gen', 'ie'] ['gr', 'ant', 'ed'] ['him'] ['three'] ['w', 'ish', 'es', '.'] 
+('the', 'DET'), ('genie', 'NOUN'), ('granted', 'VERB'), ('him', 'PRON'), ('three', 'NUM'), ('wishes', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she dressed up as a genie for halloween.
+['she'] ['d', 'ress', 'ed'] ['up'] ['as'] ['a'] ['gen', 'ie'] ['for'] ['h', 'allow', 'e', 'en', '.'] 
+('she', 'PRON'), ('dressed', 'VERB'), ('up', 'ADP'), ('as', 'ADP'), ('a', 'DET'), ('genie', 'NOUN'), ('for', 'ADP'), ('halloween', 'PROPN'), ('.', 'PUNCT'), 
+'genie' in de context:
+Sentence 1:
+das kind war seit immer ein kleines genie.
+['das'] ['kind'] ['war'] ['seit'] ['immer'] ['ein'] ['kl', 'eines'] ['gen', 'ie', '.'] 
+('das', 'DET'), ('kind', 'NOUN'), ('war', 'AUX'), ('seit', 'ADP'), ('immer', 'ADV'), ('ein', 'DET'), ('kleines', 'ADJ'), ('genie', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+das baby ist ein genie trotzt sein kleines alter
+['das'] ['b', 'ab', 'y'] ['ist'] ['ein'] ['gen', 'ie'] ['trotz', 't'] ['sein'] ['kl', 'eines'] ['alter'] 
+('das', 'DET'), ('baby', 'NOUN'), ('ist', 'AUX'), ('ein', 'DET'), ('genie', 'NOUN'), ('trotzt', 'VERB'), ('sein', 'DET'), ('kleines', 'ADJ'), ('alter', 'ADJ'), 
+Multilingual tokenization: English
+['the'] ['gen', 'ie'] ['gr', 'an', 'ted'] ['him'] ['three'] ['w', 'ish', 'es', '.'] 
+['she'] ['dr', 'es', 'sed'] ['up'] ['as'] ['a'] ['gen', 'ie'] ['for'] ['h', 'all', 'o', 'ween', '.'] 
+Multilingual tokenization: de
+['das'] ['k', 'ind'] ['war'] ['seit'] ['immer'] ['ein'] ['klein', 'es'] ['gen', 'ie', '.'] 
+['das'] ['b', 'ab', 'y'] ['ist'] ['ein'] ['gen', 'ie'] ['tro', 'tz', 't'] ['sein'] ['klein', 'es'] ['alter'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: gift
+Correct Translation: poison
+Wrong Translation: gift
+
+'gift' in English context:
+Sentence 1:
+he gave her a thoughtful birthday gift.
+['he'] ['g', 'ave'] ['her'] ['a'] ['thought', 'ful'] ['bir', 'th', 'day'] ['g', 'if', 't', '.'] 
+('he', 'PRON'), ('gave', 'VERB'), ('her', 'PRON'), ('a', 'DET'), ('thoughtful', 'ADJ'), ('birthday', 'NOUN'), ('gift', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she has a gift for painting.
+['she'] ['has'] ['a'] ['g', 'if', 't'] ['for'] ['pain', 'ting', '.'] 
+('she', 'PRON'), ('has', 'VERB'), ('a', 'DET'), ('gift', 'NOUN'), ('for', 'ADP'), ('painting', 'NOUN'), ('.', 'PUNCT'), 
+'gift' in de context:
+Sentence 1:
+ich trinke mein gift nur mit zucker.
+['ich'] ['tr', 'in', 'ke'] ['mein'] ['gi', 'ft'] ['nur'] ['mit'] ['zu', 'cker', '.'] 
+('ich', 'PRON'), ('trinke', 'VERB'), ('mein', 'DET'), ('gift', 'NOUN'), ('nur', 'ADV'), ('mit', 'ADP'), ('zucker', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+das gift ist abgelaufen.
+['das'] ['gi', 'ft'] ['ist'] ['ab', 'gel', 'auf', 'en', '.'] 
+('das', 'DET'), ('gift', 'NOUN'), ('ist', 'AUX'), ('abgelaufen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['ga', 've'] ['her'] ['a'] ['tho', 'ught', 'ful'] ['bir', 'th', 'day'] ['g', 'ift', '.'] 
+['she'] ['has'] ['a'] ['g', 'ift'] ['for'] ['pa', 'int', 'ing', '.'] 
+Multilingual tokenization: de
+['ich'] ['tr', 'in', 'ke'] ['m', 'ein'] ['g', 'ift'] ['nur'] ['mit'] ['zu', 'ck', 'er', '.'] 
+['das'] ['g', 'ift'] ['ist'] ['ab', 'gel', 'auf', 'en', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: gut
+Correct Translation: good
+Wrong Translation: gut
+
+'gut' in English context:
+Sentence 1:
+trust your gut feeling.
+['tr', 'ust'] ['y', 'our'] ['g', 'ut'] ['fe', 'el', 'ing', '.'] 
+('trust', 'VERB'), ('your', 'PRON'), ('gut', 'NOUN'), ('feeling', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he had a gut reaction to the news.
+['he'] ['had'] ['a'] ['g', 'ut'] ['re', 'act', 'ion'] ['to'] ['the'] ['new', 's', '.'] 
+('he', 'PRON'), ('had', 'VERB'), ('a', 'DET'), ('gut', 'NOUN'), ('reaction', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('news', 'NOUN'), ('.', 'PUNCT'), 
+'gut' in de context:
+Sentence 1:
+es ist nicht gut es ist einfach besser.
+['es'] ['ist'] ['nicht'] ['gut'] ['es'] ['ist'] ['einfach'] ['besser', '.'] 
+('es', 'PRON'), ('ist', 'AUX'), ('nicht', 'PART'), ('gut', 'ADV'), ('es', 'PRON'), ('ist', 'AUX'), ('einfach', 'ADV'), ('besser', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+gut oder schlecht es ist mir egal.
+['gut'] ['oder'] ['schle', 'cht'] ['es'] ['ist'] ['m', 'ir'] ['e', 'g', 'al', '.'] 
+('gut', 'ADV'), ('oder', 'CCONJ'), ('schlecht', 'ADV'), ('es', 'PRON'), ('ist', 'AUX'), ('mir', 'PRON'), ('egal', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['tr', 'ust'] ['yo', 'ur'] ['gut'] ['fe', 'el', 'ing', '.'] 
+['he'] ['had'] ['a'] ['gut'] ['re', 'a', 'ction'] ['to'] ['the'] ['new', 's', '.'] 
+Multilingual tokenization: de
+['es'] ['ist'] ['nicht'] ['gut'] ['es'] ['ist'] ['ein', 'fach'] ['bes', 'ser', '.'] 
+['gut'] ['oder'] ['sch', 'le', 'cht'] ['es'] ['ist'] ['m', 'ir'] ['e', 'g', 'al', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: hall
+Correct Translation: a short echo
+Wrong Translation: hall
+
+'hall' in English context:
+Sentence 1:
+the hall was decorated for the wedding.
+['the'] ['h', 'all'] ['was'] ['de', 'cor', 'ated'] ['for'] ['the'] ['w', 'ed', 'd', 'ing', '.'] 
+('the', 'DET'), ('hall', 'NOUN'), ('was', 'AUX'), ('decorated', 'VERB'), ('for', 'ADP'), ('the', 'DET'), ('wedding', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+i left my keys in the front hall.
+['i'] ['left'] ['my'] ['ke', 'ys'] ['in'] ['the'] ['fr', 'on', 't'] ['h', 'all', '.'] 
+('i', 'PRON'), ('left', 'VERB'), ('my', 'PRON'), ('keys', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('front', 'ADJ'), ('hall', 'NOUN'), ('.', 'PUNCT'), 
+'hall' in de context:
+Sentence 1:
+ein hall wird zurückgeschallt.
+['ein'] ['h', 'all'] ['wird'] ['zurück', 'gesch', 'all', 't', '.'] 
+('ein', 'DET'), ('hall', 'NOUN'), ('wird', 'AUX'), ('zurückgeschallt', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+man kann der hall nicht hören.
+['man'] ['kann'] ['der'] ['h', 'all'] ['nicht'] ['hör', 'en', '.'] 
+('man', 'PRON'), ('kann', 'AUX'), ('der', 'DET'), ('hall', 'NOUN'), ('nicht', 'PART'), ('hören', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['h', 'all'] ['was'] ['de', 'cor', 'ated'] ['for'] ['the'] ['w', 'ed', 'ding', '.'] 
+['i'] ['le', 'ft'] ['my'] ['ke', 'ys'] ['in'] ['the'] ['fr', 'ont'] ['h', 'all', '.'] 
+Multilingual tokenization: de
+['ein'] ['h', 'all'] ['wird'] ['zurück', 'gesch', 'all', 't', '.'] 
+['man'] ['kann'] ['der'] ['h', 'all'] ['nicht'] ['hör', 'en', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: handy
+Correct Translation: smartphone
+Wrong Translation: handy
+
+'handy' in English context:
+Sentence 1:
+a pocketknife is handy on camping trips.
+['a'] ['po', 'c', 'ket', 'kn', 'i', 'fe'] ['is'] ['hand', 'y'] ['on'] ['camp', 'ing'] ['tr', 'ip', 's', '.'] 
+('a', 'DET'), ('pocketknife', 'NOUN'), ('is', 'AUX'), ('handy', 'ADJ'), ('on', 'ADP'), ('camping', 'NOUN'), ('trips', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he’s very handy around the house.
+['he', '’', 's'] ['very'] ['hand', 'y'] ['around'] ['the'] ['house', '.'] 
+('he', 'PRON'), ('’s', 'VERB'), ('very', 'ADV'), ('handy', 'ADJ'), ('around', 'ADP'), ('the', 'DET'), ('house', 'NOUN'), ('.', 'PUNCT'), 
+'handy' in de context:
+Sentence 1:
+mein handy ist kaputt.
+['mein'] ['hand', 'y'] ['ist'] ['kap', 'ut', 't', '.'] 
+('mein', 'DET'), ('handy', 'NOUN'), ('ist', 'AUX'), ('kaputt', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+ihr handy ist schwarz.
+['ihr'] ['hand', 'y'] ['ist'] ['schwar', 'z', '.'] 
+('ihr', 'DET'), ('handy', 'NOUN'), ('ist', 'AUX'), ('schwarz', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['a'] ['po', 'ck', 'et', 'k', 'n', 'i', 'fe'] ['is'] ['hand', 'y'] ['on'] ['c', 'amp', 'ing'] ['tr', 'ip', 's', '.'] 
+['he', '’', 's'] ['very'] ['hand', 'y'] ['around'] ['the'] ['house', '.'] 
+Multilingual tokenization: de
+['m', 'ein'] ['hand', 'y'] ['ist'] ['kap', 'ut', 't', '.'] 
+['ihr'] ['hand', 'y'] ['ist'] ['sch', 'war', 'z', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: happen
+Correct Translation: snack
+Wrong Translation: happen
+
+'happen' in English context:
+Sentence 1:
+accidents can happen when you’re not careful.
+['ac', 'c', 'id', 'ents'] ['can'] ['happ', 'en'] ['when'] ['you', '’', 're'] ['not'] ['care', 'ful', '.'] 
+('accidents', 'NOUN'), ('can', 'AUX'), ('happen', 'VERB'), ('when', 'SCONJ'), ('you', 'PRON'), ('’re', 'VERB'), ('not', 'PART'), ('careful', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+what will happen if we don’t act now?
+['what'] ['will'] ['happ', 'en'] ['if'] ['we'] ['don', '’', 't'] ['act'] ['now', '?'] 
+('what', 'PRON'), ('will', 'AUX'), ('happen', 'VERB'), ('if', 'SCONJ'), ('we', 'PRON'), ('do', 'AUX'), ('n’t', 'PART'), ('act', 'VERB'), ('now', 'ADV'), ('?', 'PUNCT'), 
+'happen' in de context:
+Sentence 1:
+das happen ist lecker.
+['das'] ['h', 'ap', 'pen'] ['ist'] ['le', 'cker', '.'] 
+('das', 'PRON'), ('happen', 'NOUN'), ('ist', 'AUX'), ('lecker', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+ich kann nicht aufhören zu happen.
+['ich'] ['kann'] ['nicht'] ['auf', 'hör', 'en'] ['zu'] ['h', 'ap', 'pen', '.'] 
+('ich', 'PRON'), ('kann', 'AUX'), ('nicht', 'PART'), ('aufhören', 'VERB'), ('zu', 'PART'), ('happen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['ac', 'c', 'iden', 'ts'] ['can'] ['ha', 'ppen'] ['when'] ['you', '’', 're'] ['not'] ['care', 'ful', '.'] 
+['what'] ['will'] ['ha', 'ppen'] ['if'] ['we'] ['don', '’', 't'] ['act'] ['now', '?'] 
+Multilingual tokenization: de
+['das'] ['ha', 'ppen'] ['ist'] ['le', 'ck', 'er', '.'] 
+['ich'] ['kann'] ['nicht'] ['auf', 'hör', 'en'] ['zu'] ['ha', 'ppen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: heft
+Correct Translation: exercise book / magazine
+Wrong Translation: heft
+
+'heft' in English context:
+Sentence 1:
+he tested the heft of the hammer before using it.
+['he'] ['t', 'est', 'ed'] ['the'] ['he', 'ft'] ['of'] ['the'] ['ham', 'mer'] ['before'] ['using'] ['it', '.'] 
+('he', 'PRON'), ('tested', 'VERB'), ('the', 'DET'), ('heft', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('hammer', 'NOUN'), ('before', 'ADP'), ('using', 'VERB'), ('it', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+the box had surprising heft for its size.
+['the'] ['bo', 'x'] ['had'] ['sur', 'pr', 'is', 'ing'] ['he', 'ft'] ['for'] ['its'] ['si', 'ze', '.'] 
+('the', 'DET'), ('box', 'NOUN'), ('had', 'VERB'), ('surprising', 'ADJ'), ('heft', 'NOUN'), ('for', 'ADP'), ('its', 'PRON'), ('size', 'NOUN'), ('.', 'PUNCT'), 
+'heft' in de context:
+Sentence 1:
+das ist ein dickes heft.
+['das'] ['ist'] ['ein'] ['di', 'ck', 'es'] ['he', 'ft', '.'] 
+('das', 'PRON'), ('ist', 'AUX'), ('ein', 'DET'), ('dickes', 'ADJ'), ('heft', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+das ganze heft habe ich gelesen.
+['das'] ['gan', 'ze'] ['he', 'ft'] ['habe'] ['ich'] ['gele', 'sen', '.'] 
+('das', 'DET'), ('ganze', 'ADJ'), ('heft', 'NOUN'), ('habe', 'AUX'), ('ich', 'PRON'), ('gelesen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['test', 'ed'] ['the'] ['he', 'ft'] ['of'] ['the'] ['ham', 'mer'] ['before'] ['us', 'ing'] ['it', '.'] 
+['the'] ['bo', 'x'] ['had'] ['sur', 'pr', 'is', 'ing'] ['he', 'ft'] ['for'] ['its'] ['si', 'ze', '.'] 
+Multilingual tokenization: de
+['das'] ['ist'] ['ein'] ['d', 'ick', 'es'] ['he', 'ft', '.'] 
+['das'] ['gan', 'ze'] ['he', 'ft'] ['ha', 'be'] ['ich'] ['gel', 'es', 'en', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: hell
+Correct Translation: light
+Wrong Translation: hell
+
+'hell' in English context:
+Sentence 1:
+the traffic was hell this morning.
+['the'] ['tr', 'af', 'fic'] ['was'] ['he', 'll'] ['this'] ['mor', 'ning', '.'] 
+('the', 'DET'), ('traffic', 'NOUN'), ('was', 'AUX'), ('hell', 'NOUN'), ('this', 'DET'), ('morning', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he said he’d fight like hell to win.
+['he'] ['said'] ['he', '’', 'd'] ['f', 'ight'] ['like'] ['he', 'll'] ['to'] ['win', '.'] 
+('he', 'PRON'), ('said', 'VERB'), ('he', 'PRON'), ('’d', 'AUX'), ('fight', 'VERB'), ('like', 'ADP'), ('hell', 'NOUN'), ('to', 'PART'), ('win', 'VERB'), ('.', 'PUNCT'), 
+'hell' in de context:
+Sentence 1:
+der bildschirm ist zu hell.
+['der'] ['bild', 'sch', 'ir', 'm'] ['ist'] ['zu'] ['h', 'ell', '.'] 
+('der', 'DET'), ('bildschirm', 'NOUN'), ('ist', 'AUX'), ('zu', 'PART'), ('hell', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+der sonnenuntergang ist hell.
+['der'] ['son', 'nen', 'unter', 'gang'] ['ist'] ['h', 'ell', '.'] 
+('der', 'DET'), ('sonnenuntergang', 'NOUN'), ('ist', 'AUX'), ('hell', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['tra', 'ff', 'ic'] ['was'] ['h', 'ell'] ['this'] ['mor', 'n', 'ing', '.'] 
+['he'] ['said'] ['he', '’', 'd'] ['f', 'ight'] ['like'] ['h', 'ell'] ['to'] ['win', '.'] 
+Multilingual tokenization: de
+['der'] ['bild', 'sch', 'ir', 'm'] ['ist'] ['zu'] ['h', 'ell', '.'] 
+['der'] ['son', 'nen', 'unter', 'gang'] ['ist'] ['h', 'ell', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: herd
+Correct Translation: cooker / stove
+Wrong Translation: herd
+
+'herd' in English context:
+Sentence 1:
+a herd of deer ran through the field.
+['a'] ['her', 'd'] ['of'] ['de', 'er'] ['r', 'an'] ['through'] ['the'] ['field', '.'] 
+('a', 'DET'), ('herd', 'NOUN'), ('of', 'ADP'), ('deer', 'NOUN'), ('ran', 'VERB'), ('through', 'ADP'), ('the', 'DET'), ('field', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they tried to herd the sheep back into the pen.
+['they'] ['tr', 'ied'] ['to'] ['her', 'd'] ['the'] ['she', 'ep'] ['back'] ['into'] ['the'] ['pen', '.'] 
+('they', 'PRON'), ('tried', 'VERB'), ('to', 'PART'), ('herd', 'VERB'), ('the', 'DET'), ('sheep', 'NOUN'), ('back', 'ADV'), ('into', 'ADP'), ('the', 'DET'), ('pen', 'NOUN'), ('.', 'PUNCT'), 
+'herd' in de context:
+Sentence 1:
+ihr herd ist schmutzig.
+['ihr'] ['her', 'd'] ['ist'] ['schm', 'utz', 'ig', '.'] 
+('ihr', 'DET'), ('herd', 'NOUN'), ('ist', 'AUX'), ('schmutzig', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+sein herd ist kaputt gegangen.
+['sein'] ['her', 'd'] ['ist'] ['kap', 'ut', 't'] ['ge', 'gangen', '.'] 
+('sein', 'DET'), ('herd', 'NOUN'), ('ist', 'AUX'), ('kaputt', 'ADV'), ('gegangen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['a'] ['her', 'd'] ['of'] ['de', 'er'] ['r', 'an'] ['through'] ['the'] ['fiel', 'd', '.'] 
+['they'] ['tr', 'ied'] ['to'] ['her', 'd'] ['the'] ['she', 'ep'] ['back'] ['into'] ['the'] ['pen', '.'] 
+Multilingual tokenization: de
+['ihr'] ['her', 'd'] ['ist'] ['sch', 'm', 'utz', 'ig', '.'] 
+['sein'] ['her', 'd'] ['ist'] ['kap', 'ut', 't'] ['ge', 'gan', 'gen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: hose
+Correct Translation: trousers / pants
+Wrong Translation: hose
+
+'hose' in English context:
+Sentence 1:
+he watered the garden with a long hose.
+['he'] ['water', 'ed'] ['the'] ['g', 'ard', 'en'] ['with'] ['a'] ['long'] ['ho', 'se', '.'] 
+('he', 'PRON'), ('watered', 'VERB'), ('the', 'DET'), ('garden', 'NOUN'), ('with', 'ADP'), ('a', 'DET'), ('long', 'ADJ'), ('hose', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+firefighters connected the hose to the hydrant.
+['fire', 'f', 'igh', 'ters'] ['con', 'ne', 'cted'] ['the'] ['ho', 'se'] ['to'] ['the'] ['hy', 'dr', 'ant', '.'] 
+('firefighters', 'NOUN'), ('connected', 'VERB'), ('the', 'DET'), ('hose', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('hydrant', 'ADJ'), ('.', 'PUNCT'), 
+'hose' in de context:
+Sentence 1:
+ich liebe es ohne hose rumzulaufen.
+['ich'] ['lie', 'be'] ['es'] ['ohne'] ['ho', 'se'] ['r', 'um', 'zu', 'lauf', 'en', '.'] 
+('ich', 'PRON'), ('liebe', 'VERB'), ('es', 'PRON'), ('ohne', 'ADP'), ('hose', 'NOUN'), ('rumzulaufen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+seine hose sind gerissen.
+['seine'] ['ho', 'se'] ['sind'] ['ger', 'issen', '.'] 
+('seine', 'DET'), ('hose', 'NOUN'), ('sind', 'AUX'), ('gerissen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['water', 'ed'] ['the'] ['gar', 'den'] ['with'] ['a'] ['long'] ['ho', 'se', '.'] 
+['f', 'ire', 'f', 'igh', 'ters'] ['con', 'ne', 'cted'] ['the'] ['ho', 'se'] ['to'] ['the'] ['hy', 'dr', 'ant', '.'] 
+Multilingual tokenization: de
+['ich'] ['lie', 'be'] ['es'] ['ohne'] ['ho', 'se'] ['r', 'um', 'zu', 'lauf', 'en', '.'] 
+['seine'] ['ho', 'se'] ['sind'] ['ger', 'issen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: hut
+Correct Translation: a hat
+Wrong Translation: hut
+
+'hut' in English context:
+Sentence 1:
+they built a small hut near the lake.
+['they'] ['built'] ['a'] ['small'] ['h', 'ut'] ['near'] ['the'] ['la', 'ke', '.'] 
+('they', 'PRON'), ('built', 'VERB'), ('a', 'DET'), ('small', 'ADJ'), ('hut', 'NOUN'), ('near', 'ADP'), ('the', 'DET'), ('lake', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the explorer found shelter in a jungle hut.
+['the'] ['ex', 'pl', 'or', 'er'] ['found'] ['she', 'l', 'ter'] ['in'] ['a'] ['j', 'un', 'g', 'le'] ['h', 'ut', '.'] 
+('the', 'DET'), ('explorer', 'NOUN'), ('found', 'VERB'), ('shelter', 'NOUN'), ('in', 'ADP'), ('a', 'DET'), ('jungle', 'NOUN'), ('hut', 'NOUN'), ('.', 'PUNCT'), 
+'hut' in de context:
+Sentence 1:
+ich trage kein hut.
+['ich'] ['tra', 'ge'] ['kein'] ['h', 'ut', '.'] 
+('ich', 'PRON'), ('trage', 'VERB'), ('kein', 'DET'), ('hut', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+hut ist wichtig gegen einen sonnenstich.
+['h', 'ut'] ['ist'] ['wicht', 'ig'] ['gegen'] ['einen'] ['son', 'nen', 'st', 'ich', '.'] 
+('hut', 'PROPN'), ('ist', 'AUX'), ('wichtig', 'ADV'), ('gegen', 'ADP'), ('einen', 'DET'), ('sonnenstich', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['they'] ['buil', 't'] ['a'] ['small'] ['h', 'ut'] ['ne', 'ar'] ['the'] ['la', 'ke', '.'] 
+['the'] ['ex', 'pl', 'or', 'er'] ['found'] ['sh', 'el', 'ter'] ['in'] ['a'] ['j', 'ung', 'le'] ['h', 'ut', '.'] 
+Multilingual tokenization: de
+['ich'] ['tra', 'ge'] ['k', 'ein'] ['h', 'ut', '.'] 
+['h', 'ut'] ['ist'] ['w', 'icht', 'ig'] ['gegen'] ['einen'] ['son', 'nen', 'st', 'ich', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: jammer
+Correct Translation: whine
+Wrong Translation: jammer
+
+'jammer' in English context:
+Sentence 1:
+the signal jammer blocked all communication.
+['the'] ['sign', 'al'] ['j', 'am', 'mer'] ['blo', 'ck', 'ed'] ['all'] ['commun', 'ic', 'ation', '.'] 
+('the', 'DET'), ('signal', 'NOUN'), ('jammer', 'NOUN'), ('blocked', 'VERB'), ('all', 'DET'), ('communication', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the referee called a penalty on the jammer in the roller derby.
+['the'] ['re', 'f', 'ere', 'e'] ['called'] ['a'] ['pen', 'al', 'ty'] ['on'] ['the'] ['j', 'am', 'mer'] ['in'] ['the'] ['ro', 'll', 'er'] ['der', 'by', '.'] 
+('the', 'DET'), ('referee', 'NOUN'), ('called', 'VERB'), ('a', 'DET'), ('penalty', 'NOUN'), ('on', 'ADP'), ('the', 'DET'), ('jammer', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('roller', 'NOUN'), ('derby', 'NOUN'), ('.', 'PUNCT'), 
+'jammer' in de context:
+Sentence 1:
+er jammer die ganze zeit.
+['er'] ['j', 'am', 'mer'] ['die'] ['gan', 'ze'] ['zeit', '.'] 
+('er', 'PRON'), ('jammer', 'ADV'), ('die', 'DET'), ('ganze', 'ADJ'), ('zeit', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+es ist nicht gesund die ganze zeit zu jammer
+['es'] ['ist'] ['nicht'] ['ges', 'und'] ['die'] ['gan', 'ze'] ['zeit'] ['zu'] ['j', 'am', 'mer'] 
+('es', 'PRON'), ('ist', 'AUX'), ('nicht', 'PART'), ('gesund', 'ADV'), ('die', 'DET'), ('ganze', 'ADJ'), ('zeit', 'NOUN'), ('zu', 'ADP'), ('jammer', 'ADJ'), 
+Multilingual tokenization: English
+['the'] ['sign', 'al'] ['j', 'am', 'mer'] ['blo', 'ck', 'ed'] ['all'] ['com', 'mun', 'ic', 'ation', '.'] 
+['the'] ['re', 'fer', 'e', 'e'] ['called'] ['a'] ['pen', 'al', 'ty'] ['on'] ['the'] ['j', 'am', 'mer'] ['in'] ['the'] ['rol', 'ler'] ['der', 'by', '.'] 
+Multilingual tokenization: de
+['er'] ['j', 'am', 'mer'] ['die'] ['gan', 'ze'] ['zeit', '.'] 
+['es'] ['ist'] ['nicht'] ['ges', 'und'] ['die'] ['gan', 'ze'] ['zeit'] ['zu'] ['j', 'am', 'mer'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: kind
+Correct Translation: a child
+Wrong Translation: kind
+
+'kind' in English context:
+Sentence 1:
+that was a very kind gesture.
+['that'] ['was'] ['a'] ['very'] ['k', 'ind'] ['gest', 'ure', '.'] 
+('that', 'PRON'), ('was', 'AUX'), ('a', 'DET'), ('very', 'ADV'), ('kind', 'ADJ'), ('gesture', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+what kind of cake did you make?
+['what'] ['k', 'ind'] ['of'] ['ca', 'ke'] ['did'] ['you'] ['make', '?'] 
+('what', 'DET'), ('kind', 'NOUN'), ('of', 'ADP'), ('cake', 'NOUN'), ('did', 'AUX'), ('you', 'PRON'), ('make', 'VERB'), ('?', 'PUNCT'), 
+'kind' in de context:
+Sentence 1:
+das kind ist schon ein erwachsener.
+['das'] ['kind'] ['ist'] ['schon'] ['ein'] ['erw', 'achsen', 'er', '.'] 
+('das', 'DET'), ('kind', 'NOUN'), ('ist', 'AUX'), ('schon', 'ADV'), ('ein', 'DET'), ('erwachsener', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+er war ein kind als er gestorben ist
+['er'] ['war'] ['ein'] ['kind'] ['als'] ['er'] ['gest', 'or', 'ben'] ['ist'] 
+('er', 'PRON'), ('war', 'AUX'), ('ein', 'DET'), ('kind', 'NOUN'), ('als', 'SCONJ'), ('er', 'PRON'), ('gestorben', 'VERB'), ('ist', 'AUX'), 
+Multilingual tokenization: English
+['that'] ['was'] ['a'] ['very'] ['k', 'ind'] ['gest', 'ure', '.'] 
+['what'] ['k', 'ind'] ['of'] ['ca', 'ke'] ['did'] ['you'] ['make', '?'] 
+Multilingual tokenization: de
+['das'] ['k', 'ind'] ['ist'] ['schon'] ['ein'] ['er', 'w', 'ach', 'sen', 'er', '.'] 
+['er'] ['war'] ['ein'] ['k', 'ind'] ['als'] ['er'] ['gest', 'or', 'ben'] ['ist'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: last
+Correct Translation: freight / burden
+Wrong Translation: last
+
+'last' in English context:
+Sentence 1:
+this is the last train tonight.
+['this'] ['is'] ['the'] ['last'] ['train'] ['ton', 'ight', '.'] 
+('this', 'PRON'), ('is', 'AUX'), ('the', 'DET'), ('last', 'ADJ'), ('train', 'NOUN'), ('tonight', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the meeting didn’t last very long.
+['the'] ['me', 'et', 'ing'] ['did', 'n', '’', 't'] ['last'] ['very'] ['long', '.'] 
+('the', 'DET'), ('meeting', 'NOUN'), ('did', 'AUX'), ('n’t', 'PART'), ('last', 'ADJ'), ('very', 'ADV'), ('long', 'ADV'), ('.', 'PUNCT'), 
+'last' in de context:
+Sentence 1:
+der last war zu schwer zu tragen.
+['der'] ['la', 'st'] ['war'] ['zu'] ['schwer'] ['zu'] ['tragen', '.'] 
+('der', 'DET'), ('last', 'NOUN'), ('war', 'AUX'), ('zu', 'PART'), ('schwer', 'ADV'), ('zu', 'PART'), ('tragen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+der last des berufes ist unerträglich.
+['der'] ['la', 'st'] ['des'] ['beruf', 'es'] ['ist'] ['un', 'er', 'trä', 'glich', '.'] 
+('der', 'DET'), ('last', 'NOUN'), ('des', 'DET'), ('berufes', 'NOUN'), ('ist', 'AUX'), ('unerträglich', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['this'] ['is'] ['the'] ['last'] ['tra', 'in'] ['ton', 'ight', '.'] 
+['the'] ['me', 'et', 'ing'] ['did', 'n', '’', 't'] ['last'] ['very'] ['long', '.'] 
+Multilingual tokenization: de
+['der'] ['last'] ['war'] ['zu'] ['sch', 'wer'] ['zu'] ['tra', 'gen', '.'] 
+['der'] ['last'] ['des'] ['ber', 'u', 'f', 'es'] ['ist'] ['un', 'er', 'trä', 'glich', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: lied
+Correct Translation: a song
+Wrong Translation: lied
+
+'lied' in English context:
+Sentence 1:
+he lied about finishing his homework.
+['he'] ['li', 'ed'] ['about'] ['fin', 'ish', 'ing'] ['his'] ['home', 'work', '.'] 
+('he', 'PRON'), ('lied', 'VERB'), ('about', 'ADP'), ('finishing', 'VERB'), ('his', 'PRON'), ('homework', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she felt hurt when she realized he had lied.
+['she'] ['fe', 'l', 't'] ['h', 'ur', 't'] ['when'] ['she'] ['real', 'ized'] ['he'] ['had'] ['li', 'ed', '.'] 
+('she', 'PRON'), ('felt', 'VERB'), ('hurt', 'VERB'), ('when', 'SCONJ'), ('she', 'PRON'), ('realized', 'VERB'), ('he', 'PRON'), ('had', 'AUX'), ('lied', 'VERB'), ('.', 'PUNCT'), 
+'lied' in de context:
+Sentence 1:
+dieses lied erinnert mich an meine kindheit.
+['dieses'] ['lie', 'd'] ['er', 'inner', 't'] ['mich'] ['an'] ['m', 'eine'] ['kind', 'heit', '.'] 
+('dieses', 'DET'), ('lied', 'NOUN'), ('erinnert', 'VERB'), ('mich', 'PRON'), ('an', 'ADP'), ('meine', 'DET'), ('kindheit', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+das lied ist einfach zu lang und langweilig.
+['das'] ['lie', 'd'] ['ist'] ['einfach'] ['zu'] ['lang'] ['und'] ['lang', 'weil', 'ig', '.'] 
+('das', 'DET'), ('lied', 'NOUN'), ('ist', 'AUX'), ('einfach', 'ADV'), ('zu', 'PART'), ('lang', 'ADV'), ('und', 'CCONJ'), ('langweilig', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['lie', 'd'] ['about'] ['fin', 'ish', 'ing'] ['his'] ['h', 'ome', 'work', '.'] 
+['she'] ['fel', 't'] ['h', 'urt'] ['when'] ['she'] ['real', 'iz', 'ed'] ['he'] ['had'] ['lie', 'd', '.'] 
+Multilingual tokenization: de
+['dieses'] ['lie', 'd'] ['er', 'inner', 't'] ['m', 'ich'] ['an'] ['m', 'eine'] ['k', 'ind', 'heit', '.'] 
+['das'] ['lie', 'd'] ['ist'] ['ein', 'fach'] ['zu'] ['lang'] ['und'] ['lang', 'weil', 'ig', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: links
+Correct Translation: left [opposite to right]
+Wrong Translation: links
+
+'links' in English context:
+Sentence 1:
+the website links didn’t work.
+['the'] ['we', 'bs', 'ite'] ['lin', 'ks'] ['did', 'n', '’', 't'] ['work', '.'] 
+('the', 'DET'), ('website', 'NOUN'), ('links', 'NOUN'), ('did', 'AUX'), ('n’t', 'PART'), ('work', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+we played nine holes on the golf links.
+['we'] ['played'] ['n', 'ine'] ['hol', 'es'] ['on'] ['the'] ['g', 'ol', 'f'] ['lin', 'ks', '.'] 
+('we', 'PRON'), ('played', 'VERB'), ('nine', 'NUM'), ('holes', 'NOUN'), ('on', 'ADP'), ('the', 'DET'), ('golf', 'NOUN'), ('links', 'NOUN'), ('.', 'PUNCT'), 
+'links' in de context:
+Sentence 1:
+auf der kreuzung bitte links abbiegen.
+['auf'] ['der'] ['kreuz', 'ung'] ['b', 'itte'] ['lin', 'ks'] ['ab', 'bie', 'gen', '.'] 
+('auf', 'ADP'), ('der', 'DET'), ('kreuzung', 'NOUN'), ('bitte', 'ADV'), ('links', 'ADV'), ('abbiegen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+nicht nach links und nicht nach rechts einfach gerade aus.
+['nicht'] ['nach'] ['lin', 'ks'] ['und'] ['nicht'] ['nach'] ['rechts'] ['einfach'] ['ger', 'ade'] ['aus', '.'] 
+('nicht', 'PART'), ('nach', 'ADP'), ('links', 'ADV'), ('und', 'CCONJ'), ('nicht', 'PART'), ('nach', 'ADP'), ('rechts', 'ADV'), ('einfach', 'ADV'), ('gerade', 'ADV'), ('aus', 'ADP'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['we', 'bs', 'ite'] ['lin', 'ks'] ['did', 'n', '’', 't'] ['work', '.'] 
+['we'] ['played'] ['n', 'ine'] ['hol', 'es'] ['on'] ['the'] ['g', 'ol', 'f'] ['lin', 'ks', '.'] 
+Multilingual tokenization: de
+['auf'] ['der'] ['kre', 'u', 'z', 'ung'] ['b', 'it', 'te'] ['lin', 'ks'] ['ab', 'b', 'ie', 'gen', '.'] 
+['nicht'] ['nach'] ['lin', 'ks'] ['und'] ['nicht'] ['nach'] ['rech', 'ts'] ['ein', 'fach'] ['ger', 'a', 'de'] ['aus', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: lunge
+Correct Translation: lung
+Wrong Translation: lunge
+
+'lunge' in English context:
+Sentence 1:
+he made a quick lunge toward the door.
+['he'] ['made'] ['a'] ['qu', 'ick'] ['l', 'un', 'ge'] ['tow', 'ard'] ['the'] ['do', 'or', '.'] 
+('he', 'PRON'), ('made', 'VERB'), ('a', 'DET'), ('quick', 'ADJ'), ('lunge', 'NOUN'), ('toward', 'ADP'), ('the', 'DET'), ('door', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the instructor showed us how to do a proper lunge.
+['the'] ['in', 'stru', 'ctor'] ['show', 'ed'] ['us'] ['how'] ['to'] ['do'] ['a'] ['pro', 'per'] ['l', 'un', 'ge', '.'] 
+('the', 'DET'), ('instructor', 'NOUN'), ('showed', 'VERB'), ('us', 'PRON'), ('how', 'SCONJ'), ('to', 'PART'), ('do', 'VERB'), ('a', 'DET'), ('proper', 'ADJ'), ('lunge', 'NOUN'), ('.', 'PUNCT'), 
+'lunge' in de context:
+Sentence 1:
+ihre lunge sind teerschwartz von rauchen.
+['ihre'] ['l', 'unge'] ['sind'] ['te', 'ersch', 'war', 'tz'] ['von'] ['r', 'auch', 'en', '.'] 
+('ihre', 'DET'), ('lunge', 'NOUN'), ('sind', 'AUX'), ('teerschwartz', 'PROPN'), ('von', 'ADP'), ('rauchen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+die lunge der leber wurde von der leiche entfernt.
+['die'] ['l', 'unge'] ['der'] ['le', 'ber'] ['wurde'] ['von'] ['der'] ['leich', 'e'] ['entfern', 't', '.'] 
+('die', 'DET'), ('lunge', 'NOUN'), ('der', 'DET'), ('leber', 'NOUN'), ('wurde', 'AUX'), ('von', 'ADP'), ('der', 'DET'), ('leiche', 'NOUN'), ('entfernt', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['made'] ['a'] ['qu', 'ick'] ['l', 'un', 'ge'] ['to', 'ward'] ['the'] ['do', 'or', '.'] 
+['the'] ['in', 'stru', 'ctor'] ['show', 'ed'] ['us'] ['how'] ['to'] ['do'] ['a'] ['pro', 'per'] ['l', 'un', 'ge', '.'] 
+Multilingual tokenization: de
+['ihre'] ['l', 'un', 'ge'] ['sind'] ['te', 'ersch', 'war', 'tz'] ['von'] ['r', 'auch', 'en', '.'] 
+['die'] ['l', 'un', 'ge'] ['der'] ['le', 'ber'] ['wurde'] ['von'] ['der'] ['le', 'ich', 'e'] ['ent', 'fern', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: mist
+Correct Translation: rubbish
+Wrong Translation: mist
+
+'mist' in English context:
+Sentence 1:
+a light mist hung over the hills.
+['a'] ['light'] ['m', 'ist'] ['hun', 'g'] ['over'] ['the'] ['h', 'ill', 's', '.'] 
+('a', 'DET'), ('light', 'ADJ'), ('mist', 'NOUN'), ('hung', 'VERB'), ('over', 'ADP'), ('the', 'DET'), ('hills', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she sprayed a mist of perfume before leaving.
+['she'] ['sp', 'r', 'ay', 'ed'] ['a'] ['m', 'ist'] ['of'] ['per', 'f', 'u', 'me'] ['before'] ['le', 'av', 'ing', '.'] 
+('she', 'PRON'), ('sprayed', 'VERB'), ('a', 'DET'), ('mist', 'NOUN'), ('of', 'ADP'), ('perfume', 'NOUN'), ('before', 'ADP'), ('leaving', 'VERB'), ('.', 'PUNCT'), 
+'mist' in de context:
+Sentence 1:
+sie bauen immer nur mist.
+['sie'] ['bau', 'en'] ['immer'] ['nur'] ['m', 'ist', '.'] 
+('sie', 'PRON'), ('bauen', 'VERB'), ('immer', 'ADV'), ('nur', 'ADV'), ('mist', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+mist ich habe den bus verpasst und zu spät zur arbeit gekommen.
+['m', 'ist'] ['ich'] ['habe'] ['den'] ['bus'] ['ver', 'p', 'as', 'st'] ['und'] ['zu'] ['sp', 'ät'] ['zur'] ['arbeit'] ['ge', 'kommen', '.'] 
+('mist', 'VERB'), ('ich', 'PRON'), ('habe', 'AUX'), ('den', 'DET'), ('bus', 'NOUN'), ('verpasst', 'VERB'), ('und', 'CCONJ'), ('zu', 'PART'), ('spät', 'ADV'), ('zur', 'ADP'), ('arbeit', 'NOUN'), ('gekommen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['a'] ['l', 'ight'] ['m', 'ist'] ['h', 'ung'] ['over'] ['the'] ['h', 'ill', 's', '.'] 
+['she'] ['spra', 'y', 'ed'] ['a'] ['m', 'ist'] ['of'] ['per', 'f', 'um', 'e'] ['before'] ['lea', 'ving', '.'] 
+Multilingual tokenization: de
+['sie'] ['bau', 'en'] ['immer'] ['nur'] ['m', 'ist', '.'] 
+['m', 'ist'] ['ich'] ['ha', 'be'] ['den'] ['bus'] ['ver', 'p', 'as', 'st'] ['und'] ['zu'] ['sp', 'ät'] ['zur'] ['arbeit'] ['ge', 'kommen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: mitten
+Correct Translation: in the middle
+Wrong Translation: mitten
+
+'mitten' in English context:
+Sentence 1:
+she lost a mitten in the snow.
+['she'] ['lo', 'st'] ['a'] ['m', 'it', 'ten'] ['in'] ['the'] ['s', 'now', '.'] 
+('she', 'PRON'), ('lost', 'VERB'), ('a', 'DET'), ('mitten', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('snow', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he wore thick mittens to keep warm.
+['he'] ['wo', 're'] ['th', 'ick'] ['m', 'it', 'ten', 's'] ['to'] ['ke', 'ep'] ['w', 'arm', '.'] 
+('he', 'PRON'), ('wore', 'VERB'), ('thick', 'ADJ'), ('mittens', 'NOUN'), ('to', 'PART'), ('keep', 'VERB'), ('warm', 'ADJ'), ('.', 'PUNCT'), 
+'mitten' in de context:
+Sentence 1:
+in mitten der park gibt es eine brünne.
+['in'] ['mit', 'ten'] ['der'] ['park'] ['gibt'] ['es'] ['eine'] ['br', 'ün', 'ne', '.'] 
+('in', 'ADP'), ('mitten', 'ADV'), ('der', 'DET'), ('park', 'NOUN'), ('gibt', 'VERB'), ('es', 'PRON'), ('eine', 'DET'), ('brünne', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+in mitten das leben ist sie plötzlich gestorben.
+['in'] ['mit', 'ten'] ['das'] ['leben'] ['ist'] ['sie'] ['pl', 'ö', 'tz', 'lich'] ['gest', 'or', 'ben', '.'] 
+('in', 'ADP'), ('mitten', 'ADV'), ('das', 'DET'), ('leben', 'NOUN'), ('ist', 'AUX'), ('sie', 'PRON'), ('plötzlich', 'ADV'), ('gestorben', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['lo', 'st'] ['a'] ['mit', 'ten'] ['in'] ['the'] ['s', 'now', '.'] 
+['he'] ['wor', 'e'] ['th', 'ick'] ['mit', 'ten', 's'] ['to'] ['ke', 'ep'] ['war', 'm', '.'] 
+Multilingual tokenization: de
+['in'] ['mit', 'ten'] ['der'] ['park'] ['gibt'] ['es'] ['eine'] ['br', 'ün', 'ne', '.'] 
+['in'] ['mit', 'ten'] ['das'] ['leben'] ['ist'] ['sie'] ['pl', 'ö', 'tz', 'lich'] ['gest', 'or', 'ben', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: mode
+Correct Translation: fashion
+Wrong Translation: mode
+
+'mode' in English context:
+Sentence 1:
+the phone was in airplane mode.
+['the'] ['ph', 'one'] ['was'] ['in'] ['air', 'plan', 'e'] ['mo', 'de', '.'] 
+('the', 'DET'), ('phone', 'NOUN'), ('was', 'AUX'), ('in', 'ADP'), ('airplane', 'NOUN'), ('mode', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she shifted into work mode after lunch.
+['she'] ['sh', 'if', 'ted'] ['into'] ['work'] ['mo', 'de'] ['after'] ['l', 'un', 'ch', '.'] 
+('she', 'PRON'), ('shifted', 'VERB'), ('into', 'ADP'), ('work', 'NOUN'), ('mode', 'NOUN'), ('after', 'ADP'), ('lunch', 'NOUN'), ('.', 'PUNCT'), 
+'mode' in de context:
+Sentence 1:
+es war in der mode vor 20 jahre.
+['es'] ['war'] ['in'] ['der'] ['mo', 'de'] ['vor'] ['20'] ['jahre', '.'] 
+('es', 'PRON'), ('war', 'AUX'), ('in', 'ADP'), ('der', 'DET'), ('mode', 'NOUN'), ('vor', 'ADP'), ('20', 'NUM'), ('jahre', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+vegan essen sei jetzt ein hauptteil der mode unter jugendlichen.
+['ve', 'gan'] ['essen'] ['sei'] ['je', 'tz', 't'] ['ein'] ['haupt', 'teil'] ['der'] ['mo', 'de'] ['unter'] ['jugend', 'lichen', '.'] 
+('vegan', 'ADV'), ('essen', 'NOUN'), ('sei', 'AUX'), ('jetzt', 'ADV'), ('ein', 'DET'), ('hauptteil', 'NOUN'), ('der', 'DET'), ('mode', 'NOUN'), ('unter', 'ADP'), ('jugendlichen', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['ph', 'one'] ['was'] ['in'] ['air', 'plan', 'e'] ['mo', 'de', '.'] 
+['she'] ['sh', 'if', 'ted'] ['into'] ['work'] ['mo', 'de'] ['after'] ['l', 'un', 'ch', '.'] 
+Multilingual tokenization: de
+['es'] ['war'] ['in'] ['der'] ['mo', 'de'] ['vor'] ['20'] ['jahre', '.'] 
+['ve', 'gan'] ['es', 'sen'] ['sei'] ['j', 'et', 'zt'] ['ein'] ['haupt', 'teil'] ['der'] ['mo', 'de'] ['unter'] ['ju', 'gend', 'lichen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: most
+Correct Translation: apple cider [southern germany / austria]
+Wrong Translation: most
+
+'most' in English context:
+Sentence 1:
+most people prefer coffee in the morning.
+['most'] ['people'] ['pre', 'fer'] ['c', 'of', 'fe', 'e'] ['in'] ['the'] ['mor', 'ning', '.'] 
+('most', 'ADJ'), ('people', 'NOUN'), ('prefer', 'VERB'), ('coffee', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('morning', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+that’s the most exciting movie i’ve seen.
+['that', '’', 's'] ['the'] ['most'] ['ex', 'cit', 'ing'] ['movie'] ['i', '’', 've'] ['se', 'en', '.'] 
+('that', 'PRON'), ('’s', 'VERB'), ('the', 'DET'), ('most', 'ADV'), ('exciting', 'ADJ'), ('movie', 'NOUN'), ('i', 'PRON'), ('’ve', 'AUX'), ('seen', 'VERB'), ('.', 'PUNCT'), 
+'most' in de context:
+Sentence 1:
+ich hab noch nie ein most probiert.
+['ich'] ['h', 'ab'] ['noch'] ['nie'] ['ein'] ['mo', 'st'] ['pro', 'b', 'iert', '.'] 
+('ich', 'PRON'), ('hab', 'AUX'), ('noch', 'ADV'), ('nie', 'ADV'), ('ein', 'DET'), ('most', 'NOUN'), ('probiert', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+most ist nicht nach meinem geschmack.
+['mo', 'st'] ['ist'] ['nicht'] ['nach'] ['m', 'einem'] ['gesch', 'ma', 'ck', '.'] 
+('most', 'NOUN'), ('ist', 'AUX'), ('nicht', 'PART'), ('nach', 'ADP'), ('meinem', 'DET'), ('geschmack', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['most'] ['people'] ['pre', 'fer'] ['c', 'of', 'fe', 'e'] ['in'] ['the'] ['mor', 'n', 'ing', '.'] 
+['that', '’', 's'] ['the'] ['most'] ['ex', 'cit', 'ing'] ['movie'] ['i', '’', 've'] ['se', 'en', '.'] 
+Multilingual tokenization: de
+['ich'] ['h', 'ab'] ['noch'] ['nie'] ['ein'] ['most'] ['pro', 'b', 'iert', '.'] 
+['most'] ['ist'] ['nicht'] ['nach'] ['m', 'einem'] ['gesch', 'ma', 'ck', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: not
+Correct Translation: an emergency
+Wrong Translation: not
+
+'not' in English context:
+Sentence 1:
+he’s not going to the party.
+['he', '’', 's'] ['not'] ['go', 'ing'] ['to'] ['the'] ['party', '.'] 
+('he', 'PRON'), ('’s', 'AUX'), ('not', 'PART'), ('going', 'VERB'), ('to', 'ADP'), ('the', 'DET'), ('party', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+that’s not what i meant to say.
+['that', '’', 's'] ['not'] ['what'] ['i'] ['me', 'ant'] ['to'] ['say', '.'] 
+('that', 'PRON'), ('’s', 'VERB'), ('not', 'PART'), ('what', 'PRON'), ('i', 'PRON'), ('meant', 'VERB'), ('to', 'PART'), ('say', 'VERB'), ('.', 'PUNCT'), 
+'not' in de context:
+Sentence 1:
+dieses ereignis war ein absolut eine not.
+['dieses'] ['er', 'eig', 'nis'] ['war'] ['ein'] ['absol', 'ut'] ['eine'] ['not', '.'] 
+('dieses', 'DET'), ('ereignis', 'NOUN'), ('war', 'AUX'), ('ein', 'DET'), ('absolut', 'ADV'), ('eine', 'DET'), ('not', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+eine not ist eine dringliche situation.
+['eine'] ['not'] ['ist'] ['eine'] ['dr', 'ing', 'liche'] ['sit', 'u', 'ation', '.'] 
+('eine', 'DET'), ('not', 'NOUN'), ('ist', 'AUX'), ('eine', 'DET'), ('dringliche', 'ADJ'), ('situation', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he', '’', 's'] ['not'] ['go', 'ing'] ['to'] ['the'] ['par', 'ty', '.'] 
+['that', '’', 's'] ['not'] ['what'] ['i'] ['me', 'ant'] ['to'] ['sa', 'y', '.'] 
+Multilingual tokenization: de
+['dieses'] ['ere', 'ign', 'is'] ['war'] ['ein'] ['ab', 'sol', 'ut'] ['eine'] ['not', '.'] 
+['eine'] ['not'] ['ist'] ['eine'] ['dr', 'ing', 'liche'] ['sit', 'u', 'ation', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: note
+Correct Translation: music note
+Wrong Translation: note
+
+'note' in English context:
+Sentence 1:
+she left a note on the fridge.
+['she'] ['left'] ['a'] ['not', 'e'] ['on'] ['the'] ['fr', 'id', 'ge', '.'] 
+('she', 'PRON'), ('left', 'VERB'), ('a', 'DET'), ('note', 'NOUN'), ('on', 'ADP'), ('the', 'DET'), ('fridge', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+please note the changes in the schedule.
+['ple', 'ase'] ['not', 'e'] ['the'] ['chang', 'es'] ['in'] ['the'] ['sch', 'ed', 'u', 'le', '.'] 
+('please', 'INTJ'), ('note', 'VERB'), ('the', 'DET'), ('changes', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('schedule', 'NOUN'), ('.', 'PUNCT'), 
+'note' in de context:
+Sentence 1:
+du muss eine note bestimmt spielen können.
+['du'] ['muss'] ['eine'] ['no', 'te'] ['bestimm', 't'] ['spielen'] ['können', '.'] 
+('du', 'PRON'), ('muss', 'PROPN'), ('eine', 'DET'), ('note', 'NOUN'), ('bestimmt', 'ADV'), ('spielen', 'VERB'), ('können', 'AUX'), ('.', 'PUNCT'), 
+Sentence 2:
+diese note war eine zu viel.
+['diese'] ['no', 'te'] ['war'] ['eine'] ['zu'] ['viel', '.'] 
+('diese', 'DET'), ('note', 'NOUN'), ('war', 'AUX'), ('eine', 'DET'), ('zu', 'PART'), ('viel', 'PRON'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['le', 'ft'] ['a'] ['no', 'te'] ['on'] ['the'] ['fr', 'id', 'ge', '.'] 
+['ple', 'ase'] ['no', 'te'] ['the'] ['chan', 'ges'] ['in'] ['the'] ['sch', 'ed', 'u', 'le', '.'] 
+Multilingual tokenization: de
+['du'] ['mus', 's'] ['eine'] ['no', 'te'] ['best', 'imm', 't'] ['spiel', 'en'] ['können', '.'] 
+['diese'] ['no', 'te'] ['war'] ['eine'] ['zu'] ['viel', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: payback
+Correct Translation: discount program
+Wrong Translation: payback
+
+'payback' in English context:
+Sentence 1:
+he wanted payback for the prank.
+['he'] ['want', 'ed'] ['p', 'ay', 'back'] ['for'] ['the'] ['pr', 'ank', '.'] 
+('he', 'PRON'), ('wanted', 'VERB'), ('payback', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('prank', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she saw her success as payback for all the doubts.
+['she'] ['s', 'aw'] ['her'] ['success'] ['as'] ['p', 'ay', 'back'] ['for'] ['all'] ['the'] ['d', 'ou', 'b', 'ts', '.'] 
+('she', 'PRON'), ('saw', 'VERB'), ('her', 'PRON'), ('success', 'NOUN'), ('as', 'ADP'), ('payback', 'NOUN'), ('for', 'ADP'), ('all', 'DET'), ('the', 'DET'), ('doubts', 'NOUN'), ('.', 'PUNCT'), 
+'payback' in de context:
+Sentence 1:
+ich sammle bei jedem einkauf payback-punkte und löse sie später gegen gutscheine ein.
+['ich'] ['samm', 'le'] ['bei'] ['je', 'dem'] ['ein', 'kauf'] ['pa', 'y', 'ba', 'ck', '-', 'punkte'] ['und'] ['lö', 'se'] ['sie'] ['später'] ['gegen'] ['gut', 'sch', 'eine'] ['ein', '.'] 
+('ich', 'PRON'), ('sammle', 'VERB'), ('bei', 'ADP'), ('jedem', 'DET'), ('einkauf', 'NOUN'), ('payback-punkte', 'NOUN'), ('und', 'CCONJ'), ('löse', 'VERB'), ('sie', 'PRON'), ('später', 'ADV'), ('gegen', 'ADP'), ('gutscheine', 'NOUN'), ('ein', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+mit der payback-karte bekommt man bei vielen partnern attraktive rabatte.
+['mit'] ['der'] ['pa', 'y', 'ba', 'ck', '-', 'kar', 'te'] ['be', 'kommt'] ['man'] ['bei'] ['vielen'] ['part', 'n', 'ern'] ['at', 'tra', 'kt', 'ive'] ['r', 'ab', 'at', 'te', '.'] 
+('mit', 'ADP'), ('der', 'DET'), ('payback-karte', 'NOUN'), ('bekommt', 'VERB'), ('man', 'PRON'), ('bei', 'ADP'), ('vielen', 'DET'), ('partnern', 'NOUN'), ('attraktive', 'ADJ'), ('rabatte', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['wan', 'ted'] ['pa', 'y', 'back'] ['for'] ['the'] ['pr', 'ank', '.'] 
+['she'] ['sa', 'w'] ['her'] ['su', 'c', 'cess'] ['as'] ['pa', 'y', 'back'] ['for'] ['all'] ['the'] ['do', 'ub', 'ts', '.'] 
+Multilingual tokenization: de
+['ich'] ['sam', 'm', 'le'] ['bei'] ['je', 'dem'] ['ein', 'kauf'] ['pa', 'y', 'back', '-', 'pun', 'kte'] ['und'] ['l', 'ö', 'se'] ['sie'] ['später'] ['gegen'] ['gut', 'sch', 'eine'] ['ein', '.'] 
+['mit'] ['der'] ['pa', 'y', 'back', '-', 'kar', 'te'] ['be', 'kom', 'mt'] ['man'] ['bei'] ['viel', 'en'] ['part', 'ner', 'n'] ['at', 'tra', 'kt', 'ive'] ['ra', 'b', 'at', 'te', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: personal
+Correct Translation: personnel / staff /workforce
+Wrong Translation: personal
+
+'personal' in English context:
+Sentence 1:
+that’s a personal question.
+['that', '’', 's'] ['a'] ['person', 'al'] ['qu', 'est', 'ion', '.'] 
+('that', 'PRON'), ('’s', 'VERB'), ('a', 'DET'), ('personal', 'ADJ'), ('question', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+i keep my personal files on a separate drive.
+['i'] ['ke', 'ep'] ['my'] ['person', 'al'] ['fil', 'es'] ['on'] ['a'] ['se', 'par', 'ate'] ['d', 'ri', 've', '.'] 
+('i', 'PRON'), ('keep', 'VERB'), ('my', 'PRON'), ('personal', 'ADJ'), ('files', 'NOUN'), ('on', 'ADP'), ('a', 'DET'), ('separate', 'ADJ'), ('drive', 'NOUN'), ('.', 'PUNCT'), 
+'personal' in de context:
+Sentence 1:
+das hotel hat ein mangel an personal.
+['das'] ['ho', 'tel'] ['hat'] ['ein'] ['man', 'gel'] ['an'] ['person', 'al', '.'] 
+('das', 'DET'), ('hotel', 'NOUN'), ('hat', 'AUX'), ('ein', 'DET'), ('mangel', 'NOUN'), ('an', 'ADP'), ('personal', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+das personal ist überlastet von arbeit und gäste.
+['das'] ['person', 'al'] ['ist'] ['über', 'la', 'ste', 't'] ['von'] ['arbeit'] ['und'] ['g', 'ä', 'ste', '.'] 
+('das', 'DET'), ('personal', 'NOUN'), ('ist', 'AUX'), ('überlastet', 'VERB'), ('von', 'ADP'), ('arbeit', 'NOUN'), ('und', 'CCONJ'), ('gäste', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['that', '’', 's'] ['a'] ['person', 'al'] ['qu', 'est', 'ion', '.'] 
+['i'] ['ke', 'ep'] ['my'] ['person', 'al'] ['fil', 'es'] ['on'] ['a'] ['se', 'par', 'ate'] ['dr', 'ive', '.'] 
+Multilingual tokenization: de
+['das'] ['ho', 'tel'] ['hat'] ['ein'] ['man', 'gel'] ['an'] ['person', 'al', '.'] 
+['das'] ['person', 'al'] ['ist'] ['über', 'la', 'ste', 't'] ['von'] ['arbeit'] ['und'] ['g', 'ä', 'ste', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: pest
+Correct Translation: plague
+Wrong Translation: pest
+
+'pest' in English context:
+Sentence 1:
+the ants became a real pest in the kitchen.
+['the'] ['ants'] ['became'] ['a'] ['real'] ['p', 'est'] ['in'] ['the'] ['k', 'it', 'ch', 'en', '.'] 
+('the', 'DET'), ('ants', 'NOUN'), ('became', 'VERB'), ('a', 'DET'), ('real', 'ADJ'), ('pest', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('kitchen', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+stop being such a pest and let me focus.
+['stop'] ['being'] ['such'] ['a'] ['p', 'est'] ['and'] ['let'] ['me'] ['fo', 'cus', '.'] 
+('stop', 'VERB'), ('being', 'AUX'), ('such', 'DET'), ('a', 'DET'), ('pest', 'NOUN'), ('and', 'CCONJ'), ('let', 'VERB'), ('me', 'PRON'), ('focus', 'VERB'), ('.', 'PUNCT'), 
+'pest' in de context:
+Sentence 1:
+europa war schwer von der pest getroffen.
+['europa'] ['war'] ['schwer'] ['von'] ['der'] ['pe', 'st'] ['getr', 'offen', '.'] 
+('europa', 'PROPN'), ('war', 'AUX'), ('schwer', 'ADV'), ('von', 'ADP'), ('der', 'DET'), ('pest', 'NOUN'), ('getroffen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+millionen von menschen sind an der pest um ihr leben gekommen.
+['millionen'] ['von'] ['menschen'] ['sind'] ['an'] ['der'] ['pe', 'st'] ['um'] ['ihr'] ['leben'] ['ge', 'kommen', '.'] 
+('millionen', 'NOUN'), ('von', 'ADP'), ('menschen', 'NOUN'), ('sind', 'AUX'), ('an', 'ADP'), ('der', 'DET'), ('pest', 'NOUN'), ('um', 'ADP'), ('ihr', 'DET'), ('leben', 'NOUN'), ('gekommen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['an', 'ts'] ['became'] ['a'] ['real'] ['pe', 'st'] ['in'] ['the'] ['k', 'it', 'chen', '.'] 
+['st', 'op'] ['being'] ['such'] ['a'] ['pe', 'st'] ['and'] ['let'] ['me'] ['fo', 'c', 'us', '.'] 
+Multilingual tokenization: de
+['europ', 'a'] ['war'] ['sch', 'wer'] ['von'] ['der'] ['pe', 'st'] ['ge', 'tr', 'offen', '.'] 
+['million', 'en'] ['von'] ['men', 'schen'] ['sind'] ['an'] ['der'] ['pe', 'st'] ['um'] ['ihr'] ['leben'] ['ge', 'kommen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: pole
+Correct Translation: polish
+Wrong Translation: pole
+
+'pole' in English context:
+Sentence 1:
+he leaned against the flag pole.
+['he'] ['le', 'an', 'ed'] ['against'] ['the'] ['fl', 'ag'] ['po', 'le', '.'] 
+('he', 'PRON'), ('leaned', 'VERB'), ('against', 'ADP'), ('the', 'DET'), ('flag', 'NOUN'), ('pole', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they used a pole to fish from the dock.
+['they'] ['used'] ['a'] ['po', 'le'] ['to'] ['f', 'ish'] ['from'] ['the'] ['do', 'ck', '.'] 
+('they', 'PRON'), ('used', 'VERB'), ('a', 'DET'), ('pole', 'NOUN'), ('to', 'PART'), ('fish', 'VERB'), ('from', 'ADP'), ('the', 'DET'), ('dock', 'NOUN'), ('.', 'PUNCT'), 
+'pole' in de context:
+Sentence 1:
+ich liebe dieses poles bier.
+['ich'] ['lie', 'be'] ['dieses'] ['po', 'les'] ['b', 'ier', '.'] 
+('ich', 'PRON'), ('liebe', 'VERB'), ('dieses', 'DET'), ('poles', 'ADJ'), ('bier', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+alles, was pole ist schlecht.
+['alle', 's', ','] ['was'] ['po', 'le'] ['ist'] ['schle', 'cht', '.'] 
+('alles', 'PRON'), (',', 'PUNCT'), ('was', 'PRON'), ('pole', 'NOUN'), ('ist', 'AUX'), ('schlecht', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['le', 'an', 'ed'] ['again', 'st'] ['the'] ['f', 'lag'] ['po', 'le', '.'] 
+['they'] ['used'] ['a'] ['po', 'le'] ['to'] ['f', 'ish'] ['from'] ['the'] ['do', 'ck', '.'] 
+Multilingual tokenization: de
+['ich'] ['lie', 'be'] ['dieses'] ['pol', 'es'] ['b', 'ier', '.'] 
+['all', 'es', ','] ['was'] ['po', 'le'] ['ist'] ['sch', 'le', 'cht', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: probe
+Correct Translation: rehearsal / sample
+Wrong Translation: probe
+
+'probe' in English context:
+Sentence 1:
+the doctor used a probe during the examination.
+['the'] ['do', 'ctor'] ['used'] ['a'] ['pro', 'be'] ['during'] ['the'] ['ex', 'am', 'in', 'ation', '.'] 
+('the', 'DET'), ('doctor', 'NOUN'), ('used', 'VERB'), ('a', 'DET'), ('probe', 'NOUN'), ('during', 'ADP'), ('the', 'DET'), ('examination', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+nasa launched a probe to study mars.
+['n', 'as', 'a'] ['la', 'un', 'ch', 'ed'] ['a'] ['pro', 'be'] ['to'] ['stud', 'y'] ['mar', 's', '.'] 
+('nasa', 'PROPN'), ('launched', 'VERB'), ('a', 'DET'), ('probe', 'NOUN'), ('to', 'PART'), ('study', 'VERB'), ('mars', 'NOUN'), ('.', 'PUNCT'), 
+'probe' in de context:
+Sentence 1:
+wie nehmen eine probe, um die qualität zu testen.
+['wie'] ['nehmen'] ['eine'] ['pro', 'be', ','] ['um'] ['die'] ['qual', 'ität'] ['zu'] ['te', 'sten', '.'] 
+('wie', 'ADV'), ('nehmen', 'VERB'), ('eine', 'DET'), ('probe', 'NOUN'), (',', 'PUNCT'), ('um', 'SCONJ'), ('die', 'DET'), ('qualität', 'NOUN'), ('zu', 'PART'), ('testen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+probe heißt nicht den ganzen topf.
+['pro', 'be'] ['hei', 'ß', 't'] ['nicht'] ['den'] ['gan', 'zen'] ['t', 'op', 'f', '.'] 
+('probe', 'PROPN'), ('heißt', 'VERB'), ('nicht', 'PART'), ('den', 'DET'), ('ganzen', 'ADJ'), ('topf', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['do', 'ctor'] ['used'] ['a'] ['pro', 'be'] ['during'] ['the'] ['ex', 'am', 'in', 'ation', '.'] 
+['n', 'as', 'a'] ['la', 'un', 'ch', 'ed'] ['a'] ['pro', 'be'] ['to'] ['stu', 'dy'] ['mar', 's', '.'] 
+Multilingual tokenization: de
+['wie'] ['nehmen'] ['eine'] ['pro', 'be', ','] ['um'] ['die'] ['qual', 'ität'] ['zu'] ['te', 'sten', '.'] 
+['pro', 'be'] ['he', 'i', 'ß', 't'] ['nicht'] ['den'] ['gan', 'zen'] ['to', 'pf', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: promotion
+Correct Translation: doctorate / phd
+Wrong Translation: promotion
+
+'promotion' in English context:
+Sentence 1:
+she earned a promotion after a year of hard work.
+['she'] ['ear', 'n', 'ed'] ['a'] ['pro', 'mot', 'ion'] ['after'] ['a'] ['year'] ['of'] ['hard'] ['work', '.'] 
+('she', 'PRON'), ('earned', 'VERB'), ('a', 'DET'), ('promotion', 'NOUN'), ('after', 'ADP'), ('a', 'DET'), ('year', 'NOUN'), ('of', 'ADP'), ('hard', 'ADJ'), ('work', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the store is running a special promotion this week.
+['the'] ['sto', 're'] ['is'] ['run', 'ning'] ['a'] ['special'] ['pro', 'mot', 'ion'] ['this'] ['wee', 'k', '.'] 
+('the', 'DET'), ('store', 'NOUN'), ('is', 'AUX'), ('running', 'VERB'), ('a', 'DET'), ('special', 'ADJ'), ('promotion', 'NOUN'), ('this', 'DET'), ('week', 'NOUN'), ('.', 'PUNCT'), 
+'promotion' in de context:
+Sentence 1:
+um ein doktor in deutschland zu sein, muss man eine promotion schreiben.
+['um'] ['ein'] ['do', 'kt', 'or'] ['in'] ['deutschland'] ['zu'] ['sein', ','] ['muss'] ['man'] ['eine'] ['pr', 'om', 'ot', 'ion'] ['schrei', 'ben', '.'] 
+('um', 'ADP'), ('ein', 'DET'), ('doktor', 'NOUN'), ('in', 'ADP'), ('deutschland', 'PROPN'), ('zu', 'PART'), ('sein', 'AUX'), (',', 'PUNCT'), ('muss', 'ADV'), ('man', 'PRON'), ('eine', 'DET'), ('promotion', 'NOUN'), ('schreiben', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+promotion ist meistens mit einer publikation vergesellschaftet.
+['pr', 'om', 'ot', 'ion'] ['ist'] ['meisten', 's'] ['mit'] ['einer'] ['publik', 'ation'] ['ver', 'gesell', 'schaf', 'tet', '.'] 
+('promotion', 'NOUN'), ('ist', 'AUX'), ('meistens', 'ADV'), ('mit', 'ADP'), ('einer', 'DET'), ('publikation', 'NOUN'), ('vergesellschaftet', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['ear', 'n', 'ed'] ['a'] ['pro', 'mo', 't', 'ion'] ['after'] ['a'] ['year'] ['of'] ['h', 'ard'] ['work', '.'] 
+['the'] ['st', 'ore'] ['is'] ['run', 'n', 'ing'] ['a'] ['spec', 'ial'] ['pro', 'mo', 't', 'ion'] ['this'] ['we', 'e', 'k', '.'] 
+Multilingual tokenization: de
+['um'] ['ein'] ['do', 'kt', 'or'] ['in'] ['deutschland'] ['zu'] ['sein', ','] ['mus', 's'] ['man'] ['eine'] ['pro', 'mo', 't', 'ion'] ['sch', 'rei', 'ben', '.'] 
+['pro', 'mo', 't', 'ion'] ['ist'] ['me', 'isten', 's'] ['mit'] ['einer'] ['pub', 'lik', 'ation'] ['ver', 'gesell', 'schaf', 'tet', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: provision
+Correct Translation: commission
+Wrong Translation: provision
+
+'provision' in English context:
+Sentence 1:
+we packed enough provisions for the hike.
+['we'] ['p', 'ack', 'ed'] ['en', 'ough'] ['pro', 'vis', 'ions'] ['for'] ['the'] ['h', 'i', 'ke', '.'] 
+('we', 'PRON'), ('packed', 'VERB'), ('enough', 'ADJ'), ('provisions', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('hike', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the contract includes a provision for early termination.
+['the'] ['con', 'tr', 'act'] ['includ', 'es'] ['a'] ['pro', 'vision'] ['for'] ['early'] ['ter', 'min', 'ation', '.'] 
+('the', 'DET'), ('contract', 'NOUN'), ('includes', 'VERB'), ('a', 'DET'), ('provision', 'NOUN'), ('for', 'ADP'), ('early', 'ADJ'), ('termination', 'NOUN'), ('.', 'PUNCT'), 
+'provision' in de context:
+Sentence 1:
+in diesem markt nimmt jeder eine provision.
+['in'] ['diesem'] ['markt'] ['nimmt'] ['jeder'] ['eine'] ['pro', 'vis', 'ion', '.'] 
+('in', 'ADP'), ('diesem', 'DET'), ('markt', 'NOUN'), ('nimmt', 'VERB'), ('jeder', 'PRON'), ('eine', 'DET'), ('provision', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+die provision in diesem deal ist zu hoch.
+['die'] ['pro', 'vis', 'ion'] ['in'] ['diesem'] ['de', 'al'] ['ist'] ['zu'] ['hoch', '.'] 
+('die', 'DET'), ('provision', 'NOUN'), ('in', 'ADP'), ('diesem', 'DET'), ('deal', 'NOUN'), ('ist', 'AUX'), ('zu', 'PART'), ('hoch', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['we'] ['pa', 'ck', 'ed'] ['en', 'o', 'ugh'] ['pro', 'vis', 'ions'] ['for'] ['the'] ['h', 'i', 'ke', '.'] 
+['the'] ['con', 'tra', 'ct'] ['inclu', 'des'] ['a'] ['pro', 'vision'] ['for'] ['ear', 'ly'] ['ter', 'min', 'ation', '.'] 
+Multilingual tokenization: de
+['in'] ['diesem'] ['mar', 'kt'] ['n', 'imm', 't'] ['je', 'der'] ['eine'] ['pro', 'vision', '.'] 
+['die'] ['pro', 'vision'] ['in'] ['diesem'] ['de', 'al'] ['ist'] ['zu'] ['hoch', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: quote
+Correct Translation: rate / proportion
+Wrong Translation: quote
+
+'quote' in English context:
+Sentence 1:
+he ended his speech with a quote from einstein.
+['he'] ['ended'] ['his'] ['spe', 'e', 'ch'] ['with'] ['a'] ['qu', 'ot', 'e'] ['from'] ['e', 'in', 'ste', 'in', '.'] 
+('he', 'PRON'), ('ended', 'VERB'), ('his', 'PRON'), ('speech', 'NOUN'), ('with', 'ADP'), ('a', 'DET'), ('quote', 'NOUN'), ('from', 'ADP'), ('einstein', 'PROPN'), ('.', 'PUNCT'), 
+Sentence 2:
+can you give me a quote for the repairs?
+['can'] ['you'] ['g', 'ive'] ['me'] ['a'] ['qu', 'ot', 'e'] ['for'] ['the'] ['re', 'p', 'air', 's', '?'] 
+('can', 'AUX'), ('you', 'PRON'), ('give', 'VERB'), ('me', 'PRON'), ('a', 'DET'), ('quote', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('repairs', 'NOUN'), ('?', 'PUNCT'), 
+'quote' in de context:
+Sentence 1:
+die quote der durchfall der studenten ist zu hoch.
+['die'] ['qu', 'o', 'te'] ['der'] ['durch', 'fall'] ['der'] ['stu', 'den', 'ten'] ['ist'] ['zu'] ['hoch', '.'] 
+('die', 'DET'), ('quote', 'NOUN'), ('der', 'DET'), ('durchfall', 'NOUN'), ('der', 'DET'), ('studenten', 'NOUN'), ('ist', 'AUX'), ('zu', 'PART'), ('hoch', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+die quote der gestorbene in covid war fruchtbar.
+['die'] ['qu', 'o', 'te'] ['der'] ['gest', 'or', 'ben', 'e'] ['in'] ['co', 'v', 'id'] ['war'] ['fr', 'ucht', 'bar', '.'] 
+('die', 'DET'), ('quote', 'NOUN'), ('der', 'DET'), ('gestorbene', 'NOUN'), ('in', 'ADP'), ('covid', 'PROPN'), ('war', 'AUX'), ('fruchtbar', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['ende', 'd'] ['his'] ['spe', 'e', 'ch'] ['with'] ['a'] ['qu', 'o', 'te'] ['from'] ['ein', 'stein', '.'] 
+['can'] ['you'] ['g', 'ive'] ['me'] ['a'] ['qu', 'o', 'te'] ['for'] ['the'] ['re', 'pa', 'ir', 's', '?'] 
+Multilingual tokenization: de
+['die'] ['qu', 'o', 'te'] ['der'] ['durch', 'fall'] ['der'] ['stu', 'den', 'ten'] ['ist'] ['zu'] ['hoch', '.'] 
+['die'] ['qu', 'o', 'te'] ['der'] ['gest', 'or', 'ben', 'e'] ['in'] ['co', 'vid'] ['war'] ['fr', 'uch', 't', 'bar', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: rat
+Correct Translation: council
+Wrong Translation: rat
+
+'rat' in English context:
+Sentence 1:
+a rat ran across the alley.
+['a'] ['r', 'at'] ['r', 'an'] ['ac', 'ross'] ['the'] ['al', 'ley', '.'] 
+('a', 'DET'), ('rat', 'NOUN'), ('ran', 'VERB'), ('across', 'ADP'), ('the', 'DET'), ('alley', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he was a rat for betraying his friends.
+['he'] ['was'] ['a'] ['r', 'at'] ['for'] ['be', 'tr', 'ay', 'ing'] ['his'] ['fri', 'ends', '.'] 
+('he', 'PRON'), ('was', 'AUX'), ('a', 'DET'), ('rat', 'NOUN'), ('for', 'ADP'), ('betraying', 'VERB'), ('his', 'PRON'), ('friends', 'NOUN'), ('.', 'PUNCT'), 
+'rat' in de context:
+Sentence 1:
+ich brauche einen guten rat von dir.
+['ich'] ['br', 'auch', 'e'] ['einen'] ['gu', 'ten'] ['rat'] ['von'] ['d', 'ir', '.'] 
+('ich', 'PRON'), ('brauche', 'VERB'), ('einen', 'DET'), ('guten', 'ADJ'), ('rat', 'NOUN'), ('von', 'ADP'), ('dir', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+ein rat kann auch von etwas abgeratet zu werden.
+['ein'] ['rat'] ['kann'] ['auch'] ['von'] ['etwas'] ['ab', 'ger', 'a', 'tet'] ['zu'] ['werden', '.'] 
+('ein', 'DET'), ('rat', 'NOUN'), ('kann', 'AUX'), ('auch', 'ADV'), ('von', 'ADP'), ('etwas', 'PRON'), ('abgeratet', 'VERB'), ('zu', 'PART'), ('werden', 'AUX'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['a'] ['rat'] ['r', 'an'] ['ac', 'ro', 'ss'] ['the'] ['alle', 'y', '.'] 
+['he'] ['was'] ['a'] ['rat'] ['for'] ['be', 'tra', 'y', 'ing'] ['his'] ['fr', 'i', 'end', 's', '.'] 
+Multilingual tokenization: de
+['ich'] ['br', 'auch', 'e'] ['einen'] ['gu', 'ten'] ['rat'] ['von'] ['d', 'ir', '.'] 
+['ein'] ['rat'] ['kann'] ['auch'] ['von'] ['et', 'was'] ['ab', 'ger', 'at', 'et'] ['zu'] ['werden', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: rate
+Correct Translation: installment
+Wrong Translation: rate
+
+'rate' in English context:
+Sentence 1:
+the interest rate has gone up.
+['the'] ['inter', 'est'] ['r', 'ate'] ['has'] ['g', 'one'] ['up', '.'] 
+('the', 'DET'), ('interest', 'NOUN'), ('rate', 'NOUN'), ('has', 'AUX'), ('gone', 'VERB'), ('up', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+how do you rate this restaurant?
+['how'] ['do'] ['you'] ['r', 'ate'] ['this'] ['rest', 'a', 'ur', 'ant', '?'] 
+('how', 'SCONJ'), ('do', 'AUX'), ('you', 'PRON'), ('rate', 'VERB'), ('this', 'DET'), ('restaurant', 'NOUN'), ('?', 'PUNCT'), 
+'rate' in de context:
+Sentence 1:
+die rate der erkrankten ist gesteigert.
+['die'] ['ra', 'te'] ['der'] ['er', 'krank', 'ten'] ['ist'] ['gest', 'ei', 'ger', 't', '.'] 
+('die', 'DET'), ('rate', 'NOUN'), ('der', 'DET'), ('erkrankten', 'NOUN'), ('ist', 'AUX'), ('gesteigert', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+die rate der durchgefallene ist gesunken.
+['die'] ['ra', 'te'] ['der'] ['durch', 'ge', 'fallen', 'e'] ['ist'] ['ges', 'un', 'ken', '.'] 
+('die', 'DET'), ('rate', 'NOUN'), ('der', 'DET'), ('durchgefallene', 'NOUN'), ('ist', 'AUX'), ('gesunken', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['inter', 'est'] ['r', 'ate'] ['has'] ['g', 'one'] ['up', '.'] 
+['how'] ['do'] ['you'] ['r', 'ate'] ['this'] ['rest', 'aur', 'ant', '?'] 
+Multilingual tokenization: de
+['die'] ['r', 'ate'] ['der'] ['er', 'kr', 'ank', 'ten'] ['ist'] ['ge', 'ste', 'iger', 't', '.'] 
+['die'] ['r', 'ate'] ['der'] ['durch', 'ge', 'fall', 'en', 'e'] ['ist'] ['ges', 'un', 'ken', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: rind
+Correct Translation: an individual of cattle
+Wrong Translation: rind
+
+'rind' in English context:
+Sentence 1:
+she peeled the rind off the orange.
+['she'] ['pe', 'el', 'ed'] ['the'] ['r', 'ind'] ['off'] ['the'] ['or', 'ange', '.'] 
+('she', 'PRON'), ('peeled', 'VERB'), ('the', 'DET'), ('rind', 'NOUN'), ('off', 'ADP'), ('the', 'DET'), ('orange', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the cheese had a thick, waxy rind.
+['the'] ['che', 'ese'] ['had'] ['a'] ['th', 'ick', ','] ['w', 'a', 'x', 'y'] ['r', 'ind', '.'] 
+('the', 'DET'), ('cheese', 'NOUN'), ('had', 'VERB'), ('a', 'DET'), ('thick', 'ADJ'), (',', 'PUNCT'), ('waxy', 'NOUN'), ('rind', 'NOUN'), ('.', 'PUNCT'), 
+'rind' in de context:
+Sentence 1:
+ich esse kein rind und kein kaninchen.
+['ich'] ['esse'] ['kein'] ['r', 'ind'] ['und'] ['kein'] ['kan', 'in', 'chen', '.'] 
+('ich', 'PRON'), ('esse', 'VERB'), ('kein', 'DET'), ('rind', 'NOUN'), ('und', 'CCONJ'), ('kein', 'DET'), ('kaninchen', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+rind sind domestiziert mittlerweile.
+['r', 'ind'] ['sind'] ['d', 'ome', 'st', 'iz', 'iert'] ['mittler', 'wei', 'le', '.'] 
+('rind', 'NOUN'), ('sind', 'AUX'), ('domestiziert', 'ADV'), ('mittlerweile', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['pe', 'e', 'led'] ['the'] ['r', 'ind'] ['off'] ['the'] ['or', 'ange', '.'] 
+['the'] ['che', 'es', 'e'] ['had'] ['a'] ['th', 'ick', ','] ['wa', 'x', 'y'] ['r', 'ind', '.'] 
+Multilingual tokenization: de
+['ich'] ['es', 'se'] ['k', 'ein'] ['r', 'ind'] ['und'] ['k', 'ein'] ['kan', 'in', 'chen', '.'] 
+['r', 'ind'] ['sind'] ['d', 'ome', 'st', 'iz', 'iert'] ['mit', 't', 'ler', 'we', 'ile', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: rock
+Correct Translation: a skirt
+Wrong Translation: rock
+
+'rock' in English context:
+Sentence 1:
+he skipped a rock across the lake.
+['he'] ['sk', 'ip', 'ped'] ['a'] ['ro', 'ck'] ['ac', 'ross'] ['the'] ['la', 'ke', '.'] 
+('he', 'PRON'), ('skipped', 'VERB'), ('a', 'DET'), ('rock', 'NOUN'), ('across', 'ADP'), ('the', 'DET'), ('lake', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+that song really rocks!
+['that'] ['song'] ['re', 'ally'] ['ro', 'ck', 's', '!'] 
+('that', 'DET'), ('song', 'NOUN'), ('really', 'ADV'), ('rocks', 'NOUN'), ('!', 'PUNCT'), 
+'rock' in de context:
+Sentence 1:
+ich liebe mini-rock.
+['ich'] ['lie', 'be'] ['min', 'i', '-', 'ro', 'ck', '.'] 
+('ich', 'PRON'), ('liebe', 'VERB'), ('mini-rock', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+ich kann kein rock tragen, weil es ist zu windig.
+['ich'] ['kann'] ['kein'] ['ro', 'ck'] ['tragen', ','] ['weil'] ['es'] ['ist'] ['zu'] ['wind', 'ig', '.'] 
+('ich', 'PRON'), ('kann', 'AUX'), ('kein', 'DET'), ('rock', 'NOUN'), ('tragen', 'VERB'), (',', 'PUNCT'), ('weil', 'SCONJ'), ('es', 'PRON'), ('ist', 'AUX'), ('zu', 'PART'), ('windig', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['sk', 'ip', 'ped'] ['a'] ['ro', 'ck'] ['ac', 'ro', 'ss'] ['the'] ['la', 'ke', '.'] 
+['that'] ['song'] ['re', 'ally'] ['ro', 'ck', 's', '!'] 
+Multilingual tokenization: de
+['ich'] ['lie', 'be'] ['min', 'i', '-', 'ro', 'ck', '.'] 
+['ich'] ['kann'] ['k', 'ein'] ['ro', 'ck'] ['tra', 'gen', ','] ['weil'] ['es'] ['ist'] ['zu'] ['wind', 'ig', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: roman
+Correct Translation: novel
+Wrong Translation: roman
+
+'roman' in English context:
+Sentence 1:
+the museum had roman artifacts on display.
+['the'] ['m', 'use', 'um'] ['had'] ['rom', 'an'] ['art', 'if', 'ac', 'ts'] ['on'] ['dis', 'play', '.'] 
+('the', 'DET'), ('museum', 'NOUN'), ('had', 'VERB'), ('roman', 'ADJ'), ('artifacts', 'NOUN'), ('on', 'ADP'), ('display', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she wore a roman-style toga to the costume party.
+['she'] ['wo', 're'] ['a'] ['rom', 'an', '-', 'st', 'y', 'le'] ['to', 'ga'] ['to'] ['the'] ['co', 'stu', 'me'] ['party', '.'] 
+('she', 'PRON'), ('wore', 'VERB'), ('a', 'DET'), ('roman', 'ADJ'), ('-', 'PUNCT'), ('style', 'NOUN'), ('toga', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('costume', 'NOUN'), ('party', 'NOUN'), ('.', 'PUNCT'), 
+'roman' in de context:
+Sentence 1:
+roman ist nicht mein liebling büchern.
+['rom', 'an'] ['ist'] ['nicht'] ['mein'] ['lie', 'bl', 'ing'] ['bü', 'ch', 'ern', '.'] 
+('roman', 'NOUN'), ('ist', 'AUX'), ('nicht', 'PART'), ('mein', 'DET'), ('liebling', 'NOUN'), ('büchern', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+er hat gerade einen schönen roman gelesen.
+['er'] ['hat'] ['ger', 'ade'] ['einen'] ['sch', 'ö', 'nen'] ['rom', 'an'] ['gele', 'sen', '.'] 
+('er', 'PRON'), ('hat', 'AUX'), ('gerade', 'ADV'), ('einen', 'DET'), ('schönen', 'ADJ'), ('roman', 'NOUN'), ('gelesen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['m', 'use', 'um'] ['had'] ['roman'] ['art', 'if', 'ac', 'ts'] ['on'] ['dis', 'play', '.'] 
+['she'] ['wor', 'e'] ['a'] ['roman', '-', 'st', 'y', 'le'] ['to', 'ga'] ['to'] ['the'] ['co', 'st', 'um', 'e'] ['par', 'ty', '.'] 
+Multilingual tokenization: de
+['roman'] ['ist'] ['nicht'] ['m', 'ein'] ['lie', 'bl', 'ing'] ['bü', 'ch', 'ern', '.'] 
+['er'] ['hat'] ['ger', 'a', 'de'] ['einen'] ['sch', 'ö', 'nen'] ['roman'] ['gel', 'es', 'en', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sage
+Correct Translation: saga
+Wrong Translation: sage
+
+'sage' in English context:
+Sentence 1:
+the sage offered wise advice.
+['the'] ['s', 'age'] ['of', 'fer', 'ed'] ['w', 'ise'] ['ad', 'v', 'ice', '.'] 
+('the', 'DET'), ('sage', 'NOUN'), ('offered', 'VERB'), ('wise', 'ADJ'), ('advice', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she added sage to the soup for flavor.
+['she'] ['add', 'ed'] ['s', 'age'] ['to'] ['the'] ['s', 'oup'] ['for'] ['fl', 'av', 'or', '.'] 
+('she', 'PRON'), ('added', 'VERB'), ('sage', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('soup', 'NOUN'), ('for', 'ADP'), ('flavor', 'NOUN'), ('.', 'PUNCT'), 
+'sage' in de context:
+Sentence 1:
+sage kommen ursprünglich aus schweden.
+['sa', 'ge'] ['kommen'] ['ursprünglich'] ['aus'] ['schwe', 'den', '.'] 
+('sage', 'VERB'), ('kommen', 'VERB'), ('ursprünglich', 'ADV'), ('aus', 'ADP'), ('schweden', 'PROPN'), ('.', 'PUNCT'), 
+Sentence 2:
+es gibt eine sage die sagt.
+['es'] ['gibt'] ['eine'] ['sa', 'ge'] ['die'] ['s', 'agt', '.'] 
+('es', 'PRON'), ('gibt', 'VERB'), ('eine', 'DET'), ('sage', 'NOUN'), ('die', 'DET'), ('sagt', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['sa', 'ge'] ['of', 'fer', 'ed'] ['w', 'ise'] ['ad', 'v', 'ice', '.'] 
+['she'] ['ad', 'ded'] ['sa', 'ge'] ['to'] ['the'] ['so', 'up'] ['for'] ['f', 'la', 'vor', '.'] 
+Multilingual tokenization: de
+['sa', 'ge'] ['kommen'] ['ur', 'spr', 'ün', 'glich'] ['aus'] ['schwe', 'den', '.'] 
+['es'] ['gibt'] ['eine'] ['sa', 'ge'] ['die'] ['sa', 'gt', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: schmuck
+Correct Translation: jewelry
+Wrong Translation: schmuck
+
+'schmuck' in English context:
+Sentence 1:
+don’t be a schmuck—apologize to her.
+['don', '’', 't'] ['be'] ['a'] ['sch', 'mu', 'ck', '—', 'ap', 'olog', 'iz', 'e'] ['to'] ['her', '.'] 
+('do', 'AUX'), ('n’t', 'PART'), ('be', 'AUX'), ('a', 'DET'), ('schmuck', 'NOUN'), ('—', 'PUNCT'), ('apologize', 'VERB'), ('to', 'ADP'), ('her', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+he acted like a total schmuck at the meeting.
+['he'] ['act', 'ed'] ['like'] ['a'] ['to', 'tal'] ['sch', 'mu', 'ck'] ['at'] ['the'] ['me', 'et', 'ing', '.'] 
+('he', 'PRON'), ('acted', 'VERB'), ('like', 'ADP'), ('a', 'DET'), ('total', 'ADJ'), ('schmuck', 'NOUN'), ('at', 'ADP'), ('the', 'DET'), ('meeting', 'NOUN'), ('.', 'PUNCT'), 
+'schmuck' in de context:
+Sentence 1:
+sie hat ein neuer schmuck gekauft.
+['sie'] ['hat'] ['ein'] ['neuer'] ['sch', 'mu', 'ck'] ['ge', 'kauf', 't', '.'] 
+('sie', 'PRON'), ('hat', 'AUX'), ('ein', 'DET'), ('neuer', 'ADJ'), ('schmuck', 'NOUN'), ('gekauft', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+der schmuck hat er von ihre geraubt.
+['der'] ['sch', 'mu', 'ck'] ['hat'] ['er'] ['von'] ['ihre'] ['ger', 'au', 'bt', '.'] 
+('der', 'DET'), ('schmuck', 'NOUN'), ('hat', 'AUX'), ('er', 'PRON'), ('von', 'ADP'), ('ihre', 'DET'), ('geraubt', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['don', '’', 't'] ['be'] ['a'] ['sch', 'm', 'uck', '—', 'ap', 'olog', 'i', 'ze'] ['to'] ['her', '.'] 
+['he'] ['ac', 'ted'] ['like'] ['a'] ['to', 'tal'] ['sch', 'm', 'uck'] ['at'] ['the'] ['me', 'et', 'ing', '.'] 
+Multilingual tokenization: de
+['sie'] ['hat'] ['ein'] ['neu', 'er'] ['sch', 'm', 'uck'] ['ge', 'kauf', 't', '.'] 
+['der'] ['sch', 'm', 'uck'] ['hat'] ['er'] ['von'] ['ihre'] ['ger', 'au', 'bt', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sense
+Correct Translation: scythe
+Wrong Translation: sense
+
+'sense' in English context:
+Sentence 1:
+that doesn’t make any sense.
+['that'] ['does', 'n', '’', 't'] ['make'] ['any'] ['sen', 'se', '.'] 
+('that', 'PRON'), ('does', 'AUX'), ('n’t', 'PART'), ('make', 'VERB'), ('any', 'DET'), ('sense', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she has a strong sense of justice.
+['she'] ['has'] ['a'] ['str', 'ong'] ['sen', 'se'] ['of'] ['just', 'ice', '.'] 
+('she', 'PRON'), ('has', 'VERB'), ('a', 'DET'), ('strong', 'ADJ'), ('sense', 'NOUN'), ('of', 'ADP'), ('justice', 'NOUN'), ('.', 'PUNCT'), 
+'sense' in de context:
+Sentence 1:
+der teufel selbst ist mit seiner sense mich gejagt.
+['der'] ['te', 'u', 'fel'] ['selbst'] ['ist'] ['mit'] ['seiner'] ['sen', 'se'] ['mich'] ['ge', 'j', 'agt', '.'] 
+('der', 'DET'), ('teufel', 'NOUN'), ('selbst', 'ADV'), ('ist', 'AUX'), ('mit', 'ADP'), ('seiner', 'DET'), ('sense', 'NOUN'), ('mich', 'PRON'), ('gejagt', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+diese sense ist sehr scharf.
+['diese'] ['sen', 'se'] ['ist'] ['sehr'] ['sch', 'ar', 'f', '.'] 
+('diese', 'DET'), ('sense', 'NOUN'), ('ist', 'AUX'), ('sehr', 'ADV'), ('scharf', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['that'] ['do', 'es', 'n', '’', 't'] ['make'] ['any'] ['sen', 'se', '.'] 
+['she'] ['has'] ['a'] ['str', 'ong'] ['sen', 'se'] ['of'] ['just', 'ice', '.'] 
+Multilingual tokenization: de
+['der'] ['te', 'u', 'fel'] ['selbst'] ['ist'] ['mit'] ['seiner'] ['sen', 'se'] ['m', 'ich'] ['ge', 'ja', 'gt', '.'] 
+['diese'] ['sen', 'se'] ['ist'] ['sehr'] ['sch', 'ar', 'f', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: slip
+Correct Translation: knickers / panties / briefs
+Wrong Translation: slip
+
+'slip' in English context:
+Sentence 1:
+be careful not to slip on the ice.
+['be'] ['care', 'ful'] ['not'] ['to'] ['s', 'li', 'p'] ['on'] ['the'] ['ice', '.'] 
+('be', 'AUX'), ('careful', 'ADJ'), ('not', 'PART'), ('to', 'PART'), ('slip', 'VERB'), ('on', 'ADP'), ('the', 'DET'), ('ice', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she handed him a slip of paper.
+['she'] ['hand', 'ed'] ['him'] ['a'] ['s', 'li', 'p'] ['of'] ['p', 'ap', 'er', '.'] 
+('she', 'PRON'), ('handed', 'VERB'), ('him', 'PRON'), ('a', 'DET'), ('slip', 'NOUN'), ('of', 'ADP'), ('paper', 'NOUN'), ('.', 'PUNCT'), 
+'slip' in de context:
+Sentence 1:
+in berlin nennt man slip eine schluppe rumgangsprachlich.
+['in'] ['berlin'] ['nen', 'nt'] ['man'] ['s', 'li', 'p'] ['eine'] ['schl', 'upp', 'e'] ['r', 'um', 'gang', 'sprach', 'lich', '.'] 
+('in', 'ADP'), ('berlin', 'PROPN'), ('nennt', 'VERB'), ('man', 'PRON'), ('slip', 'ADV'), ('eine', 'DET'), ('schluppe', 'NOUN'), ('rumgangsprachlich', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+dieser slip ist durchsichtig.
+['dieser'] ['s', 'li', 'p'] ['ist'] ['durch', 'sich', 'tig', '.'] 
+('dieser', 'DET'), ('slip', 'NOUN'), ('ist', 'AUX'), ('durchsichtig', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['be'] ['care', 'ful'] ['not'] ['to'] ['s', 'li', 'p'] ['on'] ['the'] ['ice', '.'] 
+['she'] ['han', 'ded'] ['him'] ['a'] ['s', 'li', 'p'] ['of'] ['pa', 'per', '.'] 
+Multilingual tokenization: de
+['in'] ['berlin'] ['nen', 'n', 't'] ['man'] ['s', 'li', 'p'] ['eine'] ['schl', 'up', 'pe'] ['r', 'um', 'gang', 'spra', 'ch', 'lich', '.'] 
+['dieser'] ['s', 'li', 'p'] ['ist'] ['durch', 'sich', 'tig', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: smoking
+Correct Translation: tuxedo / dinner jacket
+Wrong Translation: smoking
+
+'smoking' in English context:
+Sentence 1:
+smoking is not allowed in the building.
+['s', 'mo', 'king'] ['is'] ['not'] ['allow', 'ed'] ['in'] ['the'] ['build', 'ing', '.'] 
+('smoking', 'NOUN'), ('is', 'AUX'), ('not', 'PART'), ('allowed', 'VERB'), ('in', 'ADP'), ('the', 'DET'), ('building', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he was caught smoking behind the school.
+['he'] ['was'] ['c', 'augh', 't'] ['s', 'mo', 'king'] ['be', 'h', 'ind'] ['the'] ['school', '.'] 
+('he', 'PRON'), ('was', 'AUX'), ('caught', 'VERB'), ('smoking', 'VERB'), ('behind', 'ADP'), ('the', 'DET'), ('school', 'NOUN'), ('.', 'PUNCT'), 
+'smoking' in de context:
+Sentence 1:
+das smoking ist smoking hott, hat er gesagt.
+['das'] ['s', 'mo', 'k', 'ing'] ['ist'] ['s', 'mo', 'k', 'ing'] ['h', 'ot', 't', ','] ['hat'] ['er'] ['ges', 'agt', '.'] 
+('das', 'PRON'), ('smoking', 'NOUN'), ('ist', 'AUX'), ('smoking', 'NOUN'), ('hott', 'ADV'), (',', 'PUNCT'), ('hat', 'AUX'), ('er', 'PRON'), ('gesagt', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+mein smoking trage ich nicht mehr.
+['mein'] ['s', 'mo', 'k', 'ing'] ['tra', 'ge'] ['ich'] ['nicht'] ['mehr', '.'] 
+('mein', 'DET'), ('smoking', 'X'), ('trage', 'VERB'), ('ich', 'PRON'), ('nicht', 'PART'), ('mehr', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['s', 'mo', 'king'] ['is'] ['not'] ['all', 'ow', 'ed'] ['in'] ['the'] ['buil', 'ding', '.'] 
+['he'] ['was'] ['c', 'aug', 'ht'] ['s', 'mo', 'king'] ['be', 'h', 'ind'] ['the'] ['school', '.'] 
+Multilingual tokenization: de
+['das'] ['s', 'mo', 'king'] ['ist'] ['s', 'mo', 'king'] ['ho', 'tt', ','] ['hat'] ['er'] ['ges', 'ag', 't', '.'] 
+['m', 'ein'] ['s', 'mo', 'king'] ['tra', 'ge'] ['ich'] ['nicht'] ['mehr', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sold
+Correct Translation: a soldier’s salary
+Wrong Translation: sold
+
+'sold' in English context:
+Sentence 1:
+they sold their house in two weeks.
+['they'] ['s', 'old'] ['their'] ['house'] ['in'] ['two'] ['wee', 'ks', '.'] 
+('they', 'PRON'), ('sold', 'VERB'), ('their', 'PRON'), ('house', 'NOUN'), ('in', 'ADP'), ('two', 'NUM'), ('weeks', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the store sold out of those shoes fast.
+['the'] ['sto', 're'] ['s', 'old'] ['out'] ['of'] ['those'] ['sh', 'o', 'es'] ['f', 'ast', '.'] 
+('the', 'DET'), ('store', 'NOUN'), ('sold', 'VERB'), ('out', 'ADP'), ('of', 'ADP'), ('those', 'DET'), ('shoes', 'NOUN'), ('fast', 'ADV'), ('.', 'PUNCT'), 
+'sold' in de context:
+Sentence 1:
+dieser sold ist zu klein für mich.
+['dieser'] ['sol', 'd'] ['ist'] ['zu'] ['klein'] ['für'] ['mich', '.'] 
+('dieser', 'DET'), ('sold', 'NOUN'), ('ist', 'AUX'), ('zu', 'PART'), ('klein', 'ADV'), ('für', 'ADP'), ('mich', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+für diese sold mach ich nichts.
+['für'] ['diese'] ['sol', 'd'] ['mach'] ['ich'] ['nicht', 's', '.'] 
+('für', 'ADP'), ('diese', 'DET'), ('sold', 'PROPN'), ('mach', 'VERB'), ('ich', 'PRON'), ('nichts', 'PRON'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['they'] ['sold'] ['their'] ['house'] ['in'] ['two'] ['we', 'e', 'ks', '.'] 
+['the'] ['st', 'ore'] ['sold'] ['out'] ['of'] ['tho', 'se'] ['sho', 'es'] ['fa', 'st', '.'] 
+Multilingual tokenization: de
+['dieser'] ['sold'] ['ist'] ['zu'] ['klein'] ['für'] ['m', 'ich', '.'] 
+['für'] ['diese'] ['sold'] ['mach'] ['ich'] ['n', 'ich', 'ts', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: spanner
+Correct Translation: peeping tom
+Wrong Translation: spanner
+
+'spanner' in English context:
+Sentence 1:
+he tightened the bolt with a spanner.
+['he'] ['t', 'ight', 'en', 'ed'] ['the'] ['b', 'ol', 't'] ['with'] ['a'] ['sp', 'ann', 'er', '.'] 
+('he', 'PRON'), ('tightened', 'VERB'), ('the', 'DET'), ('bolt', 'NOUN'), ('with', 'ADP'), ('a', 'DET'), ('spanner', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she threw a spanner in the works by quitting.
+['she'] ['th', 're', 'w'] ['a'] ['sp', 'ann', 'er'] ['in'] ['the'] ['works'] ['by'] ['qu', 'it', 'ting', '.'] 
+('she', 'PRON'), ('threw', 'VERB'), ('a', 'DET'), ('spanner', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('works', 'NOUN'), ('by', 'ADP'), ('quitting', 'VERB'), ('.', 'PUNCT'), 
+'spanner' in de context:
+Sentence 1:
+sie hat ein spanner in ihre fenster gesehen.
+['sie'] ['hat'] ['ein'] ['sp', 'ann', 'er'] ['in'] ['ihre'] ['fenster'] ['ge', 'sehen', '.'] 
+('sie', 'PRON'), ('hat', 'AUX'), ('ein', 'DET'), ('spanner', 'NOUN'), ('in', 'ADP'), ('ihre', 'DET'), ('fenster', 'NOUN'), ('gesehen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+der spanner muss verhaftet werden.
+['der'] ['sp', 'ann', 'er'] ['muss'] ['ver', 'haf', 'tet'] ['werden', '.'] 
+('der', 'DET'), ('spanner', 'ADJ'), ('muss', 'PROPN'), ('verhaftet', 'VERB'), ('werden', 'AUX'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['he'] ['t', 'igh', 'ten', 'ed'] ['the'] ['b', 'ol', 't'] ['with'] ['a'] ['sp', 'ann', 'er', '.'] 
+['she'] ['th', 're', 'w'] ['a'] ['sp', 'ann', 'er'] ['in'] ['the'] ['work', 's'] ['by'] ['qu', 'itt', 'ing', '.'] 
+Multilingual tokenization: de
+['sie'] ['hat'] ['ein'] ['sp', 'ann', 'er'] ['in'] ['ihre'] ['fen', 'ster'] ['ges', 'e', 'hen', '.'] 
+['der'] ['sp', 'ann', 'er'] ['mus', 's'] ['ver', 'haf', 'tet'] ['werden', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: spinner
+Correct Translation: idiot / nutcase
+Wrong Translation: spinner
+
+'spinner' in English context:
+Sentence 1:
+the fisherman tied a red spinner to his line.
+['the'] ['f', 'ish', 'er', 'man'] ['t', 'ied'] ['a'] ['red'] ['sp', 'in', 'ner'] ['to'] ['his'] ['line', '.'] 
+('the', 'DET'), ('fisherman', 'NOUN'), ('tied', 'VERB'), ('a', 'DET'), ('red', 'ADJ'), ('spinner', 'NOUN'), ('to', 'ADP'), ('his', 'PRON'), ('line', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he kept fiddling with his fidget spinner.
+['he'] ['ke', 'pt'] ['f', 'id', 'd', 'l', 'ing'] ['with'] ['his'] ['f', 'id', 'get'] ['sp', 'in', 'ner', '.'] 
+('he', 'PRON'), ('kept', 'VERB'), ('fiddling', 'VERB'), ('with', 'ADP'), ('his', 'PRON'), ('fidget', 'NOUN'), ('spinner', 'NOUN'), ('.', 'PUNCT'), 
+'spinner' in de context:
+Sentence 1:
+ich liebe meinen nachbar, er ist ein spinner.
+['ich'] ['lie', 'be'] ['m', 'einen'] ['nach', 'bar', ','] ['er'] ['ist'] ['ein'] ['sp', 'inner', '.'] 
+('ich', 'PRON'), ('liebe', 'VERB'), ('meinen', 'DET'), ('nachbar', 'ADV'), (',', 'PUNCT'), ('er', 'PRON'), ('ist', 'AUX'), ('ein', 'DET'), ('spinner', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+spinner ist ein verübter.
+['sp', 'inner'] ['ist'] ['ein'] ['ver', 'üb', 'ter', '.'] 
+('spinner', 'NOUN'), ('ist', 'AUX'), ('ein', 'DET'), ('verübter', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['f', 'is', 'her', 'man'] ['t', 'ied'] ['a'] ['red'] ['sp', 'inner'] ['to'] ['his'] ['line', '.'] 
+['he'] ['ke', 'pt'] ['f', 'id', 'd', 'ling'] ['with'] ['his'] ['f', 'id', 'get'] ['sp', 'inner', '.'] 
+Multilingual tokenization: de
+['ich'] ['lie', 'be'] ['m', 'einen'] ['nach', 'bar', ','] ['er'] ['ist'] ['ein'] ['sp', 'inner', '.'] 
+['sp', 'inner'] ['ist'] ['ein'] ['ver', 'ü', 'b', 'ter', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: spot
+Correct Translation: commercial / advert
+Wrong Translation: spot
+
+'spot' in English context:
+Sentence 1:
+i found a great spot to watch the fireworks.
+['i'] ['found'] ['a'] ['great'] ['sp', 'ot'] ['to'] ['w', 'at', 'ch'] ['the'] ['fire', 'works', '.'] 
+('i', 'PRON'), ('found', 'VERB'), ('a', 'DET'), ('great', 'ADJ'), ('spot', 'NOUN'), ('to', 'PART'), ('watch', 'VERB'), ('the', 'DET'), ('fireworks', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she noticed a red spot on her shirt.
+['she'] ['not', 'ic', 'ed'] ['a'] ['red'] ['sp', 'ot'] ['on'] ['her'] ['sh', 'ir', 't', '.'] 
+('she', 'PRON'), ('noticed', 'VERB'), ('a', 'DET'), ('red', 'ADJ'), ('spot', 'NOUN'), ('on', 'ADP'), ('her', 'PRON'), ('shirt', 'NOUN'), ('.', 'PUNCT'), 
+'spot' in de context:
+Sentence 1:
+dieser spot hat mir ton geld gekostet.
+['dieser'] ['sp', 'ot'] ['hat'] ['m', 'ir'] ['ton'] ['geld'] ['ge', 'ko', 'ste', 't', '.'] 
+('dieser', 'DET'), ('spot', 'NOUN'), ('hat', 'AUX'), ('mir', 'PRON'), ('ton', 'X'), ('geld', 'NOUN'), ('gekostet', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+ich hasse immer wieder leere spot zu sehen.
+['ich'] ['h', 'asse'] ['immer'] ['wieder'] ['le', 'er', 'e'] ['sp', 'ot'] ['zu'] ['sehen', '.'] 
+('ich', 'PRON'), ('hasse', 'VERB'), ('immer', 'ADV'), ('wieder', 'ADV'), ('leere', 'ADJ'), ('spot', 'NOUN'), ('zu', 'PART'), ('sehen', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['i'] ['found'] ['a'] ['gre', 'at'] ['sp', 'ot'] ['to'] ['w', 'at', 'ch'] ['the'] ['f', 'ire', 'work', 's', '.'] 
+['she'] ['not', 'ic', 'ed'] ['a'] ['red'] ['sp', 'ot'] ['on'] ['her'] ['sh', 'ir', 't', '.'] 
+Multilingual tokenization: de
+['dieser'] ['sp', 'ot'] ['hat'] ['m', 'ir'] ['ton'] ['gel', 'd'] ['ge', 'ko', 'ste', 't', '.'] 
+['ich'] ['has', 'se'] ['immer'] ['wieder'] ['le', 'ere'] ['sp', 'ot'] ['zu'] ['se', 'hen', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: stadium
+Correct Translation: stage
+Wrong Translation: stadium
+
+'stadium' in English context:
+Sentence 1:
+the stadium was packed for the final match.
+['the'] ['st', 'ad', 'ium'] ['was'] ['p', 'ack', 'ed'] ['for'] ['the'] ['fin', 'al'] ['mat', 'ch', '.'] 
+('the', 'DET'), ('stadium', 'NOUN'), ('was', 'AUX'), ('packed', 'VERB'), ('for', 'ADP'), ('the', 'DET'), ('final', 'ADJ'), ('match', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they built a new stadium near the river.
+['they'] ['built'] ['a'] ['new'] ['st', 'ad', 'ium'] ['near'] ['the'] ['river', '.'] 
+('they', 'PRON'), ('built', 'VERB'), ('a', 'DET'), ('new', 'ADJ'), ('stadium', 'NOUN'), ('near', 'ADP'), ('the', 'DET'), ('river', 'NOUN'), ('.', 'PUNCT'), 
+'stadium' in de context:
+Sentence 1:
+schnell, der band ist auf dem stadium gestiegen.
+['schnell', ','] ['der'] ['band'] ['ist'] ['auf'] ['dem'] ['sta', 'di', 'um'] ['gest', 'ie', 'gen', '.'] 
+('schnell', 'ADV'), (',', 'PUNCT'), ('der', 'DET'), ('band', 'NOUN'), ('ist', 'AUX'), ('auf', 'ADP'), ('dem', 'DET'), ('stadium', 'NOUN'), ('gestiegen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+das stadium ist eine der größte auf der welt.
+['das'] ['sta', 'di', 'um'] ['ist'] ['eine'] ['der'] ['größ', 'te'] ['auf'] ['der'] ['welt', '.'] 
+('das', 'DET'), ('stadium', 'NOUN'), ('ist', 'AUX'), ('eine', 'PRON'), ('der', 'DET'), ('größte', 'ADJ'), ('auf', 'ADP'), ('der', 'DET'), ('welt', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['stad', 'ium'] ['was'] ['pa', 'ck', 'ed'] ['for'] ['the'] ['fin', 'al'] ['mat', 'ch', '.'] 
+['they'] ['buil', 't'] ['a'] ['new'] ['stad', 'ium'] ['ne', 'ar'] ['the'] ['ri', 'ver', '.'] 
+Multilingual tokenization: de
+['schn', 'ell', ','] ['der'] ['band'] ['ist'] ['auf'] ['dem'] ['stad', 'ium'] ['gest', 'ie', 'gen', '.'] 
+['das'] ['stad', 'ium'] ['ist'] ['eine'] ['der'] ['grö', 'ß', 'te'] ['auf'] ['der'] ['welt', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: stark
+Correct Translation: strong
+Wrong Translation: stark
+
+'stark' in English context:
+Sentence 1:
+the landscape was beautiful in its stark simplicity.
+['the'] ['land', 's', 'ca', 'pe'] ['was'] ['be', 'a', 'ut', 'if', 'ul'] ['in'] ['its'] ['star', 'k'] ['sim', 'pl', 'ic', 'ity', '.'] 
+('the', 'DET'), ('landscape', 'NOUN'), ('was', 'AUX'), ('beautiful', 'ADJ'), ('in', 'ADP'), ('its', 'PRON'), ('stark', 'ADJ'), ('simplicity', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+there was a stark contrast between the two reports.
+['there'] ['was'] ['a'] ['star', 'k'] ['con', 'tr', 'ast'] ['between'] ['the'] ['two'] ['re', 'por', 'ts', '.'] 
+('there', 'PRON'), ('was', 'VERB'), ('a', 'DET'), ('stark', 'ADJ'), ('contrast', 'NOUN'), ('between', 'ADP'), ('the', 'DET'), ('two', 'NUM'), ('reports', 'NOUN'), ('.', 'PUNCT'), 
+'stark' in de context:
+Sentence 1:
+stark man, dieser witz war so lustig.
+['stark'] ['man', ','] ['dieser'] ['w', 'itz'] ['war'] ['so'] ['lu', 'st', 'ig', '.'] 
+('stark', 'ADV'), ('man', 'PRON'), (',', 'PUNCT'), ('dieser', 'DET'), ('witz', 'NOUN'), ('war', 'AUX'), ('so', 'ADV'), ('lustig', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+stark oder schwach ist eine frage der relation.
+['stark'] ['oder'] ['schw', 'ach'] ['ist'] ['eine'] ['frage'] ['der'] ['rel', 'ation', '.'] 
+('stark', 'ADV'), ('oder', 'CCONJ'), ('schwach', 'ADV'), ('ist', 'AUX'), ('eine', 'DET'), ('frage', 'NOUN'), ('der', 'DET'), ('relation', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['land', 's', 'ca', 'pe'] ['was'] ['be', 'aut', 'if', 'ul'] ['in'] ['its'] ['star', 'k'] ['sim', 'pl', 'ic', 'ity', '.'] 
+['there'] ['was'] ['a'] ['star', 'k'] ['con', 'tra', 'st'] ['between'] ['the'] ['two'] ['re', 'por', 'ts', '.'] 
+Multilingual tokenization: de
+['star', 'k'] ['man', ','] ['dieser'] ['w', 'itz'] ['war'] ['so'] ['l', 'ust', 'ig', '.'] 
+['star', 'k'] ['oder'] ['schw', 'ach'] ['ist'] ['eine'] ['fra', 'ge'] ['der'] ['rel', 'ation', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: still
+Correct Translation: quiet
+Wrong Translation: still
+
+'still' in English context:
+Sentence 1:
+she’s still waiting for an answer.
+['she', '’', 's'] ['still'] ['w', 'a', 'it', 'ing'] ['for'] ['an'] ['ans', 'w', 'er', '.'] 
+('she', 'PRON'), ('’s', 'AUX'), ('still', 'ADV'), ('waiting', 'VERB'), ('for', 'ADP'), ('an', 'DET'), ('answer', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the lake was calm and still at dawn.
+['the'] ['la', 'ke'] ['was'] ['cal', 'm'] ['and'] ['still'] ['at'] ['d', 'aw', 'n', '.'] 
+('the', 'DET'), ('lake', 'NOUN'), ('was', 'AUX'), ('calm', 'ADJ'), ('and', 'CCONJ'), ('still', 'ADV'), ('at', 'ADP'), ('dawn', 'NOUN'), ('.', 'PUNCT'), 
+'still' in de context:
+Sentence 1:
+sei still, ich will nur helfen.
+['sei'] ['st', 'ill', ','] ['ich'] ['will'] ['nur'] ['hel', 'fen', '.'] 
+('sei', 'AUX'), ('still', 'ADV'), (',', 'PUNCT'), ('ich', 'PRON'), ('will', 'AUX'), ('nur', 'ADV'), ('helfen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+willst du sprudels wasser oder still.
+['will', 'st'] ['du'] ['spr', 'u', 'del', 's'] ['wasser'] ['oder'] ['st', 'ill', '.'] 
+('willst', 'VERB'), ('du', 'PRON'), ('sprudels', 'X'), ('wasser', 'NOUN'), ('oder', 'CCONJ'), ('still', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she', '’', 's'] ['still'] ['wa', 'it', 'ing'] ['for'] ['an'] ['ans', 'wer', '.'] 
+['the'] ['la', 'ke'] ['was'] ['cal', 'm'] ['and'] ['still'] ['at'] ['da', 'wn', '.'] 
+Multilingual tokenization: de
+['sei'] ['still', ','] ['ich'] ['will'] ['nur'] ['hel', 'fen', '.'] 
+['will', 'st'] ['du'] ['spr', 'u', 'del', 's'] ['wasser'] ['oder'] ['still', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: stock
+Correct Translation: floor
+Wrong Translation: stock
+
+'stock' in English context:
+Sentence 1:
+they keep a large stock of canned food.
+['they'] ['ke', 'ep'] ['a'] ['large'] ['sto', 'ck'] ['of'] ['can', 'n', 'ed'] ['food', '.'] 
+('they', 'PRON'), ('keep', 'VERB'), ('a', 'DET'), ('large', 'ADJ'), ('stock', 'NOUN'), ('of', 'ADP'), ('canned', 'VERB'), ('food', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+his stock in the company rose after the deal.
+['his'] ['sto', 'ck'] ['in'] ['the'] ['company'] ['ro', 'se'] ['after'] ['the'] ['de', 'al', '.'] 
+('his', 'PRON'), ('stock', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('company', 'NOUN'), ('rose', 'VERB'), ('after', 'ADP'), ('the', 'DET'), ('deal', 'NOUN'), ('.', 'PUNCT'), 
+'stock' in de context:
+Sentence 1:
+in jeden stock wohnt jemand.
+['in'] ['je', 'den'] ['st', 'ock'] ['wohn', 't'] ['je', 'm', 'and', '.'] 
+('in', 'ADP'), ('jeden', 'DET'), ('stock', 'NOUN'), ('wohnt', 'VERB'), ('jemand', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+diese stock hat ein hohes dach.
+['diese'] ['st', 'ock'] ['hat'] ['ein'] ['ho', 'h', 'es'] ['dach', '.'] 
+('diese', 'DET'), ('stock', 'NOUN'), ('hat', 'AUX'), ('ein', 'DET'), ('hohes', 'ADJ'), ('dach', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['they'] ['ke', 'ep'] ['a'] ['lar', 'ge'] ['st', 'o', 'ck'] ['of'] ['c', 'ann', 'ed'] ['fo', 'od', '.'] 
+['his'] ['st', 'o', 'ck'] ['in'] ['the'] ['compan', 'y'] ['ro', 'se'] ['after'] ['the'] ['de', 'al', '.'] 
+Multilingual tokenization: de
+['in'] ['je', 'den'] ['st', 'o', 'ck'] ['wohn', 't'] ['je', 'm', 'and', '.'] 
+['diese'] ['st', 'o', 'ck'] ['hat'] ['ein'] ['ho', 'h', 'es'] ['d', 'ach', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: tier
+Correct Translation: animal
+Wrong Translation: tier
+
+'tier' in English context:
+Sentence 1:
+we sat in the upper tier of the theater.
+['we'] ['s', 'at'] ['in'] ['the'] ['up', 'per'] ['t', 'ier'] ['of'] ['the'] ['the', 'ater', '.'] 
+('we', 'PRON'), ('sat', 'VERB'), ('in', 'ADP'), ('the', 'DET'), ('upper', 'ADJ'), ('tier', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('theater', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the cake had three tiers.
+['the'] ['ca', 'ke'] ['had'] ['three'] ['t', 'i', 'ers', '.'] 
+('the', 'DET'), ('cake', 'NOUN'), ('had', 'VERB'), ('three', 'NUM'), ('tiers', 'NOUN'), ('.', 'PUNCT'), 
+'tier' in de context:
+Sentence 1:
+du verhältst dich wie ein tier.
+['du'] ['verhält', 'st'] ['d', 'ich'] ['wie'] ['ein'] ['t', 'ier', '.'] 
+('du', 'PRON'), ('verhältst', 'PROPN'), ('dich', 'PRON'), ('wie', 'ADP'), ('ein', 'DET'), ('tier', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+wenn ein tier isst ein tier ist es kannibalismus?
+['wenn'] ['ein'] ['t', 'ier'] ['is', 'st'] ['ein'] ['t', 'ier'] ['ist'] ['es'] ['kann', 'i', 'b', 'al', 'ismus', '?'] 
+('wenn', 'SCONJ'), ('ein', 'DET'), ('tier', 'NOUN'), ('isst', 'VERB'), ('ein', 'DET'), ('tier', 'NOUN'), ('ist', 'AUX'), ('es', 'PRON'), ('kannibalismus', 'NOUN'), ('?', 'PUNCT'), 
+Multilingual tokenization: English
+['we'] ['s', 'at'] ['in'] ['the'] ['up', 'per'] ['t', 'ier'] ['of'] ['the'] ['the', 'ater', '.'] 
+['the'] ['ca', 'ke'] ['had'] ['three'] ['t', 'ier', 's', '.'] 
+Multilingual tokenization: de
+['du'] ['ver', 'häl', 't', 'st'] ['d', 'ich'] ['wie'] ['ein'] ['t', 'ier', '.'] 
+['wenn'] ['ein'] ['t', 'ier'] ['is', 'st'] ['ein'] ['t', 'ier'] ['ist'] ['es'] ['kann', 'ib', 'al', 'is', 'mus', '?'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: toll
+Correct Translation: fantastic
+Wrong Translation: toll
+
+'toll' in English context:
+Sentence 1:
+the toll for the bridge was two dollars.
+['the'] ['to', 'll'] ['for'] ['the'] ['br', 'id', 'ge'] ['was'] ['two'] ['d', 'ol', 'lar', 's', '.'] 
+('the', 'DET'), ('toll', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('bridge', 'NOUN'), ('was', 'AUX'), ('two', 'NUM'), ('dollars', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+stress can take a toll on your health.
+['st', 'ress'] ['can'] ['take'] ['a'] ['to', 'll'] ['on'] ['y', 'our'] ['he', 'al', 'th', '.'] 
+('stress', 'NOUN'), ('can', 'AUX'), ('take', 'VERB'), ('a', 'DET'), ('toll', 'NOUN'), ('on', 'ADP'), ('your', 'PRON'), ('health', 'NOUN'), ('.', 'PUNCT'), 
+'toll' in de context:
+Sentence 1:
+toll wirklich toll, hat er gelogen.
+['t', 'oll'] ['wirk', 'lich'] ['t', 'oll', ','] ['hat'] ['er'] ['gel', 'ogen', '.'] 
+('toll', 'ADV'), ('wirklich', 'ADV'), ('toll', 'ADV'), (',', 'PUNCT'), ('hat', 'AUX'), ('er', 'PRON'), ('gelogen', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+das kunststück ist einfach toll.
+['das'] ['kunst', 'stück'] ['ist'] ['einfach'] ['t', 'oll', '.'] 
+('das', 'DET'), ('kunststück', 'NOUN'), ('ist', 'AUX'), ('einfach', 'ADV'), ('toll', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['to', 'l', 'l'] ['for'] ['the'] ['br', 'id', 'ge'] ['was'] ['two'] ['d', 'ol', 'lar', 's', '.'] 
+['str', 'ess'] ['can'] ['ta', 'ke'] ['a'] ['to', 'l', 'l'] ['on'] ['yo', 'ur'] ['he', 'al', 'th', '.'] 
+Multilingual tokenization: de
+['to', 'l', 'l'] ['wir', 'k', 'lich'] ['to', 'l', 'l', ','] ['hat'] ['er'] ['ge', 'lo', 'gen', '.'] 
+['das'] ['kun', 'st', 'st', 'ück'] ['ist'] ['ein', 'fach'] ['to', 'l', 'l', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: trunk
+Correct Translation: a drink (together with some people)
+Wrong Translation: trunk
+
+'trunk' in English context:
+Sentence 1:
+the elephant lifted water with its trunk.
+['the'] ['ele', 'ph', 'ant'] ['li', 'f', 'ted'] ['water'] ['with'] ['its'] ['tr', 'un', 'k', '.'] 
+('the', 'DET'), ('elephant', 'NOUN'), ('lifted', 'VERB'), ('water', 'NOUN'), ('with', 'ADP'), ('its', 'PRON'), ('trunk', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he put the bags in the car trunk.
+['he'] ['put'] ['the'] ['b', 'ag', 's'] ['in'] ['the'] ['car'] ['tr', 'un', 'k', '.'] 
+('he', 'PRON'), ('put', 'VERB'), ('the', 'DET'), ('bags', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('car', 'NOUN'), ('trunk', 'NOUN'), ('.', 'PUNCT'), 
+'trunk' in de context:
+Sentence 1:
+ich besuche der kneippe für ein kleine trunk.
+['ich'] ['besuch', 'e'] ['der'] ['kn', 'ei', 'pp', 'e'] ['für'] ['ein'] ['kleine'] ['tr', 'un', 'k', '.'] 
+('ich', 'PRON'), ('besuche', 'VERB'), ('der', 'DET'), ('kneippe', 'NOUN'), ('für', 'ADP'), ('ein', 'DET'), ('kleine', 'ADJ'), ('trunk', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+ein kleiner trunk bedeutet nicht gleich besoffen zu sein.
+['ein'] ['kleiner'] ['tr', 'un', 'k'] ['bede', 'u', 'tet'] ['nicht'] ['gleich'] ['be', 'so', 'ff', 'en'] ['zu'] ['sein', '.'] 
+('ein', 'DET'), ('kleiner', 'ADJ'), ('trunk', 'NOUN'), ('bedeutet', 'VERB'), ('nicht', 'PART'), ('gleich', 'ADV'), ('besoffen', 'VERB'), ('zu', 'PART'), ('sein', 'AUX'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['ele', 'ph', 'ant'] ['li', 'f', 'ted'] ['water'] ['with'] ['its'] ['tr', 'un', 'k', '.'] 
+['he'] ['put'] ['the'] ['ba', 'gs'] ['in'] ['the'] ['car'] ['tr', 'un', 'k', '.'] 
+Multilingual tokenization: de
+['ich'] ['bes', 'uch', 'e'] ['der'] ['k', 'ne', 'ip', 'pe'] ['für'] ['ein'] ['kle', 'ine'] ['tr', 'un', 'k', '.'] 
+['ein'] ['klein', 'er'] ['tr', 'un', 'k'] ['be', 'de', 'u', 'tet'] ['nicht'] ['gleich'] ['bes', 'offen'] ['zu'] ['sein', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: vital
+Correct Translation: full of life
+Wrong Translation: vital
+
+'vital' in English context:
+Sentence 1:
+water is vital for survival.
+['water'] ['is'] ['v', 'ital'] ['for'] ['sur', 'v', 'iv', 'al', '.'] 
+('water', 'NOUN'), ('is', 'AUX'), ('vital', 'ADJ'), ('for', 'ADP'), ('survival', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she played a vital role in the success of the project.
+['she'] ['played'] ['a'] ['v', 'ital'] ['ro', 'le'] ['in'] ['the'] ['success'] ['of'] ['the'] ['pro', 'ject', '.'] 
+('she', 'PRON'), ('played', 'VERB'), ('a', 'DET'), ('vital', 'ADJ'), ('role', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('success', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('project', 'NOUN'), ('.', 'PUNCT'), 
+'vital' in de context:
+Sentence 1:
+der gestorbene war gestern gesund und munter und sehr vital.
+['der'] ['gest', 'or', 'ben', 'e'] ['war'] ['gest', 'ern'] ['ges', 'und'] ['und'] ['m', 'unter'] ['und'] ['sehr'] ['v', 'ital', '.'] 
+('der', 'DET'), ('gestorbene', 'NOUN'), ('war', 'AUX'), ('gestern', 'ADV'), ('gesund', 'ADV'), ('und', 'CCONJ'), ('munter', 'ADV'), ('und', 'CCONJ'), ('sehr', 'ADV'), ('vital', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+vital ist ein gängiger jüdischer nachname, interessant was die nazis darüber denken hätten.
+['v', 'ital'] ['ist'] ['ein'] ['gän', 'g', 'iger'] ['j', 'ü', 'd', 'ischer'] ['nach', 'name', ','] ['inter', 'ess', 'ant'] ['was'] ['die'] ['na', 'z', 'is'] ['darüber'] ['den', 'ken'] ['h', 'ät', 'ten', '.'] 
+('vital', 'ADV'), ('ist', 'AUX'), ('ein', 'DET'), ('gängiger', 'ADJ'), ('jüdischer', 'ADJ'), ('nachname', 'PROPN'), (',', 'PUNCT'), ('interessant', 'ADV'), ('was', 'PRON'), ('die', 'DET'), ('nazis', 'NOUN'), ('darüber', 'ADV'), ('denken', 'VERB'), ('hätten', 'AUX'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['water'] ['is'] ['v', 'ital'] ['for'] ['sur', 'v', 'iv', 'al', '.'] 
+['she'] ['played'] ['a'] ['v', 'ital'] ['ro', 'le'] ['in'] ['the'] ['su', 'c', 'cess'] ['of'] ['the'] ['proje', 'ct', '.'] 
+Multilingual tokenization: de
+['der'] ['gest', 'or', 'ben', 'e'] ['war'] ['ge', 'stern'] ['ges', 'und'] ['und'] ['m', 'unter'] ['und'] ['sehr'] ['v', 'ital', '.'] 
+['v', 'ital'] ['ist'] ['ein'] ['g', 'än', 'g', 'iger'] ['j', 'ü', 'd', 'ischer'] ['nach', 'name', ','] ['inter', 'ess', 'ant'] ['was'] ['die'] ['na', 'z', 'is'] ['dar', 'über'] ['den', 'ken'] ['h', 'ät', 'ten', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: wall
+Correct Translation: embankment / rampart
+Wrong Translation: wall
+
+'wall' in English context:
+Sentence 1:
+they painted the wall blue.
+['they'] ['pain', 'ted'] ['the'] ['w', 'all'] ['bl', 'ue', '.'] 
+('they', 'PRON'), ('painted', 'VERB'), ('the', 'DET'), ('wall', 'NOUN'), ('blue', 'PROPN'), ('.', 'PUNCT'), 
+Sentence 2:
+he leaned against the stone wall to rest.
+['he'] ['le', 'an', 'ed'] ['against'] ['the'] ['st', 'one'] ['w', 'all'] ['to'] ['rest', '.'] 
+('he', 'PRON'), ('leaned', 'VERB'), ('against', 'ADP'), ('the', 'DET'), ('stone', 'NOUN'), ('wall', 'NOUN'), ('to', 'PART'), ('rest', 'VERB'), ('.', 'PUNCT'), 
+'wall' in de context:
+Sentence 1:
+der wall hält das wasser weg.
+['der'] ['w', 'all'] ['hält'] ['das'] ['wasser'] ['weg', '.'] 
+('der', 'DET'), ('wall', 'NOUN'), ('hält', 'VERB'), ('das', 'DET'), ('wasser', 'NOUN'), ('weg', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+der wall steht auf dem weg.
+['der'] ['w', 'all'] ['steht'] ['auf'] ['dem'] ['weg', '.'] 
+('der', 'DET'), ('wall', 'NOUN'), ('steht', 'VERB'), ('auf', 'ADP'), ('dem', 'DET'), ('weg', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['they'] ['pa', 'in', 'ted'] ['the'] ['w', 'all'] ['bl', 'ue', '.'] 
+['he'] ['le', 'an', 'ed'] ['again', 'st'] ['the'] ['st', 'one'] ['w', 'all'] ['to'] ['rest', '.'] 
+Multilingual tokenization: de
+['der'] ['w', 'all'] ['häl', 't'] ['das'] ['wasser'] ['weg', '.'] 
+['der'] ['w', 'all'] ['steht'] ['auf'] ['dem'] ['weg', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: wand
+Correct Translation: wall
+Wrong Translation: wand
+
+'wand' in English context:
+Sentence 1:
+the magician waved his wand and smiled.
+['the'] ['mag', 'ic', 'ian'] ['w', 'a', 'ved'] ['his'] ['w', 'and'] ['and'] ['sm', 'il', 'ed', '.'] 
+('the', 'DET'), ('magician', 'NOUN'), ('waved', 'VERB'), ('his', 'PRON'), ('wand', 'NOUN'), ('and', 'CCONJ'), ('smiled', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+she bought a curling wand for her hair.
+['she'] ['b', 'ought'] ['a'] ['cur', 'l', 'ing'] ['w', 'and'] ['for'] ['her'] ['ha', 'ir', '.'] 
+('she', 'PRON'), ('bought', 'VERB'), ('a', 'DET'), ('curling', 'VERB'), ('wand', 'NOUN'), ('for', 'ADP'), ('her', 'PRON'), ('hair', 'NOUN'), ('.', 'PUNCT'), 
+'wand' in de context:
+Sentence 1:
+der wand hat ein riesige loch.
+['der'] ['wand'] ['hat'] ['ein'] ['rie', 's', 'ige'] ['l', 'och', '.'] 
+('der', 'DET'), ('wand', 'NOUN'), ('hat', 'VERB'), ('ein', 'DET'), ('riesige', 'ADJ'), ('loch', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+der wand habe ich weiß gemalt.
+['der'] ['wand'] ['habe'] ['ich'] ['weiß'] ['gem', 'alt', '.'] 
+('der', 'DET'), ('wand', 'NOUN'), ('habe', 'AUX'), ('ich', 'PRON'), ('weiß', 'VERB'), ('gemalt', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['the'] ['mag', 'ic', 'ian'] ['wa', 'ved'] ['his'] ['w', 'and'] ['and'] ['sm', 'ile', 'd', '.'] 
+['she'] ['bo', 'ught'] ['a'] ['cur', 'ling'] ['w', 'and'] ['for'] ['her'] ['ha', 'ir', '.'] 
+Multilingual tokenization: de
+['der'] ['w', 'and'] ['hat'] ['ein'] ['r', 'ies', 'ige'] ['lo', 'ch', '.'] 
+['der'] ['w', 'and'] ['ha', 'be'] ['ich'] ['wei', 'ß'] ['ge', 'mal', 't', '.'] 
+##########################################################################################################################

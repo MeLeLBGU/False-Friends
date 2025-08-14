@@ -1,0 +1,1201 @@
+##########################################################################################################################
+Analysis for False Friend word: ask
+Correct Translation: small box; ash (tree)
+Wrong Translation: ask
+
+'ask' in English context:
+Sentence 1:
+i’ll ask her if she’s coming to the meeting.
+['i', 'âĢĻ', 'll'] ['ask'] ['her'] ['i', 'f'] ['she', 'âĢĻ', 's'] ['com', 'in', 'g'] ['t', 'o'] ['the'] ['meeting', '.'] 
+('i', 'PRON'), ('’ll', 'AUX'), ('ask', 'VERB'), ('her', 'PRON'), ('if', 'SCONJ'), ('she', 'PRON'), ('’s', 'AUX'), ('coming', 'VERB'), ('to', 'ADP'), ('the', 'DET'), ('meeting', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+don’t be afraid to ask questions in class.
+['do', 'n', 'âĢĻ', 't'] ['b', 'e'] ['afraid'] ['t', 'o'] ['ask'] ['questions'] ['in'] ['c', 'las', 's', '.'] 
+('do', 'AUX'), ('n’t', 'PART'), ('be', 'AUX'), ('afraid', 'ADJ'), ('to', 'PART'), ('ask', 'VERB'), ('questions', 'NOUN'), ('in', 'ADP'), ('class', 'NOUN'), ('.', 'PUNCT'), 
+'ask' in se context:
+Sentence 1:
+jag har en liten ask.
+['jag'] ['har'] ['en'] ['lite', 'n'] ['as', 'k', '.'] 
+('jag', 'PRON'), ('har', 'VERB'), ('en', 'DET'), ('liten', 'ADJ'), ('ask', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+asken står i min trädgård.
+['as', 'ke', 'n'] ['st', 'Ã¥r'] ['i'] ['m', 'in'] ['trÃ¤dgÃ¥rd', '.'] 
+('asken', 'NOUN'), ('står', 'VERB'), ('i', 'ADP'), ('min', 'PRON'), ('trädgård', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['i', 'âĢĻ', 'l', 'l'] ['ask'] ['her'] ['i', 'f'] ['she', 'âĢĻ', 's'] ['coming'] ['t', 'o'] ['t', 'h', 'e'] ['mee', 'ting', '.'] 
+['d', 'o', 'n', 'âĢĻ', 't'] ['be'] ['a', 'fra', 'i', 'd'] ['t', 'o'] ['ask'] ['questions'] ['in'] ['class', '.'] 
+Multilingual tokenization: se
+['jag'] ['har'] ['e', 'n'] ['lit', 'e', 'n'] ['ask', '.'] 
+['ask', 'e', 'n'] ['stÃ¥r'] ['i'] ['min'] ['tr', 'Ã', '¤', 'd', 'gÃ¥r', 'd', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: bad
+Correct Translation: bath
+Wrong Translation: bad
+
+'bad' in English context:
+Sentence 1:
+that movie was so bad i walked out halfway.
+['that'] ['movie'] ['was'] ['so'] ['bad'] ['i'] ['walk', 'e', 'd'] ['out'] ['half', 'way', '.'] 
+('that', 'DET'), ('movie', 'NOUN'), ('was', 'AUX'), ('so', 'ADV'), ('bad', 'ADJ'), ('i', 'PRON'), ('walked', 'VERB'), ('out', 'ADP'), ('halfway', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+he has a bad habit of interrupting people.
+['he'] ['has'] ['a'] ['bad'] ['h', 'ab', 'i', 't'] ['o', 'f'] ['inter', 'r', 'u', 'pt', 'in', 'g'] ['people', '.'] 
+('he', 'PRON'), ('has', 'VERB'), ('a', 'DET'), ('bad', 'ADJ'), ('habit', 'NOUN'), ('of', 'ADP'), ('interrupting', 'VERB'), ('people', 'NOUN'), ('.', 'PUNCT'), 
+'bad' in se context:
+Sentence 1:
+barnet måste ta sitt bad.
+['barn', 'e', 't'] ['mÃ¥ste'] ['t', 'a'] ['s', 'it', 't'] ['bad', '.'] 
+('barnet', 'NOUN'), ('måste', 'AUX'), ('ta', 'VERB'), ('sitt', 'PRON'), ('bad', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+ett bad är nödvändigt nu.
+['ett'] ['bad'] ['Ã¤r'] ['nÃ¶dvÃ¤ndig', 't'] ['n', 'u', '.'] 
+('ett', 'DET'), ('bad', 'NOUN'), ('är', 'AUX'), ('nödvändigt', 'ADJ'), ('nu', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'ha', 't'] ['movie'] ['wa', 's'] ['s', 'o'] ['ba', 'd'] ['i'] ['wa', 'l', 'k', 'e', 'd'] ['o', 'ut'] ['ha', 'l', 'f', 'way', '.'] 
+['h', 'e'] ['has'] ['a'] ['ba', 'd'] ['ha', 'bit'] ['o', 'f'] ['in', 'ter', 'r', 'u', 'p', 'ting'] ['people', '.'] 
+Multilingual tokenization: se
+['barn', 'e', 't'] ['mÃ¥ste'] ['t', 'a'] ['s', 'it', 't'] ['ba', 'd', '.'] 
+['ett'] ['ba', 'd'] ['Ã', '¤', 'r'] ['nÃ¶dvÃ¤nd', 'ig', 't'] ['nu', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: barn
+Correct Translation: child, children
+Wrong Translation: barn
+
+'barn' in English context:
+Sentence 1:
+the cows sleep in the barn during winter.
+['the'] ['co', 'w', 's'] ['sleep'] ['in'] ['the'] ['bar', 'n'] ['during'] ['win', 'ter', '.'] 
+('the', 'DET'), ('cows', 'NOUN'), ('sleep', 'VERB'), ('in', 'ADP'), ('the', 'DET'), ('barn', 'NOUN'), ('during', 'ADP'), ('winter', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+we stored the hay bales in the old wooden barn.
+['w', 'e'] ['store', 'd'] ['the'] ['hay'] ['bal', 'es'] ['in'] ['the'] ['o', 'ld'] ['wood', 'en'] ['bar', 'n', '.'] 
+('we', 'PRON'), ('stored', 'VERB'), ('the', 'DET'), ('hay', 'NOUN'), ('bales', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('old', 'ADJ'), ('wooden', 'ADJ'), ('barn', 'NOUN'), ('.', 'PUNCT'), 
+'barn' in se context:
+Sentence 1:
+alla barn måste gå i skolan.
+['all', 'a'] ['barn'] ['mÃ¥ste'] ['gÃ¥'] ['i'] ['skolan', '.'] 
+('alla', 'DET'), ('barn', 'NOUN'), ('måste', 'AUX'), ('gå', 'VERB'), ('i', 'ADP'), ('skolan', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+hon vill gärna ha barn.
+['hon'] ['v', 'il', 'l'] ['gÃ¤rna'] ['h', 'a'] ['barn', '.'] 
+('hon', 'PRON'), ('vill', 'AUX'), ('gärna', 'ADV'), ('ha', 'VERB'), ('barn', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['co', 'w', 's'] ['s', 'lee', 'p'] ['in'] ['t', 'h', 'e'] ['barn'] ['during'] ['winter', '.'] 
+['w', 'e'] ['stor', 'e', 'd'] ['t', 'h', 'e'] ['ha', 'y'] ['bal', 'es'] ['in'] ['t', 'h', 'e'] ['old'] ['wood', 'e', 'n'] ['barn', '.'] 
+Multilingual tokenization: se
+['al', 'l', 'a'] ['barn'] ['mÃ¥ste'] ['gÃ¥'] ['i'] ['s', 'kola', 'n', '.'] 
+['hon'] ['vill'] ['g', 'Ã', '¤', 'rna'] ['ha'] ['barn', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: block
+Correct Translation: can mean note pad
+Wrong Translation: block
+
+'block' in English context:
+Sentence 1:
+the road was closed due to a fallen block of concrete.
+['the'] ['ro', 'ad'] ['was'] ['close', 'd'] ['due'] ['t', 'o'] ['a'] ['fall', 'en'] ['bloc', 'k'] ['o', 'f'] ['con', 'cr', 'et', 'e', '.'] 
+('the', 'DET'), ('road', 'NOUN'), ('was', 'AUX'), ('closed', 'VERB'), ('due', 'ADP'), ('to', 'ADP'), ('a', 'DET'), ('fallen', 'VERB'), ('block', 'NOUN'), ('of', 'ADP'), ('concrete', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she used her hand to block the sun from her eyes.
+['she'] ['use', 'd'] ['her'] ['han', 'd'] ['t', 'o'] ['bloc', 'k'] ['the'] ['s', 'un'] ['from'] ['her'] ['eyes', '.'] 
+('she', 'PRON'), ('used', 'VERB'), ('her', 'PRON'), ('hand', 'NOUN'), ('to', 'PART'), ('block', 'VERB'), ('the', 'DET'), ('sun', 'NOUN'), ('from', 'ADP'), ('her', 'PRON'), ('eyes', 'NOUN'), ('.', 'PUNCT'), 
+'block' in se context:
+Sentence 1:
+nu skall vi köpa ett block att skriva på.
+['n', 'u'] ['sk', 'all'] ['v', 'i'] ['kÃ¶p', 'a'] ['ett'] ['b', 'lock'] ['a', 't', 't'] ['skriv', 'a'] ['pÃ¥', '.'] 
+('nu', 'ADV'), ('skall', 'AUX'), ('vi', 'PRON'), ('köpa', 'VERB'), ('ett', 'DET'), ('block', 'NOUN'), ('att', 'PART'), ('skriva', 'VERB'), ('på', 'ADP'), ('.', 'PUNCT'), 
+Sentence 2:
+alla barn i skolan måste ha ett block.
+['all', 'a'] ['barn'] ['i'] ['skolan'] ['mÃ¥ste'] ['h', 'a'] ['ett'] ['b', 'lock', '.'] 
+('alla', 'DET'), ('barn', 'NOUN'), ('i', 'ADP'), ('skolan', 'NOUN'), ('måste', 'AUX'), ('ha', 'VERB'), ('ett', 'DET'), ('block', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['ro', 'ad'] ['wa', 's'] ['closed'] ['du', 'e'] ['t', 'o'] ['a'] ['fall', 'e', 'n'] ['bloc', 'k'] ['o', 'f'] ['con', 'c', 're', 't', 'e', '.'] 
+['she'] ['used'] ['her'] ['han', 'd'] ['t', 'o'] ['bloc', 'k'] ['t', 'h', 'e'] ['sun'] ['from'] ['her'] ['ey', 'es', '.'] 
+Multilingual tokenization: se
+['nu'] ['ska', 'l', 'l'] ['v', 'i'] ['k', 'Ã¶', 'p', 'a'] ['ett'] ['bloc', 'k'] ['a', 't', 't'] ['skriv', 'a'] ['pÃ¥', '.'] 
+['al', 'l', 'a'] ['barn'] ['i'] ['s', 'kola', 'n'] ['mÃ¥ste'] ['ha'] ['ett'] ['bloc', 'k', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: brand
+Correct Translation: fire (the emergency)
+Wrong Translation: brand
+
+'brand' in English context:
+Sentence 1:
+nike is a popular brand of athletic clothing.
+['n', 'ik', 'e'] ['is'] ['a'] ['pop', 'ular'] ['bran', 'd'] ['o', 'f'] ['a', 'th', 'let', 'ic'] ['c', 'lot', 'h', 'in', 'g', '.'] 
+('nike', 'ADJ'), ('is', 'AUX'), ('a', 'DET'), ('popular', 'ADJ'), ('brand', 'NOUN'), ('of', 'ADP'), ('athletic', 'ADJ'), ('clothing', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they decided to rebrand the company with a fresh new logo.
+['they'] ['decided'] ['t', 'o'] ['re', 'bran', 'd'] ['the'] ['company'] ['w', 'i', 'th'] ['a'] ['fresh'] ['new'] ['log', 'o', '.'] 
+('they', 'PRON'), ('decided', 'VERB'), ('to', 'PART'), ('rebrand', 'VERB'), ('the', 'DET'), ('company', 'NOUN'), ('with', 'ADP'), ('a', 'DET'), ('fresh', 'ADJ'), ('new', 'ADJ'), ('logo', 'NOUN'), ('.', 'PUNCT'), 
+'brand' in se context:
+Sentence 1:
+det var en stor brand i stockholm år 1783.
+['det'] ['var'] ['en'] ['st', 'o', 'r'] ['brand'] ['i'] ['stock', 'holm'] ['Ã¥r'] ['1', '7', '8', '3', '.'] 
+('det', 'PRON'), ('var', 'AUX'), ('en', 'DET'), ('stor', 'ADJ'), ('brand', 'NOUN'), ('i', 'ADP'), ('stockholm', 'PROPN'), ('år', 'NOUN'), ('1783', 'NUM'), ('.', 'PUNCT'), 
+Sentence 2:
+jag är rädd för brand hemma.
+['jag'] ['Ã¤r'] ['rÃ¤dd'] ['f', 'Ã¶r'] ['brand'] ['h', 'em', 'ma', '.'] 
+('jag', 'PRON'), ('är', 'AUX'), ('rädd', 'ADJ'), ('för', 'ADP'), ('brand', 'NOUN'), ('hemma', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['n', 'ik', 'e'] ['is'] ['a'] ['popular'] ['bran', 'd'] ['o', 'f'] ['a', 't', 'h', 'l', 'etic'] ['c', 'lot', 'hing', '.'] 
+['they'] ['decided'] ['t', 'o'] ['re', 'bran', 'd'] ['t', 'h', 'e'] ['company'] ['with'] ['a'] ['f', 'res', 'h'] ['new'] ['l', 'o', 'g', 'o', '.'] 
+Multilingual tokenization: se
+['det'] ['v', 'ar'] ['e', 'n'] ['stor'] ['bran', 'd'] ['i'] ['stock', 'h', 'olm'] ['Ã¥r'] ['1', '7', '8', '3', '.'] 
+['jag'] ['Ã', '¤', 'r'] ['r', 'Ã', '¤', 'd', 'd'] ['fÃ¶r'] ['bran', 'd'] ['h', 'emma', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: diverse
+Correct Translation: various
+Wrong Translation: diverse
+
+'diverse' in English context:
+Sentence 1:
+the city has a diverse population from many countries.
+['the'] ['cit', 'y'] ['has'] ['a'] ['d', 'iver', 'se'] ['population'] ['from'] ['many'] ['co', 'un', 'tries', '.'] 
+('the', 'DET'), ('city', 'NOUN'), ('has', 'VERB'), ('a', 'DET'), ('diverse', 'ADJ'), ('population', 'NOUN'), ('from', 'ADP'), ('many', 'ADJ'), ('countries', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+her music taste is very diverse, ranging from jazz to metal.
+['her'] ['mus', 'ic'] ['tas', 't', 'e'] ['is'] ['ve', 'ry'] ['d', 'iver', 'se', ','] ['ran', 'ging'] ['from'] ['jazz'] ['t', 'o'] ['metal', '.'] 
+('her', 'PRON'), ('music', 'NOUN'), ('taste', 'NOUN'), ('is', 'AUX'), ('very', 'ADV'), ('diverse', 'ADJ'), (',', 'PUNCT'), ('ranging', 'VERB'), ('from', 'ADP'), ('jazz', 'NOUN'), ('to', 'ADP'), ('metal', 'NOUN'), ('.', 'PUNCT'), 
+'diverse' in se context:
+Sentence 1:
+han säljer diverse saker.
+['han'] ['sÃ¤lj', 'e', 'r'] ['d', 'i', 'vers', 'e'] ['sa', 'ker', '.'] 
+('han', 'PRON'), ('säljer', 'NOUN'), ('diverse', 'ADJ'), ('saker', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+hon studerar diverse ämnen på universitetet.
+['hon'] ['stu', 'derar'] ['d', 'i', 'vers', 'e'] ['Ã¤mnen'] ['pÃ¥'] ['universit', 'e', 'tet', '.'] 
+('hon', 'PRON'), ('studerar', 'VERB'), ('diverse', 'ADJ'), ('ämnen', 'NOUN'), ('på', 'ADP'), ('universitetet', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['city'] ['has'] ['a'] ['d', 'ivers', 'e'] ['p', 'o', 'p', 'ulation'] ['from'] ['many'] ['countries', '.'] 
+['her'] ['m', 'us', 'i', 'c'] ['tas', 't', 'e'] ['is'] ['very'] ['d', 'ivers', 'e', ','] ['r', 'an', 'g', 'in', 'g'] ['from'] ['ja', 'z', 'z'] ['t', 'o'] ['meta', 'l', '.'] 
+Multilingual tokenization: se
+['han'] ['s', 'Ã', '¤', 'lje', 'r'] ['d', 'ivers', 'e'] ['s', 'ake', 'r', '.'] 
+['hon'] ['s', 'tud', 'er', 'ar'] ['d', 'ivers', 'e'] ['Ã', '¤', 'm', 'nen'] ['pÃ¥'] ['universitet', 'e', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: egg
+Correct Translation: edge of a cutting tool, such as knife edge
+Wrong Translation: egg
+
+'egg' in English context:
+Sentence 1:
+i had a boiled egg for breakfast.
+['i'] ['had'] ['a'] ['bo', 'ile', 'd'] ['eg', 'g'] ['f', 'or'] ['b', 're', 'ak', 'fast', '.'] 
+('i', 'PRON'), ('had', 'VERB'), ('a', 'DET'), ('boiled', 'VERB'), ('egg', 'NOUN'), ('for', 'ADP'), ('breakfast', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he threw an egg at the sign as a prank.
+['he'] ['th', 're', 'w'] ['a', 'n'] ['eg', 'g'] ['a', 't'] ['the'] ['sign'] ['a', 's'] ['a'] ['p', 'ran', 'k', '.'] 
+('he', 'PRON'), ('threw', 'VERB'), ('an', 'DET'), ('egg', 'NOUN'), ('at', 'ADP'), ('the', 'DET'), ('sign', 'NOUN'), ('as', 'ADP'), ('a', 'DET'), ('prank', 'NOUN'), ('.', 'PUNCT'), 
+'egg' in se context:
+Sentence 1:
+kniven har en vass egg.
+['k', 'n', 'i', 'ven'] ['har'] ['en'] ['vas', 's'] ['egg', '.'] 
+('kniven', 'ADJ'), ('har', 'VERB'), ('en', 'DET'), ('vass', 'NOUN'), ('egg', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+eggen måste vässas.
+['egg', 'en'] ['mÃ¥ste'] ['v', 'Ã', '¤', 's', 'sas', '.'] 
+('eggen', 'NOUN'), ('måste', 'AUX'), ('vässas', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['i'] ['had'] ['a'] ['bo', 'iled'] ['e', 'g', 'g'] ['for'] ['break', 'f', 'ast', '.'] 
+['h', 'e'] ['t', 'h', 're', 'w'] ['an'] ['e', 'g', 'g'] ['a', 't'] ['t', 'h', 'e'] ['sign'] ['a', 's'] ['a'] ['p', 'r', 'an', 'k', '.'] 
+Multilingual tokenization: se
+['k', 'n', 'iv', 'e', 'n'] ['har'] ['e', 'n'] ['v', 'a', 's', 's'] ['e', 'g', 'g', '.'] 
+['e', 'g', 'gen'] ['mÃ¥ste'] ['v', 'Ã', '¤', 's', 's', 'a', 's', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: far
+Correct Translation: father
+Wrong Translation: far
+
+'far' in English context:
+Sentence 1:
+she moved far away from her hometown.
+['she'] ['m', 'ove', 'd'] ['far'] ['away'] ['from'] ['her'] ['h', 'o', 'met', 'o', 'wn', '.'] 
+('she', 'PRON'), ('moved', 'VERB'), ('far', 'ADV'), ('away', 'ADV'), ('from', 'ADP'), ('her', 'PRON'), ('hometown', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the mountain peak looked far in the distance.
+['the'] ['mountain'] ['pea', 'k'] ['look', 'e', 'd'] ['far'] ['in'] ['the'] ['distance', '.'] 
+('the', 'DET'), ('mountain', 'NOUN'), ('peak', 'NOUN'), ('looked', 'VERB'), ('far', 'ADV'), ('in', 'ADP'), ('the', 'DET'), ('distance', 'NOUN'), ('.', 'PUNCT'), 
+'far' in se context:
+Sentence 1:
+far är rar.
+['f', 'ar'] ['Ã¤r'] ['rar', '.'] 
+('far', 'NOUN'), ('är', 'AUX'), ('rar', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+min far är läkare.
+['m', 'in'] ['f', 'ar'] ['Ã¤r'] ['lÃ¤kar', 'e', '.'] 
+('min', 'PRON'), ('far', 'NOUN'), ('är', 'AUX'), ('läkare', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['moved'] ['f', 'ar'] ['away'] ['from'] ['her'] ['hom', 'e', 'town', '.'] 
+['t', 'h', 'e'] ['mountain'] ['p', 'e', 'a', 'k'] ['look', 'e', 'd'] ['f', 'ar'] ['in'] ['t', 'h', 'e'] ['d', 'is', 't', 'ance', '.'] 
+Multilingual tokenization: se
+['f', 'ar'] ['Ã', '¤', 'r'] ['rar', '.'] 
+['min'] ['f', 'ar'] ['Ã', '¤', 'r'] ['l', 'Ã', '¤', 'kar', 'e', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: fart
+Correct Translation: speed
+Wrong Translation: fart
+
+'fart' in English context:
+Sentence 1:
+he tried to hide a loud fart during the meeting.
+['he'] ['tried'] ['t', 'o'] ['h', 'ide'] ['a'] ['loud'] ['far', 't'] ['during'] ['the'] ['meeting', '.'] 
+('he', 'PRON'), ('tried', 'VERB'), ('to', 'PART'), ('hide', 'VERB'), ('a', 'DET'), ('loud', 'ADJ'), ('fart', 'NOUN'), ('during', 'ADP'), ('the', 'DET'), ('meeting', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the kids laughed when someone let out a fart in class.
+['the'] ['kids'] ['l', 'a', 'ug', 'he', 'd'] ['when'] ['someone'] ['let'] ['out'] ['a'] ['far', 't'] ['in'] ['c', 'las', 's', '.'] 
+('the', 'DET'), ('kids', 'NOUN'), ('laughed', 'VERB'), ('when', 'SCONJ'), ('someone', 'PRON'), ('let', 'VERB'), ('out', 'ADP'), ('a', 'DET'), ('fart', 'NOUN'), ('in', 'ADP'), ('class', 'NOUN'), ('.', 'PUNCT'), 
+'fart' in se context:
+Sentence 1:
+de håller för hög fart här.
+['d', 'e'] ['hÃ¥ller'] ['f', 'Ã¶r'] ['h', 'Ã', '¶', 'g'] ['f', 'art'] ['h', 'Ã¤r', '.'] 
+('de', 'PRON'), ('håller', 'VERB'), ('för', 'ADP'), ('hög', 'ADJ'), ('fart', 'NOUN'), ('här', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+jag gillar hög fart.
+['jag'] ['gil', 'lar'] ['h', 'Ã', '¶', 'g'] ['f', 'art', '.'] 
+('jag', 'PRON'), ('gillar', 'VERB'), ('hög', 'ADJ'), ('fart', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['h', 'e'] ['tried'] ['t', 'o'] ['h', 'i', 'd', 'e'] ['a'] ['l', 'o', 'u', 'd'] ['f', 'ar', 't'] ['during'] ['t', 'h', 'e'] ['mee', 'ting', '.'] 
+['t', 'h', 'e'] ['kid', 's'] ['l', 'a', 'ug', 'h', 'e', 'd'] ['w', 'h', 'e', 'n'] ['some', 'one'] ['l', 'e', 't'] ['o', 'ut'] ['a'] ['f', 'ar', 't'] ['in'] ['class', '.'] 
+Multilingual tokenization: se
+['d', 'e'] ['hÃ¥ll', 'er'] ['fÃ¶r'] ['h', 'Ã¶', 'g'] ['f', 'ar', 't'] ['h', 'Ã', '¤', 'r', '.'] 
+['jag'] ['g', 'illa', 'r'] ['h', 'Ã¶', 'g'] ['f', 'ar', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: fast
+Correct Translation: firm, steady (compare "steadfast")
+Wrong Translation: fast
+
+'fast' in English context:
+Sentence 1:
+she runs really fast for her age.
+['she'] ['runs'] ['really'] ['fast'] ['f', 'or'] ['her'] ['a', 'g', 'e', '.'] 
+('she', 'PRON'), ('runs', 'VERB'), ('really', 'ADV'), ('fast', 'ADV'), ('for', 'ADP'), ('her', 'PRON'), ('age', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they had to fast before the medical test.
+['they'] ['had'] ['t', 'o'] ['fast'] ['b', 'e', 'fore'] ['the'] ['medical'] ['t', 'est', '.'] 
+('they', 'PRON'), ('had', 'VERB'), ('to', 'PART'), ('fast', 'VERB'), ('before', 'ADP'), ('the', 'DET'), ('medical', 'ADJ'), ('test', 'NOUN'), ('.', 'PUNCT'), 
+'fast' in se context:
+Sentence 1:
+hans vilja är fast.
+['han', 's'] ['v', 'il', 'j', 'a'] ['Ã¤r'] ['fast', '.'] 
+('hans', 'PRON'), ('vilja', 'NOUN'), ('är', 'AUX'), ('fast', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+han har en fast anställning.
+['han'] ['har'] ['en'] ['fast'] ['an', 'stÃ¤llning', '.'] 
+('han', 'PRON'), ('har', 'VERB'), ('en', 'DET'), ('fast', 'ADJ'), ('anställning', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['runs'] ['real', 'l', 'y'] ['f', 'ast'] ['for'] ['her'] ['age', '.'] 
+['they'] ['had'] ['t', 'o'] ['f', 'ast'] ['before'] ['t', 'h', 'e'] ['med', 'ical'] ['test', '.'] 
+Multilingual tokenization: se
+['han', 's'] ['vil', 'ja'] ['Ã', '¤', 'r'] ['f', 'ast', '.'] 
+['han'] ['har'] ['e', 'n'] ['f', 'ast'] ['an', 'stÃ¤llning', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: fat
+Correct Translation: (dinner) plate
+Wrong Translation: fat
+
+'fat' in English context:
+Sentence 1:
+the doctor advised him to reduce his fat intake.
+['the'] ['doctor'] ['ad', 'vi', 'se', 'd'] ['him'] ['t', 'o'] ['re', 'd', 'u', 'ce'] ['his'] ['f', 'a', 't'] ['in', 'take', '.'] 
+('the', 'DET'), ('doctor', 'NOUN'), ('advised', 'VERB'), ('him', 'PRON'), ('to', 'PART'), ('reduce', 'VERB'), ('his', 'PRON'), ('fat', 'NOUN'), ('intake', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the cat grew fat from eating too much.
+['the'] ['cat'] ['grew'] ['f', 'a', 't'] ['from'] ['eat', 'in', 'g'] ['t', 'o', 'o'] ['m', 'uch', '.'] 
+('the', 'DET'), ('cat', 'NOUN'), ('grew', 'VERB'), ('fat', 'ADJ'), ('from', 'ADP'), ('eating', 'VERB'), ('too', 'ADV'), ('much', 'ADJ'), ('.', 'PUNCT'), 
+'fat' in se context:
+Sentence 1:
+han har ett stort fat framför sig.
+['han'] ['har'] ['ett'] ['st', 'ort'] ['f', 'a', 't'] ['f', 'ram', 'f', 'Ã¶r'] ['s', 'ig', '.'] 
+('han', 'PRON'), ('har', 'VERB'), ('ett', 'DET'), ('stort', 'ADJ'), ('fat', 'ADJ'), ('framför', 'ADP'), ('sig', 'PRON'), ('.', 'PUNCT'), 
+Sentence 2:
+nu är deras fat tomt.
+['n', 'u'] ['Ã¤r'] ['d', 'eras'] ['f', 'a', 't'] ['t', 'o', 'm', 't', '.'] 
+('nu', 'ADV'), ('är', 'AUX'), ('deras', 'PRON'), ('fat', 'ADJ'), ('tomt', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['doctor'] ['ad', 'v', 'is', 'e', 'd'] ['him'] ['t', 'o'] ['re', 'du', 'c', 'e'] ['h', 'is'] ['f', 'a', 't'] ['in', 'take', '.'] 
+['t', 'h', 'e'] ['c', 'a', 't'] ['gre', 'w'] ['f', 'a', 't'] ['from'] ['eating'] ['too'] ['m', 'u', 'ch', '.'] 
+Multilingual tokenization: se
+['han'] ['har'] ['ett'] ['stor', 't'] ['f', 'a', 't'] ['fram', 'fÃ¶r'] ['s', 'ig', '.'] 
+['nu'] ['Ã', '¤', 'r'] ['d', 'er', 'a', 's'] ['f', 'a', 't'] ['tom', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: flint
+Correct Translation: bald head
+Wrong Translation: flint
+
+'flint' in English context:
+Sentence 1:
+early humans used flint to start fires.
+['early'] ['human', 's'] ['use', 'd'] ['f', 'li', 'nt'] ['t', 'o'] ['start'] ['fire', 's', '.'] 
+('early', 'ADJ'), ('humans', 'NOUN'), ('used', 'VERB'), ('flint', 'NOUN'), ('to', 'PART'), ('start', 'VERB'), ('fires', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the arrowhead was made from sharpened flint.
+['the'] ['ar', 'row', 'he', 'ad'] ['was'] ['mad', 'e'] ['from'] ['s', 'h', 'ar', 'p', 'en', 'e', 'd'] ['f', 'li', 'nt', '.'] 
+('the', 'DET'), ('arrowhead', 'NOUN'), ('was', 'AUX'), ('made', 'VERB'), ('from', 'ADP'), ('sharpened', 'VERB'), ('flint', 'NOUN'), ('.', 'PUNCT'), 
+'flint' in se context:
+Sentence 1:
+han har en rejäl flint.
+['han'] ['har'] ['en'] ['re', 'j', 'Ã', '¤', 'l'] ['f', 'lin', 't', '.'] 
+('han', 'PRON'), ('har', 'VERB'), ('en', 'DET'), ('rejäl', 'ADV'), ('flint', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+han tittar på sin flint.
+['han'] ['ti', 't', 'tar'] ['pÃ¥'] ['sin'] ['f', 'lin', 't', '.'] 
+('han', 'PRON'), ('tittar', 'VERB'), ('på', 'ADP'), ('sin', 'PRON'), ('flint', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['early'] ['humans'] ['used'] ['f', 'lin', 't'] ['t', 'o'] ['start'] ['fire', 's', '.'] 
+['t', 'h', 'e'] ['ar', 'ro', 'w', 'head'] ['wa', 's'] ['m', 'ad', 'e'] ['from'] ['s', 'har', 'p', 'e', 'ned'] ['f', 'lin', 't', '.'] 
+Multilingual tokenization: se
+['han'] ['har'] ['e', 'n'] ['re', 'j', 'Ã', '¤', 'l'] ['f', 'lin', 't', '.'] 
+['han'] ['ti', 'tta', 'r'] ['pÃ¥'] ['s', 'in'] ['f', 'lin', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: gift
+Correct Translation: married, poison
+Wrong Translation: gift
+
+'gift' in English context:
+Sentence 1:
+she received a lovely gift for her birthday.
+['she'] ['re', 'ce', 'ive', 'd'] ['a'] ['love', 'ly'] ['g', 'i', 'ft'] ['f', 'or'] ['her'] ['birth', 'd', 'ay', '.'] 
+('she', 'PRON'), ('received', 'VERB'), ('a', 'DET'), ('lovely', 'ADJ'), ('gift', 'NOUN'), ('for', 'ADP'), ('her', 'PRON'), ('birthday', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he has a gift for learning languages quickly.
+['he'] ['has'] ['a'] ['g', 'i', 'ft'] ['f', 'or'] ['learn', 'in', 'g'] ['languages'] ['qu', 'ic', 'k', 'ly', '.'] 
+('he', 'PRON'), ('has', 'VERB'), ('a', 'DET'), ('gift', 'NOUN'), ('for', 'ADP'), ('learning', 'VERB'), ('languages', 'NOUN'), ('quickly', 'ADV'), ('.', 'PUNCT'), 
+'gift' in se context:
+Sentence 1:
+snart är hon gift.
+['s', 'na', 'rt'] ['Ã¤r'] ['hon'] ['gift', '.'] 
+('snart', 'ADV'), ('är', 'AUX'), ('hon', 'PRON'), ('gift', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+hon vill ge honom gift.
+['hon'] ['v', 'il', 'l'] ['ge'] ['hon', 'o', 'm'] ['gift', '.'] 
+('hon', 'PRON'), ('vill', 'AUX'), ('ge', 'VERB'), ('honom', 'PRON'), ('gift', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['receive', 'd'] ['a'] ['love', 'l', 'y'] ['gift'] ['for'] ['her'] ['birth', 'day', '.'] 
+['h', 'e'] ['has'] ['a'] ['gift'] ['for'] ['learn', 'in', 'g'] ['languages'] ['quickly', '.'] 
+Multilingual tokenization: se
+['s', 'na', 'r', 't'] ['Ã', '¤', 'r'] ['hon'] ['gift', '.'] 
+['hon'] ['vill'] ['g', 'e'] ['hon', 'om'] ['gift', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: glass
+Correct Translation: icecream
+Wrong Translation: glass
+
+'glass' in English context:
+Sentence 1:
+he poured the juice into a glass.
+['he'] ['p', 'our', 'e', 'd'] ['the'] ['j', 'u', 'ice'] ['into'] ['a'] ['glass', '.'] 
+('he', 'PRON'), ('poured', 'VERB'), ('the', 'DET'), ('juice', 'NOUN'), ('into', 'ADP'), ('a', 'DET'), ('glass', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the window shattered and pieces of glass fell everywhere.
+['the'] ['win', 'do', 'w'] ['s', 'hat', 'ter', 'e', 'd'] ['a', 'n', 'd'] ['pieces'] ['o', 'f'] ['glass'] ['fell'] ['ever', 'y', 'where', '.'] 
+('the', 'DET'), ('window', 'NOUN'), ('shattered', 'VERB'), ('and', 'CCONJ'), ('pieces', 'NOUN'), ('of', 'ADP'), ('glass', 'NOUN'), ('fell', 'VERB'), ('everywhere', 'ADV'), ('.', 'PUNCT'), 
+'glass' in se context:
+Sentence 1:
+glass är gott.
+['glas', 's'] ['Ã¤r'] ['g', 'o', 't', 't', '.'] 
+('glass', 'NOUN'), ('är', 'AUX'), ('gott', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+jag ãlskar glass.
+['jag'] ['Ã', '£', 'l', 'sk', 'ar'] ['glas', 's', '.'] 
+('jag', 'PRON'), ('ãlskar', 'VERB'), ('glass', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['h', 'e'] ['p', 'our', 'e', 'd'] ['t', 'h', 'e'] ['j', 'u', 'i', 'c', 'e'] ['in', 't', 'o'] ['a'] ['glas', 's', '.'] 
+['t', 'h', 'e'] ['win', 'd', 'ow'] ['s', 'ha', 't', 'ter', 'e', 'd'] ['and'] ['pieces'] ['o', 'f'] ['glas', 's'] ['fell'] ['e', 'very', 'w', 'her', 'e', '.'] 
+Multilingual tokenization: se
+['glas', 's'] ['Ã', '¤', 'r'] ['got', 't', '.'] 
+['jag'] ['Ã', '£', 'ls', 'kar'] ['glas', 's', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: hot
+Correct Translation: threat
+Wrong Translation: hot
+
+'hot' in English context:
+Sentence 1:
+it’s too hot outside to go for a walk.
+['i', 't', 'âĢĻ', 's'] ['t', 'o', 'o'] ['h', 'o', 't'] ['out', 's', 'ide'] ['t', 'o'] ['go'] ['f', 'or'] ['a'] ['walk', '.'] 
+('it', 'PRON'), ('’s', 'VERB'), ('too', 'ADV'), ('hot', 'ADJ'), ('outside', 'ADV'), ('to', 'PART'), ('go', 'VERB'), ('for', 'ADP'), ('a', 'DET'), ('walk', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the coffee was still hot when she took a sip.
+['the'] ['co', 'f', 'f', 'ee'] ['was'] ['still'] ['h', 'o', 't'] ['when'] ['she'] ['t', 'o', 'ok'] ['a'] ['s', 'i', 'p', '.'] 
+('the', 'DET'), ('coffee', 'NOUN'), ('was', 'AUX'), ('still', 'ADV'), ('hot', 'ADJ'), ('when', 'SCONJ'), ('she', 'PRON'), ('took', 'VERB'), ('a', 'DET'), ('sip', 'NOUN'), ('.', 'PUNCT'), 
+'hot' in se context:
+Sentence 1:
+hon ser honom som ett hot.
+['hon'] ['s', 'e', 'r'] ['hon', 'o', 'm'] ['som'] ['ett'] ['ho', 't', '.'] 
+('hon', 'PRON'), ('ser', 'VERB'), ('honom', 'PRON'), ('som', 'SCONJ'), ('ett', 'DET'), ('hot', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+det är inget hot.
+['det'] ['Ã¤r'] ['ing', 'e', 't'] ['ho', 't', '.'] 
+('det', 'PRON'), ('är', 'AUX'), ('inget', 'DET'), ('hot', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['it', 'âĢĻ', 's'] ['too'] ['h', 'o', 't'] ['o', 'ut', 'side'] ['t', 'o'] ['g', 'o'] ['for'] ['a'] ['wa', 'l', 'k', '.'] 
+['t', 'h', 'e'] ['co', 'f', 'f', 'e', 'e'] ['wa', 's'] ['still'] ['h', 'o', 't'] ['w', 'h', 'e', 'n'] ['she'] ['took'] ['a'] ['s', 'i', 'p', '.'] 
+Multilingual tokenization: se
+['hon'] ['ser'] ['hon', 'om'] ['som'] ['ett'] ['h', 'o', 't', '.'] 
+['det'] ['Ã', '¤', 'r'] ['in', 'get'] ['h', 'o', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: i
+Correct Translation: in
+Wrong Translation: i
+
+'i' in English context:
+Sentence 1:
+i love spending weekends with my family.
+['i'] ['love'] ['sp', 'ending'] ['week', 'ends'] ['w', 'i', 'th'] ['my'] ['f', 'am', 'ily', '.'] 
+('i', 'PRON'), ('love', 'VERB'), ('spending', 'VERB'), ('weekends', 'NOUN'), ('with', 'ADP'), ('my', 'PRON'), ('family', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+i think we should leave now before it rains.
+['i'] ['think'] ['w', 'e'] ['should'] ['l', 'ea', 've'] ['now'] ['b', 'e', 'fore'] ['i', 't'] ['rai', 'ns', '.'] 
+('i', 'PRON'), ('think', 'VERB'), ('we', 'PRON'), ('should', 'AUX'), ('leave', 'VERB'), ('now', 'ADV'), ('before', 'SCONJ'), ('it', 'PRON'), ('rains', 'VERB'), ('.', 'PUNCT'), 
+'i' in se context:
+Sentence 1:
+det är varmt i israel nu.
+['det'] ['Ã¤r'] ['var', 'm', 't'] ['i'] ['is', 'ra', 'el'] ['n', 'u', '.'] 
+('det', 'PRON'), ('är', 'AUX'), ('varmt', 'NOUN'), ('i', 'ADP'), ('israel', 'NOUN'), ('nu', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+jag har ont i magen.
+['jag'] ['har'] ['ont'] ['i'] ['ma', 'gen', '.'] 
+('jag', 'PRON'), ('har', 'VERB'), ('ont', 'ADJ'), ('i', 'ADP'), ('magen', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['i'] ['love'] ['spend', 'in', 'g'] ['week', 'ends'] ['with'] ['my'] ['family', '.'] 
+['i'] ['think'] ['w', 'e'] ['should'] ['leave'] ['now'] ['before'] ['it'] ['rai', 'n', 's', '.'] 
+Multilingual tokenization: se
+['det'] ['Ã', '¤', 'r'] ['v', 'ar', 'mt'] ['i'] ['israel'] ['nu', '.'] 
+['jag'] ['har'] ['o', 'n', 't'] ['i'] ['mag', 'e', 'n', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: is
+Correct Translation: ice
+Wrong Translation: is
+
+'is' in English context:
+Sentence 1:
+she is my best friend.
+['she'] ['is'] ['my'] ['best'] ['f', 'rie', 'n', 'd', '.'] 
+('she', 'PRON'), ('is', 'AUX'), ('my', 'PRON'), ('best', 'ADJ'), ('friend', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+that book is very interesting.
+['that'] ['book'] ['is'] ['ve', 'ry'] ['inter', 'est', 'in', 'g', '.'] 
+('that', 'DET'), ('book', 'NOUN'), ('is', 'AUX'), ('very', 'ADV'), ('interesting', 'ADJ'), ('.', 'PUNCT'), 
+'is' in se context:
+Sentence 1:
+is är  mycket kallt.
+['is'] ['Ã¤r'] [] ['mycket'] ['k', 'all', 't', '.'] 
+('is', 'NOUN'), ('är', 'AUX'), (' ', 'SPACE'), ('mycket', 'ADV'), ('kallt', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+is är användbart.
+['is'] ['Ã¤r'] ['an', 'v', 'Ã¤n', 'd', 'ba', 'rt', '.'] 
+('is', 'NOUN'), ('är', 'AUX'), ('användbart', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['is'] ['my'] ['best'] ['f', 'rien', 'd', '.'] 
+['t', 'ha', 't'] ['book'] ['is'] ['very'] ['interest', 'in', 'g', '.'] 
+Multilingual tokenization: se
+['is'] ['Ã', '¤', 'r'] [] ['mycket'] ['kal', 'l', 't', '.'] 
+['is'] ['Ã', '¤', 'r'] ['anvÃ¤nd', 'bart', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: island
+Correct Translation: Iceland
+Wrong Translation: island
+
+'island' in English context:
+Sentence 1:
+they spent their honeymoon on a tropical island.
+['they'] ['spent'] ['the', 'ir'] ['hon', 'ey', 'moon'] ['on'] ['a'] ['tropic', 'al'] ['is', 'lan', 'd', '.'] 
+('they', 'PRON'), ('spent', 'VERB'), ('their', 'PRON'), ('honeymoon', 'NOUN'), ('on', 'ADP'), ('a', 'DET'), ('tropical', 'ADJ'), ('island', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the island is known for its rare bird species.
+['the'] ['is', 'lan', 'd'] ['is'] ['known'] ['f', 'or'] ['its'] ['rare'] ['b', 'ir', 'd'] ['species', '.'] 
+('the', 'DET'), ('island', 'NOUN'), ('is', 'AUX'), ('known', 'VERB'), ('for', 'ADP'), ('its', 'PRON'), ('rare', 'ADJ'), ('bird', 'NOUN'), ('species', 'NOUN'), ('.', 'PUNCT'), 
+'island' in se context:
+Sentence 1:
+island är en ö.
+['isla', 'nd'] ['Ã¤r'] ['en'] ['Ã', '¶', '.'] 
+('island', 'NOUN'), ('är', 'AUX'), ('en', 'DET'), ('ö.', 'NOUN'), 
+Sentence 2:
+vikingarna upptäckte island.
+['v', 'ik', 'ing', 'ar', 'na'] ['u', 'p', 'p', 'tÃ¤ckt', 'e'] ['isla', 'nd', '.'] 
+('vikingarna', 'NOUN'), ('upptäckte', 'VERB'), ('island', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['they'] ['spent'] ['their'] ['hon', 'ey', 'moon'] ['o', 'n'] ['a'] ['tropical'] ['is', 'l', 'and', '.'] 
+['t', 'h', 'e'] ['is', 'l', 'and'] ['is'] ['know', 'n'] ['for'] ['it', 's'] ['rar', 'e'] ['bir', 'd'] ['speci', 'es', '.'] 
+Multilingual tokenization: se
+['is', 'l', 'and'] ['Ã', '¤', 'r'] ['e', 'n'] ['Ã¶', '.'] 
+['v', 'ik', 'in', 'garna'] ['u', 'pp', 'tÃ¤ck', 't', 'e'] ['is', 'l', 'and', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: kid
+Correct Translation: fawn
+Wrong Translation: kid
+
+'kid' in English context:
+Sentence 1:
+the kid spilled juice on the floor.
+['the'] ['k', 'id'] ['sp', 'illed'] ['j', 'u', 'ice'] ['on'] ['the'] ['floor', '.'] 
+('the', 'DET'), ('kid', 'NOUN'), ('spilled', 'VERB'), ('juice', 'NOUN'), ('on', 'ADP'), ('the', 'DET'), ('floor', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+i used to climb trees when i was a kid.
+['i'] ['use', 'd'] ['t', 'o'] ['c', 'li', 'm', 'b'] ['trees'] ['when'] ['i'] ['was'] ['a'] ['k', 'id', '.'] 
+('i', 'PRON'), ('used', 'VERB'), ('to', 'PART'), ('climb', 'VERB'), ('trees', 'NOUN'), ('when', 'SCONJ'), ('i', 'PRON'), ('was', 'AUX'), ('a', 'DET'), ('kid', 'NOUN'), ('.', 'PUNCT'), 
+'kid' in se context:
+Sentence 1:
+rådjuret har ett kid.
+['r', 'Ã¥', 'djur', 'e', 't'] ['har'] ['ett'] ['k', 'id', '.'] 
+('rådjuret', 'NOUN'), ('har', 'VERB'), ('ett', 'DET'), ('kid', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+det var ett vackert kid.
+['det'] ['var'] ['ett'] ['vac', 'ker', 't'] ['k', 'id', '.'] 
+('det', 'PRON'), ('var', 'AUX'), ('ett', 'DET'), ('vackert', 'ADJ'), ('kid', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['kid'] ['sp', 'il', 'led'] ['j', 'u', 'i', 'c', 'e'] ['o', 'n'] ['t', 'h', 'e'] ['floor', '.'] 
+['i'] ['used'] ['t', 'o'] ['c', 'lim', 'b'] ['tr', 'ees'] ['w', 'h', 'e', 'n'] ['i'] ['wa', 's'] ['a'] ['kid', '.'] 
+Multilingual tokenization: se
+['r', 'Ã', '¥', 'd', 'jure', 't'] ['har'] ['ett'] ['kid', '.'] 
+['det'] ['v', 'ar'] ['ett'] ['v', 'ack', 'er', 't'] ['kid', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: kind
+Correct Translation: cheek
+Wrong Translation: kind
+
+'kind' in English context:
+Sentence 1:
+it was kind of him to offer his seat.
+['i', 't'] ['was'] ['k', 'in', 'd'] ['o', 'f'] ['him'] ['t', 'o'] ['o', 'ffer'] ['his'] ['seat', '.'] 
+('it', 'PRON'), ('was', 'AUX'), ('kind', 'ADV'), ('of', 'ADV'), ('him', 'PRON'), ('to', 'PART'), ('offer', 'VERB'), ('his', 'PRON'), ('seat', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she always tries to be kind to strangers.
+['she'] ['al', 'ways'] ['tries'] ['t', 'o'] ['b', 'e'] ['k', 'in', 'd'] ['t', 'o'] ['s', 't', 'range', 'r', 's', '.'] 
+('she', 'PRON'), ('always', 'ADV'), ('tries', 'VERB'), ('to', 'PART'), ('be', 'AUX'), ('kind', 'ADJ'), ('to', 'ADP'), ('strangers', 'NOUN'), ('.', 'PUNCT'), 
+'kind' in se context:
+Sentence 1:
+min högra kind är större än min vänstra.
+['m', 'in'] ['h', 'Ã', '¶', 'g', 'ra'] ['k', 'ind'] ['Ã¤r'] ['stÃ¶rre'] ['Ã¤n'] ['m', 'in'] ['v', 'Ã¤n', 'st', 'ra', '.'] 
+('min', 'PRON'), ('högra', 'NOUN'), ('kind', 'NOUN'), ('är', 'AUX'), ('större', 'ADJ'), ('än', 'SCONJ'), ('min', 'PRON'), ('vänstra', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+han har ont i höger kind.
+['han'] ['har'] ['ont'] ['i'] ['h', 'Ã', '¶', 'ge', 'r'] ['k', 'ind', '.'] 
+('han', 'PRON'), ('har', 'VERB'), ('ont', 'ADJ'), ('i', 'ADP'), ('höger', 'ADJ'), ('kind', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['it'] ['wa', 's'] ['kin', 'd'] ['o', 'f'] ['him'] ['t', 'o'] ['offer'] ['h', 'is'] ['se', 'a', 't', '.'] 
+['she'] ['always'] ['tr', 'ie', 's'] ['t', 'o'] ['be'] ['kin', 'd'] ['t', 'o'] ['s', 'tran', 'ger', 's', '.'] 
+Multilingual tokenization: se
+['min'] ['h', 'Ã¶', 'gr', 'a'] ['kin', 'd'] ['Ã', '¤', 'r'] ['stÃ¶rre'] ['Ã¤n'] ['min'] ['v', 'Ã¤n', 's', 'tr', 'a', '.'] 
+['han'] ['har'] ['o', 'n', 't'] ['i'] ['h', 'Ã¶', 'ger'] ['kin', 'd', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: lack
+Correct Translation: lacquer
+Wrong Translation: lack
+
+'lack' in English context:
+Sentence 1:
+the project failed due to a lack of funding.
+['the'] ['project'] ['failed'] ['due'] ['t', 'o'] ['a'] ['lack'] ['o', 'f'] ['fun', 'ding', '.'] 
+('the', 'DET'), ('project', 'NOUN'), ('failed', 'VERB'), ('due', 'ADP'), ('to', 'ADP'), ('a', 'DET'), ('lack', 'NOUN'), ('of', 'ADP'), ('funding', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he showed a lack of interest in the topic.
+['he'] ['showed'] ['a'] ['lack'] ['o', 'f'] ['inter', 'est'] ['in'] ['the'] ['t', 'o', 'pic', '.'] 
+('he', 'PRON'), ('showed', 'VERB'), ('a', 'DET'), ('lack', 'NOUN'), ('of', 'ADP'), ('interest', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('topic', 'NOUN'), ('.', 'PUNCT'), 
+'lack' in se context:
+Sentence 1:
+han vill köpa lack till sin stol.
+['han'] ['v', 'il', 'l'] ['kÃ¶p', 'a'] ['lac', 'k'] ['till'] ['sin'] ['stol', '.'] 
+('han', 'PRON'), ('vill', 'AUX'), ('köpa', 'VERB'), ('lack', 'NOUN'), ('till', 'ADP'), ('sin', 'PRON'), ('stol', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+målaren kommer att använda lack idag.
+['m', 'Ã¥', 'lar', 'en'] ['kommer'] ['a', 't', 't'] ['an', 'v', 'Ã¤nda'] ['lac', 'k'] ['id', 'a', 'g', '.'] 
+('målaren', 'NOUN'), ('kommer', 'AUX'), ('att', 'PART'), ('använda', 'VERB'), ('lack', 'NOUN'), ('idag', 'ADV'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['project'] ['f', 'a', 'iled'] ['du', 'e'] ['t', 'o'] ['a'] ['lac', 'k'] ['o', 'f'] ['f', 'un', 'ding', '.'] 
+['h', 'e'] ['s', 'how', 'e', 'd'] ['a'] ['lac', 'k'] ['o', 'f'] ['interest'] ['in'] ['t', 'h', 'e'] ['top', 'i', 'c', '.'] 
+Multilingual tokenization: se
+['han'] ['vill'] ['k', 'Ã¶', 'p', 'a'] ['lac', 'k'] ['ti', 'l', 'l'] ['s', 'in'] ['s', 'tol', '.'] 
+['m', 'Ã¥l', 'are', 'n'] ['kom', 'm', 'er'] ['a', 't', 't'] ['anvÃ¤nda'] ['lac', 'k'] ['i', 'dag', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: last
+Correct Translation: load, burden
+Wrong Translation: last
+
+'last' in English context:
+Sentence 1:
+that was the last slice of pizza.
+['that'] ['was'] ['the'] ['last'] ['s', 'li', 'ce'] ['o', 'f'] ['p', 'i', 'z', 'z', 'a', '.'] 
+('that', 'PRON'), ('was', 'AUX'), ('the', 'DET'), ('last', 'ADJ'), ('slice', 'NOUN'), ('of', 'ADP'), ('pizza', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the concert didn’t last as long as i hoped.
+['the'] ['conce', 'rt'] ['didn', 'âĢĻ', 't'] ['last'] ['a', 's'] ['l', 'ong'] ['a', 's'] ['i'] ['hope', 'd', '.'] 
+('the', 'DET'), ('concert', 'NOUN'), ('did', 'AUX'), ('n’t', 'PART'), ('last', 'ADJ'), ('as', 'ADV'), ('long', 'ADV'), ('as', 'SCONJ'), ('i', 'PRON'), ('hoped', 'VERB'), ('.', 'PUNCT'), 
+'last' in se context:
+Sentence 1:
+bilen har en tung last.
+['bil', 'en'] ['har'] ['en'] ['t', 'ung'] ['last', '.'] 
+('bilen', 'NOUN'), ('har', 'VERB'), ('en', 'DET'), ('tung', 'ADJ'), ('last', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+tåget kan ta mycket last.
+['tÃ¥g', 'e', 't'] ['k', 'an'] ['t', 'a'] ['mycket'] ['last', '.'] 
+('tåget', 'NOUN'), ('kan', 'AUX'), ('ta', 'VERB'), ('mycket', 'ADV'), ('last', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'ha', 't'] ['wa', 's'] ['t', 'h', 'e'] ['last'] ['s', 'lic', 'e'] ['o', 'f'] ['p', 'iz', 'z', 'a', '.'] 
+['t', 'h', 'e'] ['conce', 'r', 't'] ['didn', 'âĢĻ', 't'] ['last'] ['a', 's'] ['long'] ['a', 's'] ['i'] ['h', 'o', 'ped', '.'] 
+Multilingual tokenization: se
+['bil', 'e', 'n'] ['har'] ['e', 'n'] ['t', 'un', 'g'] ['last', '.'] 
+['tÃ¥g', 'e', 't'] ['ka', 'n'] ['t', 'a'] ['mycket'] ['last', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: leg
+Correct Translation: ID, identification papers (short for "legitimation")
+Wrong Translation: leg
+
+'leg' in English context:
+Sentence 1:
+she broke her leg while skiing.
+['she'] ['broke'] ['her'] ['l', 'eg'] ['while'] ['s', 'k', 'i', 'in', 'g', '.'] 
+('she', 'PRON'), ('broke', 'VERB'), ('her', 'PRON'), ('leg', 'NOUN'), ('while', 'SCONJ'), ('skiing', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the chair’s leg was wobbly and needed fixing.
+['the'] ['chair', 'âĢĻ', 's'] ['l', 'eg'] ['was'] ['w', 'ob', 'bly'] ['a', 'n', 'd'] ['n', 'ee', 'ded'] ['fix', 'in', 'g', '.'] 
+('the', 'DET'), ('chair', 'NOUN'), ('’s', 'PART'), ('leg', 'NOUN'), ('was', 'AUX'), ('wobbly', 'ADJ'), ('and', 'CCONJ'), ('needed', 'VERB'), ('fixing', 'NOUN'), ('.', 'PUNCT'), 
+'leg' in se context:
+Sentence 1:
+kan du visa mig ditt leg?
+['k', 'an'] ['d', 'u'] ['vis', 'a'] ['mig'] ['dit', 't'] ['l', 'e', 'g', '?'] 
+('kan', 'AUX'), ('du', 'PRON'), ('visa', 'VERB'), ('mig', 'PRON'), ('ditt', 'PRON'), ('leg', 'NOUN'), ('?', 'PUNCT'), 
+Sentence 2:
+har han något leg?
+['har'] ['han'] ['nÃ¥got'] ['l', 'e', 'g', '?'] 
+('har', 'VERB'), ('han', 'PRON'), ('något', 'DET'), ('leg', 'NOUN'), ('?', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['broke'] ['her'] ['leg'] ['while'] ['s', 'k', 'i', 'in', 'g', '.'] 
+['t', 'h', 'e'] ['cha', 'ir', 'âĢĻ', 's'] ['leg'] ['wa', 's'] ['w', 'o', 'b', 'b', 'l', 'y'] ['and'] ['needed'] ['f', 'ix', 'in', 'g', '.'] 
+Multilingual tokenization: se
+['ka', 'n'] ['du'] ['visa'] ['mig'] ['d', 'it', 't'] ['leg', '?'] 
+['har'] ['han'] ['nÃ¥got'] ['leg', '?'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: list
+Correct Translation: cunning, artfulness, ruse
+Wrong Translation: list
+
+'list' in English context:
+Sentence 1:
+he wrote a grocery list before heading out.
+['he'] ['wrote'] ['a'] ['gro', 'ce', 'ry'] ['list'] ['b', 'e', 'fore'] ['he', 'ad', 'in', 'g'] ['out', '.'] 
+('he', 'PRON'), ('wrote', 'VERB'), ('a', 'DET'), ('grocery', 'NOUN'), ('list', 'NOUN'), ('before', 'ADP'), ('heading', 'VERB'), ('out', 'ADP'), ('.', 'PUNCT'), 
+Sentence 2:
+please add your name to the attendance list.
+['p', 'l', 'ea', 'se'] ['ad', 'd'] ['your'] ['name'] ['t', 'o'] ['the'] ['atten', 'dan', 'ce'] ['list', '.'] 
+('please', 'INTJ'), ('add', 'VERB'), ('your', 'PRON'), ('name', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('attendance', 'NOUN'), ('list', 'NOUN'), ('.', 'PUNCT'), 
+'list' in se context:
+Sentence 1:
+en mycket skicklig list.
+['en'] ['mycket'] ['sk', 'ick', 'lig'] ['li', 'st', '.'] 
+('en', 'DET'), ('mycket', 'ADV'), ('skicklig', 'ADJ'), ('list', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+en välkänd list.
+['en'] ['v', 'Ã', '¤', 'l', 'kÃ¤nd'] ['li', 'st', '.'] 
+('en', 'DET'), ('välkänd', 'ADJ'), ('list', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['h', 'e'] ['w', 'ro', 't', 'e'] ['a'] ['gro', 'c', 'er', 'y'] ['lis', 't'] ['before'] ['head', 'in', 'g'] ['o', 'ut', '.'] 
+['p', 'l', 'eas', 'e'] ['add'] ['you', 'r'] ['name'] ['t', 'o'] ['t', 'h', 'e'] ['atten', 'dance'] ['lis', 't', '.'] 
+Multilingual tokenization: se
+['e', 'n'] ['mycket'] ['s', 'kick', 'lig'] ['lis', 't', '.'] 
+['e', 'n'] ['v', 'Ã', '¤', 'l', 'k', 'Ã¤n', 'd'] ['lis', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: lump
+Correct Translation: discarded fabric, slang for mandatory military service
+Wrong Translation: lump
+
+'lump' in English context:
+Sentence 1:
+she found a strange lump on her neck.
+['she'] ['foun', 'd'] ['a'] ['s', 't', 'range'] ['l', 'um', 'p'] ['on'] ['her'] ['nec', 'k', '.'] 
+('she', 'PRON'), ('found', 'VERB'), ('a', 'DET'), ('strange', 'ADJ'), ('lump', 'NOUN'), ('on', 'ADP'), ('her', 'PRON'), ('neck', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he added a lump of sugar to his tea.
+['he'] ['added'] ['a'] ['l', 'um', 'p'] ['o', 'f'] ['sugar'] ['t', 'o'] ['his'] ['tea', '.'] 
+('he', 'PRON'), ('added', 'VERB'), ('a', 'DET'), ('lump', 'NOUN'), ('of', 'ADP'), ('sugar', 'NOUN'), ('to', 'ADP'), ('his', 'PRON'), ('tea', 'NOUN'), ('.', 'PUNCT'), 
+'lump' in se context:
+Sentence 1:
+han säljer bara lump.
+['han'] ['sÃ¤lj', 'e', 'r'] ['ba', 'ra'] ['lum', 'p', '.'] 
+('han', 'PRON'), ('säljer', 'NOUN'), ('bara', 'ADV'), ('lump', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+jag gjorde lumpen i kirune.
+['jag'] ['gjorde'] ['lum', 'pen'] ['i'] ['kir', 'un', 'e', '.'] 
+('jag', 'PRON'), ('gjorde', 'VERB'), ('lumpen', 'NOUN'), ('i', 'ADP'), ('kirune', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['found'] ['a'] ['s', 'tran', 'g', 'e'] ['l', 'u', 'm', 'p'] ['o', 'n'] ['her'] ['n', 'e', 'ck', '.'] 
+['h', 'e'] ['added'] ['a'] ['l', 'u', 'm', 'p'] ['o', 'f'] ['sugar'] ['t', 'o'] ['h', 'is'] ['t', 'e', 'a', '.'] 
+Multilingual tokenization: se
+['han'] ['s', 'Ã', '¤', 'lje', 'r'] ['bar', 'a'] ['l', 'u', 'm', 'p', '.'] 
+['jag'] ['gjor', 'd', 'e'] ['l', 'u', 'm', 'p', 'e', 'n'] ['i'] ['k', 'ir', 'un', 'e', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: lust
+Correct Translation: wish, intent
+Wrong Translation: lust
+
+'lust' in English context:
+Sentence 1:
+his eyes were filled with greed and lust.
+['his'] ['eyes'] ['wer', 'e'] ['filled'] ['w', 'i', 'th'] ['gr', 'ee', 'd'] ['a', 'n', 'd'] ['lus', 't', '.'] 
+('his', 'PRON'), ('eyes', 'NOUN'), ('were', 'AUX'), ('filled', 'VERB'), ('with', 'ADP'), ('greed', 'NOUN'), ('and', 'CCONJ'), ('lust', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the novel explores themes of power and lust.
+['the'] ['novel'] ['explore', 's'] ['them', 'es'] ['o', 'f'] ['p', 'o', 'wer'] ['a', 'n', 'd'] ['lus', 't', '.'] 
+('the', 'DET'), ('novel', 'NOUN'), ('explores', 'VERB'), ('themes', 'NOUN'), ('of', 'ADP'), ('power', 'NOUN'), ('and', 'CCONJ'), ('lust', 'NOUN'), ('.', 'PUNCT'), 
+'lust' in se context:
+Sentence 1:
+hon har lust att äta glass.
+['hon'] ['har'] ['lu', 'st'] ['a', 't', 't'] ['Ã', '¤', 't', 'a'] ['glas', 's', '.'] 
+('hon', 'PRON'), ('har', 'VERB'), ('lust', 'NOUN'), ('att', 'PART'), ('äta', 'VERB'), ('glass', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+det är en lustt som är svår att tygla.
+['det'] ['Ã¤r'] ['en'] ['lu', 'st', 't'] ['som'] ['Ã¤r'] ['s', 'v', 'Ã¥r'] ['a', 't', 't'] ['t', 'yg', 'l', 'a', '.'] 
+('det', 'PRON'), ('är', 'AUX'), ('en', 'DET'), ('lustt', 'ADJ'), ('som', 'PRON'), ('är', 'AUX'), ('svår', 'ADJ'), ('att', 'PART'), ('tygla', 'VERB'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['h', 'is'] ['ey', 'es'] ['w', 'er', 'e'] ['fil', 'led'] ['with'] ['gre', 'e', 'd'] ['and'] ['lust', '.'] 
+['t', 'h', 'e'] ['n', 'o', 'vel'] ['ex', 'p', 'l', 'o', 'res'] ['them', 'es'] ['o', 'f'] ['pow', 'er'] ['and'] ['lust', '.'] 
+Multilingual tokenization: se
+['hon'] ['har'] ['lust'] ['a', 't', 't'] ['Ã¤t', 'a'] ['glas', 's', '.'] 
+['det'] ['Ã', '¤', 'r'] ['e', 'n'] ['lust', 't'] ['som'] ['Ã', '¤', 'r'] ['s', 'v', 'Ã¥r'] ['a', 't', 't'] ['ty', 'g', 'l', 'a', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: mode
+Correct Translation: fashion, haute couture
+Wrong Translation: mode
+
+'mode' in English context:
+Sentence 1:
+the phone was set to silent mode.
+['the'] ['phone'] ['was'] ['set'] ['t', 'o'] ['s', 'ile', 'nt'] ['mode', '.'] 
+('the', 'DET'), ('phone', 'NOUN'), ('was', 'AUX'), ('set', 'VERB'), ('to', 'ADP'), ('silent', 'ADJ'), ('mode', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she shifted into study mode before the exam.
+['she'] ['shi', 'ft', 'e', 'd'] ['into'] ['study'] ['mode'] ['b', 'e', 'fore'] ['the'] ['exam', '.'] 
+('she', 'PRON'), ('shifted', 'VERB'), ('into', 'ADP'), ('study', 'NOUN'), ('mode', 'NOUN'), ('before', 'ADP'), ('the', 'DET'), ('exam', 'NOUN'), ('.', 'PUNCT'), 
+'mode' in se context:
+Sentence 1:
+dagens mode kommer från paris.
+['dagen', 's'] ['mode'] ['kommer'] ['f', 'r', 'Ã¥', 'n'] ['paris', '.'] 
+('dagens', 'NOUN'), ('mode', 'NOUN'), ('kommer', 'VERB'), ('från', 'ADP'), ('paris', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+mode är dyrt.
+['mode'] ['Ã¤r'] ['dy', 'rt', '.'] 
+('mode', 'NOUN'), ('är', 'AUX'), ('dyrt', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['p', 'hon', 'e'] ['wa', 's'] ['se', 't'] ['t', 'o'] ['s', 'il', 'ent'] ['mod', 'e', '.'] 
+['she'] ['s', 'h', 'i', 'f', 't', 'e', 'd'] ['in', 't', 'o'] ['s', 'tud', 'y'] ['mod', 'e'] ['before'] ['t', 'h', 'e'] ['ex', 'am', '.'] 
+Multilingual tokenization: se
+['dagen', 's'] ['mod', 'e'] ['kom', 'm', 'er'] ['f', 'rÃ¥n'] ['p', 'ar', 'is', '.'] 
+['mod', 'e'] ['Ã', '¤', 'r'] ['dy', 'r', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: pregnant
+Correct Translation: short but informative; remarkable, prominent
+Wrong Translation: pregnant
+
+'pregnant' in English context:
+Sentence 1:
+she announced that she was pregnant at dinner.
+['she'] ['announce', 'd'] ['that'] ['she'] ['was'] ['pregnant'] ['a', 't'] ['d', 'inner', '.'] 
+('she', 'PRON'), ('announced', 'VERB'), ('that', 'SCONJ'), ('she', 'PRON'), ('was', 'AUX'), ('pregnant', 'ADJ'), ('at', 'ADP'), ('dinner', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the pause before his reply was pregnant with meaning.
+['the'] ['p', 'a', 'use'] ['b', 'e', 'fore'] ['his'] ['re', 'p', 'ly'] ['was'] ['pregnant'] ['w', 'i', 'th'] ['meaning', '.'] 
+('the', 'DET'), ('pause', 'NOUN'), ('before', 'SCONJ'), ('his', 'PRON'), ('reply', 'NOUN'), ('was', 'AUX'), ('pregnant', 'ADJ'), ('with', 'ADP'), ('meaning', 'NOUN'), ('.', 'PUNCT'), 
+'pregnant' in se context:
+Sentence 1:
+hans tal var mycket pregnant.
+['han', 's'] ['t', 'a', 'l'] ['var'] ['mycket'] ['pre', 'g', 'nan', 't', '.'] 
+('hans', 'PRON'), ('tal', 'NOUN'), ('var', 'AUX'), ('mycket', 'ADV'), ('pregnant', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+hon uttrycker sig alltid mycket pregnant.
+['hon'] ['uttryck', 'e', 'r'] ['s', 'ig'] ['alltid'] ['mycket'] ['pre', 'g', 'nan', 't', '.'] 
+('hon', 'PRON'), ('uttrycker', 'VERB'), ('sig', 'PRON'), ('alltid', 'ADV'), ('mycket', 'ADV'), ('pregnant', 'ADJ'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['she'] ['announced'] ['t', 'ha', 't'] ['she'] ['wa', 's'] ['p', 'reg', 'nan', 't'] ['a', 't'] ['d', 'inner', '.'] 
+['t', 'h', 'e'] ['p', 'a', 'us', 'e'] ['before'] ['h', 'is'] ['re', 'p', 'l', 'y'] ['wa', 's'] ['p', 'reg', 'nan', 't'] ['with'] ['meaning', '.'] 
+Multilingual tokenization: se
+['han', 's'] ['t', 'al'] ['v', 'ar'] ['mycket'] ['p', 'reg', 'nan', 't', '.'] 
+['hon'] ['ut', 'try', 'cker'] ['s', 'ig'] ['al', 'l', 'ti', 'd'] ['mycket'] ['p', 'reg', 'nan', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: prick
+Correct Translation: dot
+Wrong Translation: prick
+
+'prick' in English context:
+Sentence 1:
+he felt a sharp prick from the needle.
+['he'] ['felt'] ['a'] ['s', 'h', 'ar', 'p'] ['p', 'r', 'ic', 'k'] ['from'] ['the'] ['n', 'ee', 'd', 'l', 'e', '.'] 
+('he', 'PRON'), ('felt', 'VERB'), ('a', 'DET'), ('sharp', 'ADJ'), ('prick', 'NOUN'), ('from', 'ADP'), ('the', 'DET'), ('needle', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+don’t be such a prick to your little brother.
+['do', 'n', 'âĢĻ', 't'] ['b', 'e'] ['s', 'uch'] ['a'] ['p', 'r', 'ic', 'k'] ['t', 'o'] ['your'] ['little'] ['b', 'ro', 'ther', '.'] 
+('do', 'AUX'), ('n’t', 'PART'), ('be', 'AUX'), ('such', 'DET'), ('a', 'DET'), ('prick', 'NOUN'), ('to', 'ADP'), ('your', 'PRON'), ('little', 'ADJ'), ('brother', 'NOUN'), ('.', 'PUNCT'), 
+'prick' in se context:
+Sentence 1:
+en prick över bokstaven i.
+['en'] ['pri', 'ck'] ['Ã¶ver'] ['boks', 'tav', 'en'] ['i', '.'] 
+('en', 'DET'), ('prick', 'NOUN'), ('över', 'ADP'), ('bokstaven', 'NOUN'), ('i', 'ADP'), ('.', 'PUNCT'), 
+Sentence 2:
+hon är orolig över en prick på huden.
+['hon'] ['Ã¤r'] ['o', 'r', 'o', 'lig'] ['Ã¶ver'] ['en'] ['pri', 'ck'] ['pÃ¥'] ['h', 'ud', 'en', '.'] 
+('hon', 'PRON'), ('är', 'AUX'), ('orolig', 'ADJ'), ('över', 'ADP'), ('en', 'DET'), ('prick', 'NOUN'), ('på', 'ADP'), ('huden', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['h', 'e'] ['f', 'el', 't'] ['a'] ['s', 'har', 'p'] ['p', 'r', 'ick'] ['from'] ['t', 'h', 'e'] ['n', 'e', 'e', 'd', 'l', 'e', '.'] 
+['d', 'o', 'n', 'âĢĻ', 't'] ['be'] ['such'] ['a'] ['p', 'r', 'ick'] ['t', 'o'] ['you', 'r'] ['little'] ['bro', 't', 'her', '.'] 
+Multilingual tokenization: se
+['e', 'n'] ['p', 'r', 'ick'] ['Ã¶', 'v', 'er'] ['bo', 'k', 's', 't', 'av', 'e', 'n'] ['i', '.'] 
+['hon'] ['Ã', '¤', 'r'] ['o', 'ro', 'lig'] ['Ã¶', 'v', 'er'] ['e', 'n'] ['p', 'r', 'ick'] ['pÃ¥'] ['hud', 'e', 'n', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: process
+Correct Translation: trial (at court)/(in Swedish and German mainly used to denote process but also means trial)
+Wrong Translation: process
+
+'process' in English context:
+Sentence 1:
+the hiring process can take several weeks.
+['the'] ['h', 'iri', 'n', 'g'] ['process'] ['c', 'a', 'n'] ['take'] ['several'] ['week', 's', '.'] 
+('the', 'DET'), ('hiring', 'NOUN'), ('process', 'NOUN'), ('can', 'AUX'), ('take', 'VERB'), ('several', 'ADJ'), ('weeks', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she needs time to process what happened.
+['she'] ['n', 'ee', 'd', 's'] ['tim', 'e'] ['t', 'o'] ['process'] ['what'] ['happened', '.'] 
+('she', 'PRON'), ('needs', 'VERB'), ('time', 'NOUN'), ('to', 'PART'), ('process', 'VERB'), ('what', 'PRON'), ('happened', 'VERB'), ('.', 'PUNCT'), 
+'process' in se context:
+Sentence 1:
+en process i domstol blir dyrt.
+['en'] ['proces', 's'] ['i'] ['d', 'o', 'm', 'stol'] ['b', 'li', 'r'] ['dy', 'rt', '.'] 
+('en', 'DET'), ('process', 'NOUN'), ('i', 'ADP'), ('domstol', 'NOUN'), ('blir', 'VERB'), ('dyrt', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+varför måste han alltid söka process?
+['var', 'f', 'Ã¶r'] ['mÃ¥ste'] ['han'] ['alltid'] ['sÃ¶ka'] ['proces', 's', '?'] 
+('varför', 'ADV'), ('måste', 'AUX'), ('han', 'PRON'), ('alltid', 'ADV'), ('söka', 'VERB'), ('process', 'NOUN'), ('?', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['h', 'ir', 'in', 'g'] ['p', 'ro', 'cess'] ['can'] ['take'] ['several'] ['week', 's', '.'] 
+['she'] ['n', 'e', 'e', 'ds'] ['time'] ['t', 'o'] ['p', 'ro', 'cess'] ['what'] ['happened', '.'] 
+Multilingual tokenization: se
+['e', 'n'] ['p', 'ro', 'cess'] ['i'] ['d', 'om', 's', 'tol'] ['bli', 'r'] ['dy', 'r', 't', '.'] 
+['v', 'ar', 'fÃ¶r'] ['mÃ¥ste'] ['han'] ['al', 'l', 'ti', 'd'] ['sÃ¶ka'] ['p', 'ro', 'cess', '?'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: rest
+Correct Translation: remainder(cf. "The rest is silence")
+Wrong Translation: rest
+
+'rest' in English context:
+Sentence 1:
+you should get some rest after your trip.
+['y', 'o', 'u'] ['should'] ['g', 'et'] ['so', 'm', 'e'] ['res', 't'] ['after'] ['your'] ['trip', '.'] 
+('you', 'PRON'), ('should', 'AUX'), ('get', 'VERB'), ('some', 'DET'), ('rest', 'NOUN'), ('after', 'ADP'), ('your', 'PRON'), ('trip', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he ate half the cake and saved the rest.
+['he'] ['ate'] ['half'] ['the'] ['c', 'ak', 'e'] ['a', 'n', 'd'] ['save', 'd'] ['the'] ['res', 't', '.'] 
+('he', 'PRON'), ('ate', 'VERB'), ('half', 'DET'), ('the', 'DET'), ('cake', 'NOUN'), ('and', 'CCONJ'), ('saved', 'VERB'), ('the', 'DET'), ('rest', 'NOUN'), ('.', 'PUNCT'), 
+'rest' in se context:
+Sentence 1:
+det där är en rest från middagen.
+['det'] ['d', 'Ã¤r'] ['Ã¤r'] ['en'] ['re', 'st'] ['f', 'r', 'Ã¥', 'n'] ['mid', 'dagen', '.'] 
+('det', 'PRON'), ('där', 'ADV'), ('är', 'AUX'), ('en', 'DET'), ('rest', 'NOUN'), ('från', 'ADP'), ('middagen', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+jag ser ingen rest.
+['jag'] ['s', 'e', 'r'] ['ingen'] ['re', 'st', '.'] 
+('jag', 'PRON'), ('ser', 'VERB'), ('ingen', 'DET'), ('rest', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['you'] ['should'] ['get'] ['some'] ['res', 't'] ['after'] ['you', 'r'] ['trip', '.'] 
+['h', 'e'] ['a', 't', 'e'] ['ha', 'l', 'f'] ['t', 'h', 'e'] ['c', 'ake'] ['and'] ['sav', 'e', 'd'] ['t', 'h', 'e'] ['res', 't', '.'] 
+Multilingual tokenization: se
+['det'] ['d', 'Ã', '¤', 'r'] ['Ã', '¤', 'r'] ['e', 'n'] ['res', 't'] ['f', 'rÃ¥n'] ['m', 'i', 'd', 'dagen', '.'] 
+['jag'] ['ser'] ['in', 'gen'] ['res', 't', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: roman
+Correct Translation: novel
+Wrong Translation: roman
+
+'roman' in English context:
+Sentence 1:
+the roman empire left behind many ruins.
+['the'] ['roman'] ['empire'] ['left'] ['b', 'eh', 'in', 'd'] ['many'] ['r', 'u', 'in', 's', '.'] 
+('the', 'DET'), ('roman', 'ADJ'), ('empire', 'NOUN'), ('left', 'VERB'), ('behind', 'ADP'), ('many', 'ADJ'), ('ruins', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he wore a roman-style helmet for the costume party.
+['he'] ['wor', 'e'] ['a'] ['roman', '-', 's', 'ty', 'l', 'e'] ['he', 'l', 'met'] ['f', 'or'] ['the'] ['cost', 'ume'] ['party', '.'] 
+('he', 'PRON'), ('wore', 'VERB'), ('a', 'DET'), ('roman', 'ADJ'), ('-', 'PUNCT'), ('style', 'NOUN'), ('helmet', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('costume', 'ADJ'), ('party', 'NOUN'), ('.', 'PUNCT'), 
+'roman' in se context:
+Sentence 1:
+det här var en bra roman.
+['det'] ['h', 'Ã¤r'] ['var'] ['en'] ['b', 'ra'] ['roman', '.'] 
+('det', 'PRON'), ('här', 'ADV'), ('var', 'AUX'), ('en', 'DET'), ('bra', 'ADJ'), ('roman', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+jag vill så gärna skriva en framgångsrik roman.
+['jag'] ['v', 'il', 'l'] ['s', 'Ã¥'] ['gÃ¤rna'] ['skriv', 'a'] ['en'] ['framgÃ¥ng', 's', 'ri', 'k'] ['roman', '.'] 
+('jag', 'PRON'), ('vill', 'AUX'), ('så', 'ADV'), ('gärna', 'ADV'), ('skriva', 'VERB'), ('en', 'DET'), ('framgångsrik', 'ADJ'), ('roman', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['roman'] ['empire'] ['left'] ['be', 'h', 'in', 'd'] ['many'] ['r', 'u', 'in', 's', '.'] 
+['h', 'e'] ['wor', 'e'] ['a'] ['roman', '-', 'sty', 'l', 'e'] ['h', 'el', 'm', 'e', 't'] ['for'] ['t', 'h', 'e'] ['cost', 'ume'] ['party', '.'] 
+Multilingual tokenization: se
+['det'] ['h', 'Ã', '¤', 'r'] ['v', 'ar'] ['e', 'n'] ['bra'] ['roman', '.'] 
+['jag'] ['vill'] ['sÃ¥'] ['g', 'Ã', '¤', 'rna'] ['skriv', 'a'] ['e', 'n'] ['framgÃ¥ngsrik'] ['roman', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sex
+Correct Translation: six
+Wrong Translation: sex
+
+'sex' in English context:
+Sentence 1:
+the doctor asked about the patient’s sex for the form.
+['the'] ['doctor'] ['asked'] ['about'] ['the'] ['pat', 'ien', 't', 'âĢĻ', 's'] ['se', 'x'] ['f', 'or'] ['the'] ['form', '.'] 
+('the', 'DET'), ('doctor', 'NOUN'), ('asked', 'VERB'), ('about', 'ADP'), ('the', 'DET'), ('patient', 'NOUN'), ('’s', 'PART'), ('sex', 'NOUN'), ('for', 'ADP'), ('the', 'DET'), ('form', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+they had a frank discussion about safe sex.
+['they'] ['had'] ['a'] ['f', 'ran', 'k'] ['dis', 'cu', 's', 's', 'ion'] ['about'] ['s', 'a', 'f', 'e'] ['se', 'x', '.'] 
+('they', 'PRON'), ('had', 'VERB'), ('a', 'DET'), ('frank', 'ADJ'), ('discussion', 'NOUN'), ('about', 'ADP'), ('safe', 'ADJ'), ('sex', 'NOUN'), ('.', 'PUNCT'), 
+'sex' in se context:
+Sentence 1:
+två plus fyra blir sex.
+['t', 'v', 'Ã¥'] ['p', 'lu', 's'] ['fyra'] ['b', 'li', 'r'] ['sex', '.'] 
+('två', 'NUM'), ('plus', 'ADV'), ('fyra', 'NUM'), ('blir', 'VERB'), ('sex', 'NUM'), ('.', 'PUNCT'), 
+Sentence 2:
+tolv delat med två är sex.
+['tol', 'v'] ['del', 'a', 't'] ['med'] ['t', 'v', 'Ã¥'] ['Ã¤r'] ['sex', '.'] 
+('tolv', 'NOUN'), ('delat', 'VERB'), ('med', 'ADP'), ('två', 'NUM'), ('är', 'AUX'), ('sex', 'NUM'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['doctor'] ['asked'] ['about'] ['t', 'h', 'e'] ['patient', 'âĢĻ', 's'] ['sex'] ['for'] ['t', 'h', 'e'] ['for', 'm', '.'] 
+['they'] ['had'] ['a'] ['fra', 'n', 'k'] ['d', 'is', 'cu', 's', 'sion'] ['about'] ['s', 'a', 'f', 'e'] ['sex', '.'] 
+Multilingual tokenization: se
+['t', 'v', 'Ã', '¥'] ['plus'] ['fyra'] ['bli', 'r'] ['sex', '.'] 
+['tol', 'v'] ['d', 'el', 'a', 't'] ['med'] ['t', 'v', 'Ã', '¥'] ['Ã', '¤', 'r'] ['sex', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sexton
+Correct Translation: sixteen
+Wrong Translation: sexton
+
+'sexton' in English context:
+Sentence 1:
+the sexton unlocked the church for sunday service.
+['the'] ['se', 'x', 'ton'] ['un', 'loc', 'ked'] ['the'] ['chur', 'ch'] ['f', 'or'] ['sunday'] ['service', '.'] 
+('the', 'DET'), ('sexton', 'NOUN'), ('unlocked', 'VERB'), ('the', 'DET'), ('church', 'NOUN'), ('for', 'ADP'), ('sunday', 'PROPN'), ('service', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+the old sexton took care of the cemetery grounds.
+['the'] ['o', 'ld'] ['se', 'x', 'ton'] ['t', 'o', 'ok'] ['c', 'are'] ['o', 'f'] ['the'] ['cemetery'] ['grounds', '.'] 
+('the', 'DET'), ('old', 'ADJ'), ('sexton', 'NOUN'), ('took', 'VERB'), ('care', 'NOUN'), ('of', 'ADP'), ('the', 'DET'), ('cemetery', 'NOUN'), ('grounds', 'NOUN'), ('.', 'PUNCT'), 
+'sexton' in se context:
+Sentence 1:
+när hon var sexton köpte hon moped.
+['n', 'Ã¤r'] ['hon'] ['var'] ['sex', 'ton'] ['kÃ¶p', 't', 'e'] ['hon'] ['m', 'o', 'p', 'ed', '.'] 
+('när', 'SCONJ'), ('hon', 'PRON'), ('var', 'AUX'), ('sexton', 'NUM'), ('köpte', 'VERB'), ('hon', 'PRON'), ('moped', 'ADV'), ('.', 'PUNCT'), 
+Sentence 2:
+är man sexton år gammal får man snart köra bil.
+['Ã¤r'] ['man'] ['sex', 'ton'] ['Ã¥r'] ['gam', 'mal'] ['fÃ¥r'] ['man'] ['s', 'na', 'rt'] ['kÃ¶r', 'a'] ['bil', '.'] 
+('är', 'AUX'), ('man', 'PRON'), ('sexton', 'NUM'), ('år', 'NOUN'), ('gammal', 'ADJ'), ('får', 'AUX'), ('man', 'PRON'), ('snart', 'ADV'), ('köra', 'VERB'), ('bil', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['sex', 'ton'] ['un', 'l', 'o', 'ck', 'e', 'd'] ['t', 'h', 'e'] ['church'] ['for'] ['sund', 'ay'] ['service', '.'] 
+['t', 'h', 'e'] ['old'] ['sex', 'ton'] ['took'] ['c', 'are'] ['o', 'f'] ['t', 'h', 'e'] ['cemetery'] ['gro', 'un', 'ds', '.'] 
+Multilingual tokenization: se
+['n', 'Ã', '¤', 'r'] ['hon'] ['v', 'ar'] ['sex', 'ton'] ['k', 'Ã¶', 'p', 't', 'e'] ['hon'] ['m', 'o', 'ped', '.'] 
+['Ã', '¤', 'r'] ['man'] ['sex', 'ton'] ['Ã¥r'] ['ga', 'm', 'mal'] ['f', 'Ã¥r'] ['man'] ['s', 'na', 'r', 't'] ['k', 'Ã¶', 'r', 'a'] ['bil', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: sin
+Correct Translation: "one's own", genitive reflexive pronoun
+Wrong Translation: sin
+
+'sin' in English context:
+Sentence 1:
+many religions believe pride is a serious sin.
+['many'] ['religion', 's'] ['believe'] ['p', 'r', 'ide'] ['is'] ['a'] ['se', 'rious'] ['s', 'in', '.'] 
+('many', 'ADJ'), ('religions', 'NOUN'), ('believe', 'VERB'), ('pride', 'NOUN'), ('is', 'AUX'), ('a', 'DET'), ('serious', 'ADJ'), ('sin', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he confessed his sin and asked for forgiveness.
+['he'] ['con', 'f', 'ess', 'e', 'd'] ['his'] ['s', 'in'] ['a', 'n', 'd'] ['asked'] ['f', 'or'] ['f', 'or', 'given', 'ess', '.'] 
+('he', 'PRON'), ('confessed', 'VERB'), ('his', 'PRON'), ('sin', 'NOUN'), ('and', 'CCONJ'), ('asked', 'VERB'), ('for', 'ADP'), ('forgiveness', 'NOUN'), ('.', 'PUNCT'), 
+'sin' in se context:
+Sentence 1:
+han talar mycket om sin mamma.
+['han'] ['tala', 'r'] ['mycket'] ['o', 'm'] ['sin'] ['ma', 'm', 'ma', '.'] 
+('han', 'PRON'), ('talar', 'VERB'), ('mycket', 'ADV'), ('om', 'ADP'), ('sin', 'PRON'), ('mamma', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+vad vet hon om sin släkt?
+['vad'] ['ve', 't'] ['hon'] ['o', 'm'] ['sin'] ['slÃ¤kt', '?'] 
+('vad', 'PRON'), ('vet', 'VERB'), ('hon', 'PRON'), ('om', 'ADP'), ('sin', 'PRON'), ('släkt', 'NOUN'), ('?', 'PUNCT'), 
+Multilingual tokenization: English
+['many'] ['religion', 's'] ['bel', 'ie', 'v', 'e'] ['p', 'ride'] ['is'] ['a'] ['ser', 'ious'] ['s', 'in', '.'] 
+['h', 'e'] ['con', 'f', 'ess', 'e', 'd'] ['h', 'is'] ['s', 'in'] ['and'] ['asked'] ['for'] ['for', 'given', 'ess', '.'] 
+Multilingual tokenization: se
+['han'] ['t', 'ala', 'r'] ['mycket'] ['om'] ['s', 'in'] ['m', 'amma', '.'] 
+['v', 'ad'] ['v', 'e', 't'] ['hon'] ['om'] ['s', 'in'] ['s', 'l', 'Ã', '¤', 'kt', '?'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: slang
+Correct Translation: hose
+Wrong Translation: slang
+
+'slang' in English context:
+Sentence 1:
+teenagers often use slang that adults don’t understand.
+['teen', 'a', 'ger', 's'] ['often'] ['use'] ['s', 'lang'] ['that'] ['adults'] ['do', 'n', 'âĢĻ', 't'] ['understand', '.'] 
+('teenagers', 'NOUN'), ('often', 'ADV'), ('use', 'VERB'), ('slang', 'PROPN'), ('that', 'SCONJ'), ('adults', 'NOUN'), ('do', 'AUX'), ('n’t', 'PART'), ('understand', 'VERB'), ('.', 'PUNCT'), 
+Sentence 2:
+“cool” is a slang word that means something is good.
+['â', 'Ģ', 'ľ', 'cool', 'âĢĿ'] ['is'] ['a'] ['s', 'lang'] ['wor', 'd'] ['that'] ['means'] ['something'] ['is'] ['good', '.'] 
+('“', 'PUNCT'), ('cool', 'ADJ'), ('”', 'PUNCT'), ('is', 'AUX'), ('a', 'DET'), ('slang', 'PROPN'), ('word', 'NOUN'), ('that', 'PRON'), ('means', 'VERB'), ('something', 'PRON'), ('is', 'AUX'), ('good', 'ADJ'), ('.', 'PUNCT'), 
+'slang' in se context:
+Sentence 1:
+vi behöver en slang i trädgården.
+['v', 'i'] ['be', 'h', 'Ã¶ver'] ['en'] ['s', 'lan', 'g'] ['i'] ['trÃ¤dgÃ¥rd', 'en', '.'] 
+('vi', 'PRON'), ('behöver', 'VERB'), ('en', 'DET'), ('slang', 'NOUN'), ('i', 'ADP'), ('trädgården', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+brandkåren hade med sig en lång slang.
+['brand', 'kÃ¥ren'] ['hade'] ['med'] ['s', 'ig'] ['en'] ['lÃ¥ng'] ['s', 'lan', 'g', '.'] 
+('brandkåren', 'NOUN'), ('hade', 'VERB'), ('med', 'ADP'), ('sig', 'PRON'), ('en', 'DET'), ('lång', 'ADJ'), ('slang', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['teen', 'age', 'rs'] ['often'] ['us', 'e'] ['s', 'l', 'an', 'g'] ['t', 'ha', 't'] ['adult', 's'] ['d', 'o', 'n', 'âĢĻ', 't'] ['understand', '.'] 
+['â', 'Ģ', 'ľ', 'cool', 'â', 'Ģ', 'Ŀ'] ['is'] ['a'] ['s', 'l', 'an', 'g'] ['wor', 'd'] ['t', 'ha', 't'] ['means'] ['something'] ['is'] ['good', '.'] 
+Multilingual tokenization: se
+['v', 'i'] ['behÃ¶ver'] ['e', 'n'] ['s', 'l', 'an', 'g'] ['i'] ['tr', 'Ã', '¤', 'd', 'gÃ¥r', 'den', '.'] 
+['bran', 'd', 'k', 'Ã¥r', 'e', 'n'] ['had', 'e'] ['med'] ['s', 'ig'] ['e', 'n'] ['lÃ¥ng'] ['s', 'l', 'an', 'g', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: slut
+Correct Translation: end, finish
+Wrong Translation: slut
+
+'slut' in English context:
+Sentence 1:
+the bully called her a slut, which was cruel and unfair.
+['the'] ['bul', 'ly'] ['cal', 'led'] ['her'] ['a'] ['s', 'l', 'u', 't', ','] ['w', 'h', 'ich'] ['was'] ['cr', 'u', 'el'] ['a', 'n', 'd'] ['un', 'fair', '.'] 
+('the', 'DET'), ('bully', 'NOUN'), ('called', 'VERB'), ('her', 'PRON'), ('a', 'DET'), ('slut', 'NOUN'), (',', 'PUNCT'), ('which', 'PRON'), ('was', 'AUX'), ('cruel', 'ADJ'), ('and', 'CCONJ'), ('unfair', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+she rolled her eyes and replied, “if being confident makes me a slut, then so be it.”
+['she'] ['ro', 'll', 'e', 'd'] ['her'] ['eyes'] ['a', 'n', 'd'] ['re', 'p', 'lie', 'd', ','] ['â', 'Ģ', 'ľ', 'i', 'f'] ['being'] ['con', 'f', 'iden', 't'] ['make', 's'] ['m', 'e'] ['a'] ['s', 'l', 'u', 't', ','] ['then'] ['so'] ['b', 'e'] ['i', 't', '.', 'âĢĿ'] 
+('she', 'PRON'), ('rolled', 'VERB'), ('her', 'PRON'), ('eyes', 'NOUN'), ('and', 'CCONJ'), ('replied', 'VERB'), (',', 'PUNCT'), ('“', 'PUNCT'), ('if', 'SCONJ'), ('being', 'AUX'), ('confident', 'ADJ'), ('makes', 'VERB'), ('me', 'PRON'), ('a', 'DET'), ('slut', 'NOUN'), (',', 'PUNCT'), ('then', 'ADV'), ('so', 'ADV'), ('be', 'AUX'), ('it', 'PRON'), ('.', 'PUNCT'), ('”', 'PUNCT'), 
+'slut' in se context:
+Sentence 1:
+snart är filmen slut.
+['s', 'na', 'rt'] ['Ã¤r'] ['film', 'en'] ['s', 'lu', 't', '.'] 
+('snart', 'ADV'), ('är', 'AUX'), ('filmen', 'NOUN'), ('slut', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+det var ett lyckligt slut.
+['det'] ['var'] ['ett'] ['lyck', 'lig', 't'] ['s', 'lu', 't', '.'] 
+('det', 'PRON'), ('var', 'AUX'), ('ett', 'DET'), ('lyckligt', 'ADJ'), ('slut', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['b', 'ull', 'y'] ['call', 'e', 'd'] ['her'] ['a'] ['s', 'l', 'ut', ','] ['w', 'hic', 'h'] ['wa', 's'] ['c', 'r', 'u', 'el'] ['and'] ['un', 'f', 'air', '.'] 
+['she'] ['roll', 'e', 'd'] ['her'] ['ey', 'es'] ['and'] ['re', 'p', 'lie', 'd', ','] ['â', 'Ģ', 'ľ', 'i', 'f'] ['be', 'in', 'g'] ['con', 'f', 'i', 'den', 't'] ['makes'] ['m', 'e'] ['a'] ['s', 'l', 'ut', ','] ['then'] ['s', 'o'] ['be'] ['it', '.âĢĿ'] 
+Multilingual tokenization: se
+['s', 'na', 'r', 't'] ['Ã', '¤', 'r'] ['film', 'e', 'n'] ['s', 'l', 'ut', '.'] 
+['det'] ['v', 'ar'] ['ett'] ['l', 'y', 'ck', 'lig', 't'] ['s', 'l', 'ut', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: smoking
+Correct Translation: dinner jacket (Br.), tuxedo (U.S.); but not smoking jacket
+Wrong Translation: smoking
+
+'smoking' in English context:
+Sentence 1:
+smoking is banned in most public places.
+['s', 'm', 'ok', 'in', 'g'] ['is'] ['b', 'anne', 'd'] ['in'] ['most'] ['public'] ['places', '.'] 
+('smoking', 'NOUN'), ('is', 'AUX'), ('banned', 'VERB'), ('in', 'ADP'), ('most', 'ADJ'), ('public', 'ADJ'), ('places', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+he quit smoking after ten years.
+['he'] ['quit'] ['s', 'm', 'ok', 'in', 'g'] ['after'] ['ten'] ['years', '.'] 
+('he', 'PRON'), ('quit', 'VERB'), ('smoking', 'NOUN'), ('after', 'ADP'), ('ten', 'NUM'), ('years', 'NOUN'), ('.', 'PUNCT'), 
+'smoking' in se context:
+Sentence 1:
+ikväll är det obligatoriskt med smoking.
+['ik', 'v', 'Ã', '¤', 'll'] ['Ã¤r'] ['det'] ['obligatorisk', 't'] ['med'] ['s', 'm', 'o', 'k', 'ing', '.'] 
+('ikväll', 'NOUN'), ('är', 'AUX'), ('det', 'PRON'), ('obligatoriskt', 'ADJ'), ('med', 'ADP'), ('smoking', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+jag har aldrig haft smoking på mig.
+['jag'] ['har'] ['aldrig'] ['haft'] ['s', 'm', 'o', 'k', 'ing'] ['pÃ¥'] ['mig', '.'] 
+('jag', 'PRON'), ('har', 'AUX'), ('aldrig', 'ADV'), ('haft', 'VERB'), ('smoking', 'NOUN'), ('på', 'ADP'), ('mig', 'PRON'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['sm', 'o', 'king'] ['is'] ['ba', 'n', 'ned'] ['in'] ['most'] ['public'] ['places', '.'] 
+['h', 'e'] ['q', 'u', 'it'] ['sm', 'o', 'king'] ['after'] ['ten'] ['years', '.'] 
+Multilingual tokenization: se
+['ik', 'v', 'Ã', '¤', 'l', 'l'] ['Ã', '¤', 'r'] ['det'] ['o', 'bli', 'ga', 'tor', 'is', 'kt'] ['med'] ['sm', 'o', 'king', '.'] 
+['jag'] ['har'] ['aldrig'] ['ha', 'f', 't'] ['sm', 'o', 'king'] ['pÃ¥'] ['mig', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: stark
+Correct Translation: strong
+Wrong Translation: stark
+
+'stark' in English context:
+Sentence 1:
+the desert presented a stark contrast to the lush forest.
+['the'] ['desert'] ['presented'] ['a'] ['s', 'tar', 'k'] ['con', 't', 'ras', 't'] ['t', 'o'] ['the'] ['lus', 'h'] ['forest', '.'] 
+('the', 'DET'), ('desert', 'NOUN'), ('presented', 'VERB'), ('a', 'DET'), ('stark', 'ADJ'), ('contrast', 'NOUN'), ('to', 'ADP'), ('the', 'DET'), ('lush', 'ADJ'), ('forest', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+her words were a stark reminder of reality.
+['her'] ['wor', 'd', 's'] ['wer', 'e'] ['a'] ['s', 'tar', 'k'] ['re', 'min', 'd', 'er'] ['o', 'f'] ['re', 'ality', '.'] 
+('her', 'PRON'), ('words', 'NOUN'), ('were', 'AUX'), ('a', 'DET'), ('stark', 'ADJ'), ('reminder', 'NOUN'), ('of', 'ADP'), ('reality', 'NOUN'), ('.', 'PUNCT'), 
+'stark' in se context:
+Sentence 1:
+min syster är stark.
+['m', 'in'] ['syster'] ['Ã¤r'] ['stark', '.'] 
+('min', 'PRON'), ('syster', 'NOUN'), ('är', 'AUX'), ('stark', 'ADJ'), ('.', 'PUNCT'), 
+Sentence 2:
+han är en stark man.
+['han'] ['Ã¤r'] ['en'] ['stark'] ['man', '.'] 
+('han', 'PRON'), ('är', 'AUX'), ('en', 'DET'), ('stark', 'ADJ'), ('man', 'NOUN'), ('.', 'PUNCT'), 
+Multilingual tokenization: English
+['t', 'h', 'e'] ['d', 'es', 'er', 't'] ['presented'] ['a'] ['star', 'k'] ['con', 'tr', 'ast'] ['t', 'o'] ['t', 'h', 'e'] ['l', 'us', 'h'] ['for', 'est', '.'] 
+['her'] ['wor', 'ds'] ['w', 'er', 'e'] ['a'] ['star', 'k'] ['re', 'min', 'd', 'er'] ['o', 'f'] ['real', 'ity', '.'] 
+Multilingual tokenization: se
+['min'] ['s', 'y', 'ster'] ['Ã', '¤', 'r'] ['star', 'k', '.'] 
+['han'] ['Ã', '¤', 'r'] ['e', 'n'] ['star', 'k'] ['man', '.'] 
+##########################################################################################################################
+##########################################################################################################################
+Analysis for False Friend word: tag
+Correct Translation: German: day
+Swedish: take!
+Wrong Translation: tag
+
+'tag' in English context:
+Sentence 1:
+let’s play a game of tag in the yard.
+['let', 'âĢĻ', 's'] ['play'] ['a'] ['game'] ['o', 'f'] ['t', 'a', 'g'] ['in'] ['the'] ['yard', '.'] 
+('let', 'VERB'), ('’s', 'PRON'), ('play', 'VERB'), ('a', 'DET'), ('game', 'NOUN'), ('of', 'ADP'), ('tag', 'NOUN'), ('in', 'ADP'), ('the', 'DET'), ('yard', 'NOUN'), ('.', 'PUNCT'), 
+Sentence 2:
+she forgot to remove the price tag from her dress.
+['she'] ['forgot'] ['t', 'o'] ['re', 'm', 'ove'] ['the'] ['p', 'rice'] ['t', 'a', 'g'] ['from'] ['her'] ['dress', '.'] 
+('she', 'PRON'), ('forgot', 'VERB'), ('to', 'PART'), ('remove', 'VERB'), ('the', 'DET'), ('price', 'NOUN'), ('tag', 'NOUN'), ('from', 'ADP'), ('her', 'PRON'), ('dress', 'NOUN'), ('.', 'PUNCT'), 
+'tag' in se context:
+Sentence 1:
+tag av dig skorna!
+['t', 'a', 'g'] ['a', 'v'] ['d', 'ig'] ['skor', 'na', '!'] 
+('tag', 'NOUN'), ('av', 'ADP'), ('dig', 'PRON'), ('skorna', 'NOUN'), ('!', 'PUNCT'), 
+Sentence 2:
+tag med dig något att äta!
+['t', 'a', 'g'] ['med'] ['d', 'ig'] ['nÃ¥got'] ['a', 't', 't'] ['Ã', '¤', 't', 'a', '!'] 
+('tag', 'VERB'), ('med', 'ADP'), ('dig', 'PRON'), ('något', 'PRON'), ('att', 'PART'), ('äta', 'VERB'), ('!', 'PUNCT'), 
+Multilingual tokenization: English
+['l', 'e', 't', 'âĢĻ', 's'] ['play'] ['a'] ['game'] ['o', 'f'] ['tag'] ['in'] ['t', 'h', 'e'] ['y', 'ar', 'd', '.'] 
+['she'] ['for', 'got'] ['t', 'o'] ['re', 'move'] ['t', 'h', 'e'] ['p', 'rice'] ['tag'] ['from'] ['her'] ['d', 'res', 's', '.'] 
+Multilingual tokenization: se
+['tag'] ['av'] ['d', 'ig'] ['s', 'k', 'o', 'rna', '!'] 
+['tag'] ['med'] ['d', 'ig'] ['nÃ¥got'] ['a', 't', 't'] ['Ã¤t', 'a', '!'] 
+##########################################################################################################################

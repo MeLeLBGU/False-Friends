@@ -6,7 +6,7 @@ Since this project has many directories, it is advised to first read about the p
 #HOW TO RUN THE PROJECT#
 ########################
 
-To run this experiment one, run the main.py file with 2 arguments:
+To run this experiment, run the main.py file with 2 arguments:
 1. string - True or False
 2. path - a path to .json file that contains training parameters and paths to certain training data files (explained
 extensively later on)
@@ -87,7 +87,7 @@ English
 contains results directories for SaGe training
 
 **********
-SaGe_main*
+/SaGe_main*
 **********
 The SaGe repo
 
@@ -145,7 +145,7 @@ encapsulate SaGe tokenizers
 ************************
 statistical_analysis.py*
 ************************
-This file contains statistical analysis functions that are called by the
+This file contains statistical analysis functions that are called by the main.py file
 
 
 

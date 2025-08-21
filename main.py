@@ -11,6 +11,11 @@ import os
 
 
 def parse_args(path):
+    """
+    Reads the .json file
+    :param path: path to json file
+    :return: data
+    """
     with open(path, 'r') as f:
         data = json.load(f)
     return data
@@ -48,6 +53,12 @@ def create_multi_text_file(path1, path2, file_name, num_rows=300_000, seed=42):
 
 
 def init_experiments(data, l1_tokenizers):
+    """
+    This function instantiates the Experiment objects
+    :param data: the .json data
+    :param l1_tokenizers: dictionary of l1 tokenizers {algo: Tokenizer}
+    :return: dictionary of {l2: [Experiment1, Experiment2...]}
+    """
     experiments = dict()
     l1_data = data["l1"]
     l1 = l1_data["language"]
@@ -77,6 +88,11 @@ def init_experiments(data, l1_tokenizers):
 
 
 def train_l1_tokenizers(data):
+    """
+    This function trains the l1 (English) tokenizers
+    :param data: data from the .json file
+    :return: dictionary {algo: Tokenizer}
+    """
     algos = data['algos']
     vocab_size = data['vocab_size']
     full_vocab_schedule = data['full_vocab_schedule']
@@ -100,18 +116,33 @@ def train_l1_tokenizers(data):
 
 
 def start_experiments(experiments):
+    """
+    Start the experiments
+    :param experiments: dictionary of Experiment objects
+    :return:
+    """
     for l2, exp_list in experiments.items():
         for exp in exp_list:
             exp.start_experiment()
 
 
 def save_experiments(experiments):
+    """
+    This functon saves the Experiment objects
+    :param experiments: dictionary of Experiment objects
+    :return:
+    """
     for l2, exp_list in experiments.items():
         for exp in exp_list:
             exp.save_experiment()
 
 
 def load_experiments(path):
+    """
+    This function loads the Experiment objects
+    :param path: path to experiment objects
+    :return: dictionary of {l2: [list of Experiment objects]}
+    """
     experiments = dict()
     for l2 in os.listdir(path):
         experiments[l2] = []
@@ -121,12 +152,24 @@ def load_experiments(path):
 
 
 def get_categories(experiment):
+    """
+    This functon returns the category of a specific experiment
+    :param experiment: an Experiment object
+    :return: list of tokenization categories
+    """
     l1 = experiment.l1
     l2 = experiment.l2
     categories = [f"{l1}_t==multi_t", f"{l2}_t==multi_t", f"{l1}_t=={l2}_t", "same_splits", "different_splits"]
     return categories
 
 def get_ex_couple(exp_list, algo):
+    """
+    This function returns from the Experiment list of the same language (exp_list) 2 different Experiments:
+    either BPE and BPE_SAGE or UNI and UNI_SAGE, depending on the algo chosen
+    :param exp_list: a list of experiments of the same language
+    :param algo: BPE or UNI
+    :return: BPE and BPE_SAGE or UNI and UNI_SAGE Experiments
+    """
     reg_ex, sage_ex = None, None
     for ex in exp_list:
         if ex.algo_name == algo:
@@ -137,6 +180,13 @@ def get_ex_couple(exp_list, algo):
 
 
 def compare_trials(exp_list, baseline_algo, track_target):
+    """
+    This function compares between BPE vs BPE_SAGE and UNI vs UNI_SAGE, and saves a file with the results
+    :param exp_list: a list of experiments of the same language
+    :param baseline_algo: BPE or UNI
+    :param track_target: which target to track from tokenization category
+    :return:
+    """
     ex_reg, ex_sage = get_ex_couple(exp_list, baseline_algo)
     path = f"{ex_reg.analysis_dir}/tokenization/{baseline_algo}_baseline_vs_SAGE.txt"
     categories = get_categories(ex_reg)
@@ -157,9 +207,11 @@ def compare_trials(exp_list, baseline_algo, track_target):
     # Token Length distribution
     dis1, dis2, dis3 = get_token_length_distribution(ex_reg.l1_tokenizer), get_token_length_distribution(ex_reg.l2_tokenizer), get_token_length_distribution(ex_reg.l1_l2_tokenizer)
     sage_dis1, sage_dis2, sage_dis3 =  get_token_length_distribution(ex_sage.l1_tokenizer), get_token_length_distribution(ex_sage.l2_tokenizer), get_token_length_distribution(ex_sage.l1_l2_tokenizer)
-    
+    # Homographs added and removed from target
     added  = words_moved_to_target(tokenization_cases, sage_tokenization_cases, categories, track_target)
     removed = words_removed_from_target(tokenization_cases, sage_tokenization_cases, categories, track_target)
+    # False Friends added to target
+    added_ff = words_moved_to_target_ff(tokenization_cases, sage_tokenization_cases, ex_sage.get_ff_words(), categories, track_target)
     with open(path, "w", encoding="utf-8") as f:
         title = (f"Homographs across languages {ex_reg.l1} and {ex_reg.l2} - Baseline tokenizer: {baseline_algo}\n"
                  f"Difference between experiment {ex_reg.l1}_{ex_reg.algo_name}, {ex_reg.l2}_{ex_reg.algo_name}, multilingual_{ex_reg.algo_name} AND experiment "
@@ -179,6 +231,9 @@ def compare_trials(exp_list, baseline_algo, track_target):
         f.write(cpt_line2)
         f.write(token_dis_line1)
         f.write(token_dis_line2)
+        f.write(f"False Friends moved from source distribution to {track_target} in target distribution:\n")
+        for c, words in added_ff.items():
+            f.write(f"{c}: {words}\n")
         for c, words in added.items():
             f.write(f"Words added from source {c} to target {track_target}: {len(words)}\n")
         f.write("\n")
@@ -230,7 +285,7 @@ if __name__ == '__main__':
             homographs = get_same_words_across_languages(ex.l1, ex.l2)
             homographs_tokenization_cases = analyze_tokenization(ex.get_tokenizers_list(), homographs, ex.l1, ex.l2,
                                                                  categories)
-            ff_intrinsic_analysis(ex.l1, ex.l2, ex)
+            # ff_intrinsic_analysis(ex.l1, ex.l2, ex)
             plot_tokenization_cases(ff_tokenization_cases, ex.algo_name, ex.l1, ex.l2, categories, "ff",
                                     graphs_path)
             write_tokenization_split(ex.get_tokenizers_list(), ex.get_ff_words(), ex.l1, ex.l2, ex.algo_name,
@@ -241,8 +296,8 @@ if __name__ == '__main__':
             plot_frequency_comparison(ff_tokenization_cases, ex.algo_name, graphs_path, ex.l1, ex.l2,
                                       ex.get_corpus_words(ex.l1), ex.get_corpus_words(ex.l2), categories)
             plot_pos_data(ff_tokenization_cases, ex.l1, ex.l2, ex.l1_training_corpus_dir, ex.l2_training_corpus_dir,categories, ex.algo_name, graphs_path)
-            chi_square_test(ff_tokenization_cases, homographs_tokenization_cases, ex.l1, ex.l2, ex.algo_name)
-            print("#########################################################################################################")
+            # chi_square_test(ff_tokenization_cases, homographs_tokenization_cases, ex.l1, ex.l2, ex.algo_name)
+            # print("#########################################################################################################")
         compare_trials(exp_list, "BPE", "different_splits")
         compare_trials(exp_list, "UNI", "different_splits")
 

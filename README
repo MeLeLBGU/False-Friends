@@ -1,0 +1,163 @@
+This file explains how to both run different parts of the project, and also the project structure.
+Since this project has many directories, it is advised to first read about the project structure
+
+
+########################
+#HOW TO RUN THE PROJECT#
+########################
+
+To run this experiment one, run the main.py file with 2 arguments:
+1. string - True or False
+2. path - a path to .json file that contains training parameters and paths to certain training data files (explained
+extensively later on)
+
+The 1st argument:
+*True - if you want to train the different tokenizers and save Experiment objects
+*False - load the saved experiments
+
+*Note*: Training the Experiment objects will override previously saved Experiment objects, so be careful...
+
+Either way, after training/loading the Experiment objects, different analysis functions are called from
+statistical_analysis.py that create the different files in the /analysis directory
+
+The 2nd argument:
+path to a .json file
+
+JSON file structure:
+The .json file is in charge of what Experiment objects to create, on what vocabulary sizes, and on what tokenization
+algorithms.
+
+1. algos - a list of tokenization algorithms
+2. vocab_size - the final vocab size
+3. full_vocab_schedule - a list of the pruning schedule for SaGe
+4. l1 - a dictionary for the english training parameters that includes:
+    * language - the language
+    * training_data - the path to the corpus file for training
+    * words - the path to the file that contains the word count for each word in the training corpus (training_data)
+5. l2 - a list such that each element in the list contains the training parameters (a dictionary), very similar to how
+l1 is built. The only addition is the "ff" parameter, which contains the path to the False Friends .csv file
+
+The repo contains different args_script json files
+
+###################
+#PROJECT STRUCTURE#
+###################
+A directory that is not important to look at, will be noted.
+
+**********
+/analysis*
+**********
+This directory contains different analysis that was done on different vocabulary sizes: 3000, 8000, 16384.
+In each of these directories are subdirectories of analysis done on the different languages: de, es, fr, it, ro, se
+In each of each language folder there are 2 important directories:
+1. /graphs - contains all the graph like analysis done on the language pair en_{l2}
+2. /tokenization - contains tokenization analysis
+
+*************************
+/data_preprocess_scripts*
+*************************
+*Note*: Not an important directory
+different scripts that perform different preprocessing and data collection:
+1. de_hf.py - adds the False Friends HuggingFace data into csv
+2. find_ff_all_words_all_languages.py - finds homograph words between languages pairs en_{l2}
+3. preprocess_training_data.py - tokenizer training data is prepared. Include lowercasing and removing row numbers
+4. wikitionary_scrapper.py - adds the False Friends from wikitionary.com
+
+****************************
+/all_words_in_all_languages*
+****************************
+a github repo that has all words in all languages
+
+*********
+/ff_data*
+*********
+the False Friends data that was collected from HuggingFace dataset and the Wikitionary scrapper.
+Note: For the German language, the relevant file is de_ff.csv
+
+*******************
+/ff_sentences_data*
+*******************
+contains .txt files with sentences that use False Friends words. For example, german_ff.txt contains sentences that make
+use of False Friends words in German, and german_ff_en.txt contains sentences that make use of False Friends words in
+English
+
+*********
+/results*
+*********
+contains results directories for SaGe training
+
+**********
+SaGe_main*
+**********
+The SaGe repo
+
+*****************
+/Results Summary*
+*****************
+contains Microsoft Word documents which organizes all the results for a certain language
+
+***************
+/training_data*
+***************
+this directory holds the training data for each language: de, en, es, fr, it, ro, se
+It also contains a /words directory that contains all words and number of appearances in the corpus
+Each language directory contains 3 files:
+1. .tar that contains the original training data
+2. {l2}-sentences.txt which is a monolingual training corpus for l2 after preprocessing
+3. en_{l2}_corpus.txt which is a multilingual training corpus of en and {l2} after preprocessing
+
+*************
+/experiments*
+*************
+This directory contains different Experiment objects that were created on different vocabulary sizes: 3000, 8000, 16384.
+In each of these directories are subdirectories of the different languages: de, es, fr, it, ro, se
+Each language directory has 4 .pkl files that are saved Experiment objects for the different trials:
+1. {l2}_BPE.pkl
+2. {l2}_BPE_SAGE.pkl
+3. {l2}_UNI.pkl
+4. {l2}_UNI_SAGE.pkl
+
+**************
+Experiment.py*
+**************
+This file contains the Experiment class. Each Experiment object encapsulates the experiment for a specific language and
+and a specific tokenization algorithm. For example, an Experiment object for the German language, and the BPE
+tokenization algorithm.
+
+****************
+MyTokenizer.py *
+****************
+This file contains the Abstract class MyTokenizer, which contains several abstract methods. This class was created
+in order to easily handle HuggingFace tokenizers and SaGe tokenizers
+
+***************
+HFTokenizer.py*
+***************
+This file contains the HFTokenizer class that inherits from the Abstract class MyTokenizer. This class is used to
+encapsulate HFTokenizers
+
+*******************
+MySageTokenizer.py*
+*******************
+This file contains the MySageTokenizer class that inherits from the Abstract class MyTokenizer. This class is used to
+encapsulate SaGe tokenizers
+
+************************
+statistical_analysis.py*
+************************
+This file contains statistical analysis functions that are called by the
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

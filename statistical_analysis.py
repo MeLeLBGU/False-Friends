@@ -347,8 +347,9 @@ def plot_tokenization_cases(num_tokens_diff, algo, l1, l2, categories, word_type
     plt.xticks(rotation=30, fontsize=13)
     plt.xlabel("Tokenization Splits", fontsize=15)
     plt.ylabel("Amount of Tokenization Case", fontsize=15)
-    plt.title(title, fontsize=15)
+    plt.title(title, fontsize=18)
     plt.savefig(fig_save_path)
+    plt.close()
 
 
 def plot_average_word_length(num_tokens_diff, algo, dir, l1, l2, categories):
@@ -373,9 +374,10 @@ def plot_average_word_length(num_tokens_diff, algo, dir, l1, l2, categories):
     plt.xticks(x, categories, rotation=30, fontsize=12)
     plt.xlabel("Tokenization Case")
     plt.ylabel("Average Word Length")
-    plt.title(title, fontsize=15)
+    plt.title(title, fontsize=18)
     plt.tight_layout()
     plt.savefig(fig_save_path)
+    plt.close()
 
 
 def get_average_word_length(num_tokens_diff, categories):
@@ -416,11 +418,13 @@ def plot_average_num_tokens(tokenizers_list, num_tokens_diff, algo, dir, l1, l2,
     plt.bar(bar_positions, bar_means, yerr=bar_stds, capsize=5, width=bar_width, edgecolor='black')
     plt.xticks(bar_positions, flat_labels, rotation=30)
     plt.ylabel("Number of tokens")
-    plt.title(f"Tokenization Cases - Average Tokens\nMean ± Std\n{l1}, {l2}\nAlgo: {algo}")
+    plt.title(f"Tokenization Cases - Average Tokens\nMean ± Std\n{l1}, {l2}\nAlgo: {algo}", fontsize=18)
     plt.tight_layout()
     
     fig_save_path = f"{dir}/avg_tokens_{l1}_{l2}_{algo}.png"
     plt.savefig(fig_save_path)
+    plt.close()
+
 
 
 def get_avg_num_tokens(algo, l1, l2, num_tokens_diff, tokenizers_list, categories):
@@ -566,11 +570,11 @@ def plot_frequency_comparison(num_tokens_diff, algo, dir, l1, l2, word_freqs1, w
             label=f"{l2}")
     plt.xticks(x, categories, rotation=45)
     plt.ylabel("Frequency")
-    plt.title(
-        f"Tokenization Case Frequencies\nMean ± Std\n{l1}_{l2}_{algo}\nFalse Friends in Corpus: {words_in_corpus}")
+    plt.title(f"Tokenization Case Frequencies\nMean ± Std\n{l1}_{l2}_{algo}\nFalse Friends in Corpus: {words_in_corpus}", fontsize=18)
     plt.legend()
     plt.tight_layout()
     plt.savefig(fig_save_path)
+    plt.close()
 
 
 def missing_ff_in_corpus(ff_data, word_frequencies, dir):
@@ -779,7 +783,14 @@ def words_removed_from_target(num_tokens_diff1, num_tokens_diff2, categories, ta
                     words_moved[c].append(w)
     return words_moved
 
-
+def words_moved_to_target_ff(num_tokens_diff1, num_tokens_diff2, ff_words, categories, target):
+    words_moved = words_moved_to_target(num_tokens_diff1, num_tokens_diff2, categories, target)
+    ff_words_moved = {c:[] for c in categories}
+    for c, words in words_moved.items():
+        for ff in ff_words:
+            if ff in words:
+                ff_words_moved[c].append(ff)
+    return ff_words_moved
 # INTRINSIC ANALYSIS FUNCTIONS
 
 def ff_intrinsic_analysis(l1, l2, ex):
@@ -847,17 +858,3 @@ def ff_intrinsic_analysis(l1, l2, ex):
                     f.write(f"{en_l2_tokenizer.tokenize(w)} ")
                 f.write("\n")
             f.write("##########################################################################################################################\n")
-
-
-                
-            
-    
-    
-    
-# l1 = "en"
-# l2 = "de"
-# categories = [f"{l1}_t==multi_t", f"{l2}_t==multi_t", f"{l1}_t=={l2}_t", "same_splits", "different_splits"]
-# s = {f"{l1}_t==multi_t": 0, f"{l2}_t==multi_t": 0, f"{l1}_t=={l2}_t": 0, "different_splits": 10, "same_splits": 0}
-# t = {f"{l1}_t==multi_t": 0, f"{l2}_t==multi_t": 0, f"{l1}_t=={l2}_t": 0, "different_splits": 0, "same_splits": 10}
-# emd2(s, t, l1, l2, categories, "BPE", "BPE_SAGE")
-# earth_movers_dist(categories, l1, l2, "BPE", "BPE_SAGE", s, t, track_target="same_splits")
